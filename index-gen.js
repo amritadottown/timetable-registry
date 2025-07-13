@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const rootDir = "files";
+const rootDir = "registry/files";
 const years = fs.readdirSync(rootDir);
 
 const outputData = {};
@@ -19,4 +19,4 @@ for (const year of years) {
   }
 }
 
-fs.writeFileSync("index.json", JSON.stringify(outputData, null, 4), "utf-8");
+fs.writeFileSync("registry/index.json", JSON.stringify(outputData, null, 4), "utf-8");
