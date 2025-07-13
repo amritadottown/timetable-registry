@@ -50,8 +50,8 @@
     }
   },
   "schedule": {
-    "Monday": ["VLSI_LAB", "A", "LSE", "LSE", "LSE"],
-    "Tuesday": ["RF_LAB","D", "A", "FREE", "FREE"],
+    "Monday": ["B_LAB", "A", "LSE", "LSE", "LSE"],
+    "Tuesday": ["C_LAB","D", "A", "FREE", "FREE"],
     "Wednesday": ["E", "A", "D", "LSE","C","B","FREE"],
     "Thursday": ["CSL_LAB","B", "E", "C", "D"],
     "Friday": ["B", "E", "C","D","FREE", "OPEN_LAB"]
