@@ -1,0 +1,65 @@
+{
+  "subjects": {
+    "OT": {
+      "name": "Optimization Techniques",
+      "code": "23MAT206",
+      "faculty": "Dr. K. Murali",
+      "shortName": "O.T"
+    },
+    "DE": {
+      "name": "Digital Electronics",
+      "code": "23ECE205",
+      "faculty": "Ms. Sangita Khare",
+      "shortName": "D.E"
+    },
+    "C": {
+      "name": "Programming using C",
+      "code": "23CSE201",
+      "faculty": "Ms. Aparna S., Ms. Priya R",
+      "shortName": "C"
+    },
+    "DBMS": {
+      "name": "Database Management Systems",
+      "code": "23CSE202",
+      "faculty": "Ms. Sreevidya, Dr. Santhanalakshmi",
+      "shortName": "DBMS"
+    },
+    "DSA": {
+      "name": "Data Structures and Algorithms",
+      "code": "23CSE203",
+      "faculty": "Ms. Thushara G. A., Dr. Anjali Patel",
+      "shortName": "DSA"
+    },
+    "DE_LAB": {
+      "name": "Digital Electronics Laboratory",
+      "code": "23ECE285",
+      "faculty": "A1: Ms. Sangita Khare, Mr. Sandeep; A2: Ms. Sangitakhare, Dr. Ritesh Raj",
+      "shortName": "DE LAB"
+    },
+    "LS": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": "Srinithi, Sivakumar",
+      "shortName": "L.S"
+    },
+    "FIH": {
+      "name": "Lessons from Mahabharata",
+      "code": "22ADM201",
+      "faculty": "Manish",
+      "shortName": "FIH"
+    },
+    "CL": {
+      "name": "Counselling",
+      "code": "C.L",
+      "faculty": "-",
+      "shortName": "C.L"
+    }
+  },
+  "schedule": {
+    "Monday": ["C_LAB", "FIH", "DSA", "OT_LAB"],
+    "Tuesday": ["OT", "DE", "C", "DBMS_LAB", "DSA", "CL"],
+    "Wednesday": ["C", "DBMS", "OT", "DSA_LAB", "DE_LAB"],
+    "Thursday": ["DBMS", "LS", "LS", "LS", "DE", "C", "DSA"],
+    "Friday": ["DE_LAB", "OT", "DSA", "DE", "DBMS"]
+  }
+}
