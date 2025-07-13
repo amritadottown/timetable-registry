@@ -1,0 +1,42 @@
+{
+    "subjects": {
+      "A": {
+        "name": "Reinforcement Learning",
+        "code": "22AIE401",
+        "faculty": "Dr. Nippun Kumar A. A (Co-Ms. Arya R)",
+        "shortName": "RL"
+      },
+      "PE3": {
+        "name": "User Experience Design / Medical Image Processing",
+        "code": "22AIE459 / 22AIE437",
+        "faculty": "Ms. Arya R (Co-Dr. Ritesh Raj) / Dr. Tripty Singh (Co-Dr. Vasavi C S)",
+        "shortName": "UX/MIP"
+      },
+      "PE4": {
+        "name": "Applied Cryptography / Network and Wireless Security",
+        "code": "22AIE432 / 22AIE431",
+        "faculty": "Mr. Sreerag G (Co-Ms. Neera Chaudhary) / Dr. Kumaran U (Co-Mr. Ullas S)",
+        "shortName": "AC/NWS"
+      },
+      "B": {
+        "name": "Indian Constitution",
+        "code": "19LAW300",
+        "faculty": "Ms. Arya R",
+        "shortName": "IC"
+      },
+      "C": {
+        "name": "Software Project Management",
+        "code": "19CSE358",
+        "faculty": "Ms. Anjitha",
+        "shortName": "SPM"
+      }
+    },
+    "schedule": {
+      "Monday": ["FREE", "FREE", "FREE", "A", "PE3", "FREE", "FREE"],
+      "Tuesday": ["PE3", "A", "PE4", "FREE", "FREE", "FREE", "FREE"],
+      "Wednesday": ["PE3_LAB", "FREE", "FREE", "A_LAB"],
+      "Thursday": ["FREE", "FREE", "PE4", "FREE", "FREE", "FREE", "FREE"],
+      "Friday": ["PE4_LAB", "C", "FREE", "FREE", "FREE"]
+    }
+  }
+  
