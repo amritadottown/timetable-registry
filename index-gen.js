@@ -14,9 +14,9 @@ for (const year of years) {
   outputData.timetables[year] = {};
   for (const branch of branches) {
     const branchPath = path.join(yearPath, branch);
-    const sems = fs.readdirSync(branchPath).map((str) => str[0]);
+    const sems = fs.readdirSync(branchPath).map((str) => path.basename(str, ".json"));
     outputData.timetables[year][branch] = sems;
   }
 }
 
-fs.writeFileSync("registry/index.json", JSON.stringify(outputData, null, 4), "utf-8");
+fs.writeFileSync("registry/index.json", JSON.stringify(outputData, null, 2), "utf-8");
