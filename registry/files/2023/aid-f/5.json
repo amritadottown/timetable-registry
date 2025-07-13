@@ -1,0 +1,51 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Intelligent System 5",
+      "code": "23MAT303",
+      "faculty": "Dr. Gopalakrishnan E A (Ms. Malavika)"
+    },
+    "B": {
+      "name": "Computer Vision",
+      "code": "23AID301",
+      "faculty": "Dr. Suja P (Dr. Sajitha Krishnan)"
+    },
+    "C": {
+      "name": "Big Data Analytics",
+      "code": "23AID302",
+      "faculty": "Dr. Manju Venugopal (Ms. Swetha)"
+    },
+    "D": {
+      "name": "Quantum Computing and Algorithms",
+      "code": "23AID303",
+      "faculty": "Dr. Supriya M (Dr. Shinu)"
+    },
+    "E": {
+      "name": "High Performance and Cloud Computing",
+      "code": "23AID304",
+      "faculty": "Dr. Kartika Dinesh Kumar (Dr. Beema B M)"
+    },
+    "F": {
+      "name": "Control System",
+      "code": "23AID305",
+      "faculty": "Mr. Sandeep Madarappu (Ms. Priya R)"
+    },
+    "G": {
+      "name": "Text Analytics",
+      "code": "23AID472",
+      "faculty": "Ms. Priyanka Vivek (Dr. Arya R)"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": "Karishma Nair, Jisha Nair"
+    }
+  },
+  "schedule": {
+    "Monday": ["G", "B", "D", "F_LAB", "E", "F"],
+    "Tuesday": ["B_LAB", "D", "C", "G_LAB"],
+    "Wednesday": ["C_LAB", "A", "A", "B", "E"],
+    "Thursday": ["D_LAB", "G", "C", "A_LAB"],
+    "Friday": ["CIR", "CIR", "CIR","E_LAB", "F", "CIR"]
+  }
+}
