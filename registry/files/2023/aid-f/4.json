@@ -1,0 +1,93 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Intelligent Systems 4",
+      "code": "23MAT214",
+      "faculty": "Dr. Sarada Jayan (Co: Dr. Abhinav R)"
+    },
+    "B": {
+      "name": "Deep Learning",
+      "code": "23AID211",
+      "faculty": "Mr. Sandeep M (Co: Dr. Radha D)"
+    },
+    "PE-I": {
+      "name": "Speech Processing",
+      "code": "23AID471",
+      "faculty": "Dr. Debanjali (Co: Dr. Sirisha T)"
+    },
+    "E": {
+      "name": "Introduction to IoT",
+      "code": "23AID212",
+      "faculty": "Mr. Rajesh M (Co: Mr. Vishwas H N)"
+    },
+    "F": {
+      "name": "Operating Systems",
+      "code": "23AID213",
+      "faculty": "Ms. Pooja Gowda (Co: Mr. Sreeraag)"
+    },
+    "G": {
+      "name": "Database Management Systems",
+      "code": "23AID214",
+      "faculty": "Ms. Sreevidya B (Co:Mr. Rajesh M)"
+    },
+    "H": {
+      "name": "User Interface Design",
+      "code": "23AID215",
+      "faculty": "Ms. Sreevidya B (Co:Mr. Rajesh M)"
+    },
+    "I": {
+      "name": "Leadership From Ramayana",
+      "code": "22ADM211",
+      "faculty": "Ms. Madhvi Prasad"
+    },
+    "FREE": {
+      "name": "Free",
+      "code": "",
+      "faculty": ""
+    },
+    "CIR": {
+      "name": "Life Skills For Engineers II",
+      "code": "23LSE211",
+      "faculty": "Ms. Sujatha Vijayam, Ms. Sweta Chavan, Mr. Rahul Anand"
+    }
+  },
+  "schedule": {
+    "Monday": [
+      "A",
+      "G",
+      "PE-I",
+      "B",
+      "E",
+      "F_LAB"
+    ],
+    "Tuesday": [
+      "G",
+      "A",
+      "F",
+      "FREE",
+      "H_LAB"
+    ],
+    "Wednesday": [
+      "PE-I",
+      "E",
+      "F",
+      "G_LAB",
+      "B_LAB"
+    ],
+    "Thursday": [
+      "B",
+      "H",
+      "I",
+      "E_LAB",
+      "A_LAB"
+    ],
+    "Friday": [
+      "CIR",
+      "CIR",
+      "FREE",
+      "CIR",
+      "F",
+      "PE-I_LAB"
+    ]
+  }
+}

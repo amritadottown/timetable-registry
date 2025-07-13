@@ -1,0 +1,51 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Probability and Random Processes",
+      "code": "23MAT216",
+      "faculty": "Dr. B. Venkatesh"
+    },
+    "B": {
+      "name": "Design & Analysis of Algorithms",
+      "code": "23CSE211",
+      "faculty": "Ms. Sreebha Bhaskaran (Co: Ms. Sangamitra)"
+    },
+    "C": {
+      "name": "Principles of Functional Languages",
+      "code": "23CSE212",
+      "faculty": "Dr. Katika Dinesh Kumar (Co: Ms. Gurupriya)"
+    },
+    "D": {
+      "name": "Computer Organization and Architecture",
+      "code": "23CSE213",
+      "faculty": "Mr. Vishwas H. N."
+    },
+    "E": {
+      "name": "Operating Systems",
+      "code": "23CSE214",
+      "faculty": "Ms. Aiswariya Milan K (Co: Ms. Pooja Gowda)"
+    },
+    "F": {
+      "name": "Leadership from Ramayana",
+      "code": "22ADM211",
+      "faculty": "Ms. Madhvi Prasad"
+    },
+    "FE": {
+      "name": "Science Fiction",
+      "code": "24ENG243",
+      "faculty": "Dr. Deepa Kumari"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers II",
+      "code": "23LSE211",
+      "faculty": "Ms. Sujatha Vijayam, Ms Sweta Chavan, Mr. Rahul Anand"
+    }
+  },
+  "schedule": {
+    "Monday": ["E", "C", "D", "FE", "F", "B", "FREE"],
+    "Tuesday": ["C", "A", "B", "FREE", "FE", "E_LAB"],
+    "Wednesday": ["D", "B", "FREE", "C_LAB", "A", "E"],
+    "Thursday": ["D", "CIR", "CIR", "CIR", "A", "B_LAB"],
+    "Friday": ["A_LAB", "D", "E", "FREE", "FREE"]
+  }
+}

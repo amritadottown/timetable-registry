@@ -1,0 +1,5 @@
+compatibility_date = "2025-06-21"
+name = "timetable-registry"
+
+[assets]
+directory = "registry"
