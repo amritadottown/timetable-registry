@@ -1,0 +1,71 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Computing 3",
+      "code": "22MAT220",
+      "faculty": "Ms. Mamatha T M",
+      "shortName": "MOC3"
+    },
+    "B": {
+      "name": "Fundamentals of AI",
+      "code": "22AIE201",
+      "faculty": "Dr. Manju Khanna (co: Ms. Pooja)",
+      "shortName": "FAI"
+    },
+    "C": {
+      "name": "Operating Systems",
+      "code": "22AIE202",
+      "faculty": "Ms. Sanghamitra (co: Dr. Sajitha)",
+      "shortName": "OS"
+    },
+    "D": {
+      "name": "Data Structures & Algorithms 2",
+      "code": "22AIE203",
+      "faculty": "Ms. Aparna S. (co: Nalini )",
+      "shortName": "DSA2"
+    },
+    "E": {
+      "name": "Introduction to Computer Networks",
+      "code": "22AIE204",
+      "faculty": "Dr. Shinu (co: Ms. Reena Panwar)",
+      "shortName": "ICN"
+    },
+    "F": {
+      "name": "Introduction to Python",
+      "code": "22AIE205",
+      "faculty": "Dr. Aishwarya Milan. (co: Dr. Priyanka vivek )",
+      "shortName": "Python"
+    },
+    "G": {
+      "name": "Intelligence of Biological Systems - 1",
+      "code": "22BIO201",
+      "faculty": "Dr. Shivakumar B",
+      "shortName": "IBS1"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": "Srinithi, Sujatha V",
+      "shortName": "CIR"
+    },
+    "I": {
+      "name": "Strategic Lessons from Mahabharata",
+      "code": "22ADM201",
+      "faculty": "NF-1",
+      "shortName": "MBH"
+    },
+    "H": {
+      "name": "Free Elective I",
+      "code": "19ENG232",
+      "faculty": "Deepakumari",
+      "shortName": "FE1"
+    }
+  },
+  "schedule": {
+    "Monday": ["F", "A", "C", "B_LAB", "D", "I"],
+    "Tuesday": ["A_LAB", "H", "B", "D", "G"],
+    "Wednesday": ["E", "A", "H", "C", "G", "D_LAB"],
+    "Thursday": ["F_LAB", "E", "CIR", "CIR", "CIR"],
+    "Friday": ["C_LAB", "E_LAB", "A", "B"]
+  }
+}

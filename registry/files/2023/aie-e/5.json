@@ -1,0 +1,53 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Probabilistic Reasoning",
+      "code": "22AIE301",
+      "faculty": "Dr. Nagesh Subbanna",
+      "shortName": "PR"
+    },
+    "B": {
+      "name": "Formal Language and Automata",
+      "code": "22AIE302",
+      "faculty": "Ms. Thushara",
+      "shortName": "FLA"
+    },
+    "C": {
+      "name": "Database Management System",
+      "code": "22AIE303",
+      "faculty": "Ms. Gayathri Ramasamy",
+      "shortName": "DBMS"
+    },
+    "D": {
+      "name": "Deep Learning",
+      "code": "22AIE304",
+      "faculty": "Dr. Rimjim Padam Singh",
+      "shortName": "DL"
+    },
+    "E": {
+      "name": "Introduction to Cloud Computing",
+      "code": "22AIE305",
+      "faculty": "Dr. Beena B M",
+      "shortName": "ICC"
+    },
+    "PE1": {
+      "name": "CF/FSD",
+      "code": "22AIE435/22AIE457",
+      "faculty": "Mr. Sreerag G/Dr. Gurupriya M",
+      "shortName": "PE I"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": "Karishma Nair, Sivakumar",
+      "shortName": "CIR"
+    }
+  },
+  "schedule": {
+    "Monday": ["E_LAB", "A_LAB", "FREE", "FREE"],
+    "Tuesday": ["CIR", "CIR", "CIR", "C", "PE1", "D_LAB"],
+    "Wednesday": ["B", "E", "D", "FREE", "A", "C_LAB"],
+    "Thursday": ["PE1", "B", "C", "CIR", "E", "FREE", "FREE"],
+    "Friday": ["B", "D", "FREE", "A", "C", "PE1_LAB"]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Optimization Techniques",
+      "code": "23MAT206",
+      "faculty": "Dr. T V Smitha",
+      "shortName": "OT"
+    },
+    "B": {
+      "name": "Digital Electronics",
+      "code": "23ECE205",
+      "faculty": "Ms. Sangita Khare",
+      "shortName": "DE"
+    },
+    "C": {
+      "name": "Procedural Programming using C",
+      "code": "23CSE201",
+      "faculty": "Ms. Priya R. (co: Ms. Aparna S)",
+      "shortName": "PPC"
+    },
+    "D": {
+      "name": "Database Management Systems",
+      "code": "23CSE202",
+      "faculty": "Ms. Sreevidya B. (co: Dr. Santhanalakshmi)",
+      "shortName": "DBMS"
+    },
+    "E": {
+      "name": "Data Structures and Algorithms",
+      "code": "23CSE203",
+      "faculty": "Dr. Anjali Patel (co: Dr. Nandu)",
+      "shortName": "DSA"
+    },
+    "G": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": "Ms. Srinithi, Mr. Sivakumar",
+      "shortName": "CIR"
+    },
+    "H": {
+      "name": "Strategic Lessons from Mahabharata",
+      "code": "22ADM201",
+      "faculty": "Dr. Tanashree Redij",
+      "shortName": "MBH"
+    }
+  },
+  "schedule": {
+    "Monday": ["FREE", "FREE", "FREE", "D_LAB", "A", "E"],
+    "Tuesday": ["C", "G", "G", "B_LAB", "D", "E"],
+    "Wednesday": ["C", "A", "D", "B", "H", "E", "FREE"],
+    "Thursday": ["A", "E", "D", "C_LAB", "B", "G"],
+    "Friday": ["A_LAB", "E_LAB", "C", "B"]
+  }
+}

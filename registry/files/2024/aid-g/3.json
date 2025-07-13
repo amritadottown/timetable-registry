@@ -1,0 +1,65 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Intelligent Systems 3",
+      "code": "23MAT204",
+      "faculty": "Dr. Geetha K N",
+      "shortName": "MIS3"
+    },
+    "B": {
+      "name": "Modelling Simulation and Analysis",
+      "code": "23AID201",
+      "faculty": "Dr. D N Kiran Pandiri",
+      "shortName": "MSA"
+    },
+    "C": {
+      "name": "Introduction to Robotics",
+      "code": "23AID202",
+      "faculty": "Dr. D N Kiran Pandiri",
+      "shortName": "Robotics"
+    },
+    "D": {
+      "name": "Software Defined Communication Systems",
+      "code": "23AID203",
+      "faculty": "Dr. Sirishkumar",
+      "shortName": "SDC"
+    },
+    "E": {
+      "name": "Advanced Data Structures and Algorithm Analysis",
+      "code": "23AID204",
+      "faculty": "Dr. Yasoomkari",
+      "shortName": "ADSA"
+    },
+    "F": {
+      "name": "Introduction to AI and Machine Learning",
+      "code": "23AID205",
+      "faculty": "Mr. Snadeep",
+      "shortName": "AI"
+    },
+    "G": {
+      "name": "Introduction to Computer Networks",
+      "code": "23AID206",
+      "faculty": "Mr. Ullas S",
+      "shortName": "ICN"
+    },
+    "H": {
+      "name": "Strategic Lessons from Mahabharata",
+      "code": "22ADM201",
+      "faculty": "NF-2",
+      "shortName": "MBH"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": "Srinithi, Sivakumar",
+      "shortName": "CIR"
+    }
+  },
+  "schedule": {
+    "Monday": ["F", "A", "E", "G", "B", "D_LAB"],
+    "Tuesday": ["G_LAB", "D", "C", "E_LAB"],
+    "Wednesday": ["B_LAB", "G", "CIR", "CIR", "CIR"],
+    "Thursday": ["B", "A", "H", "E", "C", "F_LAB"],
+    "Friday": ["A_LAB", "F", "D", "C_LAB"]
+  }
+}

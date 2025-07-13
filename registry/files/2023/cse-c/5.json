@@ -1,0 +1,59 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Machine Learning",
+      "code": "23CSE301",
+      "faculty": "Dr. Debanjali B (Co- Dr. Peeta Basa Pati)",
+      "shortName": "ML"
+    },
+    "B": {
+      "name": "Neural Networks and Deep Learning",
+      "code": "23CSE473",
+      "faculty": "Ms. Shalini Tiwari (Co- Ms. Aishwarya Milan K)",
+      "shortName": "NNDL"
+    },
+    "C": {
+      "name": "Computer Networks",
+      "code": "23CSE302",
+      "faculty": "Dr. Shinu M R (Mr. Vishwas H N)",
+      "shortName": "CN"
+    },
+    "D": {
+      "name": "Theory of Computation",
+      "code": "23CSE303",
+      "faculty": "Dr. Amulyashree S",
+      "shortName": "TOC"
+    },
+    "E": {
+      "name": "Embedded Systems",
+      "code": "23CSE304",
+      "faculty": "Mr. Niranjan D K (Dr. Meena Belwal)",
+      "shortName": "ES"
+    },
+    "PE2": {
+      "name": "Natural Language Processing/Artificial Intelligence and Robotics",
+      "code": "23CSE471 / 23CSE472",
+      "faculty": "Dr. Manju Venugopal , Dr Nandu C Nair(Co- Ms. Afnan K, Ms. Remya Sivan) / Dr. Nidhin Prabhakar (Co-Dr. Kiran, Dr. Nippun Kumar)",
+      "shortName": "ELEC"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": "Karishma Nair, Jisha Nair",
+      "shortName": "CIR"
+    },
+    "EVS": {
+      "name": "Environmental Science",
+      "code": "23ENV300",
+      "faculty": "",
+      "shortName": "EVS"
+    }
+  },
+  "schedule": {
+    "Monday": ["D", "PE2", "C", "A", "E", "B_LAB"],
+    "Tuesday": ["PE2_LAB", "A_LAB", "C", "C"],
+    "Wednesday": ["CIR", "E", "A", "D", "C", "E_LAB"],
+    "Thursday": ["B", "D", "E", "EVS", "CIR", "CIR", "CIR"],
+    "Friday": ["A", "PE2", "D", "B", "E", "C_LAB"]
+  }
+}

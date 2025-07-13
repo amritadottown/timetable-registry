@@ -1,0 +1,53 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Mining of Massive Datasets",
+      "code": "19CSE353",
+      "faculty": "Ms. Niharika",
+      "shortName": "MMD"
+    },
+    "B": {
+      "name": "Software Project Management",
+      "code": "19CSE358",
+      "faculty": "Ms. Swetha",
+      "shortName": "SPM"
+    },
+    "C": {
+      "name": "Compiler Design",
+      "code": "19CSE401",
+      "faculty": "Ms. Kavitha C R",
+      "shortName": "CD"
+    },
+    "D": {
+      "name": "Project Phase I",
+      "code": "19CSE495",
+      "faculty": "Mr. Rajesh M",
+      "shortName": "PROJECT"
+    },
+    "E": {
+      "name": "Indian Constitution",
+      "code": "19LAW300",
+      "faculty": "Ms. Arya R",
+      "shortName": "IC"
+    },
+    "PE4": {
+      "name": "WSN/SNS/AIR",
+      "code": "19CSE339/19CSE337/19CSE455",
+      "faculty": "Mr. Ullas S/Dr. Kumaran U/Dr. Nidhin Prabhakar",
+      "shortName": "PE IV"
+    },
+    "PE5": {
+      "name": "PR/BA/MMD",
+      "code": "19CSE432/19CSE352/19CSE353",
+      "faculty": "Dr. Amulyasree S/Dr. Sajitha Krishnan/Ms. Niharika",
+      "shortName": "PE V"
+    }
+  },
+  "schedule": {
+    "Monday": ["PE4", "D", "D", "PE5_LAB", "FREE", "FREE"],
+    "Tuesday": ["D", "C", "A", "PE5", "FREE", "PE4_LAB"],
+    "Wednesday": ["PE5", "FREE", "PE4", "PE5_LAB", "D", "D"],
+    "Thursday": ["A", "B", "PE5", "C_LAB", "D", "D"],
+    "Friday": ["A_LAB", "PE5", "C", "FREE", "D"]
+  }
+}
