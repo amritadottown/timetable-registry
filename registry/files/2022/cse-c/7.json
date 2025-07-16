@@ -46,7 +46,7 @@
   "schedule": {
     "Monday": ["PE4", "D", "D", "PE5_LAB", "FREE", "FREE"],
     "Tuesday": ["D", "C", "A", "PE5", "FREE", "PE4_LAB"],
-    "Wednesday": ["PE5", "FREE", "PE4", "PE5_LAB", "D", "D"],
+    "Wednesday": ["PE5", "FREE", "PE4", "PE5_LAB", "B", "B"],
     "Thursday": ["A", "B", "PE5", "C_LAB", "D", "D"],
     "Friday": ["A_LAB", "PE5", "C", "FREE", "D"]
   }
