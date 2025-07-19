@@ -1,94 +1,73 @@
 {
-    "subjects": {
-        "A": {
-            "name": "Graph Theory Algorithm for Robotics",
-            "code": "23MAT307",
-            "faculty": "Dr. Geetha K. N."
-        },
-        "B": {
-            "name": "Fluid Power Systems",
-            "code": "23RAI301",
-            "faculty": "Mr. Raghavendra Ravi Kiran K"
-        },
-        "C": {
-            "name": "Dynamics and Control of Robotic Systems",
-            "code": "23RAI302",
-            "faculty": "Dr. Rajeev Lochana C"
-        },
-        "D": {
-            "name": "Machine Learning",
-            "code": "23RAI303",
-            "faculty": "Dr. Prakash Marimuthu K"
-        },
-        "E": {
-            "name": "Robot Operating System",
-            "code": "23RAI304",
-            "faculty": "New Faculty"
-        },
-        "F": {
-            "name": "Fluid Power Systems and Robot Dynamics & Control Lab",
-            "code": "23RAI381",
-            "faculty": "Mr. Raghavendra Ravi Kiran, Dr. Rajeev Lochana C"
-        },
-        "G": {
-            "name": "Introduction to Drones",
-            "code": "23RAI305",
-            "faculty": "Dr. Prashanth B N"
-        },
-        "H": {
-            "name": "Research Methodology",
-            "code": "23RAI300",
-            "faculty": "Dr. Pradeep Jakkareddy"
-        },
-        "I": {
-            "name": "Elective",
-            "code": "23RAI331/23RAI351",
-            "faculty": "Dr. Pramod / Dr. Ravi Kumar"
-        },
-        "CIR": {
-            "name": "Life Skills for Engineers III",
-            "code": "23LSE301",
-            "faculty": "Ms. Jisha Nair, Ms. Sweta Chauhan"
-        }
+  "subjects": {
+    "A": {
+      "name": "Graph Theory Algorithm for Robotics",
+      "code": "23MAT307",
+      "faculty": "Dr. Geetha K. N."
     },
-    "schedule": {
-        "Monday": [
-            "G_LAB",
-            "C",
-            "C",
-            "A",
-            "CIR"
-        ],
-        "Tuesday": [
-            "B",
-            "E",
-            "C",
-            "I",
-            "D",
-            "F_LAB"
-        ],
-        "Wednesday": [
-            "FREE",
-            "B",
-            "G",
-            "A",
-            "CIR",
-            "CIR",
-            "CIR"
-        ],
-        "Thursday": [
-            "D",
-            "D",
-            "H",
-            "A_LAB",
-            "I",
-            "FREE"
-        ],
-        "Friday": [
-            "E_LAB",
-            "I",
-            "FREE",
-            "D_LAB"
-        ]
+    "B": {
+      "name": "Fluid Power Systems",
+      "code": "23RAI301",
+      "faculty": "Mr. Raghavendra Ravi Kiran K"
+    },
+    "C": {
+      "name": "Dynamics and Control of Robotic Systems",
+      "code": "23RAI302",
+      "faculty": "Dr. Rajeev Lochana C"
+    },
+    "D": {
+      "name": "Machine Learning",
+      "code": "23RAI303",
+      "faculty": "Dr. Prakash Marimuthu K"
+    },
+    "E": {
+      "name": "Robot Operating System",
+      "code": "23RAI304",
+      "faculty": "New Faculty"
+    },
+    "F": {
+      "name": "Fluid Power Systems and Robot Dynamics & Control Lab",
+      "code": "23RAI381",
+      "faculty": "Mr. Raghavendra Ravi Kiran, Dr. Rajeev Lochana C"
+    },
+    "G": {
+      "name": "Introduction to Drones",
+      "code": "23RAI305",
+      "faculty": "Dr. Prashanth B N"
+    },
+    "H": {
+      "name": "Research Methodology",
+      "code": "23RAI300",
+      "faculty": "Dr. Pradeep Jakkareddy"
+    },
+    "I": {
+      "name": "Elective",
+      "code": "23RAI331/23RAI351",
+      "faculty": "Dr. Pramod / Dr. Ravi Kumar"
+    },
+    "ELE1": {
+      "name": "Bio-Inspired Robots",
+      "code": "23RAI331",
+      "faculty": "Dr. Pramod",
+      "shortName": "BIR"
+    },
+    "ELE2": {
+      "name": "Big Data Analytics",
+      "code": "23RAI351",
+      "faculty": "Dr. Ravi Kumar",
+      "shortName": "BDA"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": "Ms. Jisha Nair, Ms. Sweta Chauhan"
     }
+  },
+  "schedule": {
+    "Monday": ["G_LAB", "C", "C", "A", "CIR"],
+    "Tuesday": ["B", "E", "C", "I", "D", "F_LAB"],
+    "Wednesday": ["FREE", "B", "G", "A", "CIR", "CIR", "CIR"],
+    "Thursday": ["D", "D", "H", "A_LAB", "I", "FREE"],
+    "Friday": ["E_LAB", "I", "FREE", "D_LAB"]
+  }
 }

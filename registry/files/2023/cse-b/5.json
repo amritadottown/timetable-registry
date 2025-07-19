@@ -30,12 +30,6 @@
       "faculty": "Dr. Meena Belwal (Co- Ms. Gayathri Ramaswamy)",
       "shortName": "ES"
     },
-    "PE2": {
-      "name": "NLP/Robotics",
-      "code": "23CSE471 / 23CSE472",
-      "faculty": "Dr. Manju Venugopal , Dr Nandu C Nair(Co- Ms. Afnan K, Ms. Remya Sivan) / Dr. Nidhin Prabhakar (Co-Dr. Kiran Pandiri, Dr. Nippun Kumar)",
-      "shortName": "PE II"
-    },
     "CIR": {
       "name": "Life Skills for Engineers III",
       "code": "23LSE301",
@@ -47,6 +41,27 @@
       "code": "23ENV300",
       "faculty": "",
       "shortName": "EVS"
+    },
+    "NLP": {
+      "name": "NLP",
+      "code": "23CSE471",
+      "faculty": "Dr. Manju Venugopal , Dr Nandu C Nair(Co- Ms. Afnan K, Ms. Remya Sivan)",
+      "shortName": "NLP"
+    },
+    "ROB": {
+      "name": "Robotics",
+      "code": "23CSE472",
+      "faculty": "Dr. Nidhin Prabhakar (Co-Dr. Kiran Pandiri, Dr. Nippun Kumar)",
+      "shortName": "ROB"
+    }
+  },
+  "electiveSlots": {
+    "PE2": {
+      "name": "Professional Elective II",
+      "choices": [
+        "NLP",
+        "ROB"
+      ]
     }
   },
   "schedule": {

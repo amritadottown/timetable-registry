@@ -30,17 +30,32 @@
       "faculty": "Dr. Beena B M",
       "shortName": "ICC"
     },
-    "PE1": {
-      "name": "Forensics/Full Stack",
-      "code": "22AIE435/22AIE457",
-      "faculty": "Mr. Sreerag G/Dr. Gurupriya M",
-      "shortName": "PE I"
-    },
     "CIR": {
       "name": "Life Skills for Engineers III",
       "code": "23LSE301",
       "faculty": "Karishma Nair, Jisha Nair",
       "shortName": "CIR"
+    },
+    "FOR": {
+      "name": "Forensics",
+      "code": "22AIE435",
+      "faculty": "Mr. Sreerag G",
+      "shortName": "FOR"
+    },
+    "FS": {
+      "name": "Full Stack",
+      "code": "22AIE457",
+      "faculty": "Dr. Gurupriya M",
+      "shortName": "FS"
+    }
+  },
+  "electiveSlots": {
+    "PE1": {
+      "name": "Professional Elective I",
+      "choices": [
+        "FOR",
+        "FS"
+      ]
     }
   },
   "schedule": {
