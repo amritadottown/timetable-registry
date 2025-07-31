@@ -30,17 +30,52 @@
       "faculty": "Ms. Arya R",
       "shortName": "IC"
     },
+    "WSN": {
+      "name": "WSN",
+      "code": "19CSE339",
+      "faculty": "Mr. Ullas S",
+      "shortName": "WSN"
+    },
+    "SNS": {
+      "name": "SNS",
+      "code": "19CSE337",
+      "faculty": "Dr. Kumaran U",
+      "shortName": "SNS"
+    },
+    "AIR": {
+      "name": "AIR",
+      "code": "19CSE455",
+      "faculty": "Dr. Nidhin Prabhakar",
+      "shortName": "AIR"
+    },
+    "PR": {
+      "name": "PR",
+      "code": "19CSE432",
+      "faculty": "Dr. Amulyasree S",
+      "shortName": "PR"
+    },
+    "BA": {
+      "name": "BA",
+      "code": "19CSE352",
+      "faculty": "Dr. Sajitha Krishnan",
+      "shortName": "BA"
+    }
+  },
+  "electiveSlots": {
     "PE4": {
-      "name": "WSN/SNS/AIR",
-      "code": "19CSE339/19CSE337/19CSE455",
-      "faculty": "Mr. Ullas S/Dr. Kumaran U/Dr. Nidhin Prabhakar",
-      "shortName": "PE IV"
+      "name": "Professional Elective IV",
+      "choices": [
+        "WSN",
+        "SNS",
+        "AIR"
+      ]
     },
     "PE5": {
-      "name": "PR/BA",
-      "code": "19CSE432/19CSE352",
-      "faculty": "Dr. Amulyasree S/Dr. Sajitha Krishnan",
-      "shortName": "PE V"
+      "name": "Professional Elective V",
+      "choices": [
+        "PR",
+        "BA"
+      ]
     }
   },
   "schedule": {

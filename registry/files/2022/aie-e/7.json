@@ -6,18 +6,6 @@
         "faculty": "Dr. Nippun Kumar A. A (Co-Ms. Arya R)",
         "shortName": "RL"
       },
-      "PE3": {
-        "name": "User Experience Design / Medical Image Processing",
-        "code": "22AIE459 / 22AIE437",
-        "faculty": "Ms. Arya R (Co-Dr. Ritesh Raj) / Dr. Tripty Singh (Co-Dr. Vasavi C S)",
-        "shortName": "UX/MIP"
-      },
-      "PE4": {
-        "name": "Applied Cryptography / Network and Wireless Security",
-        "code": "22AIE432 / 22AIE431",
-        "faculty": "Mr. Sreerag G (Co-Ms. Neera Chaudhary) / Dr. Kumaran U (Co-Mr. Ullas S)",
-        "shortName": "AC/NWS"
-      },
       "B": {
         "name": "Indian Constitution",
         "code": "19LAW300",
@@ -29,6 +17,46 @@
         "code": "19CSE358",
         "faculty": "Ms. Anjitha",
         "shortName": "SPM"
+      },
+      "UX": {
+        "name": "User Experience Design",
+        "code": "22AIE459",
+        "faculty": "Ms. Arya R (Co-Dr. Ritesh Raj)",
+        "shortName": "UX"
+      },
+      "MIP": {
+        "name": "Medical Image Processing",
+        "code": "22AIE437",
+        "faculty": "Dr. Tripty Singh (Co-Dr. Vasavi C S)",
+        "shortName": "MIP"
+      },
+      "AC": {
+        "name": "Applied Cryptography",
+        "code": "22AIE432",
+        "faculty": "Mr. Sreerag G (Co-Ms. Neera Chaudhary)",
+        "shortName": "AC"
+      },
+      "NWS": {
+        "name": "Network and Wireless Security",
+        "code": "22AIE431",
+        "faculty": "Dr. Kumaran U (Co-Mr. Ullas S)",
+        "shortName": "NWS"
+      }
+    },
+    "electiveSlots": {
+      "PE3": {
+        "name": "Professional Elective III",
+        "choices": [
+          "UX",
+          "MIP"
+        ]
+      },
+      "PE4": {
+        "name": "Professional Elective IV",
+        "choices": [
+          "AC",
+          "NWS"
+        ]
       }
     },
     "schedule": {
