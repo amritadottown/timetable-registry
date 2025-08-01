@@ -25,21 +25,21 @@
       "shortName": "DCOM"
     },
     "E": {
-      "name": "Digital IC Design",
-      "code": "23ECE332",
-      "faculty": "Dr. M. Vinodhini Mr. Swaminadhan Rajula",
-      "shortName": "DIC"
+      "name": "Digital IC Design / Operating Systems",
+      "code": "23ECE332/23ECE431",
+      "faculty": "Dr. M. Vinodhini / Mr. Swaminadhan Rajula / Ms. Priya B.K",
+      "shortName": "DIC/OS"
     },
     "OPEN": {
       "name": "Open Laboratory I",
       "code": "23ECE381",
-      "faculty": "Dr. Vinodhini",
+      "faculty": "Dr. R.V. Sanjika Devi, Dr. Kamatchi S",
       "shortName": "Open Lab"
     },
     "CSL": {
       "name": "Communication Systems Laboratory",
       "code": "23ECE384",
-      "faculty": "A1: Dr. Navin Kumar, Dr. Manoj Kumar",
+      "faculty": "Dr. Navin Kumar, Dr. Manoj Kumar Panda",
       "shortName": "CS Lab"
     },
     "LSE": {

@@ -1,0 +1,53 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Embedded Systems",
+      "code": "23ECE313",
+      "faculty": "Mr. Giriraja C.V",
+      "shortName": "ES"
+    },
+    "B": {
+      "name": "VLSI Design",
+      "code": "23ECE302",
+      "faculty": "Ms. Sonali Agrawal",
+      "shortName": "VLSI"
+    },
+    "C": {
+      "name": "Database Management Systems",
+      "code": "23EAC301",
+      "faculty": "Ms. Priya B.K",
+      "shortName": "DBMS"
+    },
+    "D": {
+      "name": "Data Communication and Networks",
+      "code": "23EAC302",
+      "faculty": "Dr. Manoj Kumar Panda",
+      "shortName": "DCN"
+    },
+    "E": {
+      "name": "Digital IC Design / Operating Systems",
+      "code": "23ECE332/23ECE431",
+      "faculty": "Dr. M. Vinodhini / Mr. Swaminadhan Rajula / Ms. Shivalila Hanagaragi",
+      "shortName": "DIC/OS"
+    },
+    "OPEN": {
+      "name": "Open Laboratory I",
+      "code": "23EAC381",
+      "faculty": "Dr. R V Sanjika Devi, Dr.Kamatchi S",
+      "shortName": "Open Lab"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": "Ms. Sweta Chavan, Mr. Sivakumar K.M",
+      "shortName": "CIR"
+    }
+  },
+  "schedule": {
+    "Monday": ["D", "A", "FREE", "C", "LSE", "B_LAB"],
+    "Tuesday": ["C", "FREE", "FREE", "A_LAB", "B", "FREE"],
+    "Wednesday": ["E", "B", "D", "C_LAB", "FREE", "FREE"],
+    "Thursday": ["A", "C", "FREE", "D", "E", "LSE", "LSE"],
+    "Friday": ["B", "E", "LSE", "A", "FREE", "OPEN_LAB"]
+  }
+}

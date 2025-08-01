@@ -3,25 +3,25 @@
     "A": {
       "name": "Computer Systems and Architecture",
       "code": "23ECE301",
-      "faculty": "Dr. Sushma",
+      "faculty": "Dr. Ganapathi Hegde",
       "shortName": "CSA"
     },
     "B": {
       "name": "VLSI Design",
       "code": "23ECE302",
-      "faculty": "Dr. Aditya Tiwari",
+      "faculty": "Ms. Gayathri R",
       "shortName": "VLSI"
     },
     "C": {
       "name": "Radio Frequency and Microwave",
       "code": "23ECE303",
-      "faculty": "Dr. Parul Mathur",
+      "faculty": "Dr. R. V. Sanjika Devi",
       "shortName": "RF"
     },
     "D": {
       "name": "Digital Communication",
       "code": "23ECE304",
-      "faculty": "Dr. Navin Kumar",
+      "faculty": "Dr. Sumathi S",
       "shortName": "DCOM"
     },
     "E": {
@@ -39,21 +39,21 @@
     "CSL": {
       "name": "Communication Systems Laboratory",
       "code": "23ECE384",
-      "faculty": "Dr. Navin Kumar, Dr. Manoj Kumar Panda",
+      "faculty": "Dr.Sunitha R, Dr. Manoj Kumar Panda",
       "shortName": "CS Lab"
     },
     "LSE": {
       "name": "Life Skills for Engineers III",
       "code": "23LSE301",
-      "faculty": "Mr. Sivakumar K.M., Ms. Karishma Nair N",
+      "faculty": "Ms. Sujatha V, Ms. Jisha R Nair",
       "shortName": "CIR"
     }
   },
   "schedule": {
-    "Monday": ["B_LAB", "A", "LSE", "LSE", "LSE"],
-    "Tuesday": ["C_LAB","D", "A", "FREE", "FREE"],
-    "Wednesday": ["E", "A", "D", "LSE","C","B","FREE"],
-    "Thursday": ["CSL_LAB","B", "E", "C", "D"],
-    "Friday": ["B", "E", "C","D","FREE", "OPEN_LAB"]
+    "Monday": ["B", "D","C", "C_LAB", "FREE", "FREE"],
+    "Tuesday": ["FREE","FREE", "FREE", "D", "LSE", "LSE", "LSE"],
+    "Wednesday": ["E", "D", "C", "CSL_LAB","A","FREE"],
+    "Thursday": ["C", "A", "FREE","B", "E", "B_LAB"],
+    "Friday": ["A", "E", "D","LSE", "B", "OPEN_LAB"]
   }
 }
