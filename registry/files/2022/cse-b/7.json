@@ -48,6 +48,6 @@
     "Tuesday": ["D", "D", "D", "PE5", "C", "PE4_LAB"],
     "Wednesday": ["PE5", "A", "PE4", "PE5_LAB", "C_LAB"],
     "Thursday": ["FREE", "C", "PE5", "B", "FREE", "A_LAB"],
-    "Friday": ["D", "D", "D", "PE5", "FREE", "FREE", "FREE"]
+    "Friday": ["B", "B", "D", "PE5", "FREE", "FREE", "FREE"]
   }
 }

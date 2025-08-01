@@ -1,0 +1,105 @@
+{
+    "subjects": {
+        "A": {
+            "name": "Kinematics & Dynamics of Machines",
+            "code": "23MEE301",
+            "faculty": "Dr. Mohan Kumar S"
+        },
+        "B": {
+            "name": "Design of Machine Elements-I",
+            "code": "23MEE302",
+            "faculty": "Dr. Shashi Kumar M E"
+        },
+        "C": {
+            "name": "Heat Transfer",
+            "code": "23MEE303",
+            "faculty": "Dr. Bhanuprakash S"
+        },
+        "D": {
+            "name": "Instrumentation and Control Systems",
+            "code": "23MEE304",
+            "faculty": "Dr. Pramod R"
+        },
+        "E": {
+            "name": "Machine Learning",
+            "code": "23MEE305",
+            "faculty": "Dr. Y P Deepthi"
+        },
+        "F": {
+            "name": "Heat Transfer and Instrumentation and Control System Lab",
+            "code": "23MEE381",
+            "faculty": "Dr. Bhanuprakash S / Dr. Pramod R"
+        },
+        "G": {
+            "name": "Kinematics & Dynamics Lab",
+            "code": "23MEE382",
+            "faculty": "Dr. Pramod R (A2)"
+        },
+        "H": {
+            "name": "Fluid Mechanics & Machinery Lab",
+            "code": "23MEE383",
+            "faculty": "Mr. Vinod K"
+        },
+        "I": {
+            "name": "Live in Labs",
+            "code": "23LJV390",
+            "faculty": ""
+        },
+        "J": {
+            "name": "Automotive Technology",
+            "code": "23MEE444",
+            "faculty": "Dr. Dileep B P"
+        },
+        "K": {
+            "name": "Manufacturing Planning and Control",
+            "code": "23MEE439",
+            "faculty": "Mr. Raghavendra Ravi Kiran K"
+        },
+        "L": {
+            "name": "Life Skills for Engineers III",
+            "code": "23LSC301",
+            "faculty": "Ms. Sweta Chauhan, Ms. Jisha Nair"
+        }
+    },
+    "schedule": {
+        "Monday": [
+            "C",
+            "J",
+            "K",
+            "C",
+            "B",
+            "L"
+        ],
+        "Tuesday": [
+            "F_LAB",
+            "E",
+            "A",
+            "D",
+            "J",
+            "L"
+        ],
+        "Wednesday": [
+            "G_LAB",
+            "F_LAB",
+            "B",
+            "C",
+            "L",
+            "L"
+        ],
+        "Thursday": [
+            "C",
+            "B",
+            "A",
+            "D",
+            "L",
+            "I"
+        ],
+        "Friday": [
+            "A",
+            "B",
+            "C",
+            "G_LAB",
+            "L"
+        ]
+    }
+}

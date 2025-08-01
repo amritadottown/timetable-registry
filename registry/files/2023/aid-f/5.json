@@ -3,42 +3,50 @@
     "A": {
       "name": "Mathematics for Intelligent System 5",
       "code": "23MAT303",
-      "faculty": "Dr. Gopalakrishnan E A (Ms. Malavika)"
+      "faculty": "Dr. Gopalakrishnan E A (Ms. Malavika)",
+      "shortName": "MIS-5"
     },
     "B": {
       "name": "Computer Vision",
       "code": "23AID301",
-      "faculty": "Dr. Suja P (Dr. Sajitha Krishnan)"
+      "faculty": "Dr. Suja P (Dr. Sajitha Krishnan)",
+      "shortName": "CV"
     },
     "C": {
       "name": "Big Data Analytics",
       "code": "23AID302",
-      "faculty": "Dr. Manju Venugopal (Ms. Swetha)"
+      "faculty": "Dr. Manju Venugopal (Ms. Swetha)",
+      "shortName": "BDA"
     },
     "D": {
       "name": "Quantum Computing and Algorithms",
       "code": "23AID303",
-      "faculty": "Dr. Supriya M (Dr. Shinu)"
+      "faculty": "Dr. Supriya M (Dr. Shinu)",
+      "shortName": "QCA"
     },
     "E": {
       "name": "High Performance and Cloud Computing",
       "code": "23AID304",
-      "faculty": "Dr. Kartika Dinesh Kumar (Dr. Beema B M)"
+      "faculty": "Dr. Kartika Dinesh Kumar (Dr. Beema B M)",
+      "shortName": "HPCC"
     },
     "F": {
       "name": "Control System",
       "code": "23AID305",
-      "faculty": "Mr. Sandeep Madarappu (Ms. Priya R)"
+      "faculty": "Mr. Sandeep Madarappu (Ms. Priya R)",
+      "shortName": "CS"
     },
     "G": {
       "name": "Text Analytics",
       "code": "23AID472",
-      "faculty": "Ms. Priyanka Vivek (Dr. Arya R)"
+      "faculty": "Ms. Priyanka Vivek (Dr. Arya R)",
+      "shortName": "TA"
     },
     "CIR": {
       "name": "Life Skills for Engineers III",
       "code": "23LSE301",
-      "faculty": "Karishma Nair, Jisha Nair"
+      "faculty": "Karishma Nair, Jisha Nair",
+      "shortName": "CIR"
     }
   },
   "schedule": {
