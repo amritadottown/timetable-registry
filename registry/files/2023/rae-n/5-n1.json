@@ -69,9 +69,9 @@
         ],
         "Wednesday": [
             "FREE",
-            "B",
-            "G",
             "A",
+            "FREE",
+            "I",
             "CIR",
             "CIR",
             "CIR"
@@ -81,13 +81,13 @@
             "D",
             "H",
             "A_LAB",
-            "I",
+            "G",
             "FREE"
         ],
         "Friday": [
             "E_LAB",
             "I",
-            "FREE",
+            "B",
             "D_LAB"
         ]
     }
