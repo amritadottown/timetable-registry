@@ -25,81 +25,70 @@
             "code": "23MEE305",
             "faculty": "Dr. Y P Deepthi"
         },
-        "F": {
-            "name": "Heat Transfer and Instrumentation and Control System Lab",
+        "F1": {
+            "name": "Heat Transfer Lab",
+            "code": "23MEE381",
+            "faculty": "Dr. Bhanuprakash S / Dr. Pramod R"
+        },
+        "F2": {
+            "name": "Instrumentation and Control System Lab",
             "code": "23MEE381",
             "faculty": "Dr. Bhanuprakash S / Dr. Pramod R"
         },
         "G": {
-            "name": "Kinematics & Dynamics Lab",
-            "code": "23MEE382",
-            "faculty": "Dr. Mohan Kumar S (A1)"
-        },
-        "H": {
             "name": "Fluid Mechanics & Machinery Lab",
             "code": "23MEE383",
             "faculty": "Mr. Vinod K"
         },
-        "I": {
-            "name": "Live in Labs",
-            "code": "23LJV390",
-            "faculty": ""
+        "H": {
+            "name": "Automotive Technology / Manufacturing Planning and Control",
+            "code": "23MEE444/23MEE439",
+            "faculty": "Dr. Dileep B P / Mr. Raghavendra Ravi Kiran K"
         },
-        "J": {
-            "name": "Automotive Technology",
-            "code": "23MEE444",
-            "faculty": "Dr. Dileep B P"
-        },
-        "K": {
-            "name": "Manufacturing Planning and Control",
-            "code": "23MEE439",
-            "faculty": "Mr. Raghavendra Ravi Kiran K"
-        },
-        "L": {
+        "CIR": {
             "name": "Life Skills for Engineers III",
-            "code": "23LSC301",
-            "faculty": "Ms. Sweta Chauhan, Ms. Jisha Nair"
+            "code": "23LSE01",
+            "faculty": "Ms. Sweta Chavan, Ms. Jisha Nair"
         }
     },
     "schedule": {
         "Monday": [
             "C",
-            "J",
-            "K",
-            "C",
-            "B",
-            "L"
+            "H",
+            "D",
+            "H",
+            "CIR",
+            "CIR",
+            "CIR"
         ],
         "Tuesday": [
-            "G_LAB",
-            "E",
+            "E_LAB",
             "A",
-            "D",
-            "J",
-            "L"
+            "H",
+            "A_LAB"
         ],
         "Wednesday": [
-            "F_LAB",
             "G_LAB",
             "B",
-            "C",
-            "L",
-            "L"
+            "A",
+            "F1_LAB"
         ],
         "Thursday": [
-            "C",
-            "B",
-            "A",
             "D",
-            "L",
-            "I"
+            "B",
+            "E",
+            "D",
+            "CIR",
+            "B",
+            "C"
         ],
         "Friday": [
             "A",
-            "B",
+            "E",
             "C",
-            "F_LAB",
-            "L"
+            "FREE",
+            "A",
+            "F2_LAB"
         ]
     }
 }
