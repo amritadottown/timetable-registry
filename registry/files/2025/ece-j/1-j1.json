@@ -1,0 +1,71 @@
+{
+    "subjects": {
+        "A": {
+            "name": "Nature Inspired Engineering",
+            "code": "23ECE101",
+            "faculty": "Dr. M Dharani",
+            "shortName": "NIE"
+        },
+        "B": {
+            "name": "Engineering Mathematics-1",
+            "code": "23MAT124",
+            "faculty": "Dr. Sumantha S",
+            "shortName": "MATH"
+        },
+        "C": {
+            "name": "Problem Solving and Algorithmic Thinking",
+            "code": "23ECE102",
+            "faculty": "Theory - Dr. Priti Mandal & Lab - Dr. Priti Mandal, Mr. Sagar B, Ms. Jayashree M Oli",
+            "shortName": "PSAT"
+        },
+        "D": {
+            "name": "Fundamentals of Electrical Engineering",
+            "code": "23ECE103",
+            "faculty": "Dr. R.V. Sanjika Devi",
+            "shortName": "FEE"
+        },
+        "E": {
+            "name": "Physics of Semiconductor",
+            "code": "23ECE104",
+            "faculty": "Mr. H Manjunatha",
+            "shortName": "POS"
+        },
+        "F": {
+            "name": "Computer Programming",
+            "code": "23ECE105",
+            "faculty": "Dr. Anusaya Swain",
+            "shortName": "CPROG"
+        },
+        "G": {
+            "name": "Electrical Engineering Laboratory",
+            "code": "23ECE181",
+            "faculty": "J1: Mr. Swaminadhan Rajula, Dr. Chinthala Ramesh; J2: Dr. Sanjika Devi, Ms. Kaveri Hatti",
+            "shortName": "EE_LAB"
+        },
+        "H": {
+            "name": "Computer Programming Laboratory",
+            "code": "23ECE182",
+            "faculty": "Dr. Anusaya Swain, Ms. Kirti S Pande, Dr. Paramasivam C",
+            "shortName": "CPROG_LAB"
+        },
+        "I": {
+            "name": "Foundations of Indian Heritage",
+            "code": "22ADM101",
+            "faculty": "New Faculty 2",
+            "shortName": "FIH"
+        },
+        "J": {
+            "name": "Mastery Over Mind",
+            "code": "22AVP103",
+            "faculty": "Mr. Pavan Kumar S N",
+            "shortName": "MOM"
+        }
+    },
+    "schedule": {
+        "Monday": ["D", "E", "A", "H_LAB", "B", "FREE"],
+        "Tuesday": ["F", "A", "FREE", "E", "D", "I", "FREE"],
+        "Wednesday": ["C_LAB", "B", "F", "C", "FREE"],
+        "Thursday": ["B", "J", "D", "E", "I", "FREE", "FREE"],
+        "Friday": ["A", "FREE", "B", "J", "F", "G_LAB"]
+    }
+}
