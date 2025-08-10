@@ -1,0 +1,65 @@
+{
+    "subjects": {
+        "A": {
+            "name": "Nature Inspired Engineering",
+            "code": "23ECE101",
+            "faculty": "Mr. H Manjunatha",
+            "shortName": "NIE"
+        },
+        "B": {
+            "name": "Engineering Mathematics-1",
+            "code": "23MAT124",
+            "faculty": "Dr. V. Kesavulu Naidu",
+            "shortName": "MATH"
+        },
+        "C": {
+            "name": "Problem Solving and Algorithmic Thinking",
+            "code": "23ECE102",
+            "faculty": "Theory - Mr. Sagar B & Lab - Mr. Sagar B, Dr. Pooja Kenchetty, Dr. Vishnunandan",
+            "shortName": "PSAT"
+        },
+        "D": {
+            "name": "Fundamentals of Electrical Engineering",
+            "code": "23ECE103",
+            "faculty": "Dr. Sarda Sharma",
+            "shortName": "FEE"
+        },
+        "E": {
+            "name": "Physics of Semiconductor",
+            "code": "23ECE104",
+            "faculty": "Dr. G N Kumaraswamy",
+            "shortName": "POS"
+        },
+        "F": {
+            "name": "Electrical Engineering Laboratory",
+            "code": "23ECE181",
+            "faculty": "K1: Dr. Sarda Sharma, Ms. Gayathri R; K2: Dr. Sarda Sharma, Ms. Belkies V M",
+            "shortName": "EE_LAB"
+        },
+        "G": {
+            "name": "Technical Communication",
+            "code": "23ENG101",
+            "faculty": "Dr. Deepthi Janardhan",
+            "shortName": "TCOM"
+        },
+        "H": {
+            "name": "Foundations of Indian Heritage",
+            "code": "22ADM101",
+            "faculty": "New Faculty 1",
+            "shortName": "FIH"
+        },
+        "I": {
+            "name": "Mastery Over Mind",
+            "code": "22AVP103",
+            "faculty": "Mr. Pavan Kumar S N",
+            "shortName": "MOM"
+        }
+    },
+    "schedule": {
+        "Monday": ["C", "D", "E", "B", "A", "F_LAB"],
+        "Tuesday": ["C_LAB", "B", "D", "FREE", "FREE"],
+        "Wednesday": ["B", "A", "I", "G_LAB", "FREE", "FREE"],
+        "Thursday": ["G", "A", "B", "E", "H", "FREE", "FREE"],
+        "Friday": ["E", "FREE", "H", "G", "D", "I", "FREE"]
+    }
+}
