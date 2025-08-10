@@ -1,0 +1,96 @@
+{
+    "subjects": {
+      "A": {
+        "name": "Hardware Security and Trust / Electronic System Level Design",
+        "code": "19ECE342",
+        "faculty": "Dr. C Paramasivam / Mr. Swaminadhan Rajula",
+        "shortName": "HS"
+      },
+      "A*": {
+        "name": "Electronic System Level Design",
+        "code": "19ECE347",
+        "faculty": "Ms. Sonali Agrawal / Dr. Patthi Aruna",
+        "shortName": "ESLD"
+      },
+      "B": {
+        "name": "Pattern Recognition / Embedded Systems",
+        "code": "19ECE357 / 19ECE345",
+        "faculty": "Dr. Sunitha R / (Dr. Chinthala Ramesh / Dr. Priti Mandal)",
+        "shortName": "PR/ES"
+      },
+      "B*": {
+        "name": "Deep Learning",
+        "code": "19ECE354",
+        "faculty": "Dr. Sreeja Kochuvila",
+        "shortName": "DL"
+      },
+      "C": {
+        "name": "Polymer for Electronics",
+        "code": "23CHY251",
+        "faculty": "Dr. Sivakumar B",
+        "shortName": "Polymers"
+      },
+      "C*": {
+        "name": "Remote Sensing Systems",
+        "code": "23ECE472",
+        "faculty": "Dr. Vishnunandhan",
+        "shortName": "Remote Sensing"
+      },
+      "C**": {
+        "name": "Wireless Communication",
+        "code": "19ECE431",
+        "faculty": "Dr. Navin Kumar",
+        "shortName": "Wireless"
+      },
+      "D": {
+        "name": "Business Communication / Insights into Life through English Literature",
+        "code": "19ENG230 / 19ENG232",
+        "faculty": "Dr. Smita Sail / Dr. Deepakumari S",
+        "shortName": "BusCom / Eng Literature"
+      },
+      "E": {
+        "name": "Indian Classics for the Twenty-first Century / The Message of Bhagwad Gita / Glimpses of Indian Economy and Polity",
+        "code": "19HUM235 / 19HUM242 / 19HUM233",
+        "faculty": "AD Faculty",
+        "shortName": "Classics / Gita / Polity"
+      },
+      "C/C*": {
+        "name": "Polymer for Electronics / Remote Sensing Systems",
+        "code": "23CHY251 / 23ECE472",
+        "faculty": "Dr. Sivakumar B / Dr. Vishnunandhan",
+        "shortName": "Polymers / Remote Sensing"
+      },
+      "C/C**": {
+        "name": "Polymer for Electronics / Wireless Communication",
+        "code": "23CHY251 / 19ECE431",
+        "faculty": "Dr. Sivakumar B / Dr. Navin Kumar",
+        "shortName": "Polymers / Wireless"
+      },
+      "C/C*/C**": {
+        "name": "Polymer for Electronics / Remote Sensing Systems / Wireless Communication",
+        "code": "23CHY251 / 23ECE472 / 19ECE431",
+        "faculty": "Dr. Sivakumar B / Dr. Vishnunandhan / Dr. Navin Kumar",
+        "shortName": "Polymers / Remote Sensing / Wireless"
+      },
+      "B/B*": {
+        "name": "Pattern Recognition / Embedded Systems / Deep Learning",
+        "code": "19ECE357 / 19ECE345 / 19ECE354",
+        "faculty": "Dr. Sunitha R / (Dr. Chinthala Ramesh / Dr. Priti Mandal) / Dr. Sreeja Kochuvila",
+        "shortName": "PR/ES/DL"
+      },
+      "A/A*": {
+        "name": "Hardware Security and Trust / Electronic System Level Design",
+        "code": "19ECE342 / 19ECE347",
+        "faculty": "Dr. C Paramasivam / Ms. Sonali Agrawal / Dr. Patthi Aruna",
+        "shortName": "HS/ESLD"
+      }
+    },
+    "schedule": {
+      "Monday": ["E", "C/C*", "A", "FREE", "C**", "FREE", "FREE"],
+      "Tuesday": ["A/A*", "B", "E", "C*", "B*", "FREE", "FREE"],
+      "Wednesday": ["C/C*/C**", "FREE", "FREE", "B*", "FREE", "FREE", "FREE"],
+      "Thursday": ["A*", "B/B*", "D", "FREE", "FREE", "FREE", "FREE"],
+      "Friday": ["FREE", "C/C**", "FREE", "A/A*", "B", "D", "FREE"]
+    }
+  }
+    
