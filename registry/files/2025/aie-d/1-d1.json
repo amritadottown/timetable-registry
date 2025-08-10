@@ -1,0 +1,59 @@
+{
+    "subjects": {
+        "A": {
+            "name": "Mathematics for Computing I",
+            "code": "22MAT110",
+            "faculty": "Dr. Neetu Srivastava",
+            "shortName": "MATH_COMP"
+        },
+        "B": {
+            "name": "Computational Physics",
+            "code": "22PHY106",
+            "faculty": "Dr. Abhinav R Dehadrai (Co: Dr. Vineet Nair)",
+            "shortName": "COMP_PHY"
+        },
+        "C": {
+            "name": "Problem Solving & C Programming",
+            "code": "22AIE101",
+            "faculty": "Dr. Vineetha K V (Co: Ms. Sreebha Bhaskaran)",
+            "shortName": "PS_CPROG"
+        },
+        "D": {
+            "name": "Elements of Computing Systems I",
+            "code": "22AIE102",
+            "faculty": "Mr. Lijin (Co: Ms. Sreebha)",
+            "shortName": "ECS1"
+        },
+        "E": {
+            "name": "Discrete Mathematics",
+            "code": "22MAT121",
+            "faculty": "Dr. T V Smitha",
+            "shortName": "DISC_MATH"
+        },
+        "F": {
+            "name": "Foundations of Indian Heritage",
+            "code": "22ADM101",
+            "faculty": "Dr. Manish Rajan Walvekar",
+            "shortName": "FIH"
+        },
+        "G": {
+            "name": "Technical Communication",
+            "code": "23ENG101",
+            "faculty": "Dr. Smitha Sail",
+            "shortName": "TC"
+        },
+        "H": {
+            "name": "Mastery Over Mind",
+            "code": "22AVP103",
+            "faculty": "Dr. Vineetha K V",
+            "shortName": "MOM"
+        }
+    },
+    "schedule": {
+        "Monday": ["E_LAB", "C_LAB", "A", "G"],
+        "Tuesday": ["FREE", "FREE", "FREE", "E", "C", "B_LAB"],
+        "Wednesday": ["D", "B", "H", "A_LAB", "C", "F"],
+        "Thursday": ["F", "H", "D", "G_LAB", "E", "A"],
+        "Friday": ["A", "C", "G", "B", "E", "D_LAB"]
+    }
+}
