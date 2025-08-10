@@ -1,0 +1,71 @@
+{
+    "subjects": {
+        "A": {
+            "name": "Nature Inspired Engineering",
+            "code": "23ECE101",
+            "faculty": "Dr. M Dharani",
+            "shortName": "NIE"
+        },
+        "B": {
+            "name": "Engineering Mathematics-1",
+            "code": "23MAT124",
+            "faculty": "Dr. B Venkatesh",
+            "shortName": "MATH1"
+        },
+        "C": {
+            "name": "Problem Solving and Algorithmic Thinking",
+            "code": "23ECE102",
+            "faculty": "Theory-Dr. Anusaya Swain & Lab- Anusaya Swain,Dr. Priti Mandal,Ms. Shivalila A. Hangaragi",
+            "shortName": "PSAT"
+        },
+        "D": {
+            "name": "Fundamentals of Electrical Engineering",
+            "code": "23ECE103",
+            "faculty": "Dr. Phani Raj Harivanam",
+            "shortName": "FEE"
+        },
+        "E": {
+            "name": "Physics of Semiconductor",
+            "code": "23ECE104",
+            "faculty": "Dr. K N Venkatachaiah",
+            "shortName": "POS"
+        },
+        "F": {
+            "name": "Computer Programming",
+            "code": "23ECE105",
+            "faculty": "Ms. Shivalila A. Hangaragi",
+            "shortName": "CPROG"
+        },
+        "G": {
+            "name": "Electrical Engineering Laboratory",
+            "code": "23ECE181",
+            "faculty": "H2:Dr. Phani Raj Harivanam, Dr. Ashish Goswami",
+            "shortName": "EE_LAB"
+        },
+        "H": {
+            "name": "Computer Programming Laboratory",
+            "code": "23ECE182",
+            "faculty": "Ms. Shivalila A. Hangaragi, Ms. Jayashree M Oli, Mr. Swaminadhan Rajula",
+            "shortName": "CP_LAB"
+        },
+        "I": {
+            "name": "Foundations of Indian Heritage",
+            "code": "22ADM101",
+            "faculty": "Dr. Manish Rajan Walvekar",
+            "shortName": "FIH"
+        },
+        "J": {
+            "name": "Mastery Over Mind",
+            "code": "22AVP103",
+            "faculty": "Dr. B L Bhaskar",
+            "shortName": "MOM"
+        }
+    },
+    "schedule": {
+        "Monday": ["FREE", "FREE", "FREE", "J", "A", "D", "I"],
+        "Tuesday": ["F", "D", "E", "C_LAB", "B", "FREE", "FREE"],
+        "Wednesday": ["B", "E", "C", "A", "F", "FREE", "FREE", "FREE"],
+        "Thursday": ["H_LAB", "I", "J", "B", "FREE", "FREE","FREE"],
+        "Friday": ["A", "E", "F", "G_LAB", "A", "F", "F"]
+    }
+}
