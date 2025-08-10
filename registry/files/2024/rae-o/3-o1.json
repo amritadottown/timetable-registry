@@ -1,0 +1,77 @@
+{
+  "subjects": {
+    "MAT": {
+      "name": "Mathematics for Intelligence",
+      "code": "23MAT221",
+      "faculty": "Dr. Shali S, Dr Pradeep Jakkareddy(ab), Mr. Bhanuprakash S (ab)",
+      "shortName": "Math"
+    },
+    "CSE": {
+      "name": "Python Programming",
+      "code": "23CSE207",
+      "faculty": "Dr. Shashi Kumar M E",
+      "shortName": "Python"
+    },
+    "DT": {
+      "name": "Design Thinking",
+      "code": "23MEE207",
+      "faculty": "Dr. Dileep B P",
+      "shortName": "DT"
+    },
+    "MS": {
+      "name": "Materials Science",
+      "code": "23MEE208",
+      "faculty": "Dr. Muddula Prashanth, Dr. Shashi Kumar M E",
+      "shortName": "MS"
+    },
+    "TMM": {
+      "name": "Theory of Mechanisms and Machines",
+      "code": "23MEE209",
+      "faculty": "Dr. Bikram Kumar Senapti",
+      "shortName": "TMM"
+    },
+    "AD": {
+      "name": "Actuators and Drives",
+      "code": "23EEE206",
+      "faculty": "Dr. Prashanth B N",
+      "shortName": "AD"
+    },
+    "MCE": {
+      "name": "Micro Controllers and Embedded Systems",
+      "code": "23ECE207",
+      "faculty": "Dr. Puja Sengupta",
+      "shortName": "MCE"
+    },
+    "SLM": {
+      "name": "Strategic lessons from Mahabharata",
+      "code": "22ADM201",
+      "faculty": "Dr. Umapree Redh",
+      "shortName": "SLM"
+    },
+    "IC": {
+      "name": "Indian Constitution",
+      "code": "23LAW300",
+      "faculty": "Dr Shankara K",
+      "shortName": "IC"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": "Mr. Siva Kumar, Mr. Ankit Jain, Ms. Srinidhi",
+      "shortName": "LSE"
+    },
+    "LR": {
+      "name": "Leadership from Ramayana",
+      "code": "23ADM211",
+      "faculty": "",
+      "shortName": "LR"
+    }
+  },
+  "schedule": {
+    "Monday": ["CSE_LAB", "SLM", "AD", "MS_LAB"],
+    "Tuesday": ["MAT", "MS", "AD", "MCE", "CSE", "MAT_LAB"],
+    "Wednesday": ["MAT", "FREE", "FREE", "MCE_LAB", "DT_LAB"],
+    "Thursday": ["TMM", "AD", "MCE", "TMM_LAB", "MS", "MAT"],
+    "Friday": ["LSE", "LSE", "LSE", "DT", "MCE", "TMM", "TMM"]
+  }
+}
