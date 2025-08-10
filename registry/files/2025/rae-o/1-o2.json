@@ -50,7 +50,7 @@
         }
     },
     "schedule": {
-        "Monday": ["D_LAB" "FREE", "FREE", "A_LAB"],
+        "Monday": ["D_LAB", "FREE", "FREE", "A_LAB"],
         "Tuesday": ["E", "E", "B", "D", "G", "C", "H"],
         "Wednesday": ["G", "C", "A", "FREE", "FREE", "F", "D"],
         "Thursday": ["B", "F", "D", "H", "FREE", "E_LAB"],

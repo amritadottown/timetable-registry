@@ -52,7 +52,7 @@
   "schedule": {
     "Monday": ["C", "A","B", "LSE", "D", "FREE", "FREE"],
     "Tuesday": ["A","C", "B", "C_LAB", "D", "FREE"],
-    "Wednesday": ["E", "LSE", "LSE", "LSE","D","B", "FREE", "FREE"],
+    "Wednesday": ["E", "LSE", "LSE", "LSE", "D","B", "FREE"],
     "Thursday": ["B_LAB","C", "E", "CSL_LAB"],
     "Friday": ["D", "E", "A","FREE","FREE", "OPEN_LAB"]
   }
