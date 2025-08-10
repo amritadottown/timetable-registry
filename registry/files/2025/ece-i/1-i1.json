@@ -1,0 +1,71 @@
+{
+    "subjects": {
+        "A": {
+            "name": "Nature Inspired Engineering",
+            "code": "23ECE101",
+            "faculty": "Dr. M Dharani",
+            "shortName": "NIE"
+        },
+        "B": {
+            "name": "Engineering Mathematics-1",
+            "code": "23MAT124",
+            "faculty": "Dr. Naveen Kumar",
+            "shortName": "MATH"
+        },
+        "C": {
+            "name": "Problem Solving and Algorithmic Thinking",
+            "code": "23ECE102",
+            "faculty": "Theory - Dr. Anusaya Swain & Lab - Dr. Anusaya Swain, Mr. Giriraja C.V, Dr. Priti Mandal",
+            "shortName": "PSAT"
+        },
+        "D": {
+            "name": "Fundamentals of Electrical Engineering",
+            "code": "23ECE103",
+            "faculty": "Ms. Kirti S Pande",
+            "shortName": "FEE"
+        },
+        "E": {
+            "name": "Physics of Semiconductor",
+            "code": "23ECE104",
+            "faculty": "Dr. K N Venkatachaliah",
+            "shortName": "POS"
+        },
+        "F": {
+            "name": "Computer Programming",
+            "code": "23ECE105",
+            "faculty": "Dr. N. Neelima",
+            "shortName": "CPROG"
+        },
+        "G": {
+            "name": "Electrical Engineering Laboratory",
+            "code": "23ECE181",
+            "faculty": "I1: Ms. Kirti S Pande, Ms. Belkies V.M; I2: Ms. Kirti S Pande, Dr. Phaniraj Harivanam",
+            "shortName": "EE_LAB"
+        },
+        "H": {
+            "name": "Computer Programming Laboratory",
+            "code": "23ECE182",
+            "faculty": "Dr. N. Neelima, Ms. Shivalila A. Hangaragi, Dr. Pooja Kenchetty",
+            "shortName": "CPROG_LAB"
+        },
+        "I": {
+            "name": "Foundations of Indian Heritage",
+            "code": "22ADM101",
+            "faculty": "Dr. Tanashree Redij",
+            "shortName": "FIH"
+        },
+        "J": {
+            "name": "Mastery Over Mind",
+            "code": "22AVP103",
+            "faculty": "Dr. Giridhar Reddy",
+            "shortName": "MOM"
+        }
+    },
+    "schedule": {
+        "Monday": ["H_LAB", "F", "B", "E", "FREE" ],
+        "Tuesday": ["D", "B", "F", "A", "J", "G_LAB"],
+        "Wednesday": ["C", "I", "D", "J", "F", "A", "FREE"],
+        "Thursday": ["B", "A", "E", "FREE", "FREE", "D", "FREE"],
+        "Friday": ["C_LAB", "I", "E", "B", "FREE"]
+    }
+}
