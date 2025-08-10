@@ -1,0 +1,59 @@
+{
+    "subjects": {
+        "A": {
+            "name": "Manufacturing Practice",
+            "code": "23MEE115",
+            "faculty": "A1: Ms. S G Divya Sharma, Mr. Jishnu Nair, A2: Dr. Ulhas Annigeri, Dr. S Jinan Kumar",
+            "shortName": "MFG_PRAC"
+        },
+        "B": {
+            "name": "Calculus",
+            "code": "23MAT107",
+            "faculty": "Dr. B Venkatesh",
+            "shortName": "CALC"
+        },
+        "C": {
+            "name": "Computational Problem Solving",
+            "code": "23CSE101",
+            "faculty": "Dr. Priyanka Vivek (Co: Dr.Peeta Basa Pati)",
+            "shortName": "CPS"
+        },
+        "D": {
+            "name": "Introduction to Electrical and Electronics Engineering",
+            "code": "23EEE104",
+            "faculty": "Dr. Sujith Kumar",
+            "shortName": "IEEE"
+        },
+        "E": {
+            "name": "Basic Electrical and Electronics Engineering Practice",
+            "code": "23EEE184",
+            "faculty": "B1: Dr. Rashmi M R, Dr. Sujith Kumar, B2: Dr. Mini Sujith, Ms. Sailaja V, Mr. Vishnu Raj",
+            "shortName": "BEE_PRAC"
+        },
+        "F": {
+            "name": "Computer Hardware Essentials",
+            "code": "23CSE102",
+            "faculty": "Mr. Rajesh",
+            "shortName": "CHE"
+        },
+        "G": {
+            "name": "Foundations of Indian Heritage",
+            "code": "22ADM101",
+            "faculty": "Dr. Manish Rajan Walvekar",
+            "shortName": "FIH"
+        },
+        "H": {
+            "name": "Mastery Over Mind",
+            "code": "22AVP103",
+            "faculty": "New Faculty 1",
+            "shortName": "MOM"
+        }
+    },
+    "schedule": {
+        "Monday": ["D", "H", "C", "B_LAB", "FREE", "FREE"],
+        "Tuesday": ["A_LAB", "B", "C", "F_LAB"],
+        "Wednesday": ["C_LAB", "D", "G", "FREE", "FREE"],
+        "Thursday": ["B", "FREE", "G", "E_LAB","C", "FREE"],
+        "Friday": ["F", "H", "D", "FREE", "B", "FREE", "FREE"]
+    }
+}
