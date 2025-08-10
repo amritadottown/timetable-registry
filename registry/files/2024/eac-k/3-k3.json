@@ -1,0 +1,53 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Electronics Circuits -I",
+      "code": "23EAC201",
+      "faculty": "Dr. Sushant Shendre",
+      "shortName": "EC1"
+    },
+    "B": {
+      "name": "Signal Processing",
+      "code": "23EAC202",
+      "faculty": "Dr. Sreeja Kochuvila",
+      "shortName": "SP"
+    },
+    "C": {
+      "name": "Data Structures and Algorithms",
+      "code": "23EAC203",
+      "faculty": "Dr. Kamatchi S",
+      "shortName": "DSA"
+    },
+    "D": {
+      "name": "Sensors and Instrumentation",
+      "code": "23EAC204",
+      "faculty": "Dr. T.K Ramesh",
+      "shortName": "SI"
+    },
+    "E": {
+      "name": "Foundations of Data Science",
+      "code": "23EAC205",
+      "faculty": "Dr. Susmitha Vekkot",
+      "shortName": "FDS"
+    },
+    "AVP": {
+      "name": "Amrita Value Programme-I",
+      "code": "",
+      "faculty": "Dr. Manish Rajan Walvekar",
+      "shortName": "AVP"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": "Ms. Sujatha V, Ms. Sweta Chavan",
+      "shortName": "LSE"
+    }
+  },
+  "schedule": {
+    "Monday": ["B", "A", "E", "A_LAB", "C", "FREE"],
+    "Tuesday": ["C", "E", "B", "FREE", "FREE", "FREE", "A"],
+    "Wednesday": ["A", "B", "C", "C_LAB", "E", "FREE"],
+    "Thursday": ["E", "LSE", "LSE", "LSE", "B", "B_LAB"],
+    "Friday": ["FREE", "FREE", "FREE", "AVP", "C", "D", "D"]
+  }
+}

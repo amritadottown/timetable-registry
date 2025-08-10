@@ -1,0 +1,59 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Digital Electronics",
+      "code": "23ECE201",
+      "faculty": "Dr. Sarda Sharma",
+      "shortName": "DE"
+    },
+    "B": {
+      "name": "Analog Electronics I",
+      "code": "23ECE202",
+      "faculty": "Mr. Vignesh V",
+      "shortName": "AE1"
+    },
+    "C": {
+      "name": "Signal Processing II",
+      "code": "23ECE203",
+      "faculty": "Dr. Sumathi S",
+      "shortName": "SP2"
+    },
+    "D": {
+      "name": "Electromagnetic Theory and Waves",
+      "code": "23ECE204",
+      "faculty": "Dr. Ashish Goswami",
+      "shortName": "EMT"
+    },
+    "E": {
+      "name": "Foundations of Data Science",
+      "code": "23ECE205",
+      "faculty": "Dr. Vivek Venugopal",
+      "shortName": "FDS"
+    },
+    "DSP": {
+      "name": "Digital Signal Processing Laboratory",
+      "code": "23ECE283",
+      "faculty": "B1: Dr. Susmitha Vekkot, Ms. Latha; B2: Dr. Sumathi S, Dr. Vivek Venugopal",
+      "shortName": "DSP Lab"
+    },
+    "AVP": {
+      "name": "Amrita Value Programme-I",
+      "code": "",
+      "faculty": "New Faculty 1",
+      "shortName": "AVP"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": "Ms. Srinithi N, Mr. Sivakumar K.M",
+      "shortName": "LSE"
+    }
+  },
+  "schedule": {
+    "Monday": ["DSP_LAB", "A", "D", "E", "FREE"],
+    "Tuesday": ["B", "C", "E", "D", "LSE", "LSE", "LSE"],
+    "Wednesday": ["C", "E", "A", "A_LAB", "AVP", "FREE"],
+    "Thursday": ["D", "B", "E", "FREE", "FREE", "A", "FREE"],
+    "Friday": ["B_LAB", "C", "B", "D", "FREE"]
+  }
+}
