@@ -1,0 +1,72 @@
+{
+    "subjects": {
+      "A": {
+        "name": "Hardware Security and Trust / Electronic System Level Design",
+        "code": "19ECE342",
+        "faculty": "Dr. C Paramasivam / Mr. Swaminadhan Rajula",
+        "shortName": "HS"
+      },
+      "A*": {
+        "name": "Electronic System Level Design",
+        "code": "19ECE347",
+        "faculty": "Ms. Sonali Agrawal / Dr. Patthi Aruna",
+        "shortName": "ESLD"
+      },
+      "B": {
+        "name": "Biometrics / Distributed Systems",
+        "code": "19CSE440 / 19CSE312",
+        "faculty": "Dr. Vivek Venugopal / Ms. Jayashree M Oli",
+        "shortName": "Bio/DS"
+      },
+      "C": {
+        "name": "Real Time Systems / Polymer for Electronics",
+        "code": "19ECE444 / 23CHY251",
+        "faculty": "Dr. Chinthala Ramesh / Dr. Sivakumar B",
+        "shortName": "RTS/Polymers"
+      },
+      "C*": {
+        "name": "Advanced Computer Networks",
+        "code": "19CSE340",
+        "faculty": "Dr. Manoj Kumar Panda",
+        "shortName": "ACN"
+      },
+      "C1": {
+        "name": "Cloud Computing",
+        "code": "19CSE445",
+        "faculty": "Dr. Bhavana V",
+        "shortName": "CC"
+      },
+      "CS":{
+        "name": "Introduction to Cyber Security",
+        "code": "19EAC401",
+        "faculty": "Mr. Sagar B",
+        "shortName": "CS"
+      },
+      "C/C*": {
+        "name": "Real Time Systems / Polymer for Electronics / Advanced Computer Networks",
+        "code": "19ECE444 / 23CHY251 / 19CSE340",
+        "faculty": "Dr. Chinthala Ramesh / Dr. Sivakumar B / Dr. Manoj Kumar Panda",
+        "shortName": "RTS/Polymers/ACN"
+      },
+      "A/A*": {
+        "name": "Hardware Security and Trust / Electronic System Level Design",
+        "code": "19ECE342 / 19ECE347",
+        "faculty": "(Dr. C Paramasivam / Mr. Swaminadhan Rajula) / (Ms. Sonali Agrawal / Dr. Patthi Aruna)",
+        "shortName": "HS/ESLD"
+      },
+      "DS":{
+        "name": "Distributed Systems",
+        "code": "19CSE312",
+        "faculty": "Ms. Jayashree M Oli",
+        "shortName": "DS"
+      }
+    },
+    "schedule": {
+      "Monday": ["C1", "C", "A", "C*", "CS", "FREE", "FREE"],
+      "Tuesday": ["A/A*", "FREE", "FREE", "FREE", "CS", "c1_LAB"],
+      "Wednesday": ["C/C*", "FREE", "FREE", "B", "C1", "FREE", "FREE"],
+      "Thursday": ["A*", "FREE", "FREE", "B", "FREE", "DS_LAB"],
+      "Friday": ["FREE", "C/C*", "CS", "A/A*", "B", "CS_LAB"]
+    }
+  }
+    
