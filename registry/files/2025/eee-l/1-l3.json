@@ -1,0 +1,60 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Calculus, Matrix Algebra and Ordinary Differential Equations",
+      "code": "23MAT122",
+      "faculty": "Ms. Nimmy P",
+      "shortName": "MATH"
+    },
+    "B": {
+      "name": "Fundamentals of Electrical Engineering",
+      "code": "23EEE101",
+      "faculty": "Ms. K Sireesha",
+      "shortName": "FEE"
+    },
+    "C": {
+      "name": "Engineering Graphics and 3D Modelling",
+      "code": "23MEE102",
+      "faculty": "Ms. Mrudula Prashanth",
+      "shortName": "EG"
+    },
+    "D": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": "Dr. Suyant Vijay",
+      "shortName": "TC"
+    },
+    "E": {
+      "name": "Engineering Chemistry- B",
+      "code": "23CHY109",
+      "faculty": "Dr. Mohan Kumar T M",
+      "shortName": "CHEM"
+    },
+
+    "G": {
+      "name": "Manufacturing Practice-B",
+      "code": "23MEE182",
+      "faculty": "Dr. S Mohan Kumar, Dr. Pradeep S Jakkaraddy",
+      "shortName": "MP"
+    },
+    "H": {
+      "name": "Foundations of Indian Heritage",
+      "code": "23ADM101",
+      "faculty": "New Faculty 2",
+      "shortName": "FIH"
+    },
+    "I": {
+      "name": "Mastery Over Mind",
+      "code": "23AVP103",
+      "faculty": "Dr. Mini Sujith",
+      "shortName": "MAOM"
+    }
+  },
+  "schedule": {
+    "Monday": ["G_LAB", "C", "C", "E", "FREE"],
+    "Tuesday": ["H", "B", "D", "E", "A", "C_LAB"],
+    "Wednesday": ["D", "A", "FREE", "E", "I", "E_LAB"],
+    "Thursday": ["FREE", "FREE", "FREE", "FREE", "A", "D_LAB"],
+    "Friday": ["B", "A", "I", "FREE", "FREE", "H", "FREE"]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "subjects": {
+    "A": {
+      "name": "Digital Electronics",
+      "code": "23ECE201",
+      "faculty": "Dr. Ganapathi Hegde",
+      "shortName": "DE"
+    },
+    "B": {
+      "name": "Analog Electronics I",
+      "code": "23ECE202",
+      "faculty": "Ms. Gayathri R",
+      "shortName": "AE1"
+    },
+    "C": {
+      "name": "Signal Processing II",
+      "code": "23ECE203",
+      "faculty": "Dr. Phani Raj Harivanam",
+      "shortName": "SP2"
+    },
+    "D": {
+      "name": "Electromagnetic Theory and Waves",
+      "code": "23ECE204",
+      "faculty": "Dr. Jitendra Bahadur",
+      "shortName": "EMT"
+    },
+    "E": {
+      "name": "Foundations of Data Science",
+      "code": "23ECE205",
+      "faculty": "Dr. Lalitha S",
+      "shortName": "FDS"
+    },
+
+    "AVP": {
+      "name": "Amrita Value Programme-I",
+      "code": "",
+      "faculty": "Dr. Manish Rajan Walvekar",
+      "shortName": "AVP"
+    },
+    "DSP": {
+      "name": "Digital Signal Processing Laboratory",
+      "code": "23ECE283",
+      "faculty": "A1: Dr. Kamatchi S, Dr. Vivek Venugopal; A2: Dr. Phani Raj Harivanam, Dr. Lalitha S",
+      "shortName": "DSP Lab"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": "Ms. Sujatha V, Ms. Srinidhi N, Mr. Ankit Jain",
+      "shortName": "LSE"
+    }
+  },
+  "schedule": {
+    "Monday": ["D", "A", "B", "C", "LSE", "LSE", "LSE"],
+    "Tuesday": ["A", "D", "E", "C", "FREE", "B_LAB"],
+    "Wednesday": ["DSP_LAB", "D", "B", "E", "FREE"],
+    "Thursday": ["C", "B", "E", "A", "FREE", "A_LAB"],
+    "Friday": ["E", "AVP", "FREE", "FREE", "FREE", "D", "FREE"]
+  }
+}
