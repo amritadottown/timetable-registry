@@ -63,9 +63,9 @@
     },
     "schedule": {
         "Monday": ["D", "E", "A", "H_LAB", "B", "FREE"],
-        "Tuesday": ["F", "A", "FREE", "E", "D", "I", "FREE"],
-        "Wednesday": ["C_LAB", "B", "F", "C", "FREE"],
+        "Tuesday": ["F", "A", "C", "E", "D", "I", "FREE"],
+        "Wednesday": ["C_LAB", "B", "F", "FREE", "FREE"],
         "Thursday": ["B", "J", "D", "E", "I", "G_LAB"],
-        "Friday": ["A", "FREE", "B", "J", "F", "G_LAB"]
+        "Friday": ["A", "FREE", "B", "J", "F", "FREE", "FREE"]
     }
 }
