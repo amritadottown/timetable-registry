@@ -1,0 +1,65 @@
+{
+    "subjects": {
+        "A": {
+            "name": "Statistics and Foundations of Data Science",
+            "code": "23MAT224",
+            "faculty": "Dr. Meera K. N.",
+            "shortName": "SFDS"
+        },
+        "B": {
+            "name": "Electric Machines",
+            "code": "23ELC201",
+            "faculty": "Ms. Lekshmi S.",
+            "shortName": "EM"
+        },
+        "C": {
+            "name": "Sensor Circuits & Actuators",
+            "code": "23ELC202",
+            "faculty": "Dr. J. Ramprabhakar",
+            "shortName": "SCA"
+        },
+        "D": {
+            "name": "Artificial Intelligence",
+            "code": "23ELC203",
+            "faculty": "Dr. Rashmi M. R.",
+            "shortName": "AI"
+        },
+        "E": {
+            "name": "Computer Architecture",
+            "code": "23ELC204",
+            "faculty": "Dr. Vidya H. A.",
+            "shortName": "CA"
+        },
+        "F": {
+            "name": "Signals & Systems",
+            "code": "23EEE201",
+            "faculty": "Ms. Syama S.",
+            "shortName": "SNS"
+        },
+        "G": {
+            "name": "Object Oriented Programming using Python",
+            "code": "23ELC205",
+            "faculty": "Mr. Vishnu Raj",
+            "shortName": "OOP"
+        },
+        "H": {
+            "name": "Strategic Lessons from Mahabharata",
+            "code": "22ADM201",
+            "faculty": "New Faculty-1",
+            "shortName": "SLM"
+        },
+        "I": {
+            "name": "Life Skills for Engineers I",
+            "code": "23LSE201",
+            "faculty": "Ms. Sudha Yadav",
+            "shortName": "LSE"
+        }
+    },
+    "schedule": {
+        "Monday": ["A", "E", "D", "C", "G", "F", "FREE"],
+        "Tuesday": ["B", "I", "I", "I", "F", "A", "FREE"],
+        "Wednesday": ["F", "G", "A", "C", "D", "B_LAB"],
+        "Thursday": ["D", "C", "F", "C_LAB", "B", "FREE"],
+        "Friday": ["G", "A", "E", "H", "FREE", "G_LAB"]
+    }
+}
