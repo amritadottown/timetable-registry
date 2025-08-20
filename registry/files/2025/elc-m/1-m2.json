@@ -56,10 +56,10 @@
         }
     },
     "schedule": {
-        "Monday": ["C", "C", "D", "FREE", "A", "FREE", "FREE"],
+        "Monday": ["C", "C", "D", "FREE", "A", "G_LAB"],
         "Tuesday": ["H", "A", "I", "E", "FREE", "B_LAB"],
-        "Wednesday": ["C_LAB", "A", "D", "D_LAB"],
-        "Thursday": ["FREE", "FREE", "FREE", "B", "E", "G_LAB"],
-        "Friday": ["H", "E", "I", "F_LAB", "A", "FREE"]
+        "Wednesday": ["C_LAB", "A", "D", "FREE","FREE"],
+        "Thursday": ["D_LAB", "B", "E", "A", "FREE"],
+        "Friday": ["H", "E", "I", "F_LAB","FREE", "FREE"]
     }
 }
