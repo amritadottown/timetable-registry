@@ -30,6 +30,13 @@
       "faculty": "Dr. Mohan Kumar T M",
       "shortName": "CHEM"
     },
+    "F": {
+  "name": "Engineering Chemistry Laboratory - B",
+  "code": "23CHY188",
+  "faculty": "Dr. Anil Kumar S (Co: Dr. Mohan Kumar T M)",
+  "shortName": "CHEM LAB"
+},
+
 
     "G": {
       "name": "Manufacturing Practice-B",
@@ -51,10 +58,10 @@
     }
   },
   "schedule": {
-    "Monday": ["G_LAB", "C", "C", "E", "FREE"],
+    "Monday": ["G_LAB", "C", "C","FREE","FREE"],
     "Tuesday": ["H", "B", "D", "E", "A", "C_LAB"],
-    "Wednesday": ["D", "A", "FREE", "E", "I", "FREE", "FREE"],
-    "Thursday": ["FREE", "FREE", "FREE", "FREE", "A", "D_LAB"],
-    "Friday": ["B", "A", "I", "E_LAB", "H", "FREE"]
+    "Wednesday": ["E", "A", "FREE", "D", "I", "FREE", "FREE"],
+    "Thursday": ["F_LAB", "FREE", "A", "D_LAB"],
+    "Friday": ["B", "A", "I", "E", "H", "FREE", "FREE"]
   }
 }
