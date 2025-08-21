@@ -60,8 +60,8 @@
       "code": "23LSE201",
       "faculty": "",
       "shortName": "LSE"
-    },
-              },
+    }
+  },
   "schedule": {
     "Monday": ["B", "K", "K", "K", "E", "A", "C"],
     "Tuesday": ["F", "G", "A", "E", "C", "I_LAB"],
