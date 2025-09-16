@@ -30,7 +30,6 @@
       "faculty": "Dr. Susmitha Vekkot",
       "shortName": "FDS"
     },
-
     "AVP": {
       "name": "Amrita Value Programme-I",
       "code": "",
@@ -45,10 +44,10 @@
     }
   },
   "schedule": {
-    "Monday": ["B", "A", "E", "FREE", "FREE", "C", "FREE"],
+    "Monday": ["B", "A", "E", "A_LAB", "C", "FREE"],
     "Tuesday": ["C", "E", "B", "C_LAB", "FREE", "A"],
-    "Wednesday": ["A", "B", "C", "FREE","FREE", "E", "FREE"],
+    "Wednesday": ["A", "B", "C", "FREE", "FREE", "E", "FREE"],
     "Thursday": ["E", "LSE", "LSE", "LSE", "B", "B_LAB"],
-    "Friday": ["A_LAB", "AVP", "C", "D", "D"]
+    "Friday": ["FREE", "FREE", "FREE", "AVP", "C", "D", "D"]
   }
 }
