@@ -1,85 +1,151 @@
-import fs from "node:fs";
 import path from "node:path";
+import { Glob } from "bun";
+import { TimetableSchema } from "./schema.ts";
+import { type } from 'arktype';
 
-const rootDir = "registry/files";
-const years = fs.readdirSync(rootDir);
+const rootDir = "registry/v2/files";
 
-// Validation functions
-function validateScheduleConstraints(filePath, data) {
+function validateSemantics(data) {
   const errors = [];
-  
-  if (!data.subjects || !data.schedule) {
-    errors.push(`Missing subjects or schedule object`);
-    return errors;
-  }
-  
-  const subjects = data.subjects;
-  const schedule = data.schedule;
-  
-  // Check each day's schedule
-  for (const [day, daySchedule] of Object.entries(schedule)) {
-    if (!Array.isArray(daySchedule)) {
-      errors.push(`${day}: Schedule is not an array`);
-      continue;
-    }
-    
-    // Validate subject references and slot counting
-    let totalSlots = 0;
-    
-    for (let i = 0; i < daySchedule.length; i++) {
-      const entry = daySchedule[i];
-      
-      if (entry === "FREE") {
-        totalSlots += 1;
-        continue;
-      }
-      
-      // Check if entry ends with _LAB
-      if (entry.endsWith("_LAB")) {
-        const subjectKey = entry.replace("_LAB", "");
-        
-        // Check if subject exists
-        if (!subjects[subjectKey]) {
-          errors.push(`${day}: Subject "${subjectKey}" (from "${entry}") not found in subjects`);
-        }
-        
-        // Check LAB slot constraints
-        if (![0, 3, 5].includes(totalSlots)) {
-          errors.push(`${day}: LAB entry "${entry}" can only be in slots 0, 3, or 5 (found in slot ${totalSlots})`);
-        }
-        
-        // LAB uses 3 slots if at start of day, 2 otherwise
-        if (totalSlots === 0) {
-          totalSlots += 3;
-        } else {
-          totalSlots += 2;
-        }
-      } else {
-        // Regular entry
-        if (!subjects[entry]) {
-          errors.push(`${day}: Subject "${entry}" not found in subjects`);
-        }
-        totalSlots += 1;
-      }
-    }
-    
-    // Check if total slots add up to 7
-    if (totalSlots !== 7) {
-      errors.push(`${day}: Total slots should be 7, but got ${totalSlots}`);
+  const { subjects = {}, config = {}, slots = {}, schedule = {} } = data;
+
+  // 1. Validate subject keys don't end with _LAB
+  for (const key of Object.keys(subjects)) {
+    if (key.endsWith("_LAB")) {
+      errors.push(`Subject key "${key}" should not end with _LAB (reserved for schedule)`);
     }
   }
-  
+
+  // 2. Validate config value ID uniqueness
+  for (const [configKey, configOption] of Object.entries(config)) {
+    const ids = configOption.values.map(v => v.id);
+    const uniqueIds = new Set(ids);
+    if (ids.length !== uniqueIds.size) {
+      errors.push(`Config "${configKey}" has duplicate value IDs`);
+    }
+  }
+
+  // 3. Validate slots
+  for (const [slotName, slot] of Object.entries(slots)) {
+    const isComplexSlot = Array.isArray(slot.match);
+    
+    if (isComplexSlot) {
+      // === ComplexSlot validation ===
+      
+      // Validate match references
+      for (const matchKey of slot.match) {
+        if (!config[matchKey]) {
+          errors.push(`Slot "${slotName}" references non-existent config key "${matchKey}"`);
+        }
+      }
+      
+      // Validate pattern array lengths and values
+      for (const choice of slot.choices) {
+        if (choice.pattern.length !== slot.match.length) {
+          errors.push(`Slot "${slotName}" pattern length (${choice.pattern.length}) doesn't match match length (${slot.match.length})`);
+        }
+        
+        // Validate each pattern element is a valid config value ID or wildcard
+        for (let i = 0; i < choice.pattern.length; i++) {
+          const patternValue = choice.pattern[i];
+          const configKey = slot.match[i];
+          
+          // Skip wildcard
+          if (patternValue === "*") continue;
+          
+          // Check if pattern value is a valid ID for this config option
+          const configOption = config[configKey];
+          if (configOption) {
+            const validIds = configOption.values.map(v => v.id);
+            if (!validIds.includes(patternValue)) {
+              errors.push(`Slot "${slotName}" pattern value "${patternValue}" is not a valid ID for config "${configKey}" (valid: ${validIds.join(", ")})`);
+            }
+          }
+        }
+        
+        // Validate output value references valid subject
+        if (choice.value !== "FREE" && !validateSubjectReference(choice.value, subjects)) {
+          errors.push(`Slot "${slotName}" pattern [${choice.pattern.join(", ")}] references invalid subject "${choice.value}"`);
+        }
+      }
+    } else {
+      // === SimpleSlot validation ===
+      
+      // Validate match reference
+      if (!config[slot.match]) {
+        errors.push(`Slot "${slotName}" references non-existent config key "${slot.match}"`);
+      }
+      
+      // Validate choice keys are valid config value IDs
+      const configOption = config[slot.match];
+      if (configOption) {
+        const validIds = configOption.values.map(v => v.id);
+        for (const choiceKey of Object.keys(slot.choices)) {
+          if (!validIds.includes(choiceKey)) {
+            errors.push(`Slot "${slotName}" choice key "${choiceKey}" is not a valid ID for config "${slot.match}" (valid: ${validIds.join(", ")})`);
+          }
+        }
+      }
+      
+      // Validate output values reference valid subjects
+      for (const [configValue, subjectRef] of Object.entries(slot.choices)) {
+        if (subjectRef !== "FREE" && !validateSubjectReference(subjectRef, subjects)) {
+          errors.push(`Slot "${slotName}" choice "${configValue}" references invalid subject "${subjectRef}"`);
+        }
+      }
+    }
+  }
+
+  // 6. Validate schedule references
+  for (const [day, periods] of Object.entries(schedule)) {
+    for (const entry of periods) {
+      if (entry === "FREE") continue;
+
+      // Check if it's a slot reference
+      if (slots[entry]) continue;
+
+      // Check if it's a subject reference (possibly with _LAB)
+      if (validateSubjectReference(entry, subjects)) continue;
+
+      errors.push(`${day}: Entry "${entry}" is not a valid subject, slot, or FREE`);
+    }
+  }
+
   return errors;
 }
 
-function validateJsonFile(filePath) {
+function validateSubjectReference(ref, subjects) {
+  // Direct subject reference
+  if (subjects[ref]) return true;
+
+  // Lab reference (e.g., "A_LAB" requires subject "A")
+  if (ref.endsWith("_LAB")) {
+    const baseSubject = ref.replace("_LAB", "");
+    if (subjects[baseSubject]) return true;
+  }
+
+  return false;
+}
+
+async function validateJsonFile(filePath) {
   try {
-    const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-    const errors = validateScheduleConstraints(filePath, data);
+    const data = await Bun.file(filePath).json();
     
-    if (errors.length > 0) {
-      console.error(`\nValidation errors in ${filePath}:`);
-      errors.forEach(error => console.error(`  - ${error}`));
+    // Schema validation
+    const result = TimetableSchema(data);
+    
+    if (result instanceof type.errors) {
+      console.error(`\nSchema validation errors in ${filePath}:`);
+      console.error(result.summary);
+      return false;
+    }
+    
+    // Semantic validation
+    const semanticErrors = validateSemantics(data, filePath);
+    
+    if (semanticErrors.length > 0) {
+      console.error(`\nSemantic validation errors in ${filePath}:`);
+      semanticErrors.forEach(error => console.error(`  - ${error}`));
       return false;
     }
     
@@ -91,38 +157,48 @@ function validateJsonFile(filePath) {
 }
 
 const outputData = {};
-outputData.version = 1;
+outputData.version = 2;
 outputData.timetables = {};
 
 let validationPassed = true;
 let totalFiles = 0;
 let validFiles = 0;
 
-for (const year of years) {
-  const yearPath = path.join(rootDir, year);
-  const branches = fs.readdirSync(yearPath);
-  outputData.timetables[year] = {};
+// Export JSON Schema
+console.log("Generating JSON Schema...");
+const jsonSchema = TimetableSchema.toJsonSchema();
+await Bun.write("registry/v2/schema.json", JSON.stringify(jsonSchema, null, 2));
+console.log("Generated registry/v2/schema.json\n");
+
+// Find all JSON files in the directory structure
+const glob = new Glob("*/*/*.json");
+
+// Build index and validate
+for await (const filePath of glob.scan(rootDir)) {
+  const fullPath = path.join(rootDir, filePath);
+  const [year, section, filename] = filePath.split(path.sep);
+  const semester = path.basename(filename, ".json");
   
-  for (const branch of branches) {
-    const branchPath = path.join(yearPath, branch);
-    const jsonFiles = fs.readdirSync(branchPath).filter(file => file.endsWith('.json'));
-    const sems = jsonFiles.map((str) => path.basename(str, ".json"));
-    outputData.timetables[year][branch] = sems;
-    
-    // Validate each JSON file
-    for (const jsonFile of jsonFiles) {
-      const filePath = path.join(branchPath, jsonFile);
-      totalFiles++;
-      
-      console.log(`Validating: ${path.relative(rootDir, filePath)}`);
-      const isValid = validateJsonFile(filePath);
-      
-      if (isValid) {
-        validFiles++;
-      } else {
-        validationPassed = false;
-      }
-    }
+  // Initialize nested structure if needed
+  if (!outputData.timetables[year]) {
+    outputData.timetables[year] = {};
+  }
+  if (!outputData.timetables[year][section]) {
+    outputData.timetables[year][section] = [];
+  }
+  
+  // Add semester to index
+  outputData.timetables[year][section].push(semester);
+  
+  // Validate
+  totalFiles++;
+  console.log(`Validating: ${filePath}`);
+  const isValid = await validateJsonFile(fullPath);
+  
+  if (isValid) {
+    validFiles++;
+  } else {
+    validationPassed = false;
   }
 }
 
@@ -133,8 +209,8 @@ console.log(`Invalid files: ${totalFiles - validFiles}`);
 
 if (validationPassed) {
   console.log(`✅ All files passed validation!`);
-  fs.writeFileSync("registry/index.json", JSON.stringify(outputData, null, 2), "utf-8");
-  console.log(`Generated registry/index.json successfully.`);
+  await Bun.write("registry/v2/index.json", JSON.stringify(outputData, null, 2));
+  console.log(`Generated registry/v2/index.json successfully.`);
 } else {
   console.log(`❌ Some files failed validation. Please fix the errors above.`);
   process.exit(1);

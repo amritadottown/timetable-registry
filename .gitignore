@@ -1,2 +1,5 @@
 .wrangler/
-registry/index.json
+node_modules/
+
+registry/v2/index.json
+registry/v2/schema.json
