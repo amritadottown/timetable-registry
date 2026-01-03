@@ -74,6 +74,14 @@
         "MOBILE": "PE2_MOBILE",
         "NUMERICAL": "PE2_NUMERICAL"
       }
+    },
+    "pe2Lab": {
+      "match": "elective",
+      "choices": {
+        "SPEECH": "PE2_SPEECH_LAB",
+        "MOBILE": "PE2_MOBILE_LAB",
+        "NUMERICAL": "PE2_NUMERICAL_LAB"
+      }
     }
   },
   "schedule": {
@@ -85,8 +93,8 @@
       "E_LAB",
       "FREE",
       "FREE",
-      "pe2_LAB",
-      "pe2_LAB"
+      "pe2Lab",
+      "pe2Lab"
     ],
     "Thursday": ["E", "A", "C", "D_LAB", "D_LAB", "B", "FREE"],
     "Friday": ["B_LAB", "B_LAB", "B_LAB", "A", "CIR", "pe2", "C"]
