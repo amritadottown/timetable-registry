@@ -1,0 +1,197 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Wireless Communication & Networks",
+      "code": "23ECE311",
+      "faculty": ["Dr. Sunitha R"],
+      "shortName": "WCN"
+    },
+    "B": {
+      "name": "Computer Networks and Protocols",
+      "code": "23ECE312",
+      "faculty": ["Dr. Ashish Goswami"],
+      "shortName": "CNP"
+    },
+    "C": {
+      "name": "Embedded Systems",
+      "code": "23ECE313",
+      "faculty": ["Dr. Chinthala Ramesh"],
+      "shortName": "ES"
+    },
+    "D1": {
+      "name": "Physical Design of IC's",
+      "code": "23ECE334",
+      "faculty": ["Dr. Ganapathi Hegde"],
+      "shortName": "PDIC"
+    },
+    "D2": {
+      "name": "Functional Verification",
+      "code": "23ECE333",
+      "faculty": ["Ms. Sonali Agrawal", "Mr. Swaminadhan Rajula"],
+      "shortName": "FV"
+    },
+    "D3": {
+      "name": "Real Time Operating Systems",
+      "code": "23ECE439",
+      "faculty": ["Ms. Jayashree M Oli"],
+      "shortName": "RTOS"
+    },
+    "D4": {
+      "name": "Block Chain Technology",
+      "code": "23ECE453",
+      "faculty": ["Ms. Sudha Yadav"],
+      "shortName": "BCT"
+    },
+    "D5": {
+      "name": "Natural Language Processing",
+      "code": "23ECE444",
+      "faculty": ["Dr. Susmitha Vekkot"],
+      "shortName": "NLP"
+    },
+    "D6": {
+      "name": "Radar Systems",
+      "code": "23ECE373",
+      "faculty": ["Dr. Dhanesh G Kurup"],
+      "shortName": "RS"
+    },
+    "E1": {
+      "name": "Deep Learning",
+      "code": "23ECE450",
+      "faculty": ["Dr. N. Neelima"],
+      "shortName": "DL"
+    },
+    "E2": {
+      "name": "VLSI System Design",
+      "code": "23ECE342",
+      "faculty": ["Mr. Swaminadhan Rajula", "Dr. C. Paramasivam", "Mr. Vignesh V"],
+      "shortName": "VSD"
+    },
+    "E3": {
+      "name": "Robotic System Design",
+      "code": "23ECE455",
+      "faculty": ["Dr. Puja Sengupta"],
+      "shortName": "RSD"
+    },
+    "WCN": {
+      "name": "Wireless Communication and Networks Laboratory",
+      "code": "23ECE386",
+      "faculty": ["Mr. Sagar B", "Dr. Harshit Srivastava", "Dr. Sunitha S", "Ms. Anusaya Swain"],
+      "shortName": "WCN Lab"
+    },
+    "ES": {
+      "name": "Embedded Systems Laboratory",
+      "code": "23ECE387",
+      "faculty": ["Dr. Chinthala Ramesh", "Ms. Belkies V M", "Dr. Priti Mandal"],
+      "shortName": "ES Lab"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers IV",
+      "code": "23LSE311",
+      "faculty": ["Ms. Jisha R Nair", "Ms. Nilakshee Kalita", "Ms. Sweta Chavan"],
+      "shortName": "LSE IV"
+    },
+    "OL2": {
+      "name": "Open Laboratory II",
+      "code": "23ECE385",
+      "faculty": ["Dr. Manoj Kumar Panda", "Dr. Sumathi S", "Ms. Sonali Agrawal", "Dr. Jitendra Bahadur"],
+      "shortName": "Open Lab II"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "C1", "id": "c1" },
+        { "label": "C2", "id": "c2" }
+      ]
+    },
+    "pe1": {
+      "label": "Professional Elective I",
+      "values": [
+        { "label": "Physical Design of IC's", "id": "D1" },
+        { "label": "Functional Verification", "id": "D2" },
+        { "label": "Real Time Operating Systems", "id": "D3" },
+        { "label": "Block Chain Technology", "id": "D4" },
+        { "label": "Natural Language Processing", "id": "D5" },
+        { "label": "Radar Systems", "id": "D6" }
+      ]
+    },
+    "pe2": {
+      "label": "Professional Elective II",
+      "values": [
+        { "label": "Deep Learning", "id": "E1" },
+        { "label": "VLSI System Design", "id": "E2" },
+        { "label": "Robotic System Design", "id": "E3" }
+      ]
+    }
+  },
+  "slots": {
+    "pe1All": {
+      "match": "pe1",
+      "choices": {
+        "D1": "D1",
+        "D2": "D2",
+        "D3": "D3",
+        "D4": "D4",
+        "D5": "D5",
+        "D6": "D6"
+      }
+    },
+    "pe1ExceptD4": {
+      "match": "pe1",
+      "choices": {
+        "D1": "D1",
+        "D2": "D2",
+        "D3": "D3",
+        "D5": "D5",
+        "D6": "D6"
+      }
+    },
+    "pe1OnlyD4": {
+      "match": "pe1",
+      "choices": {
+        "D4": "D4"
+      }
+    },
+    "pe2Slot": {
+      "match": "pe2",
+      "choices": {
+        "E1": "E1",
+        "E2": "E2",
+        "E3": "E3"
+      }
+    },
+    "mondayLab": {
+      "match": "batch",
+      "choices": {
+        "c1": "WCN_LAB"
+      }
+    },
+    "tuesdayLab": {
+      "match": "batch",
+      "choices": {
+        "c1": "ES_LAB"
+      }
+    },
+    "wednesdayLab": {
+      "match": "batch",
+      "choices": {
+        "c2": "WCN_LAB"
+      }
+    },
+    "thursdayLab": {
+      "match": "batch",
+      "choices": {
+        "c2": "ES_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["pe1All", "A", "pe2Slot", "C", "FREE", "mondayLab", "mondayLab"],
+    "Tuesday": ["tuesdayLab", "tuesdayLab", "tuesdayLab", "C", "LSE", "LSE", "LSE"],
+    "Wednesday": ["wednesdayLab", "wednesdayLab", "wednesdayLab", "B", "pe1All", "OL2_LAB", "OL2_LAB"],
+    "Thursday": ["pe2Slot", "C", "pe1ExceptD4", "thursdayLab", "thursdayLab", "B", "A"],
+    "Friday": ["B", "pe2Slot", "pe1OnlyD4", "LSE", "A", "FREE", "FREE"]
+  }
+}

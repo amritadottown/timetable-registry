@@ -1,0 +1,109 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Engineering Mathematics II",
+      "code": "23MAT130",
+      "faculty": ["Dr. Viharika J.U."],
+      "shortName": "EM-II"
+    },
+    "B": {
+      "name": "Electronic Devices and Circuits",
+      "code": "23ECE111",
+      "faculty": ["Dr. Karnena Rohit Kumar"],
+      "shortName": "EDC"
+    },
+    "C": {
+      "name": "Signal Processing I",
+      "code": "23ECE112",
+      "faculty": ["Dr. Lalitha S"],
+      "shortName": "SP-I"
+    },
+    "D": {
+      "name": "Network Analysis",
+      "code": "23ECE114",
+      "faculty": ["Dr. Phani Raj Harivanam"],
+      "shortName": "NA"
+    },
+    "E": {
+      "name": "Signal Processing I Laboratory",
+      "code": "23ECE183",
+      "faculty": ["Dr. Lalitha S", "Dr. Sarda Sharma"],
+      "shortName": "SP Lab"
+    },
+    "F": {
+      "name": "Introduction to Internet of Things",
+      "code": "23ECE184",
+      "faculty": ["Ms. Kirti S Pande", "Dr. Phaniraj Harivanam", "Dr. N. Neelima", "Ms. Belkies V M"],
+      "shortName": "IoT"
+    },
+    "G": {
+      "name": "Electronic Devices and Circuits Laboratory",
+      "code": "23ECE185",
+      "faculty": ["Dr. Karnena Rohit Kumar", "Dr. K.N. Venkatachalaiah", "Dr. Sarda Sharma", "Dr. G N Kumaraswamy"],
+      "shortName": "EDC Lab"
+    },
+    "H": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": ["Dr. Smita Sail"],
+      "shortName": "Tech Comm"
+    },
+    "I": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": ["Mr. Vinay"],
+      "shortName": "GGI"
+    },
+    "J": {
+      "name": "Engineering Chemistry",
+      "code": "23CHY109",
+      "faculty": ["Dr. Mohankumar T M"],
+      "shortName": "Chem"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "H1", "id": "h1" },
+        { "label": "H2", "id": "h2" }
+      ]
+    }
+  },
+  "slots": {
+    "mondayAfternoon": {
+      "match": "batch",
+      "choices": {
+        "h1": "H_LAB"
+      }
+    },
+    "wednesdayMidLab": {
+      "match": "batch",
+      "choices": {
+        "h2": "F_LAB",
+        "h1": "G_LAB"
+      }
+    },
+    "thursdayMorning": {
+      "match": "batch",
+      "choices": {
+        "h2": "H_LAB"
+      }
+    },
+    "thursdayAfternoon": {
+      "match": "batch",
+      "choices": {
+        "h1": "F_LAB",
+        "h2": "G_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["E_LAB", "E_LAB", "E_LAB", "B", "D", "mondayAfternoon", "mondayAfternoon"],
+    "Tuesday": ["A", "C", "H", "B", "D", "J", "FREE"],
+    "Wednesday": ["H", "A", "J", "wednesdayMidLab", "wednesdayMidLab", "I", "FREE"],
+    "Thursday": ["thursdayMorning", "thursdayMorning", "thursdayMorning", "C", "A", "thursdayAfternoon", "thursdayAfternoon"],
+    "Friday": ["D", "J", "A", "B", "I", "C", "FREE"]
+  }
+}

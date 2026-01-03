@@ -1,0 +1,50 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A1": {
+      "name": "VLSI Testing and Testability",
+      "code": "19ECE348",
+      "faculty": ["Dr. Jitendra Bahadur"],
+      "shortName": "VLSI T&T"
+    },
+    "A2": {
+      "name": "Smart Sensors",
+      "code": "19ECE463",
+      "faculty": ["Dr. Navin Kumar"],
+      "shortName": "Smart Sensors"
+    },
+    "A3": {
+      "name": "Software Engineering",
+      "code": "19ECE362",
+      "faculty": ["Dr. Shivalila A Hangaragi"],
+      "shortName": "SE"
+    }
+  },
+  "config": {
+    "elective": {
+      "label": "Elective",
+      "values": [
+        { "label": "VLSI Testing and Testability", "id": "A1" },
+        { "label": "Smart Sensors", "id": "A2" },
+        { "label": "Software Engineering", "id": "A3" }
+      ]
+    }
+  },
+  "slots": {
+    "electiveSlot": {
+      "match": "elective",
+      "choices": {
+        "A1": "A1",
+        "A2": "A2",
+        "A3": "A3"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["electiveSlot", "FREE", "FREE", "FREE", "FREE", "FREE", "FREE"],
+    "Tuesday": ["FREE", "FREE", "FREE", "FREE", "FREE", "FREE", "FREE"],
+    "Wednesday": ["FREE", "electiveSlot", "FREE", "FREE", "FREE", "FREE", "FREE"],
+    "Thursday": ["FREE", "FREE", "electiveSlot", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["FREE", "FREE", "FREE", "FREE", "FREE", "FREE", "FREE"]
+  }
+}

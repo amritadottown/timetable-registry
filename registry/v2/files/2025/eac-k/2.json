@@ -1,0 +1,115 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Engineering Mathematics II",
+      "code": "23MAT130",
+      "faculty": ["Dr. Mullai Venthan Selvam"],
+      "shortName": "EM-II"
+    },
+    "B": {
+      "name": "Computer Programming",
+      "code": "23ECE105",
+      "faculty": ["Dr. Shashi Kumar M E"],
+      "shortName": "CP"
+    },
+    "C": {
+      "name": "Digital Electronics",
+      "code": "23EAC112",
+      "faculty": ["Dr. R.V. Sanjika Devi"],
+      "shortName": "DE"
+    },
+    "D": {
+      "name": "Network Analysis",
+      "code": "23ECE114",
+      "faculty": ["Dr. Sarda Sharma"],
+      "shortName": "NA"
+    },
+    "E": {
+      "name": "Computer Hardware and System Essentials",
+      "code": "23EAC111",
+      "faculty": ["Ms. Priya B K"],
+      "shortName": "CHSE"
+    },
+    "F": {
+      "name": "Introduction to Internet of Things",
+      "code": "23ECE184",
+      "faculty": ["Ms. Jayashree M Oli", "Dr. C Paramasivam", "Dr. Lalitha S"],
+      "shortName": "IoT"
+    },
+    "G": {
+      "name": "Computer Hardware and System Essentials Laboratory",
+      "code": "23EAC181",
+      "faculty": ["Ms. Priya B K", "Dr. Patthi Aruna", "Dr. Shivalila A Hangaragi"],
+      "shortName": "CHSE Lab"
+    },
+    "H": {
+      "name": "Digital Electronics Laboratory",
+      "code": "23EAC182",
+      "faculty": ["Dr. R.V. Sanjika Devi", "Dr. C. Paramasivam", "Mr. Vignesh V"],
+      "shortName": "DE Lab"
+    },
+    "I": {
+      "name": "Computer Programming Laboratory",
+      "code": "23ECE182",
+      "faculty": ["Dr. Shashi Kumar M E", "Ms. Jayashree M Oli", "Dr. Shivalila A Hangaragi"],
+      "shortName": "CP Lab"
+    },
+    "J": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": ["New Faculty"],
+      "shortName": "GGI"
+    },
+    "K": {
+      "name": "Engineering Chemistry",
+      "code": "23CHY109",
+      "faculty": ["Dr. Anil Kumar S"],
+      "shortName": "Chem"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "K1", "id": "k1" },
+        { "label": "K2", "id": "k2" }
+      ]
+    }
+  },
+  "slots": {
+    "mondayAfternoon": {
+      "match": "batch",
+      "choices": {
+        "k1": "G_LAB"
+      }
+    },
+    "tuesdayAfternoon": {
+      "match": "batch",
+      "choices": {
+        "k1": "H_LAB",
+        "k2": "F_LAB"
+      }
+    },
+    "wednesdayMorning": {
+      "match": "batch",
+      "choices": {
+        "k1": "F_LAB",
+        "k2": "H_LAB"
+      }
+    },
+    "wednesdayAfternoon": {
+      "match": "batch",
+      "choices": {
+        "k2": "G_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["A", "C", "B", "K", "FREE", "mondayAfternoon", "mondayAfternoon"],
+    "Tuesday": ["J", "K", "B", "E", "A", "tuesdayAfternoon", "tuesdayAfternoon"],
+    "Wednesday": ["wednesdayMorning", "wednesdayMorning", "wednesdayMorning", "D", "A", "wednesdayAfternoon", "wednesdayAfternoon"],
+    "Thursday": ["C", "D", "A", "E", "K", "I_LAB", "I_LAB"],
+    "Friday": ["B", "C", "D", "J", "E", "FREE", "FREE"]
+  }
+}

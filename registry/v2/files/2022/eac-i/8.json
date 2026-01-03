@@ -1,0 +1,48 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Cryptography",
+      "code": "19CSE331",
+      "faculty": ["Mr. Sagar B"],
+      "shortName": "Cryptography"
+    },
+    "B1": {
+      "name": "Financial Management",
+      "code": "19MNG331",
+      "faculty": ["Mechanical"],
+      "shortName": "FM"
+    },
+    "B2": {
+      "name": "Enterprise Management",
+      "code": "19MNG335",
+      "faculty": ["Mechanical"],
+      "shortName": "EM"
+    }
+  },
+  "config": {
+    "elective": {
+      "label": "Elective",
+      "values": [
+        { "label": "Financial Management", "id": "B1" },
+        { "label": "Enterprise Management", "id": "B2" }
+      ]
+    }
+  },
+  "slots": {
+    "electiveSlot": {
+      "match": "elective",
+      "choices": {
+        "B1": "B1",
+        "B2": "B2"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["electiveSlot", "FREE", "A", "FREE", "FREE", "FREE", "FREE"],
+    "Tuesday": ["FREE", "electiveSlot", "FREE", "FREE", "FREE", "FREE", "FREE"],
+    "Wednesday": ["FREE", "FREE", "FREE", "FREE", "FREE", "FREE", "FREE"],
+    "Thursday": ["A", "electiveSlot", "FREE", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["FREE", "A", "FREE", "FREE", "FREE", "FREE", "FREE"]
+  }
+}
