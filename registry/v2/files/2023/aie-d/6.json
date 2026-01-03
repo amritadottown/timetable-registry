@@ -1,0 +1,94 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Software Engineering (Project-Based)",
+      "code": "22AIE311",
+      "faculty": ["Dr. S. Santhanamukilan"],
+      "shortName": "SE"
+    },
+    "B": {
+      "name": "Big Data Analytics",
+      "code": "22AIE312",
+      "faculty": ["Ms. Sangita Khare", "Ms. Shalini Tiwari"],
+      "shortName": "BDA"
+    },
+    "C": {
+      "name": "Computer Vision & Image Processing",
+      "code": "22AIE313",
+      "faculty": ["Dr. Radha D.", "Ms. Aparna"],
+      "shortName": "CVIP"
+    },
+    "D": {
+      "name": "Computer Security",
+      "code": "22AIE314",
+      "faculty": ["Dr. Niharika Panda", "Mr. Vishwas"],
+      "shortName": "CS"
+    },
+    "E": {
+      "name": "Natural Language Processing",
+      "code": "22AIE315",
+      "faculty": ["Dr. Priyanka Vivek", "Dr. Manju Venugopal"],
+      "shortName": "NLP"
+    },
+    "PE2_SPEECH": {
+      "name": "Speech Processing",
+      "code": "22AIE450",
+      "faculty": ["Dr. Debanjali", "Dr. Yaddanapudi Kavya Sai"],
+      "shortName": "Speech Processing"
+    },
+    "PE2_MOBILE": {
+      "name": "Mobile Application Development",
+      "code": "22AIE458",
+      "faculty": ["Mr. Unas S", "Dr. Gururaj M"],
+      "shortName": "Mobile App Dev"
+    },
+    "PE2_NUMERICAL": {
+      "name": "Numerical Methods and Optimisation",
+      "code": "19MAT343",
+      "faculty": ["Dr. Abhinav R", "Dr. Nagesh S"],
+      "shortName": "Numerical Methods"
+    },
+    "CIR": {
+      "name": "Soft Skills III / Live-in Labs II",
+      "code": "19SSK311",
+      "faculty": ["Ms. Jisha", "Ms. Nilakshee", "Ms. Karishma"],
+      "shortName": "CIR"
+    }
+  },
+  "config": {
+    "elective": {
+      "label": "Professional Elective II",
+      "values": [
+        { "label": "Speech Processing (C301)", "id": "SPEECH" },
+        { "label": "Mobile Application Development (C212)", "id": "MOBILE" },
+        { "label": "Numerical Methods and Optimisation", "id": "NUMERICAL" }
+      ]
+    }
+  },
+  "slots": {
+    "pe2": {
+      "match": "elective",
+      "choices": {
+        "SPEECH": "PE2_SPEECH",
+        "MOBILE": "PE2_MOBILE",
+        "NUMERICAL": "PE2_NUMERICAL"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["pe2", "CIR", "CIR", "CIR", "D", "C_LAB", "C_LAB"],
+    "Tuesday": ["B", "C", "E", "D", "FREE", "A_LAB", "A_LAB"],
+    "Wednesday": [
+      "E_LAB",
+      "E_LAB",
+      "E_LAB",
+      "FREE",
+      "FREE",
+      "pe2_LAB",
+      "pe2_LAB"
+    ],
+    "Thursday": ["E", "A", "C", "D_LAB", "D_LAB", "B", "FREE"],
+    "Friday": ["B_LAB", "B_LAB", "B_LAB", "A", "CIR", "pe2", "C"]
+  }
+}
