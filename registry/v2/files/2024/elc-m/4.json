@@ -38,10 +38,10 @@
       "shortName": "LSE II"
     },
     "AVP": {
-      "name": "Amrita Value Program 2",
-      "code": "23AVP000",
+      "name": "Leadership From Ramayana",
+      "code": "22ADM211",
       "faculty": ["Dr. Tanashree"],
-      "shortName": "AVP 2"
+      "shortName": "ADM"
     }
   },
   "config": {},

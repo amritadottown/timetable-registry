@@ -56,10 +56,10 @@
       "shortName": "LSE II"
     },
     "AVP": {
-      "name": "Amrita Value Program 2",
-      "code": "23AVP000",
+      "name": "Leadership From Ramayana",
+      "code": "22ADM211",
       "faculty": ["New Faculty"],
-      "shortName": "AVP2"
+      "shortName": "ADM"
     },
     "ENV": {
       "name": "Environmental Science",
