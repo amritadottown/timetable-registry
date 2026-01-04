@@ -1,0 +1,74 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Differential Equations and Transforms",
+      "code": "23MAT109",
+      "faculty": ["Dr. Mullai Venthan Selvam"],
+      "shortName": "DET"
+    },
+    "B": {
+      "name": "Engineering Physics",
+      "code": "23PHY108",
+      "faculty": [],
+      "shortName": "Phy"
+    },
+    "C": {
+      "name": "Engineering Physics Laboratory",
+      "code": "23PHY188",
+      "faculty": [],
+      "shortName": "Phy Lab"
+    },
+    "D": {
+      "name": "Basic Electrical and Electronics Engineering",
+      "code": "23EEE102",
+      "faculty": [],
+      "shortName": "BEE"
+    },
+    "E": {
+      "name": "Engineering Mechanics",
+      "code": "23MEE111",
+      "faculty": ["Dr. Smita Singh"],
+      "shortName": "EM"
+    },
+    "F": {
+      "name": "Basic Electrical and Electronics Engineering Lab",
+      "code": "23EEE182",
+      "faculty": [],
+      "shortName": "BEE Lab"
+    },
+    "G": {
+      "name": "Introduction to Python Programming",
+      "code": "23MEE181",
+      "faculty": ["Dr. Shashi Kumar M E", "Mr. Jishnu Nair"],
+      "shortName": "Python"
+    },
+    "H": {
+      "name": "Manufacturing Practice B",
+      "code": "23MEE182",
+      "faculty": ["Dr. Shankara", "Ms. Divya Sharma S G"],
+      "shortName": "MP-B"
+    },
+    "I": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": [],
+      "shortName": "TC"
+    },
+    "J": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": [],
+      "shortName": "GGI"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["FREE", "E", "D", "B", "A", "F_LAB", "F_LAB"],
+    "Tuesday": ["E", "FREE", "D", "G_LAB", "G_LAB", "J", "B"],
+    "Wednesday": ["B", "J", "E", "A", "I", "C_LAB", "C_LAB"],
+    "Thursday": ["D", "FREE", "I", "H_LAB", "H_LAB", "A", "FREE"],
+    "Friday": ["I_LAB", "I_LAB", "I_LAB", "A", "E", "FREE", "FREE"]
+  }
+}
