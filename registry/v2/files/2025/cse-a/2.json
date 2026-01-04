@@ -1,0 +1,113 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Discrete Mathematics",
+      "code": "23MAT116",
+      "faculty": [
+        "Dr. Smitha T V"
+      ],
+      "shortName": "Math"
+    },
+    "B": {
+      "name": "Linear Algebra",
+      "code": "23MAT117",
+      "faculty": [
+        "Dr. Naveen Kumar"
+      ],
+      "shortName": "LA"
+    },
+    "C": {
+      "name": "Object Oriented Programming",
+      "code": "23CSE111",
+      "faculty": [
+        "Ms. B Saranya Devi",
+        "Dr. Reena Panwar",
+        "Dr Priyanka Vivek"
+      ],
+      "shortName": "Prog"
+    },
+    "D": {
+      "name": "Modern Physics",
+      "code": "23PHY115",
+      "faculty": [
+        "Mr. H Manjunatha"
+      ],
+      "shortName": "Phy"
+    },
+    "E": {
+      "name": "User Interface Design",
+      "code": "23CSE113",
+      "faculty": [
+        "Dr. Shinu M. R",
+        "Dr. Thushara"
+      ],
+      "shortName": "UI"
+    },
+    "F": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": [
+        "Ms. Anjana Chandran"
+      ],
+      "shortName": "Comm"
+    },
+    "G": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": [
+        "Dr. Tanashree"
+      ],
+      "shortName": "GGI"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "G",
+      "E",
+      "C",
+      "A",
+      "D",
+      "B",
+      "PLACEMENT"
+    ],
+    "Tuesday": [
+      "A_LAB",
+      "A_LAB",
+      "A_LAB",
+      "D",
+      "B",
+      "E_LAB",
+      "E_LAB"
+    ],
+    "Wednesday": [
+      "F_LAB",
+      "F_LAB",
+      "F_LAB",
+      "B_LAB",
+      "B_LAB",
+      "E",
+      "FREE"
+    ],
+    "Thursday": [
+      "B",
+      "C",
+      "A",
+      "F_LAB",
+      "F_LAB",
+      "F",
+      "COUNSELLING"
+    ],
+    "Friday": [
+      "A",
+      "D",
+      "F",
+      "C_LAB",
+      "C_LAB",
+      "G",
+      "C"
+    ]
+  }
+}

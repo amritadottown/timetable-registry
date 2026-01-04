@@ -1,0 +1,135 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Computing 4",
+      "code": "22MAT230",
+      "faculty": [
+        "Dr. V. Kesavulu Naidu",
+        "Dr. Sarada Jayan"
+      ],
+      "shortName": "Math"
+    },
+    "B": {
+      "name": "Introduction to Communication & IoT",
+      "code": "22AIE211",
+      "faculty": [
+        "Dr. Sirisha",
+        "Ms. Priya R"
+      ],
+      "shortName": "Comm"
+    },
+    "C": {
+      "name": "Design and Analysis of Algorithms",
+      "code": "22AIE212",
+      "faculty": [
+        "Dr. Nalini S",
+        "Dr. Anjali Patel",
+        "Ms. Swetha"
+      ],
+      "shortName": "Des"
+    },
+    "D": {
+      "name": "Machine Learning",
+      "code": "22AIE213",
+      "faculty": [
+        "Dr. Peetabasa Pati",
+        "Dr. Debanjali"
+      ],
+      "shortName": "ML"
+    },
+    "E": {
+      "name": "Introduction to AI Robotics",
+      "code": "22AIE214",
+      "faculty": [
+        "Dr. Rajesh",
+        "Dr. D N Kiran Pandri"
+      ],
+      "shortName": "IAR"
+    },
+    "F": {
+      "name": "Intelligence of Biological Systems 2",
+      "code": "22BIO211",
+      "faculty": [
+        "Dr. Vasavi C S",
+        "Dr. Amulyashree"
+      ],
+      "shortName": "IBS"
+    },
+    "G": {
+      "name": "Leadership from Ramayana",
+      "code": "22ADM211",
+      "faculty": [
+        "Mr. Vinay"
+      ],
+      "shortName": "Lead"
+    },
+    "H": {
+      "name": "P/F",
+      "code": "19ENV300",
+      "faculty": [
+        "Dr. Giridhar Reddy"
+      ],
+      "shortName": "P"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers II",
+      "code": "23LSE211",
+      "faculty": [
+        "Mr. Ankit",
+        "Ms. Srinithi",
+        "Mr. Sivakumar"
+      ],
+      "shortName": "LS"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "A",
+      "CIR",
+      "CIR",
+      "CIR",
+      "F",
+      "D",
+      "H"
+    ],
+    "Tuesday": [
+      "B_LAB",
+      "B_LAB",
+      "B_LAB",
+      "D_LAB",
+      "D_LAB",
+      "A",
+      "G"
+    ],
+    "Wednesday": [
+      "B",
+      "E",
+      "F",
+      "C_LAB",
+      "C_LAB",
+      "A",
+      "COUNSELLING"
+    ],
+    "Thursday": [
+      "C",
+      "B",
+      "D",
+      "A_LAB",
+      "A_LAB",
+      "E",
+      "PLACEMENT"
+    ],
+    "Friday": [
+      "E_LAB",
+      "E_LAB",
+      "E_LAB",
+      "F_LAB",
+      "F_LAB",
+      "FREE",
+      "D"
+    ]
+  }
+}

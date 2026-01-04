@@ -1,0 +1,125 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Probability and Random Processes",
+      "code": "23MAT216",
+      "faculty": [
+        "Dr. B. Venkatesh"
+      ],
+      "shortName": "Prob"
+    },
+    "B": {
+      "name": "Design & Analysis of Algorithms",
+      "code": "23CSE211",
+      "faculty": [
+        "Dr. Supriya M",
+        "Dr. Daddala Yasoomkari",
+        "Dr. Niharika Panda"
+      ],
+      "shortName": "Des"
+    },
+    "C": {
+      "name": "Principles of Functional Languages",
+      "code": "23CSE212",
+      "faculty": [
+        "Dr. Gurupriya",
+        "Dr. Katika Dinesh Kumar",
+        "Dr. Kavyasai"
+      ],
+      "shortName": "FP"
+    },
+    "D": {
+      "name": "Computer Organization and Architecture",
+      "code": "23CSE213",
+      "faculty": [
+        "Mr. Vishwas H. N."
+      ],
+      "shortName": "COA"
+    },
+    "E": {
+      "name": "Operating Systems",
+      "code": "23CSE214",
+      "faculty": [
+        "Ms. Aiswariya Milan K",
+        "Dr. Sanghamitra"
+      ],
+      "shortName": "OS"
+    },
+    "F": {
+      "name": "Leadership from Ramayana",
+      "code": "22ADM211",
+      "faculty": [
+        "New Faculty"
+      ],
+      "shortName": "Lead"
+    },
+    "FE": {
+      "name": "Business communication",
+      "code": "23ENG230",
+      "faculty": [
+        "TBD"
+      ],
+      "shortName": "Comm"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers II",
+      "code": "23LSE211",
+      "faculty": [
+        "Mr. Ankit",
+        "Ms. Sujatha",
+        "Ms. Srinithi"
+      ],
+      "shortName": "LS"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "E_LAB",
+      "E_LAB",
+      "E_LAB",
+      "FE",
+      "D",
+      "B",
+      "F"
+    ],
+    "Tuesday": [
+      "B",
+      "CIR",
+      "CIR",
+      "CIR",
+      "FE",
+      "A",
+      "FREE"
+    ],
+    "Wednesday": [
+      "E",
+      "D",
+      "C",
+      "A",
+      "FREE",
+      "B_LAB",
+      "B_LAB"
+    ],
+    "Thursday": [
+      "C_LAB",
+      "C_LAB",
+      "C_LAB",
+      "A_LAB",
+      "A_LAB",
+      "D",
+      "E"
+    ],
+    "Friday": [
+      "D",
+      "E",
+      "B",
+      "C",
+      "A",
+      "COUNSELLING",
+      "FREE"
+    ]
+  }
+}

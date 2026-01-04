@@ -1,0 +1,113 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Discrete Mathematics",
+      "code": "23MAT116",
+      "faculty": [
+        "Dr. Sunita Kummavat"
+      ],
+      "shortName": "Math"
+    },
+    "B": {
+      "name": "Linear Algebra",
+      "code": "23MAT117",
+      "faculty": [
+        "Ms. Prijimol V B"
+      ],
+      "shortName": "LA"
+    },
+    "C": {
+      "name": "Object Oriented Programming",
+      "code": "23CSE111",
+      "faculty": [
+        "Dr. Chandan K",
+        "Ms. B Saranya Devi",
+        "Ms. Anjitha P"
+      ],
+      "shortName": "Prog"
+    },
+    "D": {
+      "name": "Modern Physics",
+      "code": "23PHY115",
+      "faculty": [
+        "Dr. K N Venkatachaliah"
+      ],
+      "shortName": "Phy"
+    },
+    "E": {
+      "name": "User Interface Design",
+      "code": "23CSE113",
+      "faculty": [
+        "Ms. Gayathri Ramasamy",
+        "Ms. Anjitha"
+      ],
+      "shortName": "UI"
+    },
+    "F": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": [
+        "Ms. Deepthi Janardhan"
+      ],
+      "shortName": "Comm"
+    },
+    "G": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": [
+        "Ms. Bhavya"
+      ],
+      "shortName": "GGI"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "B_LAB",
+      "B_LAB",
+      "B_LAB",
+      "A",
+      "E",
+      "F",
+      "C"
+    ],
+    "Tuesday": [
+      "F_LAB",
+      "F_LAB",
+      "F_LAB",
+      "C_LAB",
+      "C_LAB",
+      "A",
+      "B"
+    ],
+    "Wednesday": [
+      "G",
+      "FREE",
+      "B",
+      "F_LAB",
+      "F_LAB",
+      "D",
+      "FREE"
+    ],
+    "Thursday": [
+      "A_LAB",
+      "A_LAB",
+      "A_LAB",
+      "C",
+      "E",
+      "D",
+      "COUNSELLING"
+    ],
+    "Friday": [
+      "D",
+      "G",
+      "A",
+      "F",
+      "B",
+      "E_LAB",
+      "E_LAB"
+    ]
+  }
+}
