@@ -1,0 +1,114 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Software Engineering",
+      "code": "23CSE311",
+      "faculty": [
+        "Dr. Nandu C Nair"
+      ],
+      "shortName": "SE"
+    },
+    "B": {
+      "name": "Distributed Systems",
+      "code": "23CSE312",
+      "faculty": [
+        "Ms. Sreebha Bhaskaran",
+        "Dr. Shinu M. R"
+      ],
+      "shortName": "DS"
+    },
+    "C": {
+      "name": "Foundations of Cyber Security",
+      "code": "23CSE313",
+      "faculty": [
+        "Dr. Sreeraag G"
+      ],
+      "shortName": "FCS"
+    },
+    "D": {
+      "name": "Compiler Design",
+      "code": "23CSE314",
+      "faculty": [
+        "Ms. Kavitha C.R.",
+        "Ms. Neera Chaudhary"
+      ],
+      "shortName": "Des"
+    },
+    "PE-III": {
+      "name": "Advanced Computer Networks (C206)",
+      "code": "23CSE342",
+      "faculty": [
+        "Dr. Thangam S."
+      ],
+      "shortName": "CN"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers IV",
+      "code": "23LSE311",
+      "faculty": [
+        "Ms. Jisha",
+        "Ms. Nilakshee",
+        "Ms. Karishma"
+      ],
+      "shortName": "LS"
+    },
+    "PROJECT": {
+      "name": "Project Phase-I",
+      "code": "23CSE399",
+      "faculty": [
+        "Dr. Meena Belwal"
+      ],
+      "shortName": "PP"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "A_LAB",
+      "A_LAB",
+      "A_LAB",
+      "PE-III_LAB",
+      "PE-III_LAB",
+      "D",
+      "COUNSELLING"
+    ],
+    "Tuesday": [
+      "B",
+      "C",
+      "FREE",
+      "A",
+      "PE-III",
+      "D_LAB",
+      "D_LAB"
+    ],
+    "Wednesday": [
+      "C",
+      "D",
+      "FREE",
+      "A",
+      "CIR",
+      "PE-III",
+      "FREE"
+    ],
+    "Thursday": [
+      "A",
+      "CIR",
+      "CIR",
+      "CIR",
+      "B",
+      "PROJECT",
+      "PROJECT"
+    ],
+    "Friday": [
+      "C",
+      "D",
+      "PE-III",
+      "B_LAB",
+      "B_LAB",
+      "B",
+      "FREE"
+    ]
+  }
+}

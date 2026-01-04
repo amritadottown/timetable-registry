@@ -1,0 +1,126 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Intelligent Systems 2",
+      "code": "23MAT112",
+      "faculty": [
+        "Dr. Geetha K N"
+      ],
+      "shortName": "Math"
+    },
+    "B": {
+      "name": "Computational Mechanics 2",
+      "code": "23PHY114",
+      "faculty": [
+        "Dr. Vineet Nair",
+        "Dr. Abhinav R"
+      ],
+      "shortName": "CM2"
+    },
+    "C": {
+      "name": "Object Oriented Programming",
+      "code": "23AID111",
+      "faculty": [
+        "Ms. Pooja Gowda",
+        "Dr. Priyanka Vivek",
+        "Ms. Ramya Sivan"
+      ],
+      "shortName": "Prog"
+    },
+    "D": {
+      "name": "Data Structures & Algorithms",
+      "code": "23AID112",
+      "faculty": [
+        "Dr. Sangamitra",
+        "Ms. Sreebha Bhaskaran",
+        "Ms. Ramya Sivan"
+      ],
+      "shortName": "DS"
+    },
+    "E": {
+      "name": "Elements of Computing 2",
+      "code": "23AID113",
+      "faculty": [
+        "Dr. Ritesh Raj",
+        "Ms. Sangita Khare"
+      ],
+      "shortName": "EC2"
+    },
+    "F": {
+      "name": "Introduction to Electronics",
+      "code": "23ECE113",
+      "faculty": [
+        "Dr. D N Kiran Pandiri",
+        "Mr. Lijin"
+      ],
+      "shortName": "IE"
+    },
+    "G": {
+      "name": "Introduction to Materials Informatics",
+      "code": "23CHY115",
+      "faculty": [
+        "Dr. Vasavi C S",
+        "Dr. Vineet Nair"
+      ],
+      "shortName": "IMI"
+    },
+    "H": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": [
+        "New Faculty"
+      ],
+      "shortName": "GGI"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "B",
+      "H",
+      "FREE",
+      "A_LAB",
+      "A_LAB",
+      "F",
+      "PLACEMENT"
+    ],
+    "Tuesday": [
+      "G",
+      "A",
+      "E",
+      "D",
+      "C",
+      "B_LAB",
+      "B_LAB"
+    ],
+    "Wednesday": [
+      "D_LAB",
+      "D_LAB",
+      "D_LAB",
+      "C_LAB",
+      "C_LAB",
+      "A",
+      "F"
+    ],
+    "Thursday": [
+      "E_LAB",
+      "E_LAB",
+      "E_LAB",
+      "G_LAB",
+      "G_LAB",
+      "B",
+      "D"
+    ],
+    "Friday": [
+      "H",
+      "C",
+      "E",
+      "F_LAB",
+      "F_LAB",
+      "G",
+      "COUNSELLING"
+    ]
+  }
+}

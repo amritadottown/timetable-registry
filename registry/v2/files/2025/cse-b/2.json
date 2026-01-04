@@ -1,0 +1,113 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Discrete Mathematics",
+      "code": "23MAT116",
+      "faculty": [
+        "Dr. Sunita Kummavat"
+      ],
+      "shortName": "Math"
+    },
+    "B": {
+      "name": "Linear Algebra",
+      "code": "23MAT117",
+      "faculty": [
+        "Ms. Prijimol V B"
+      ],
+      "shortName": "LA"
+    },
+    "C": {
+      "name": "Object Oriented Programming",
+      "code": "23CSE111",
+      "faculty": [
+        "Ms. B Saranya Devi",
+        "Ms. Neera Chaudhary",
+        "Mr. Ullas S"
+      ],
+      "shortName": "Prog"
+    },
+    "D": {
+      "name": "Modern Physics",
+      "code": "23PHY115",
+      "faculty": [
+        "Mr. H Manjunatha"
+      ],
+      "shortName": "Phy"
+    },
+    "E": {
+      "name": "User Interface Design",
+      "code": "23CSE113",
+      "faculty": [
+        "Dr. Shinu M. R",
+        "Ms. Gayathri R"
+      ],
+      "shortName": "UI"
+    },
+    "F": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": [
+        "Ms. Revathy Hemachandran"
+      ],
+      "shortName": "Comm"
+    },
+    "G": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": [
+        "Mr. Vinay"
+      ],
+      "shortName": "GGI"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "C",
+      "D",
+      "FREE",
+      "E",
+      "B",
+      "A_LAB",
+      "A_LAB"
+    ],
+    "Tuesday": [
+      "G",
+      "E",
+      "C",
+      "A",
+      "B",
+      "F",
+      "PLACEMENT"
+    ],
+    "Wednesday": [
+      "E_LAB",
+      "E_LAB",
+      "E_LAB",
+      "B",
+      "D",
+      "A",
+      "C"
+    ],
+    "Thursday": [
+      "D",
+      "G",
+      "F",
+      "C_LAB",
+      "C_LAB",
+      "A",
+      "COUNSELLING"
+    ],
+    "Friday": [
+      "B_LAB",
+      "B_LAB",
+      "B_LAB",
+      "F_LAB",
+      "F_LAB",
+      "F_LAB",
+      "F_LAB"
+    ]
+  }
+}

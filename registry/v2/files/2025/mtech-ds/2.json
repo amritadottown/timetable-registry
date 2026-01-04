@@ -1,0 +1,112 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Deep Learning",
+      "code": "24DS611",
+      "faculty": [
+        "Dr. Suja P."
+      ],
+      "shortName": "DL"
+    },
+    "B": {
+      "name": "Scientific Computing (Soft Core-2)",
+      "code": "24DS633",
+      "faculty": [
+        "Dr. Vineet Nair"
+      ],
+      "shortName": "SC"
+    },
+    "C": {
+      "name": "Text Mining and Analytics (Soft Core-3)",
+      "code": "24DS634",
+      "faculty": [
+        "Dr. Deepa Gupta"
+      ],
+      "shortName": "TM"
+    },
+    "D": {
+      "name": "Big Data Framework for Data Science (Soft Core-4)",
+      "code": "24DS635",
+      "faculty": [
+        "Dr.Manju Venugopal"
+      ],
+      "shortName": "BD"
+    },
+    "E": {
+      "name": "Computer Vision (Elective 1)",
+      "code": "24DS741",
+      "faculty": [
+        "Dr. Amudha J."
+      ],
+      "shortName": "CV"
+    },
+    "F": {
+      "name": "Cloud Computing and Security in the Cloud",
+      "code": "24DS745",
+      "faculty": [
+        "Dr.Beena B M"
+      ],
+      "shortName": "Cloud"
+    },
+    "CIR": {
+      "name": "Career Competency - II",
+      "code": "23HU611",
+      "faculty": [
+        "Ms. Karishma",
+        "Ms. Sujatha",
+        "Mr. Ankit"
+      ],
+      "shortName": "Career"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "A",
+      "F",
+      "B",
+      "D_LAB",
+      "D_LAB",
+      "FREE",
+      "INDUSTRIAL_TALK"
+    ],
+    "Tuesday": [
+      "E_LAB",
+      "E_LAB",
+      "E_LAB",
+      "C_LAB",
+      "C_LAB",
+      "A",
+      "COUNSELLING"
+    ],
+    "Wednesday": [
+      "F_LAB",
+      "F_LAB",
+      "F_LAB",
+      "E",
+      "D",
+      "CIR",
+      "CIR"
+    ],
+    "Thursday": [
+      "D",
+      "B",
+      "F",
+      "A_LAB",
+      "A_LAB",
+      "E",
+      "FREE"
+    ],
+    "Friday": [
+      "E",
+      "A",
+      "FREE",
+      "C",
+      "C",
+      "B_LAB",
+      "B_LAB"
+    ]
+  }
+}

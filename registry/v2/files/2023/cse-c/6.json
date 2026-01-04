@@ -1,0 +1,114 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Software Engineering",
+      "code": "23CSE311",
+      "faculty": [
+        "Ms. Swetha Pai"
+      ],
+      "shortName": "SE"
+    },
+    "B": {
+      "name": "Distributed Systems",
+      "code": "23CSE312",
+      "faculty": [
+        "Ms. Sreebha Bhaskaran",
+        "Dr. Meena Belwal"
+      ],
+      "shortName": "DS"
+    },
+    "C": {
+      "name": "Foundations of Cyber Security",
+      "code": "23CSE313",
+      "faculty": [
+        "Dr. Kumaran U."
+      ],
+      "shortName": "FCS"
+    },
+    "D": {
+      "name": "Compiler Design",
+      "code": "23CSE314",
+      "faculty": [
+        "Ms. Neera Chaudhary",
+        "Ms. Kavitha C.R."
+      ],
+      "shortName": "Des"
+    },
+    "PE-III": {
+      "name": "Advanced Computer Networks (C206)",
+      "code": "23CSE342",
+      "faculty": [
+        "Dr. Thangam S."
+      ],
+      "shortName": "CN"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers IV",
+      "code": "23LSE311",
+      "faculty": [
+        "Ms. Jisha",
+        "Ms. Nilakshee",
+        "Ms. Karishma"
+      ],
+      "shortName": "LS"
+    },
+    "E": {
+      "name": "Project Phase-I",
+      "code": "23CSE399",
+      "faculty": [
+        "Dr. Meena Belwal"
+      ],
+      "shortName": "PP"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "C",
+      "A",
+      "FREE",
+      "PE-III_LAB",
+      "PE-III_LAB",
+      "D",
+      "COUNSELLING"
+    ],
+    "Tuesday": [
+      "E",
+      "E",
+      "E",
+      "A",
+      "PE-III",
+      "B",
+      "FREE"
+    ],
+    "Wednesday": [
+      "CIR",
+      "D",
+      "A",
+      "B_LAB",
+      "B_LAB",
+      "PE-III",
+      "FREE"
+    ],
+    "Thursday": [
+      "FREE",
+      "D",
+      "B",
+      "C",
+      "CIR",
+      "CIR",
+      "CIR"
+    ],
+    "Friday": [
+      "B",
+      "C",
+      "PE-III",
+      "D_LAB",
+      "D_LAB",
+      "A_LAB",
+      "A_LAB"
+    ]
+  }
+}
