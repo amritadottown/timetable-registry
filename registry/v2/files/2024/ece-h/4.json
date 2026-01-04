@@ -1,0 +1,107 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Microcontrollers & Interfacing",
+      "code": "23ECE211",
+      "faculty": ["Dr. Patthi Aruna"],
+      "shortName": "MC&I"
+    },
+    "B": {
+      "name": "Analog Electronics II",
+      "code": "23ECE212",
+      "faculty": ["Ms. Gayathri R"],
+      "shortName": "AE-II"
+    },
+    "C": {
+      "name": "Communication Theory",
+      "code": "23ECE213",
+      "faculty": ["Dr. Sunitha R"],
+      "shortName": "CT"
+    },
+    "D": {
+      "name": "Control Systems",
+      "code": "23ECE215",
+      "faculty": ["Dr. Phaniraj Harivanam"],
+      "shortName": "CS"
+    },
+    "E": {
+      "name": "Machine Learning",
+      "code": "23ECE216",
+      "faculty": ["Dr. Lalitha S"],
+      "shortName": "ML"
+    },
+    "MC": {
+      "name": "Microcontrollers & Interfacing Laboratory",
+      "code": "23ECE284",
+      "faculty": ["Dr. Patthi Aruna", "Mr. Kapileswar Reddy", "Ms. Glace Varghese"],
+      "shortName": "MC Lab"
+    },
+    "MLL": {
+      "name": "Machine Learning Laboratory",
+      "code": "23ECE285",
+      "faculty": ["Dr. Lalitha S", "Ms. Gayathri R", "Dr. Navin"],
+      "shortName": "ML Lab"
+    },
+    "CC": {
+      "name": "Circuits and Communication Laboratory",
+      "code": "23ECE286",
+      "faculty": ["Dr. Sunitha R", "Ms. Gayathri R"],
+      "shortName": "CC Lab"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers II",
+      "code": "23LSE211",
+      "faculty": ["Mr. Ankit Jain", "Ms. Srinthi N", "Ms. Karishma Nair N"],
+      "shortName": "LSE II"
+    },
+    "AVP": {
+      "name": "Amrita Value Program 2",
+      "code": "23AVP000",
+      "faculty": ["Ms. Bhavya Suresh"],
+      "shortName": "AVP2"
+    },
+    "ENV": {
+      "name": "Environmental Science",
+      "code": "23ENV300",
+      "faculty": ["Dr. Bhaskar B L"],
+      "shortName": "ENV"
+    },
+    "IC": {
+      "name": "Indian Constitution",
+      "code": "23LAW300",
+      "faculty": ["Dr. T. K. Ramesh"],
+      "shortName": "IC"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    }
+  },
+  "slots": {
+    "tuesdayAfternoon": {
+      "match": "batch",
+      "choices": {
+        "a2": "CC_LAB"
+      }
+    },
+    "wednesdayMid": {
+      "match": "batch",
+      "choices": {
+        "a1": "CC_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["MC_LAB", "MC_LAB", "MC_LAB", "C", "LSE", "LSE", "LSE"],
+    "Tuesday": ["D", "A", "C", "B", "E", "tuesdayAfternoon", "tuesdayAfternoon"],
+    "Wednesday": ["E", "B", "D", "wednesdayMid", "wednesdayMid", "IC", "AVP"],
+    "Thursday": ["C", "E", "D", "A", "ENV", "B", "FREE"],
+    "Friday": ["MLL_LAB", "MLL_LAB", "MLL_LAB", "D", "A", "C", "FREE"]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Microcontrollers & Interfacing",
+      "code": "23ECE211",
+      "faculty": ["Dr. Kaveri Hatti"],
+      "shortName": "MC&I"
+    },
+    "B": {
+      "name": "Analog Electronics II",
+      "code": "23ECE212",
+      "faculty": ["Mr. Vignesh V"],
+      "shortName": "AE-II"
+    },
+    "C": {
+      "name": "Communication Theory",
+      "code": "23ECE213",
+      "faculty": ["Dr. Manoj Kumar Panda"],
+      "shortName": "CT"
+    },
+    "D": {
+      "name": "Control Systems",
+      "code": "23ECE215",
+      "faculty": ["Dr. Sarda Sharma"],
+      "shortName": "CS"
+    },
+    "E": {
+      "name": "Machine Learning",
+      "code": "23ECE216",
+      "faculty": ["Dr. Vivek Venugopal"],
+      "shortName": "ML"
+    },
+    "MC": {
+      "name": "Microcontrollers & Interfacing Laboratory",
+      "code": "23ECE284",
+      "faculty": ["Dr. Kaveri Hatti", "Ms. Sonali Agrawal", "Dr. Jitendra Bahadur"],
+      "shortName": "MC Lab"
+    },
+    "MLL": {
+      "name": "Machine Learning Laboratory",
+      "code": "23ECE285",
+      "faculty": ["Dr. Vivek Venugopal", "Dr. Sarda Sharma", "Mr. Swaminadhan Rajula"],
+      "shortName": "ML Lab"
+    },
+    "CC": {
+      "name": "Circuits and Communication Laboratory",
+      "code": "23ECE286",
+      "faculty": ["Dr. Ashish Goswami", "Mr. Vignesh V", "Dr. Susmitha Vekkot"],
+      "shortName": "CC Lab"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers II",
+      "code": "23LSE211",
+      "faculty": ["Mr. Sivakumar K M", "Ms. Srinthi N", "Ms. Nilakshee Kalita"],
+      "shortName": "LSE II"
+    },
+    "AVP": {
+      "name": "Amrita Value Program 2",
+      "code": "23AVP000",
+      "faculty": ["New Faculty"],
+      "shortName": "AVP2"
+    },
+    "ENV": {
+      "name": "Environmental Science",
+      "code": "23ENV300",
+      "faculty": ["Dr. Mohan Kumar T M"],
+      "shortName": "ENV"
+    },
+    "IC": {
+      "name": "Indian Constitution",
+      "code": "23LAW300",
+      "faculty": ["Dr. T. K. Ramesh"],
+      "shortName": "IC"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "B1", "id": "b1" },
+        { "label": "B2", "id": "b2" }
+      ]
+    }
+  },
+  "slots": {
+    "wednesdayAfternoon": {
+      "match": "batch",
+      "choices": {
+        "b2": "CC_LAB"
+      }
+    },
+    "fridayMid": {
+      "match": "batch",
+      "choices": {
+        "b1": "CC_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["E", "A", "C", "MC_LAB", "MC_LAB", "D", "IC"],
+    "Tuesday": ["B", "D", "AVP", "C", "LSE", "LSE", "LSE"],
+    "Wednesday": ["MLL_LAB", "MLL_LAB", "MLL_LAB", "B", "E", "wednesdayAfternoon", "wednesdayAfternoon"],
+    "Thursday": ["C", "ENV", "A", "D", "E", "B", "FREE"],
+    "Friday": ["D", "C", "FREE", "fridayMid", "fridayMid", "A", "FREE"]
+  }
+}
