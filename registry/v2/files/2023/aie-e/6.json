@@ -5,7 +5,7 @@
       "name": "Software Engineering",
       "code": "22AIE311",
       "faculty": [
-        "Dr. S. Santhanalakshmi"
+        "Ms. Anjitha"
       ],
       "shortName": "SE"
     },
@@ -32,7 +32,7 @@
       "code": "22AIE314",
       "faculty": [
         "Dr.Niharika Panda",
-        "Mr. Vishwas"
+        "Mr. Sreeraag"
       ],
       "shortName": "CS"
     },
@@ -66,8 +66,7 @@
       "name": "Numerical Methods and Optimisation",
       "code": "19MAT343",
       "faculty": [
-        "Dr. Abhinav R",
-        "Dr. Nagesh S"
+        "Dr. Abhinav R"
       ],
       "shortName": "NMO"
     },
@@ -75,7 +74,7 @@
       "name": "Soft Skills III",
       "code": "19SSK311",
       "faculty": [
-        "Ms. Jisha",
+        "Mr. Sivakumar",
         "Ms. Nilakshee",
         "Ms. Karishma"
       ],
@@ -113,48 +112,48 @@
   "schedule": {
     "Monday": [
       "pe2Slot",
-      "CIR",
-      "CIR",
-      "CIR",
-      "D",
-      "C_LAB",
-      "C_LAB"
-    ],
-    "Tuesday": [
-      "B",
+      "A",
       "C",
-      "E",
-      "D",
-      "FREE",
+      "B_LAB",
+      "B_LAB",
       "A_LAB",
       "A_LAB"
     ],
+    "Tuesday": [
+      "CIR",
+      "CIR",
+      "CIR",
+      "C_LAB",
+      "C_LAB",
+      "E",
+      "FREE"
+    ],
     "Wednesday": [
-      "E_LAB",
-      "E_LAB",
-      "E_LAB",
+      "D",
+      "C",
+      "B",
       "FREE",
       "FREE",
       "pe2Lab",
       "pe2Lab"
     ],
     "Thursday": [
-      "E",
-      "A",
       "C",
-      "D_LAB",
-      "D_LAB",
-      "B",
+      "A",
+      "D",
+      "CIR",
+      "E",
+      "FREE",
       "FREE"
     ],
     "Friday": [
-      "B_LAB",
-      "B_LAB",
-      "B_LAB",
-      "A",
-      "CIR",
+      "E_LAB",
+      "E_LAB",
+      "E_LAB",
+      "D_LAB",
+      "D_LAB",
       "pe2Slot",
-      "C"
+      "B"
     ]
   }
 }

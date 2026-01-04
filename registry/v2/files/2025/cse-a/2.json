@@ -1,0 +1,77 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Discrete Mathematics",
+      "code": "23MAT116",
+      "faculty": ["Dr. Smitha T V"],
+      "shortName": "DM"
+    },
+    "B": {
+      "name": "Linear Algebra",
+      "code": "23MAT117",
+      "faculty": ["Dr. Naveen Kumar"],
+      "shortName": "LA"
+    },
+    "C": {
+      "name": "Object Oriented Programming",
+      "code": "23CSE111",
+      "faculty": ["Ms. B Saranya Devi", "Dr. Reena Panwar", "Dr. Priyanka Vivek"],
+      "shortName": "OOP"
+    },
+    "D": {
+      "name": "Modern Physics",
+      "code": "23PHY115",
+      "faculty": ["Mr. H Manjunatha"],
+      "shortName": "Phy"
+    },
+    "E": {
+      "name": "User Interface Design",
+      "code": "23CSE113",
+      "faculty": ["Dr. Shinu M. R", "Dr. Thushara"],
+      "shortName": "UID"
+    },
+    "F": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": ["Ms. Anjana Chandran"],
+      "shortName": "TC"
+    },
+    "G": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": ["Dr. Tanashree"],
+      "shortName": "GGI"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    }
+  },
+  "slots": {
+    "wedMorningLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "F_LAB"
+      }
+    },
+    "thurAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "a2": "F_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["G", "E", "C", "A", "D", "B", "FREE"],
+    "Tuesday": ["A_LAB", "A_LAB", "A_LAB", "D", "B", "E_LAB", "E_LAB"],
+    "Wednesday": ["wedMorningLab", "wedMorningLab", "wedMorningLab", "B_LAB", "B_LAB", "E", "FREE"],
+    "Thursday": ["B", "C", "A", "thurAfternoonLab", "thurAfternoonLab", "F", "FREE"],
+    "Friday": ["A", "D", "F", "C_LAB", "C_LAB", "G", "C"]
+  }
+}

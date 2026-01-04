@@ -1,0 +1,157 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Software Engineering",
+      "code": "23CSE311",
+      "faculty": [
+        "Dr. Nandu C Nair"
+      ],
+      "shortName": "SE"
+    },
+    "B": {
+      "name": "Distributed Systems",
+      "code": "23CSE312",
+      "faculty": [
+        "Ms. Sreebha Bhaskaran",
+        "Dr. Shinu M. R"
+      ],
+      "shortName": "DS"
+    },
+    "C": {
+      "name": "Foundations of Cyber Security",
+      "code": "23CSE313",
+      "faculty": [
+        "Dr. Sreeraag G"
+      ],
+      "shortName": "FCS"
+    },
+    "D": {
+      "name": "Compiler Design",
+      "code": "23CSE314",
+      "faculty": [
+        "Ms. Kavitha C.R.",
+        "Ms. Neera Chaudhary"
+      ],
+      "shortName": "CD"
+    },
+    "PE3-1": {
+      "name": "Advanced Computer Networks",
+      "code": "23CSE342",
+      "faculty": [
+        "Dr. Thangam S."
+      ],
+      "shortName": "ACN"
+    },
+    "PE3-2": {
+      "name": "Cloud Computing",
+      "code": "23CSE363",
+      "faculty": [
+        "Dr. Beena B M",
+        "Dr. Dinesh K."
+      ],
+      "shortName": "CC"
+    },
+    "PE3-3": {
+      "name": "Numerical Methods and Optimization",
+      "code": "23MAT343",
+      "faculty": [
+        "Dr. Abhinav Ravindra Dehadrai"
+      ],
+      "shortName": "NMO"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers IV",
+      "code": "23LSE311",
+      "faculty": [
+        "Ms. Jisha",
+        "Ms. Nilakshee",
+        "Ms. Karishma"
+      ],
+      "shortName": "CIR"
+    },
+    "PROJECT": {
+      "name": "Project Phase-I",
+      "code": "23CSE399",
+      "faculty": [
+        "Dr. Meena Belwal"
+      ],
+      "shortName": "PROJ"
+    }
+  },
+  "config": {
+    "pe3": {
+      "label": "Professional Elective III",
+      "values": [
+        { "label": "Advanced Computer Networks", "id": "PE3-1" },
+        { "label": "Cloud Computing", "id": "PE3-2" },
+        { "label": "Numerical Methods and Optimization", "id": "PE3-3" }
+      ]
+    }
+  },
+  "slots": {
+    "pe3Slot": {
+      "match": "pe3",
+      "choices": {
+        "PE3-1": "PE3-1",
+        "PE3-2": "PE3-2",
+        "PE3-3": "PE3-3"
+      }
+    },
+    "pe3Lab": {
+      "match": "pe3",
+      "choices": {
+        "PE3-1": "PE3-1_LAB",
+        "PE3-2": "PE3-2_LAB",
+        "PE3-3": "PE3-3_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": [
+      "A_LAB",
+      "A_LAB",
+      "A_LAB",
+      "pe3Lab",
+      "pe3Lab",
+      "D",
+      "FREE"
+    ],
+    "Tuesday": [
+      "B",
+      "C",
+      "FREE",
+      "A",
+      "pe3Slot",
+      "D_LAB",
+      "D_LAB"
+    ],
+    "Wednesday": [
+      "C",
+      "D",
+      "FREE",
+      "A",
+      "CIR",
+      "pe3Slot",
+      "FREE"
+    ],
+    "Thursday": [
+      "A",
+      "CIR",
+      "CIR",
+      "CIR",
+      "B",
+      "PROJECT",
+      "PROJECT"
+    ],
+    "Friday": [
+      "C",
+      "D",
+      "pe3Slot",
+      "B_LAB",
+      "B_LAB",
+      "B",
+      "FREE"
+    ]
+  }
+}

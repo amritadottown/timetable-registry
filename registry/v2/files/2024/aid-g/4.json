@@ -1,0 +1,155 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Intelligent Systems 4",
+      "code": "23MAT214",
+      "faculty": [
+        "Dr. Geetha K. N."
+      ],
+      "shortName": "MIS4"
+    },
+    "B": {
+      "name": "Deep Learning",
+      "code": "23AID211",
+      "faculty": [
+        "Dr. Manju Venugopal",
+        "Ms. Saranya Devi"
+      ],
+      "shortName": "DL"
+    },
+    "C": {
+      "name": "Speech Processing",
+      "code": "23AID471",
+      "faculty": [
+        "Dr. Kavya Sai",
+        "Dr. Manju Khanna"
+      ],
+      "shortName": "SP"
+    },
+    "D": {
+      "name": "Introduction to IoT",
+      "code": "23AID212",
+      "faculty": [
+        "Dr. Rajesh M"
+      ],
+      "shortName": "IoT"
+    },
+    "E": {
+      "name": "Operating Systems",
+      "code": "23AID213",
+      "faculty": [
+        "Dr. Vineetha K V",
+        "Ms. Pooja Gowda",
+        "Ms. Anjitha P"
+      ],
+      "shortName": "OS"
+    },
+    "F": {
+      "name": "Database Management Systems",
+      "code": "23AID214",
+      "faculty": [
+        "Dr. Sreevidya B",
+        "Dr. Santhanalakshmi"
+      ],
+      "shortName": "DBMS"
+    },
+    "G": {
+      "name": "User Interface Design",
+      "code": "23AID215",
+      "faculty": [
+        "Ms. Gayathri Ramasamy",
+        "Mr. Ullas S"
+      ],
+      "shortName": "UID"
+    },
+    "H": {
+      "name": "Leadership from Ramayana",
+      "code": "22ADM211",
+      "faculty": [
+        "Mr. Vinay"
+      ],
+      "shortName": "ADM"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers II",
+      "code": "23LSE211",
+      "faculty": [
+        "Ms. Srinithi",
+        "Mr. Sivakumar",
+        "Ms. Nilakshee"
+      ],
+      "shortName": "LS"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "G1", "id": "g1" },
+        { "label": "G2", "id": "g2" }
+      ]
+    }
+  },
+  "slots": {
+    "monDLab": {
+      "match": "batch",
+      "choices": {
+        "g1": "D_LAB"
+      }
+    },
+    "friDLab": {
+      "match": "batch",
+      "choices": {
+        "g2": "D_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": [
+      "C",
+      "F",
+      "E",
+      "monDLab",
+      "monDLab",
+      "B_LAB",
+      "B_LAB"
+    ],
+    "Tuesday": [
+      "F",
+      "B",
+      "E",
+      "C_LAB",
+      "C_LAB",
+      "A_LAB",
+      "A_LAB"
+    ],
+    "Wednesday": [
+      "E_LAB",
+      "E_LAB",
+      "E_LAB",
+      "D",
+      "CIR",
+      "CIR",
+      "CIR"
+    ],
+    "Thursday": [
+      "A",
+      "D",
+      "B",
+      "E",
+      "C",
+      "G_LAB",
+      "G_LAB"
+    ],
+    "Friday": [
+      "H",
+      "G",
+      "A",
+      "friDLab",
+      "friDLab",
+      "F_LAB",
+      "F_LAB"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Computing 2",
+      "code": "22MAT122",
+      "faculty": [
+        "Ms. Mamatha T M"
+      ],
+      "shortName": "Math"
+    },
+    "B": {
+      "name": "Object Oriented Programming in Java",
+      "code": "22AIE111",
+      "faculty": [
+        "Dr. Reena Panwar",
+        "Ms. Sangita Khare",
+        "Dr. Radha"
+      ],
+      "shortName": "Prog"
+    },
+    "C": {
+      "name": "Data Structures & Algorithms 1",
+      "code": "22AIE112",
+      "faculty": [
+        "Dr. Anjali Patel",
+        "Dr. Thushara G A",
+        "Dr. Meena Belwal"
+      ],
+      "shortName": "DS"
+    },
+    "D": {
+      "name": "Elements of Computing Systems 2",
+      "code": "22AIE113",
+      "faculty": [
+        "Dr. Ritesh Raj",
+        "Mr. Lijin"
+      ],
+      "shortName": "ECS"
+    },
+    "E": {
+      "name": "Introduction to Electrical and Electronics Engineering",
+      "code": "22AIE114",
+      "faculty": [
+        "Ms. Sailaja V"
+      ],
+      "shortName": "IEE"
+    },
+    "F": {
+      "name": "User Interface Design",
+      "code": "22AIE115",
+      "faculty": [
+        "Dr. Manju Khanna",
+        "Ms. Arya R"
+      ],
+      "shortName": "UI"
+    },
+    "G": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": [
+        "Ms. Bhavya"
+      ],
+      "shortName": "GGI"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "B",
+      "A",
+      "G",
+      "F_LAB",
+      "F_LAB",
+      "FREE",
+      "FREE"
+    ],
+    "Tuesday": [
+      "D",
+      "C",
+      "F",
+      "E",
+      "FREE",
+      "A_LAB",
+      "A_LAB"
+    ],
+    "Wednesday": [
+      "FREE",
+      "C",
+      "F",
+      "B_LAB",
+      "B_LAB",
+      "D_LAB",
+      "D_LAB"
+    ],
+    "Thursday": [
+      "A",
+      "FREE",
+      "B",
+      "D",
+      "E",
+      "C_LAB",
+      "C_LAB"
+    ],
+    "Friday": [
+      "C",
+      "A",
+      "B",
+      "E_LAB",
+      "E_LAB",
+      "G",
+      "FREE"
+    ]
+  }
+}

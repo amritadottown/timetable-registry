@@ -1,0 +1,77 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Discrete Mathematics",
+      "code": "23MAT116",
+      "faculty": ["Dr. Sunita Kummavat"],
+      "shortName": "DM"
+    },
+    "B": {
+      "name": "Linear Algebra",
+      "code": "23MAT117",
+      "faculty": ["Ms. Prijimol V B"],
+      "shortName": "LA"
+    },
+    "C": {
+      "name": "Object Oriented Programming",
+      "code": "23CSE111",
+      "faculty": ["Dr. Chandan K", "Ms. B Saranya Devi", "Ms. Anjitha P"],
+      "shortName": "OOP"
+    },
+    "D": {
+      "name": "Modern Physics",
+      "code": "23PHY115",
+      "faculty": ["Dr. K N Venkatachaliah"],
+      "shortName": "Phy"
+    },
+    "E": {
+      "name": "User Interface Design",
+      "code": "23CSE113",
+      "faculty": ["Ms. Gayathri Ramasamy", "Ms. Anjitha"],
+      "shortName": "UID"
+    },
+    "F": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": ["Ms. Deepthi Janardhan"],
+      "shortName": "TC"
+    },
+    "G": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": ["Ms. Bhavya"],
+      "shortName": "GGI"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "C1", "id": "c1" },
+        { "label": "C2", "id": "c2" }
+      ]
+    }
+  },
+  "slots": {
+    "tueMorningLab": {
+      "match": "batch",
+      "choices": {
+        "c2": "F_LAB"
+      }
+    },
+    "wedAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "c1": "F_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["B_LAB", "B_LAB", "B_LAB", "A", "E", "F", "C"],
+    "Tuesday": ["tueMorningLab", "tueMorningLab", "tueMorningLab", "C_LAB", "C_LAB", "A", "B"],
+    "Wednesday": ["G", "FREE", "B", "wedAfternoonLab", "wedAfternoonLab", "C", "D"],
+    "Thursday": ["A_LAB", "A_LAB", "A_LAB", "C", "E", "D", "FREE"],
+    "Friday": ["D", "G", "A", "F", "B", "E_LAB", "E_LAB"]
+  }
+}

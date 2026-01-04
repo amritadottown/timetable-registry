@@ -1,0 +1,193 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Probability and Random Processes",
+      "code": "23MAT216",
+      "faculty": [
+        "Dr. K. N. Meera"
+      ],
+      "shortName": "PRP"
+    },
+    "B": {
+      "name": "Design & Analysis of Algorithms",
+      "code": "23CSE211",
+      "faculty": [
+        "Dr. Daddala Yasoomkari",
+        "Dr. Nalini",
+        "Dr. Niharika"
+      ],
+      "shortName": "DAA"
+    },
+    "C": {
+      "name": "Principles of Functional Languages",
+      "code": "23CSE212",
+      "faculty": [
+        "Dr. Amulyashree",
+        "Dr. Gurupriya",
+        "Ms. Swetha"
+      ],
+      "shortName": "PFL"
+    },
+    "D": {
+      "name": "Computer Organization and Architecture",
+      "code": "23CSE213",
+      "faculty": [
+        "Dr. Gurupriya"
+      ],
+      "shortName": "COA"
+    },
+    "E": {
+      "name": "Operating Systems",
+      "code": "23CSE214",
+      "faculty": [
+        "Dr. Sajitha Krishnan",
+        "Ms. Lavanya Pelenki",
+        "Ms. Pooja Gowda"
+      ],
+      "shortName": "OS"
+    },
+    "F": {
+      "name": "Leadership from Ramayana",
+      "code": "22ADM211",
+      "faculty": [
+        "Mr. Vinay"
+      ],
+      "shortName": "ADM"
+    },
+    "FE1": {
+      "name": "Business communication",
+      "code": "23ENG220",
+      "faculty": [
+        "Smita Sail",
+        "Deepthi Janardhan",
+        "Sanjana Chandran"
+      ],
+      "shortName": "BC"
+    },
+    "FE2": {
+      "name": "Vistas of Science Through Films",
+      "code": "24ENG246",
+      "faculty": [
+        "Sayani Vijay",
+        "Revathy Hemachandran"
+      ],
+      "shortName": "VSTF"
+    },
+    "FE3": {
+      "name": "Science Fiction",
+      "code": "24ENG243",
+      "faculty": [
+        "Deepakumari"
+      ],
+      "shortName": "SF"
+    },
+    "FE4": {
+      "name": "Glimpses of Indian Economy & Polity",
+      "code": "23HUM233",
+      "faculty": [
+        "New Faculty"
+      ],
+      "shortName": "GIEP"
+    },
+    "FE5": {
+      "name": "Indian Classics for the 21st Century",
+      "code": "23HUM235",
+      "faculty": [
+        "Dr. Tanashree"
+      ],
+      "shortName": "IC21"
+    },
+    "FE6": {
+      "name": "The Message of Bhagavadgeetha",
+      "code": "23HUM242",
+      "faculty": [
+        "Mr. Vinay"
+      ],
+      "shortName": "MB"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers II",
+      "code": "23LSE211",
+      "faculty": [
+        "Mr. Ankit",
+        "Ms. Srinithi",
+        "Mr. Sivakumar"
+      ],
+      "shortName": "LS"
+    }
+  },
+  "config": {
+    "fe": {
+      "label": "Free Elective I",
+      "values": [
+        { "label": "Business communication", "id": "FE1" },
+        { "label": "Vistas of Science Through Films", "id": "FE2" },
+        { "label": "Science Fiction", "id": "FE3" },
+        { "label": "Glimpses of Indian Economy & Polity", "id": "FE4" },
+        { "label": "Indian Classics for the 21st Century", "id": "FE5" },
+        { "label": "The Message of Bhagavadgeetha", "id": "FE6" }
+      ]
+    }
+  },
+  "slots": {
+    "feSlot": {
+      "match": "fe",
+      "choices": {
+        "FE1": "FE1",
+        "FE2": "FE2",
+        "FE3": "FE3",
+        "FE4": "FE4",
+        "FE5": "FE5",
+        "FE6": "FE6"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": [
+      "A",
+      "D",
+      "E",
+      "feSlot",
+      "FREE",
+      "C_LAB",
+      "C_LAB"
+    ],
+    "Tuesday": [
+      "B_LAB",
+      "B_LAB",
+      "B_LAB",
+      "CIR",
+      "feSlot",
+      "CIR",
+      "CIR"
+    ],
+    "Wednesday": [
+      "D",
+      "C",
+      "A",
+      "B",
+      "E",
+      "FREE",
+      "FREE"
+    ],
+    "Thursday": [
+      "E_LAB",
+      "E_LAB",
+      "E_LAB",
+      "D",
+      "B",
+      "F",
+      "A"
+    ],
+    "Friday": [
+      "C",
+      "B",
+      "D",
+      "E",
+      "FREE",
+      "A_LAB",
+      "A_LAB"
+    ]
+  }
+}
