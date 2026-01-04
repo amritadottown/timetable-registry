@@ -35,13 +35,30 @@
       ],
       "shortName": "Des"
     },
-    "PE-III": {
+    "PE3-1": {
       "name": "Advanced Computer Networks (C206)",
       "code": "23CSE342",
       "faculty": [
         "Dr. Thangam S."
       ],
-      "shortName": "CN"
+      "shortName": "ACN"
+    },
+    "PE3-2": {
+      "name": "Cloud Computing (C208 & C210)",
+      "code": "23CSE363",
+      "faculty": [
+        "Dr. Beena B M",
+        "Dr. Dinesh K."
+      ],
+      "shortName": "CC"
+    },
+    "PE3-3": {
+      "name": "Numerical Methods and Optimization",
+      "code": "23MAT343",
+      "faculty": [
+        "Dr. Abhinav Ravindra Deshpande"
+      ],
+      "shortName": "NMO"
     },
     "CIR": {
       "name": "Life Skills for Engineers IV",
@@ -53,7 +70,7 @@
       ],
       "shortName": "LS"
     },
-    "E": {
+    "PROJECT": {
       "name": "Project Phase-I",
       "code": "23CSE399",
       "faculty": [
@@ -62,34 +79,60 @@
       "shortName": "PP"
     }
   },
-  "config": {},
-  "slots": {},
+  "config": {
+    "pe3": {
+      "label": "Professional Elective III",
+      "values": [
+        { "label": "Advanced Computer Networks (C206)", "id": "PE3-1" },
+        { "label": "Cloud Computing (C208 & C210)", "id": "PE3-2" },
+        { "label": "Numerical Methods and Optimization", "id": "PE3-3" }
+      ]
+    }
+  },
+  "slots": {
+    "pe3Slot": {
+      "match": "pe3",
+      "choices": {
+        "PE3-1": "PE3-1",
+        "PE3-2": "PE3-2",
+        "PE3-3": "PE3-3"
+      }
+    },
+    "pe3Slot_LAB": {
+      "match": "pe3",
+      "choices": {
+        "PE3-1": "PE3-1_LAB",
+        "PE3-2": "PE3-2_LAB",
+        "PE3-3": "PE3-3_LAB"
+      }
+    }
+  },
   "schedule": {
     "Monday": [
       "D_LAB",
       "D_LAB",
       "D_LAB",
-      "PE-III_LAB",
-      "PE-III_LAB",
-      "E",
-      "E"
+      "pe3Slot_LAB",
+      "pe3Slot_LAB",
+      "PROJECT",
+      "PROJECT"
     ],
     "Tuesday": [
       "C",
       "B",
       "D",
-      "PE-III",
+      "pe3Slot",
       "A",
-      "COUNSELLING",
+      "FREE",
       "FREE"
     ],
     "Wednesday": [
       "A",
       "CIR",
+      "D",
       "CIR",
       "CIR",
-      "CIR",
-      "PE-III",
+      "pe3Slot",
       "B"
     ],
     "Thursday": [
@@ -104,11 +147,11 @@
     "Friday": [
       "D",
       "B",
-      "PE-III",
+      "pe3Slot",
       "A_LAB",
       "A_LAB",
-      "FREE",
-      "D"
+      "C",
+      "FREE"
     ]
   }
 }

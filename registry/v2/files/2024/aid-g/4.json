@@ -82,15 +82,38 @@
       "shortName": "LS"
     }
   },
-  "config": {},
-  "slots": {},
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "G1", "id": "g1" },
+        { "label": "G2", "id": "g2" }
+      ]
+    }
+  },
+  "slots": {
+    "monDLab": {
+      "match": "batch",
+      "choices": {
+        "g1": "D_LAB",
+        "g2": "FREE"
+      }
+    },
+    "friDLab": {
+      "match": "batch",
+      "choices": {
+        "g1": "FREE",
+        "g2": "D_LAB"
+      }
+    }
+  },
   "schedule": {
     "Monday": [
       "C",
       "F",
       "E",
-      "D_LAB",
-      "D_LAB",
+      "monDLab",
+      "monDLab",
       "B_LAB",
       "B_LAB"
     ],
@@ -107,8 +130,8 @@
       "E_LAB",
       "E_LAB",
       "E_LAB",
-      "E",
       "D",
+      "CIR",
       "CIR",
       "CIR"
     ],
@@ -125,8 +148,8 @@
       "H",
       "G",
       "A",
-      "D_LAB",
-      "D_LAB",
+      "friDLab",
+      "friDLab",
       "F_LAB",
       "F_LAB"
     ]

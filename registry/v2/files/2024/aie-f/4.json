@@ -92,7 +92,7 @@
       "A_LAB",
       "A_LAB",
       "B",
-      "PLACEMENT"
+      "FREE"
     ],
     "Tuesday": [
       "E_LAB",
@@ -104,21 +104,21 @@
       "CIR"
     ],
     "Wednesday": [
+      "B_LAB",
+      "B_LAB",
+      "B_LAB",
       "A",
       "C",
-      "F",
-      "E",
-      "E",
       "D",
-      "B_LAB"
+      "E"
     ],
     "Thursday": [
+      "H",
       "E",
-      "D",
       "A",
-      "C",
+      "D",
       "F",
-      "COUNSELLING",
+      "FREE",
       "FREE"
     ],
     "Friday": [

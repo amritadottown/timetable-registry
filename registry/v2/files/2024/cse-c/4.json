@@ -55,13 +55,56 @@
       ],
       "shortName": "Lead"
     },
-    "FE": {
+    "FE1": {
       "name": "Business communication",
-      "code": "23ENG230",
+      "code": "23ENG220",
       "faculty": [
-        "TBD"
+        "Sonia",
+        "Deepthi Janardhan",
+        "Sanjana Chandran"
       ],
-      "shortName": "Comm"
+      "shortName": "BC"
+    },
+    "FE2": {
+      "name": "Vistas of Science Through Films",
+      "code": "24ENG246",
+      "faculty": [
+        "Sayani Vijay",
+        "Revathy Hemachandran"
+      ],
+      "shortName": "VSTF"
+    },
+    "FE3": {
+      "name": "Science Fiction",
+      "code": "24ENG243",
+      "faculty": [
+        "Revathy Hemachandran"
+      ],
+      "shortName": "SF"
+    },
+    "FE4": {
+      "name": "Glimpses of Indian Economy & Polity",
+      "code": "23HUM233",
+      "faculty": [
+        "New Faculty"
+      ],
+      "shortName": "GIEP"
+    },
+    "FE5": {
+      "name": "Indian Classics for the 21st Century",
+      "code": "23HUM235",
+      "faculty": [
+        "Dr. Tamashree"
+      ],
+      "shortName": "IC21"
+    },
+    "FE6": {
+      "name": "The Message of Bhagavadgeetha",
+      "code": "23HUM242",
+      "faculty": [
+        "Mr. Vinay"
+      ],
+      "shortName": "MB"
     },
     "CIR": {
       "name": "Life Skills for Engineers II",
@@ -74,14 +117,38 @@
       "shortName": "LS"
     }
   },
-  "config": {},
-  "slots": {},
+  "config": {
+    "fe": {
+      "label": "Free Elective I",
+      "values": [
+        { "label": "Business communication", "id": "FE1" },
+        { "label": "Vistas of Science Through Films", "id": "FE2" },
+        { "label": "Science Fiction", "id": "FE3" },
+        { "label": "Glimpses of Indian Economy & Polity", "id": "FE4" },
+        { "label": "Indian Classics for the 21st Century", "id": "FE5" },
+        { "label": "The Message of Bhagavadgeetha", "id": "FE6" }
+      ]
+    }
+  },
+  "slots": {
+    "feSlot": {
+      "match": "fe",
+      "choices": {
+        "FE1": "FE1",
+        "FE2": "FE2",
+        "FE3": "FE3",
+        "FE4": "FE4",
+        "FE5": "FE5",
+        "FE6": "FE6"
+      }
+    }
+  },
   "schedule": {
     "Monday": [
       "A",
       "D",
       "E",
-      "FE",
+      "feSlot",
       "FREE",
       "C_LAB",
       "C_LAB"
@@ -91,7 +158,7 @@
       "B_LAB",
       "B_LAB",
       "CIR",
-      "FE",
+      "feSlot",
       "CIR",
       "CIR"
     ],
@@ -101,8 +168,8 @@
       "A",
       "B",
       "E",
-      "PLACEMENT",
-      "COUNSELLING"
+      "FREE",
+      "FREE"
     ],
     "Thursday": [
       "E_LAB",

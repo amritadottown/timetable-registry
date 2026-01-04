@@ -73,8 +73,8 @@
       "G",
       "F_LAB",
       "F_LAB",
-      "PLACEMENT",
-      "COUNSELLING"
+      "FREE",
+      "FREE"
     ],
     "Tuesday": [
       "D",
@@ -82,16 +82,16 @@
       "F",
       "E",
       "FREE",
-      "B",
+      "A_LAB",
       "A_LAB"
     ],
     "Wednesday": [
-      "PLACEMENT",
+      "FREE",
       "C",
       "F",
-      "A",
       "B_LAB",
       "B_LAB",
+      "D_LAB",
       "D_LAB"
     ],
     "Thursday": [

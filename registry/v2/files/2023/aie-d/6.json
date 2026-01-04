@@ -45,7 +45,7 @@
       ],
       "shortName": "NLP"
     },
-    "PE-II": {
+    "PE2-1": {
       "name": "Speech Processing (C301)",
       "code": "22AIE450",
       "faculty": [
@@ -53,6 +53,23 @@
         "Dr. Yaddanapudi Kavya Sai"
       ],
       "shortName": "SP"
+    },
+    "PE2-2": {
+      "name": "Mobile Application Development (C212)",
+      "code": "22AIE458",
+      "faculty": [
+        "Mr. Ullas S"
+      ],
+      "shortName": "MAD"
+    },
+    "PE2-3": {
+      "name": "Numerical Methods and Optimisation",
+      "code": "19MAT343",
+      "faculty": [
+        "Dr. Abhinav R",
+        "Dr. Nagesh S"
+      ],
+      "shortName": "NMO"
     },
     "CIR": {
       "name": "Soft Skills III",
@@ -65,11 +82,37 @@
       "shortName": "SSI"
     }
   },
-  "config": {},
-  "slots": {},
+  "config": {
+    "pe2": {
+      "label": "Professional Elective II",
+      "values": [
+        { "label": "Speech Processing (C301)", "id": "PE2-1" },
+        { "label": "Mobile Application Development (C212)", "id": "PE2-2" },
+        { "label": "Numerical Methods and Optimisation", "id": "PE2-3" }
+      ]
+    }
+  },
+  "slots": {
+    "pe2Slot": {
+      "match": "pe2",
+      "choices": {
+        "PE2-1": "PE2-1",
+        "PE2-2": "PE2-2",
+        "PE2-3": "PE2-3"
+      }
+    },
+    "pe2Slot_LAB": {
+      "match": "pe2",
+      "choices": {
+        "PE2-1": "PE2-1_LAB",
+        "PE2-2": "PE2-2_LAB",
+        "PE2-3": "PE2-3_LAB"
+      }
+    }
+  },
   "schedule": {
     "Monday": [
-      "PE-II",
+      "pe2Slot",
       "CIR",
       "CIR",
       "CIR",
@@ -82,7 +125,7 @@
       "C",
       "E",
       "D",
-      "PLACEMENT",
+      "FREE",
       "A_LAB",
       "A_LAB"
     ],
@@ -92,8 +135,8 @@
       "E_LAB",
       "FREE",
       "FREE",
-      "PE-II_LAB",
-      "PE-II_LAB"
+      "pe2Slot_LAB",
+      "pe2Slot_LAB"
     ],
     "Thursday": [
       "E",
@@ -110,7 +153,7 @@
       "B_LAB",
       "A",
       "CIR",
-      "PE-II",
+      "pe2Slot",
       "C"
     ]
   }

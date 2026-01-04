@@ -54,6 +54,14 @@
         "Ms. Arya R"
       ],
       "shortName": "UI"
+    },
+    "G": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": [
+        "TBD"
+      ],
+      "shortName": "GGI"
     }
   },
   "config": {},
@@ -74,26 +82,26 @@
       "B_LAB",
       "A",
       "C",
-      "PLACEMENT",
-      "COUNSELLING"
+      "FREE",
+      "FREE"
     ],
     "Wednesday": [
       "F",
       "E",
+      "G",
       "D",
       "C",
       "A",
-      "B",
-      "FREE"
+      "B"
     ],
     "Thursday": [
       "B",
+      "G",
       "D",
       "C_LAB",
       "C_LAB",
       "A",
-      "F",
-      "FREE"
+      "F"
     ],
     "Friday": [
       "A_LAB",
