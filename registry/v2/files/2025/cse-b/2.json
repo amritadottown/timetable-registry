@@ -1,113 +1,79 @@
 {
-  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
   "subjects": {
     "A": {
       "name": "Discrete Mathematics",
       "code": "23MAT116",
-      "faculty": [
-        "Dr. Sunita Kummavat"
-      ],
-      "shortName": "Math"
+      "faculty": ["Dr. Sunita Kumawat"],
+      "shortName": "DM"
     },
     "B": {
       "name": "Linear Algebra",
       "code": "23MAT117",
-      "faculty": [
-        "Ms. Prijimol V B"
-      ],
+      "faculty": ["Ms. Prjimol V B"],
       "shortName": "LA"
     },
     "C": {
       "name": "Object Oriented Programming",
       "code": "23CSE111",
-      "faculty": [
-        "Ms. B Saranya Devi",
-        "Ms. Neera Chaudhary",
-        "Mr. Ullas S"
-      ],
-      "shortName": "Prog"
+      "faculty": ["Ms. B Saranya Devi", "Ms. Neera Chaudhary", "Mr. Ullas S"],
+      "shortName": "OOP"
     },
     "D": {
       "name": "Modern Physics",
       "code": "23PHY115",
-      "faculty": [
-        "Mr. H Manjunatha"
-      ],
+      "faculty": ["Mr. H Manjunatha"],
       "shortName": "Phy"
     },
     "E": {
       "name": "User Interface Design",
       "code": "23CSE113",
-      "faculty": [
-        "Dr. Shinu M. R",
-        "Ms. Gayathri R"
-      ],
-      "shortName": "UI"
+      "faculty": ["Dr. Shinu M. R", "Ms. Gayathri R"],
+      "shortName": "UID"
     },
     "F": {
       "name": "Technical Communication",
       "code": "23ENG101",
-      "faculty": [
-        "Ms. Revathy Hemachandran"
-      ],
-      "shortName": "Comm"
+      "faculty": ["Ms. Revathy Hemachandran"],
+      "shortName": "TC"
     },
     "G": {
       "name": "Glimpses of Glorious India",
       "code": "22ADM111",
-      "faculty": [
-        "Mr. Vinay"
-      ],
+      "faculty": ["Mr. Vinay"],
       "shortName": "GGI"
     }
   },
-  "config": {},
-  "slots": {},
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "B1", "id": "b1" },
+        { "label": "B2", "id": "b2" }
+      ]
+    }
+  },
+  "slots": {
+    "friMidLab": {
+      "match": "batch",
+      "choices": {
+        "b1": "F_LAB",
+        "b2": "FREE"
+      }
+    },
+    "friAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "b1": "FREE",
+        "b2": "F_LAB"
+      }
+    }
+  },
   "schedule": {
-    "Monday": [
-      "C",
-      "D",
-      "FREE",
-      "E",
-      "B",
-      "A_LAB",
-      "A_LAB"
-    ],
-    "Tuesday": [
-      "G",
-      "E",
-      "C",
-      "A",
-      "B",
-      "F",
-      "PLACEMENT"
-    ],
-    "Wednesday": [
-      "E_LAB",
-      "E_LAB",
-      "E_LAB",
-      "B",
-      "D",
-      "A",
-      "C"
-    ],
-    "Thursday": [
-      "D",
-      "G",
-      "F",
-      "C_LAB",
-      "C_LAB",
-      "A",
-      "COUNSELLING"
-    ],
-    "Friday": [
-      "B_LAB",
-      "B_LAB",
-      "B_LAB",
-      "F_LAB",
-      "F_LAB",
-      "F_LAB",
-      "F_LAB"
-    ]
+    "Monday": ["C", "D", "FREE", "E", "B", "A_LAB", "A_LAB"],
+    "Tuesday": ["G", "E", "C", "A", "B", "F", "PLACEMENT"],
+    "Wednesday": ["E_LAB", "E_LAB", "E_LAB", "B", "D", "A", "C"],
+    "Thursday": ["D", "G", "F", "C_LAB", "C_LAB", "A", "COUNSELLING"],
+    "Friday": ["B_LAB", "B_LAB", "B_LAB", "friMidLab", "friMidLab", "friAfternoonLab", "friAfternoonLab"]
   }
 }
