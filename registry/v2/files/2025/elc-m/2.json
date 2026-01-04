@@ -1,5 +1,5 @@
 {
-  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
   "subjects": {
     "A": {
       "name": "Complex Analysis and Transforms",
