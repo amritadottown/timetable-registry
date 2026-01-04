@@ -4,43 +4,43 @@
     "A": {
       "name": "Discrete Mathematics",
       "code": "23MAT116",
-      "faculty": ["TBD"],
+      "faculty": ["Dr. Sunita Kummavat"],
       "shortName": "DM"
     },
     "B": {
       "name": "Linear Algebra",
       "code": "23MAT117",
-      "faculty": ["TBD"],
+      "faculty": ["Ms. Prijimol V B"],
       "shortName": "LA"
     },
     "C": {
       "name": "Object Oriented Programming",
       "code": "23CSE111",
-      "faculty": ["TBD"],
+      "faculty": ["Dr. Chandan K", "Ms. B Saranya Devi", "Ms. Anjitha P"],
       "shortName": "OOP"
     },
     "D": {
       "name": "Modern Physics",
       "code": "23PHY115",
-      "faculty": ["TBD"],
+      "faculty": ["Dr. K N Venkatachaliah"],
       "shortName": "Phy"
     },
     "E": {
       "name": "User Interface Design",
       "code": "23CSE113",
-      "faculty": ["TBD"],
+      "faculty": ["Ms. Gayathri Ramasamy", "Ms. Anjitha"],
       "shortName": "UID"
     },
     "F": {
       "name": "Technical Communication",
       "code": "23ENG101",
-      "faculty": ["TBD"],
+      "faculty": ["Ms. Deepthi Janardhan"],
       "shortName": "TC"
     },
     "G": {
       "name": "Glimpses of Glorious India",
       "code": "22ADM111",
-      "faculty": ["TBD"],
+      "faculty": ["Ms. Bhavya"],
       "shortName": "GGI"
     }
   },
