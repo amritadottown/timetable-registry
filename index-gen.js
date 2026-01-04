@@ -1,5 +1,5 @@
 import path from "node:path";
-import { Glob } from "bun";
+import fs from "node:fs";
 import { TimetableSchema } from "./schema.ts";
 import { type } from 'arktype';
 
@@ -170,35 +170,35 @@ const jsonSchema = TimetableSchema.toJsonSchema();
 await Bun.write("registry/v2/schema.json", JSON.stringify(jsonSchema, null, 2));
 console.log("Generated registry/v2/schema.json\n");
 
-// Find all JSON files in the directory structure
-const glob = new Glob("*/*/*.json");
+const years = fs.readdirSync(rootDir)
 
-// Build index and validate
-for await (const filePath of glob.scan(rootDir)) {
-  const fullPath = path.join(rootDir, filePath);
-  const [year, section, filename] = filePath.split(path.sep);
-  const semester = path.basename(filename, ".json");
+for (const year of years) {
+  outputData.timetables[year] = {}
+  const yearPath = path.join(rootDir, year);
   
-  // Initialize nested structure if needed
-  if (!outputData.timetables[year]) {
-    outputData.timetables[year] = {};
-  }
-  if (!outputData.timetables[year][section]) {
-    outputData.timetables[year][section] = [];
-  }
-  
-  // Add semester to index
-  outputData.timetables[year][section].push(semester);
-  
-  // Validate
-  totalFiles++;
-  console.log(`Validating: ${filePath}`);
-  const isValid = await validateJsonFile(fullPath);
-  
-  if (isValid) {
-    validFiles++;
-  } else {
-    validationPassed = false;
+  for (const section of fs.readdirSync(yearPath)) {
+    outputData.timetables[year][section] = {}
+    const sectionPath = path.join(yearPath, section);
+
+    const sems = fs.readdirSync(sectionPath)
+    .filter(file => file.endsWith('.json'))
+
+    outputData.timetables[year][section] = sems.map((str) => path.basename(str, ".json"));
+    
+    for (const filename of sems) {
+      const filePath = path.join(sectionPath, filename);
+
+      // Validate
+      totalFiles++;
+      console.log(`Validating: ${filePath}`);
+      const isValid = await validateJsonFile(filePath);
+      
+      if (isValid) {
+        validFiles++;
+      } else {
+        validationPassed = false;
+      }
+    }
   }
 }
 
