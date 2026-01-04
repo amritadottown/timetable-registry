@@ -1,0 +1,95 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Complex Analysis and Transforms",
+      "code": "23MAT125",
+      "faculty": ["Ms. Nimmy P"],
+      "shortName": "CAT"
+    },
+    "B": {
+      "name": "Engineering Physics",
+      "code": "23PHY105",
+      "faculty": ["Dr. G N Kumaraswamy"],
+      "shortName": "Phy"
+    },
+    "C": {
+      "name": "Electrical Circuit Analysis",
+      "code": "23ELC111",
+      "faculty": ["Dr S Syama"],
+      "shortName": "ECA"
+    },
+    "D": {
+      "name": "Electronic Devices and Circuits",
+      "code": "23ELC112",
+      "faculty": ["Dr. V. S. Kirthikadevi"],
+      "shortName": "EDC"
+    },
+    "E": {
+      "name": "Digital Electronics",
+      "code": "23ELC113",
+      "faculty": ["Ms K Sireesha"],
+      "shortName": "DE"
+    },
+    "F": {
+      "name": "Computer Programming",
+      "code": "23ELC114",
+      "faculty": ["Ms Kruthika U"],
+      "shortName": "CP"
+    },
+    "G": {
+      "name": "Electrical Engineering Practice",
+      "code": "23EEE183",
+      "faculty": ["Dr. V. S. Kirthikadevi", "Ms Kruthika U"],
+      "shortName": "EEP"
+    },
+    "H": {
+      "name": "Electrical, Electronics and Digital Lab",
+      "code": "23ELC181",
+      "faculty": ["Dr. V. S. Kirthikadevi", "Ms Sudha Yadav"],
+      "shortName": "EED Lab"
+    },
+    "I": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": ["Mr. Vinay"],
+      "shortName": "GGI"
+    },
+    "J": {
+      "name": "Engineering Physics Lab",
+      "code": "23PHY185",
+      "faculty": ["Mr. Manjunatha H", "Dr. K N Venkatachaliah"],
+      "shortName": "Phy Lab"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "M1", "id": "m1" },
+        { "label": "M2", "id": "m2" }
+      ]
+    }
+  },
+  "slots": {
+    "wednesdayLab": {
+      "match": "batch",
+      "choices": {
+        "m1": "J_LAB"
+      }
+    },
+    "fridayLab": {
+      "match": "batch",
+      "choices": {
+        "m2": "J_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["C", "I", "E", "B", "A", "F_LAB", "F_LAB"],
+    "Tuesday": ["D", "F", "E", "A", "C", "G_LAB", "G_LAB"],
+    "Wednesday": ["wednesdayLab", "wednesdayLab", "wednesdayLab", "D", "FREE", "H_LAB", "H_LAB"],
+    "Thursday": ["E", "C", "I", "B", "A", "FREE", "FREE"],
+    "Friday": ["F", "A", "B", "D", "FREE", "fridayLab", "fridayLab"]
+  }
+}

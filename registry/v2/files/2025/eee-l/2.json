@@ -1,0 +1,74 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Complex Analysis and Transforms",
+      "code": "23MAT125",
+      "faculty": ["Ms. Nimmy P"],
+      "shortName": "CAT"
+    },
+    "B": {
+      "name": "Algorithmic Thinking and Computer Programming",
+      "code": "23CSE115",
+      "faculty": ["Dr Vidya H A"],
+      "shortName": "ATCP"
+    },
+    "C": {
+      "name": "Engineering Physics",
+      "code": "23PHY105",
+      "faculty": ["Dr. G N Kumaraswamy"],
+      "shortName": "Phy"
+    },
+    "D": {
+      "name": "Electric Circuits",
+      "code": "23EEE111",
+      "faculty": ["Dr S Syama"],
+      "shortName": "EC"
+    },
+    "E": {
+      "name": "Electronic Circuits",
+      "code": "23EEE112",
+      "faculty": ["Dr Kaveri Hatti"],
+      "shortName": "ElC"
+    },
+    "F": {
+      "name": "Materials for Electrical Engineering",
+      "code": "23EEE113",
+      "faculty": ["Dr. G N Kumaraswamy"],
+      "shortName": "MEE"
+    },
+    "G": {
+      "name": "Electric and Electronic Circuits Lab",
+      "code": "23EEE181",
+      "faculty": ["Dr Krithika V S", "Ms Sudha Yadav"],
+      "shortName": "EEC Lab"
+    },
+    "H": {
+      "name": "Electrical Engineering Practice",
+      "code": "23EEE183",
+      "faculty": ["Dr Rashmi M R", "Ms Lois lani"],
+      "shortName": "EEP"
+    },
+    "I": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": ["Dr. Tanashree Redij"],
+      "shortName": "GGI"
+    },
+    "J": {
+      "name": "Engineering Physics Lab",
+      "code": "23PHY185",
+      "faculty": ["Mr Manjunatha H", "Dr K N Venkatachaliah"],
+      "shortName": "Phy Lab"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["D", "I", "A", "B_LAB", "B_LAB", "C", "FREE"],
+    "Tuesday": ["J_LAB", "J_LAB", "J_LAB", "B", "D", "E", "FREE"],
+    "Wednesday": ["G_LAB", "G_LAB", "G_LAB", "C", "A", "B", "FREE"],
+    "Thursday": ["A", "D", "I", "E", "F", "H_LAB", "H_LAB"],
+    "Friday": ["F", "E", "B", "FREE", "A", "C", "FREE"]
+  }
+}

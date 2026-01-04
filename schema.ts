@@ -5,7 +5,7 @@ const timetableScope = type.scope({
         "+": "reject",
         name: "string",
         shortName: "string",
-        code: /^\d{2}[A-Z]{3}\d{3}$/,
+        code: /^\d{2}[A-Z]{2,3}\d{3}$/,
         "faculty": "string[]"
     },
 

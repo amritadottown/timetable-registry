@@ -1,0 +1,62 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Electrical Measurements",
+      "code": "23EEE211",
+      "faculty": ["Ms. Sireesha K", "Ms. Kruthika U."],
+      "shortName": "EM"
+    },
+    "B": {
+      "name": "Electrical Machines I",
+      "code": "23EEE212",
+      "faculty": ["Dr. Mini Sujith"],
+      "shortName": "EM I"
+    },
+    "C": {
+      "name": "Introduction to Machine Learning",
+      "code": "23EEE213",
+      "faculty": ["Dr. S Syama"],
+      "shortName": "ML"
+    },
+    "D": {
+      "name": "Microcontrollers and Applications",
+      "code": "23EEE214",
+      "faculty": ["Mr. Vishnu Raj"],
+      "shortName": "MCA"
+    },
+    "E": {
+      "name": "Control Systems",
+      "code": "23EEE215",
+      "faculty": ["Ms. S. Lekshmi"],
+      "shortName": "CS"
+    },
+    "EM1": {
+      "name": "Electrical Machines I Lab",
+      "code": "23EEE282",
+      "faculty": ["Dr. Mini Sujith", "Dr. Manitha P.V"],
+      "shortName": "EM I Lab"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers II",
+      "code": "23LSE211",
+      "faculty": ["Mr. Ankit Jain", "Mr. Sivakumar K M", "Ms. Sweta Chavan"],
+      "shortName": "LSE II"
+    },
+    "AVP": {
+      "name": "Amrita Value Program 2",
+      "code": "23AVP000",
+      "faculty": ["Mr. Vinay"],
+      "shortName": "AVP 2"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["FREE", "LSE", "LSE", "LSE", "D", "EM1_LAB", "EM1_LAB"],
+    "Tuesday": ["C", "B", "D", "A_LAB", "A_LAB", "FREE", "FREE"],
+    "Wednesday": ["B", "D", "E", "C", "A", "FREE", "FREE"],
+    "Thursday": ["B", "E", "A", "D_LAB", "D_LAB", "C", "FREE"],
+    "Friday": ["A", "E", "AVP", "C", "FREE", "E_LAB", "E_LAB"]
+  }
+}

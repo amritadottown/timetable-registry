@@ -1,0 +1,116 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Power Electronics and Drives",
+      "code": "23EEE311",
+      "faculty": ["Ms. Sailaja V."],
+      "shortName": "PED"
+    },
+    "B": {
+      "name": "Computer Networks and IoT",
+      "code": "23ELC312",
+      "faculty": ["Ms. Archana Mohan"],
+      "shortName": "CN & IoT"
+    },
+    "C": {
+      "name": "Theory of Computation and Compiler Design",
+      "code": "23ELC313",
+      "faculty": ["Mr. Vishnu Raj"],
+      "shortName": "TOC & CD"
+    },
+    "D1": {
+      "name": "Block Chain",
+      "code": "23ELC365",
+      "faculty": ["Ms. Sudha Yadav"],
+      "shortName": "Block Chain"
+    },
+    "D2": {
+      "name": "Battery Management Systems",
+      "code": "23EEE367",
+      "faculty": ["Dr. K. Deepa"],
+      "shortName": "BMS"
+    },
+    "E1": {
+      "name": "Robotics and Automation",
+      "code": "23ELC341",
+      "faculty": ["Ms. Nithya M."],
+      "shortName": "Robotics"
+    },
+    "E2": {
+      "name": "Cyber Security",
+      "code": "23ELC366",
+      "faculty": ["Dr. Vidya H.A."],
+      "shortName": "Cyber Sec"
+    },
+    "PED": {
+      "name": "Power Electronics and Drives Lab",
+      "code": "23ELC382",
+      "faculty": ["Ms. Sailaja V.", "Ms. K. Sireesha"],
+      "shortName": "PED Lab"
+    },
+    "IOT": {
+      "name": "Computer Networks and IoT Lab",
+      "code": "23ELC383",
+      "faculty": ["Ms. Archana Mohan", "Mr. Vishnu Raj"],
+      "shortName": "CN & IoT Lab"
+    },
+    "OL": {
+      "name": "Open Lab",
+      "code": "23ELC384",
+      "faculty": ["Mr. Vishnu Raj", "Dr. Mini Sujith"],
+      "shortName": "Open Lab"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers IV",
+      "code": "23LSE311",
+      "faculty": ["Ms. Sweta Chavan", "Ms. Jisha Nair", "Ms. Nilakshee"],
+      "shortName": "LSE IV"
+    },
+    "II": {
+      "name": "Industry Internship",
+      "code": "23HU601",
+      "faculty": ["Dr. V. S. Kirthikadevi"],
+      "shortName": "II"
+    }
+  },
+  "config": {
+    "pe3": {
+      "label": "Professional Elective III",
+      "values": [
+        { "label": "Block Chain", "id": "D1" },
+        { "label": "Battery Management Systems", "id": "D2" }
+      ]
+    },
+    "pe4": {
+      "label": "Professional Elective IV",
+      "values": [
+        { "label": "Robotics and Automation", "id": "E1" },
+        { "label": "Cyber Security", "id": "E2" }
+      ]
+    }
+  },
+  "slots": {
+    "pe3Slot": {
+      "match": "pe3",
+      "choices": {
+        "D1": "D1",
+        "D2": "D2"
+      }
+    },
+    "pe4Slot": {
+      "match": "pe4",
+      "choices": {
+        "E1": "E1",
+        "E2": "E2"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["pe3Slot", "LSE", "LSE", "LSE", "A", "C", "FREE"],
+    "Tuesday": ["C", "B", "FREE", "IOT_LAB", "IOT_LAB", "FREE", "FREE"],
+    "Wednesday": ["PED_LAB", "PED_LAB", "PED_LAB", "pe4Slot", "pe3Slot", "FREE", "FREE"],
+    "Thursday": ["C", "A", "B", "B", "pe4Slot", "OL_LAB", "OL_LAB"],
+    "Friday": ["LSE", "A", "pe3Slot", "pe4Slot", "C", "II", "II"]
+  }
+}

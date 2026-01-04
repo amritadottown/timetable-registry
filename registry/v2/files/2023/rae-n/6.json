@@ -1,0 +1,145 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Additive Manufacturing",
+      "code": "23MEE316",
+      "faculty": ["Dr. Dileep B P", "Dr. Y P Deepthi", "Dr. Mohan Kumar S"],
+      "shortName": "AM"
+    },
+    "B": {
+      "name": "Mobile Robots",
+      "code": "23RAI311",
+      "faculty": ["Dr. Bikram Singh Solanki"],
+      "shortName": "Mobile Robots"
+    },
+    "C": {
+      "name": "Deep learning",
+      "code": "23RAI312",
+      "faculty": ["Dr. Sreeja Kochuvala", "Dr. Prakash K Marimuthu"],
+      "shortName": "DL"
+    },
+    "D": {
+      "name": "IoT and Automation",
+      "code": "23RAI313",
+      "faculty": ["Dr. Prashanth B N"],
+      "shortName": "IoT"
+    },
+    "E": {
+      "name": "Mobile Robots lab",
+      "code": "23RAI382",
+      "faculty": ["Dr. Bikram Singh Solanki", "Mr. Raghavendra Ravi Kiran K", "Dr. Dileep B P"],
+      "shortName": "MR Lab"
+    },
+    "F": {
+      "name": "Mini Project",
+      "code": "23RAI398",
+      "faculty": ["Dr. Rajeevlochana C G", "Dr. Pujasen Gupta", "Dr. Bikram Singh Solanki"],
+      "shortName": "Mini Project"
+    },
+    "G": {
+      "name": "Life Skills for Engineers IV",
+      "code": "23LSE311",
+      "faculty": [],
+      "shortName": "LSE IV"
+    },
+    "H": {
+      "name": "Computer Vision and Image Processing",
+      "code": "23RAI343",
+      "faculty": ["Dr. Vivek V"],
+      "shortName": "CV"
+    },
+    "I": {
+      "name": "Operations Research",
+      "code": "23MNG336",
+      "faculty": ["Dr. Ulhas K Anngeri"],
+      "shortName": "OR"
+    },
+    "J": {
+      "name": "Smart Manufacturing",
+      "code": "23MEE326",
+      "faculty": ["Dr. Ulhas K Anngeri"],
+      "shortName": "Smart Mfg"
+    },
+    "K": {
+      "name": "AI in Natural Language Processing",
+      "code": "23RAI353",
+      "faculty": ["Dr. Shali S", "Dr. Sushmita Vekot"],
+      "shortName": "AI in NLP"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    },
+    "pe1": {
+      "label": "Professional Elective I",
+      "values": [
+        { "label": "AI in Natural Language Processing", "id": "K" },
+        { "label": "Smart Manufacturing", "id": "J" }
+      ]
+    },
+    "pe2": {
+      "label": "Professional Elective II",
+      "values": [
+        { "label": "Computer Vision and Image Processing", "id": "H" },
+        { "label": "Operations Research", "id": "I" }
+      ]
+    }
+  },
+  "slots": {
+    "pe1Slot": {
+      "match": "pe1",
+      "choices": {
+        "K": "K",
+        "J": "J"
+      }
+    },
+    "pe2Slot": {
+      "match": "pe2",
+      "choices": {
+        "H": "H",
+        "I": "I"
+      }
+    },
+    "tuesdayMorningLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "A_LAB",
+        "a2": "F"
+      }
+    },
+    "thursdayMiddayLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "E_LAB",
+        "a2": "D_LAB"
+      }
+    },
+    "fridayMorningLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "F",
+        "a2": "A_LAB"
+      }
+    },
+    "fridayAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "D_LAB",
+        "a2": "E_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["pe1Slot", "B", "FREE", "pe2Slot", "C", "FREE", "G"],
+    "Tuesday": ["FREE", "pe2Slot", "pe2Slot", "tuesdayMorningLab", "tuesdayMorningLab", "C_LAB", "C_LAB"],
+    "Wednesday": ["B", "G", "D", "FREE", "pe1Slot", "G", "G"],
+    "Thursday": ["C", "A", "pe1Slot", "thursdayMiddayLab", "thursdayMiddayLab", "D", "FREE"],
+    "Friday": ["fridayMorningLab", "fridayMorningLab", "fridayMorningLab", "H", "B", "fridayAfternoonLab", "fridayAfternoonLab"]
+  }
+}

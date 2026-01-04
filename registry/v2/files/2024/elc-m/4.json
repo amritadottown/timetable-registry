@@ -1,0 +1,56 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Operating Systems",
+      "code": "23ELC211",
+      "faculty": ["Ms. Kruthika U."],
+      "shortName": "OS"
+    },
+    "B": {
+      "name": "Machine Learning",
+      "code": "23ELC212",
+      "faculty": ["Dr. Rashmi M.R."],
+      "shortName": "ML"
+    },
+    "C": {
+      "name": "Control Systems",
+      "code": "23EEE215",
+      "faculty": ["Ms. S. Lekshmi", "Ms. Nithya M."],
+      "shortName": "CS"
+    },
+    "D": {
+      "name": "Microcontrollers and Applications",
+      "code": "23EEE214",
+      "faculty": ["Dr. J. Ramprabhakar", "Ms. Nithya M."],
+      "shortName": "MCA"
+    },
+    "E": {
+      "name": "Data Structure and Algorithms",
+      "code": "23ELC213",
+      "faculty": ["Dr. Surekha P."],
+      "shortName": "DSA"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers II",
+      "code": "23LSE211",
+      "faculty": ["Ms. Sujatha V", "Ms. Sweta Chavan", "Mr. Ankit Jain"],
+      "shortName": "LSE II"
+    },
+    "AVP": {
+      "name": "Amrita Value Program 2",
+      "code": "23AVP000",
+      "faculty": ["Dr. Tanashree"],
+      "shortName": "AVP 2"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["FREE", "C", "E", "A", "D", "C_LAB", "C_LAB"],
+    "Tuesday": ["E", "LSE", "LSE", "LSE", "B", "D_LAB", "D_LAB"],
+    "Wednesday": ["C", "A", "B", "D", "FREE", "FREE", "FREE"],
+    "Thursday": ["E_LAB", "E_LAB", "E_LAB", "C", "B", "A_LAB", "A_LAB"],
+    "Friday": ["D", "E", "AVP", "B", "FREE", "FREE", "FREE"]
+  }
+}

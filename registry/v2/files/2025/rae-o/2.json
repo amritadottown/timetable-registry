@@ -1,0 +1,99 @@
+{
+  "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Intelligent Systems - 2",
+      "code": "23MAT131",
+      "faculty": ["Dr. Shali S", "Dr. Pradeep S Jakkareddy"],
+      "shortName": "MIS-2"
+    },
+    "B": {
+      "name": "Object Oriented Programming",
+      "code": "23CSE117",
+      "faculty": ["Dr. Ravi Kumar V", "Dr. Shashi Kumar M E", "Dr. Mohankumar S"],
+      "shortName": "OOP"
+    },
+    "C": {
+      "name": "Elements of Mechanical Engineering",
+      "code": "23MEE112",
+      "faculty": ["Dr. Mohan Kumar S"],
+      "shortName": "EME"
+    },
+    "D": {
+      "name": "Computational Engineering Mechanics",
+      "code": "23MEE113",
+      "faculty": ["Dr. Rajeevlochana C G", "Dr. Shankara", "Dr. Smita Singh"],
+      "shortName": "CEM"
+    },
+    "E": {
+      "name": "Manufacturing Practice-B",
+      "code": "23MEE182",
+      "faculty": ["Dr. Shankara", "Ms. Divya Sharma S G"],
+      "shortName": "MP-B"
+    },
+    "F": {
+      "name": "Sensors and Signal Processing",
+      "code": "23ECE118",
+      "faculty": ["Dr. Pujasen Gupta", "Dr. Prashanth B N", "Dr. Smita Singh"],
+      "shortName": "SSP"
+    },
+    "G": {
+      "name": "Fundamentals of Artificial Intelligence",
+      "code": "23RAI111",
+      "faculty": ["Dr. Smita Singh"],
+      "shortName": "FAI"
+    },
+    "H": {
+      "name": "Glimpses of Glorious India",
+      "code": "22ADM111",
+      "faculty": [],
+      "shortName": "GGI"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "O1", "id": "o1" },
+        { "label": "O2", "id": "o2" }
+      ]
+    }
+  },
+  "slots": {
+    "mondayLab": {
+      "match": "batch",
+      "choices": {
+        "o1": "D_LAB",
+        "o2": "B_LAB"
+      }
+    },
+    "wednesdayLab": {
+      "match": "batch",
+      "choices": {
+        "o1": "E_LAB",
+        "o2": "F_LAB"
+      }
+    },
+    "thursdayLab": {
+      "match": "batch",
+      "choices": {
+        "o1": "B_LAB",
+        "o2": "D_LAB"
+      }
+    },
+    "fridayLab": {
+      "match": "batch",
+      "choices": {
+        "o1": "F_LAB",
+        "o2": "E_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["mondayLab", "mondayLab", "mondayLab", "D", "F", "C", "FREE"],
+    "Tuesday": ["E", "B", "H", "C", "A", "G", "FREE"],
+    "Wednesday": ["C", "FREE", "A", "wednesdayLab", "wednesdayLab", "FREE", "FREE"],
+    "Thursday": ["D", "H", "F", "thursdayLab", "thursdayLab", "G", "FREE"],
+    "Friday": ["B", "A", "G", "fridayLab", "fridayLab", "A_LAB", "A_LAB"]
+  }
+}
