@@ -2,7 +2,7 @@
   "$schema": "http://timetable-registry.amrita.town/v2/schema.json",
   "subjects": {
     "A": {
-      "name": "Software Engineering (Project-Based)",
+      "name": "Software Engineering",
       "code": "22AIE311",
       "faculty": [
         "Ms. Anjitha"
@@ -16,7 +16,7 @@
         "Ms. Sangita Khare",
         "Ms. Shalini Tiwari"
       ],
-      "shortName": "BD"
+      "shortName": "BDA"
     },
     "C": {
       "name": "Computer Vision & Image Processing",
@@ -46,7 +46,7 @@
       "shortName": "NLP"
     },
     "PE2-1": {
-      "name": "Speech Processing (C301)",
+      "name": "Speech Processing",
       "code": "22AIE450",
       "faculty": [
         "Dr. Debanjali",
@@ -55,7 +55,7 @@
       "shortName": "SP"
     },
     "PE2-2": {
-      "name": "Mobile Application Development (C212)",
+      "name": "Mobile Application Development",
       "code": "22AIE458",
       "faculty": [
         "Mr. Ullas S"
@@ -66,8 +66,7 @@
       "name": "Numerical Methods and Optimisation",
       "code": "19MAT343",
       "faculty": [
-        "Dr. Abhinav R",
-        "Dr. Nagesh S"
+        "Dr. Abhinav R"
       ],
       "shortName": "NMO"
     },
@@ -79,15 +78,15 @@
         "Ms. Nilakshee",
         "Ms. Karishma"
       ],
-      "shortName": "SSI"
+      "shortName": "CIR"
     }
   },
   "config": {
     "pe2": {
       "label": "Professional Elective II",
       "values": [
-        { "label": "Speech Processing (C301)", "id": "PE2-1" },
-        { "label": "Mobile Application Development (C212)", "id": "PE2-2" },
+        { "label": "Speech Processing", "id": "PE2-1" },
+        { "label": "Mobile Application Development", "id": "PE2-2" },
         { "label": "Numerical Methods and Optimisation", "id": "PE2-3" }
       ]
     }
@@ -101,7 +100,7 @@
         "PE2-3": "PE2-3"
       }
     },
-    "pe2Slot_LAB": {
+    "pe2Lab": {
       "match": "pe2",
       "choices": {
         "PE2-1": "PE2-1_LAB",
@@ -135,8 +134,8 @@
       "B",
       "FREE",
       "FREE",
-      "pe2Slot_LAB",
-      "pe2Slot_LAB"
+      "pe2Lab",
+      "pe2Lab"
     ],
     "Thursday": [
       "C",

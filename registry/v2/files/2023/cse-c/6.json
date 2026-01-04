@@ -33,10 +33,10 @@
         "Ms. Neera Chaudhary",
         "Ms. Kavitha C.R."
       ],
-      "shortName": "Des"
+      "shortName": "CD"
     },
     "PE3-1": {
-      "name": "Advanced Computer Networks (C206)",
+      "name": "Advanced Computer Networks",
       "code": "23CSE342",
       "faculty": [
         "Dr. Thangam S."
@@ -44,7 +44,7 @@
       "shortName": "ACN"
     },
     "PE3-2": {
-      "name": "Cloud Computing (C208 & C210)",
+      "name": "Cloud Computing",
       "code": "23CSE363",
       "faculty": [
         "Dr. Beena B M",
@@ -56,7 +56,7 @@
       "name": "Numerical Methods and Optimization",
       "code": "23MAT343",
       "faculty": [
-        "Dr. Abhinav Ravindra Deshpande"
+        "Dr. Abhinav Ravindra Dehadrai"
       ],
       "shortName": "NMO"
     },
@@ -68,7 +68,7 @@
         "Ms. Nilakshee",
         "Ms. Karishma"
       ],
-      "shortName": "LS"
+      "shortName": "CIR"
     },
     "PROJECT": {
       "name": "Project Phase-I",
@@ -76,15 +76,15 @@
       "faculty": [
         "Dr. Meena Belwal"
       ],
-      "shortName": "PP"
+      "shortName": "PROJ"
     }
   },
   "config": {
     "pe3": {
       "label": "Professional Elective III",
       "values": [
-        { "label": "Advanced Computer Networks (C206)", "id": "PE3-1" },
-        { "label": "Cloud Computing (C208 & C210)", "id": "PE3-2" },
+        { "label": "Advanced Computer Networks", "id": "PE3-1" },
+        { "label": "Cloud Computing", "id": "PE3-2" },
         { "label": "Numerical Methods and Optimization", "id": "PE3-3" }
       ]
     }
@@ -98,7 +98,7 @@
         "PE3-3": "PE3-3"
       }
     },
-    "pe3Slot_LAB": {
+    "pe3Lab": {
       "match": "pe3",
       "choices": {
         "PE3-1": "PE3-1_LAB",
@@ -110,20 +110,20 @@
   "schedule": {
     "Monday": [
       "C",
-      "PROJECT",
-      "PROJECT",
-      "pe3Slot_LAB",
-      "pe3Slot_LAB",
+      "A",
+      "FREE",
+      "pe3Lab",
+      "pe3Lab",
       "D",
       "FREE"
     ],
     "Tuesday": [
-      "FREE",
-      "D",
+      "PROJECT",
+      "PROJECT",
+      "PROJECT",
       "A",
-      "B_LAB",
-      "B_LAB",
       "pe3Slot",
+      "B",
       "FREE"
     ],
     "Wednesday": [

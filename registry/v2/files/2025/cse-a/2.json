@@ -57,14 +57,12 @@
     "wedMorningLab": {
       "match": "batch",
       "choices": {
-        "a1": "F_LAB",
-        "a2": "FREE"
+        "a1": "F_LAB"
       }
     },
     "thurAfternoonLab": {
       "match": "batch",
       "choices": {
-        "a1": "FREE",
         "a2": "F_LAB"
       }
     }

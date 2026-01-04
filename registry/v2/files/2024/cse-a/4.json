@@ -8,7 +8,7 @@
         "Dr. K. Murali",
         "Dr. Venkatesh B."
       ],
-      "shortName": "Prob"
+      "shortName": "PRP"
     },
     "B": {
       "name": "Design & Analysis of Algorithms",
@@ -18,7 +18,7 @@
         "Ms. Kavitha C.R.",
         "Ms. Sreebha Bhaskaran"
       ],
-      "shortName": "Des"
+      "shortName": "DAA"
     },
     "C": {
       "name": "Principles of Functional Languages",
@@ -28,7 +28,7 @@
         "Ms. Aiswariya Milan K.",
         "Ms. Gayathri Ramasamy"
       ],
-      "shortName": "FP"
+      "shortName": "PFL"
     },
     "D": {
       "name": "Computer Organization and Architecture",
@@ -54,13 +54,13 @@
       "faculty": [
         "Ms. Bhavya"
       ],
-      "shortName": "Lead"
+      "shortName": "ADM"
     },
     "FE1": {
       "name": "Business communication",
       "code": "23ENG220",
       "faculty": [
-        "Sonia",
+        "Smita Sail",
         "Deepthi Janardhan",
         "Sanjana Chandran"
       ],
@@ -79,7 +79,7 @@
       "name": "Science Fiction",
       "code": "24ENG243",
       "faculty": [
-        "Revathy Hemachandran"
+        "Deepakumari"
       ],
       "shortName": "SF"
     },

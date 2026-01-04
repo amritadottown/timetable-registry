@@ -7,7 +7,7 @@
       "faculty": [
         "Dr. K. N. Meera"
       ],
-      "shortName": "Prob"
+      "shortName": "PRP"
     },
     "B": {
       "name": "Design & Analysis of Algorithms",
@@ -17,7 +17,7 @@
         "Dr. Nalini",
         "Dr. Niharika"
       ],
-      "shortName": "Des"
+      "shortName": "DAA"
     },
     "C": {
       "name": "Principles of Functional Languages",
@@ -27,7 +27,7 @@
         "Dr. Gurupriya",
         "Ms. Swetha"
       ],
-      "shortName": "FP"
+      "shortName": "PFL"
     },
     "D": {
       "name": "Computer Organization and Architecture",
@@ -53,13 +53,13 @@
       "faculty": [
         "Mr. Vinay"
       ],
-      "shortName": "Lead"
+      "shortName": "ADM"
     },
     "FE1": {
       "name": "Business communication",
       "code": "23ENG220",
       "faculty": [
-        "Sonia",
+        "Smita Sail",
         "Deepthi Janardhan",
         "Sanjana Chandran"
       ],
@@ -78,7 +78,7 @@
       "name": "Science Fiction",
       "code": "24ENG243",
       "faculty": [
-        "Revathy Hemachandran"
+        "Deepakumari"
       ],
       "shortName": "SF"
     },
@@ -94,7 +94,7 @@
       "name": "Indian Classics for the 21st Century",
       "code": "23HUM235",
       "faculty": [
-        "Dr. Tamashree"
+        "Dr. Tanashree"
       ],
       "shortName": "IC21"
     },

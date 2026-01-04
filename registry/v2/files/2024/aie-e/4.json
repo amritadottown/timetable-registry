@@ -7,7 +7,7 @@
       "faculty": [
         "Dr. Sarada Jayan"
       ],
-      "shortName": "Math"
+      "shortName": "MOC4"
     },
     "B": {
       "name": "Introduction to Communication & IoT",
@@ -16,7 +16,7 @@
         "Ms. Priya R",
         "Dr. Sirisha"
       ],
-      "shortName": "Comm"
+      "shortName": "IoT"
     },
     "C": {
       "name": "Design and Analysis of Algorithms",
@@ -26,7 +26,7 @@
         "Dr. Nalini",
         "Ms. Afnaan"
       ],
-      "shortName": "Des"
+      "shortName": "DAA"
     },
     "D": {
       "name": "Machine Learning",
@@ -61,15 +61,15 @@
       "faculty": [
         "New Faculty"
       ],
-      "shortName": "Lead"
+      "shortName": "ADM"
     },
     "H": {
-      "name": "P/F",
+      "name": "Environmental Science",
       "code": "19ENV300",
       "faculty": [
         "Dr. Giridhar Reddy"
       ],
-      "shortName": "P"
+      "shortName": "EVS"
     },
     "CIR": {
       "name": "Life Skills for Engineers II",
@@ -79,7 +79,7 @@
         "Ms. Srinithi",
         "Mr. Sivakumar"
       ],
-      "shortName": "LS"
+      "shortName": "CIR"
     }
   },
   "config": {},

@@ -57,15 +57,13 @@
     "friMidLab": {
       "match": "batch",
       "choices": {
-        "b1": "F_LAB",
-        "b2": "FREE"
+        "b1": "F_LAB"
       }
     },
     "friAfternoonLab": {
       "match": "batch",
       "choices": {
-        "b1": "FREE",
-        "b2": "F_LAB"
+        "b1": "FREE"
       }
     }
   },

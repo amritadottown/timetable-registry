@@ -7,7 +7,7 @@
       "faculty": [
         "Dr. B. Venkatesh"
       ],
-      "shortName": "Prob"
+      "shortName": "PRP"
     },
     "B": {
       "name": "Design & Analysis of Algorithms",
@@ -17,7 +17,7 @@
         "Dr. Daddala Yasoomkari",
         "Dr. Niharika Panda"
       ],
-      "shortName": "Des"
+      "shortName": "DAA"
     },
     "C": {
       "name": "Principles of Functional Languages",
@@ -27,7 +27,7 @@
         "Dr. Katika Dinesh Kumar",
         "Dr. Kavyasai"
       ],
-      "shortName": "FP"
+      "shortName": "PFL"
     },
     "D": {
       "name": "Computer Organization and Architecture",
@@ -52,13 +52,13 @@
       "faculty": [
         "New Faculty"
       ],
-      "shortName": "Lead"
+      "shortName": "ADM"
     },
     "FE1": {
       "name": "Business communication",
       "code": "23ENG220",
       "faculty": [
-        "Sonia",
+        "Smita Sail",
         "Deepthi Janardhan",
         "Sanjana Chandran"
       ],
@@ -77,7 +77,7 @@
       "name": "Science Fiction",
       "code": "24ENG243",
       "faculty": [
-        "Revathy Hemachandran"
+        "Deepakumari"
       ],
       "shortName": "SF"
     },

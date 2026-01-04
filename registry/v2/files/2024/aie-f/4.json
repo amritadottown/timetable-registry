@@ -7,7 +7,7 @@
       "faculty": [
         "Ms. Mamatha T. M."
       ],
-      "shortName": "Math"
+      "shortName": "MOC4"
     },
     "B": {
       "name": "Introduction to Communication & IoT",
@@ -16,7 +16,7 @@
         "Ms. Priya R",
         "Dr. Sirisha"
       ],
-      "shortName": "Comm"
+      "shortName": "IoT"
     },
     "C": {
       "name": "Design and Analysis of Algorithms",
@@ -26,7 +26,7 @@
         "Dr. Yasoomkari",
         "Ms. Afnaan"
       ],
-      "shortName": "Des"
+      "shortName": "DAA"
     },
     "D": {
       "name": "Machine Learning",
@@ -61,15 +61,15 @@
       "faculty": [
         "Dr. Tanashree"
       ],
-      "shortName": "Lead"
+      "shortName": "ADM"
     },
     "H": {
-      "name": "P/F",
+      "name": "Environmental Science",
       "code": "19ENV300",
       "faculty": [
         "Dr. Amrita Thakur"
       ],
-      "shortName": "P"
+      "shortName": "EVS"
     },
     "CIR": {
       "name": "Life Skills for Engineers II",
@@ -79,7 +79,7 @@
         "Ms. Srinithi",
         "Mr. Sivakumar"
       ],
-      "shortName": "LS"
+      "shortName": "CIR"
     }
   },
   "config": {},
@@ -104,21 +104,21 @@
       "CIR"
     ],
     "Wednesday": [
-      "B_LAB",
-      "B_LAB",
-      "B_LAB",
       "A",
       "C",
+      "F",
+      "E",
       "D",
-      "E"
+      "B_LAB",
+      "B_LAB"
     ],
     "Thursday": [
-      "H",
       "E",
-      "A",
       "D",
+      "A",
+      "C",
       "F",
-      "FREE",
+      "H",
       "FREE"
     ],
     "Friday": [

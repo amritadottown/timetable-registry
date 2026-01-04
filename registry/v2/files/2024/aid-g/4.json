@@ -7,7 +7,7 @@
       "faculty": [
         "Dr. Geetha K. N."
       ],
-      "shortName": "Math"
+      "shortName": "MIS4"
     },
     "B": {
       "name": "Deep Learning",
@@ -33,7 +33,7 @@
       "faculty": [
         "Dr. Rajesh M"
       ],
-      "shortName": "II"
+      "shortName": "IoT"
     },
     "E": {
       "name": "Operating Systems",
@@ -52,7 +52,7 @@
         "Dr. Sreevidya B",
         "Dr. Santhanalakshmi"
       ],
-      "shortName": "DB"
+      "shortName": "DBMS"
     },
     "G": {
       "name": "User Interface Design",
@@ -61,7 +61,7 @@
         "Ms. Gayathri Ramasamy",
         "Mr. Ullas S"
       ],
-      "shortName": "UI"
+      "shortName": "UID"
     },
     "H": {
       "name": "Leadership from Ramayana",
@@ -69,7 +69,7 @@
       "faculty": [
         "Mr. Vinay"
       ],
-      "shortName": "Lead"
+      "shortName": "ADM"
     },
     "CIR": {
       "name": "Life Skills for Engineers II",
@@ -95,14 +95,12 @@
     "monDLab": {
       "match": "batch",
       "choices": {
-        "g1": "D_LAB",
-        "g2": "FREE"
+        "g1": "D_LAB"
       }
     },
     "friDLab": {
       "match": "batch",
       "choices": {
-        "g1": "FREE",
         "g2": "D_LAB"
       }
     }
