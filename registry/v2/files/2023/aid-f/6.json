@@ -4,88 +4,117 @@
     "A": {
       "name": "Mathematics for Intelligent Systems 6",
       "code": "23MAT313",
+<<<<<<< HEAD
       "faculty": [
         "Dr. Nagesh Subanna",
         "Dr. Abhinav Ravindra"
       ],
       "shortName": "MIS6"
+=======
+      "faculty": ["Dr. Nagesh Subanna", "Dr. Abhinav Ravindra"],
+      "shortName": "Math"
+>>>>>>> d35349c (updated AID-F)
     },
     "B": {
       "name": "Full Stack Development",
       "code": "23AIE457",
-      "faculty": [
-        "Ms. Aparna S",
-        "Dr. Gurupriya M"
-      ],
+      "faculty": ["Ms. Aparna S", "Dr. Gurupriya M"],
       "shortName": "FSD"
     },
     "C": {
       "name": "User Experience Design",
       "code": "22AIE459",
+<<<<<<< HEAD
       "faculty": [
         "Ms. Arya R",
         "Dr. Nandu C Nair"
       ],
       "shortName": "UXD"
+=======
+      "faculty": ["Ms. Arya R", "Dr. Nandu C Nair"],
+      "shortName": "Des"
+>>>>>>> d35349c (updated AID-F)
     },
     "D": {
       "name": "Mobile Application Development",
       "code": "22AIE458",
+<<<<<<< HEAD
       "faculty": [
         "Mr. Ullas S",
         "Mr. Vishwas H N"
       ],
       "shortName": "MAD"
+=======
+      "faculty": ["Mr. Ullas S", "Mr. Vishwas H N"],
+      "shortName": "MAO"
+>>>>>>> d35349c (updated AID-F)
     },
     "E": {
       "name": "Block Chain and its Applications",
       "code": "23CSE335",
-      "faculty": [
-        "Ms. Shalini Tiwari",
-        "Ms. Lavanya Pelenki"
-      ],
+      "faculty": ["Ms. Shalini Tiwari", "Ms. Lavanya Pelenki"],
       "shortName": "BCI"
     },
     "F": {
       "name": "Numerical Methods and Optimization",
       "code": "19MAT343",
-      "faculty": [
-        "Dr. Abhinav Ravindra"
-      ],
+      "faculty": ["Dr. Abhinav Ravindra"],
       "shortName": "NMO"
     },
     "G": {
       "name": "Analog Computing",
       "code": "23AID311",
-      "faculty": [
-        "Dr. Sirisha Tadepalli",
-        "Ms. Priya R"
-      ],
+      "faculty": ["Dr. Sirisha Tadepalli", "Ms. Priya R"],
       "shortName": "AC"
     },
     "H": {
       "name": "Reinforcement Learning",
       "code": "23AID312",
-      "faculty": [
-        "Dr. Amudha J",
-        "Ms. Aparna S"
-      ],
+      "faculty": ["Dr. Amudha J", "Ms. Aparna S"],
       "shortName": "RL"
     },
     "CIR": {
       "name": "Life Skills for Engineers III",
       "code": "23LSE311",
+<<<<<<< HEAD
       "faculty": [
         "Ms. Karishma",
         "Ms. Jisha",
         "Ms. Nilakshee"
       ],
       "shortName": "CIR"
+=======
+      "faculty": ["Ms. Karishma", "Ms. Jisha", "Ms. Nilakshee"],
+      "shortName": "LS"
+>>>>>>> d35349c (updated AID-F)
     }
   },
-  "config": {},
-  "slots": {},
+  "config": {
+    "elective": {
+      "label": "Professional Elective",
+      "values": [
+        { "label": "Block Chain and its Applications", "id": "E" },
+        { "label": "Numerical Methods and Optimization", "id": "F" }
+      ]
+    }
+  },
+  "slots": {
+    "electiveTheory": {
+      "match": "elective",
+      "choices": {
+        "E": "E",
+        "F": "F"
+      }
+    },
+    "electiveLab": {
+      "match": "elective",
+      "choices": {
+        "E": "E_LAB"
+      }
+    }
+  },
   "schedule": {
+<<<<<<< HEAD
     "Monday": [
       "E",
       "H",
@@ -131,5 +160,12 @@
       "H_LAB",
       "H_LAB"
     ]
+=======
+    "Monday": ["electiveTheory", "H", "electiveTheory", "G", "A", "C_LAB", "C_LAB"],
+    "Tuesday": ["D", "B", "electiveTheory", "C", "G", "D_LAB", "D_LAB"],
+    "Wednesday": ["A_LAB", "A_LAB", "A_LAB", "A", "B_LAB", "B_LAB", "C"],
+    "Thursday": ["B", "D", "A", "electiveLab", "electiveLab", "G_LAB", "G_LAB"],
+    "Friday": ["CIR", "CIR", "CIR", "C", "electiveTheory", "H_LAB", "H_LAB"]
+>>>>>>> d35349c (updated AID-F)
   }
 }
