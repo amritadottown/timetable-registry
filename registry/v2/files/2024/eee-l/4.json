@@ -53,10 +53,10 @@
   "config": {},
   "slots": {},
   "schedule": {
-    "Monday": ["FREE", "LSE", "LSE", "LSE", "D", "EM1_LAB", "EM1_LAB"],
-    "Tuesday": ["C", "B", "D", "A_LAB", "A_LAB", "FREE", "FREE"],
+    "Monday": ["D", "LSE", "LSE", "LSE", "FREE", "EM1_LAB", "EM1_LAB"],
+    "Tuesday": ["A", "B", "C", "E", "FREE", "A_LAB", "A_LAB"],
     "Wednesday": ["B", "D", "E", "C", "A", "FREE", "FREE"],
-    "Thursday": ["B", "E", "A", "D_LAB", "D_LAB", "C", "FREE"],
-    "Friday": ["A", "E", "AVP", "C", "FREE", "E_LAB", "E_LAB"]
+    "Thursday": ["E", "B", "A", "D_LAB", "D_LAB", "C", "FREE"],
+    "Friday": ["A", "D", "AVP", "C", "FREE", "E_LAB", "E_LAB"]
   }
 }
