@@ -10,7 +10,7 @@
     "B": {
       "name": "Algorithmic Thinking and Computer Programming",
       "code": "23CSE115",
-      "faculty": ["Dr Vidya H A"],
+      "faculty": ["Dr Vidya H A", "Ms. Archana Mohan", "Ms. G B Bhavana"],
       "shortName": "ATCP"
     },
     "C": {
@@ -40,13 +40,13 @@
     "G": {
       "name": "Electric and Electronic Circuits Lab",
       "code": "23EEE181",
-      "faculty": ["Dr Krithika V S", "Ms Sudha Yadav"],
+      "faculty": ["Ms Sudha Yadav", "Ms. Archana Mohan"],
       "shortName": "EEC Lab"
     },
     "H": {
       "name": "Electrical Engineering Practice",
       "code": "23EEE183",
-      "faculty": ["Dr Rashmi M R", "Ms Lois lani"],
+      "faculty": ["Dr Rashmi M R", "Ms Lekshmi"],
       "shortName": "EEP"
     },
     "I": {
