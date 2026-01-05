@@ -4,16 +4,8 @@
     "A": {
       "name": "Mathematics for Intelligent Systems 6",
       "code": "23MAT313",
-<<<<<<< HEAD
-      "faculty": [
-        "Dr. Nagesh Subanna",
-        "Dr. Abhinav Ravindra"
-      ],
-      "shortName": "MIS6"
-=======
       "faculty": ["Dr. Nagesh Subanna", "Dr. Abhinav Ravindra"],
       "shortName": "Math"
->>>>>>> d35349c (updated AID-F)
     },
     "B": {
       "name": "Full Stack Development",
@@ -24,30 +16,14 @@
     "C": {
       "name": "User Experience Design",
       "code": "22AIE459",
-<<<<<<< HEAD
-      "faculty": [
-        "Ms. Arya R",
-        "Dr. Nandu C Nair"
-      ],
-      "shortName": "UXD"
-=======
       "faculty": ["Ms. Arya R", "Dr. Nandu C Nair"],
       "shortName": "Des"
->>>>>>> d35349c (updated AID-F)
     },
     "D": {
       "name": "Mobile Application Development",
       "code": "22AIE458",
-<<<<<<< HEAD
-      "faculty": [
-        "Mr. Ullas S",
-        "Mr. Vishwas H N"
-      ],
-      "shortName": "MAD"
-=======
       "faculty": ["Mr. Ullas S", "Mr. Vishwas H N"],
       "shortName": "MAO"
->>>>>>> d35349c (updated AID-F)
     },
     "E": {
       "name": "Block Chain and its Applications",
@@ -76,17 +52,8 @@
     "CIR": {
       "name": "Life Skills for Engineers III",
       "code": "23LSE311",
-<<<<<<< HEAD
-      "faculty": [
-        "Ms. Karishma",
-        "Ms. Jisha",
-        "Ms. Nilakshee"
-      ],
-      "shortName": "CIR"
-=======
       "faculty": ["Ms. Karishma", "Ms. Jisha", "Ms. Nilakshee"],
       "shortName": "LS"
->>>>>>> d35349c (updated AID-F)
     }
   },
   "config": {
@@ -114,58 +81,18 @@
     }
   },
   "schedule": {
-<<<<<<< HEAD
     "Monday": [
-      "E",
+      "electiveTheory",
       "H",
-      "F",
+      "electiveTheory",
       "G",
       "A",
       "C_LAB",
       "C_LAB"
     ],
-    "Tuesday": [
-      "D",
-      "B",
-      "F",
-      "C",
-      "G",
-      "D_LAB",
-      "D_LAB"
-    ],
-    "Wednesday": [
-      "A_LAB",
-      "A_LAB",
-      "A_LAB",
-      "B_LAB",
-      "B_LAB",
-      "E",
-      "H"
-    ],
-    "Thursday": [
-      "B",
-      "D",
-      "A",
-      "E_LAB",
-      "E_LAB",
-      "G_LAB",
-      "G_LAB"
-    ],
-    "Friday": [
-      "CIR",
-      "CIR",
-      "CIR",
-      "C",
-      "F",
-      "H_LAB",
-      "H_LAB"
-    ]
-=======
-    "Monday": ["electiveTheory", "H", "electiveTheory", "G", "A", "C_LAB", "C_LAB"],
     "Tuesday": ["D", "B", "electiveTheory", "C", "G", "D_LAB", "D_LAB"],
     "Wednesday": ["A_LAB", "A_LAB", "A_LAB", "A", "B_LAB", "B_LAB", "C"],
     "Thursday": ["B", "D", "A", "electiveLab", "electiveLab", "G_LAB", "G_LAB"],
     "Friday": ["CIR", "CIR", "CIR", "C", "electiveTheory", "H_LAB", "H_LAB"]
->>>>>>> d35349c (updated AID-F)
   }
 }
