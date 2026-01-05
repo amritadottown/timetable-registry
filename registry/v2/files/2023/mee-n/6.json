@@ -1,0 +1,175 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "MEE311": {
+      "name": "Finite Element Methods",
+      "code": "23MEE311",
+      "faculty": ["Dr. Mohan Kumar S"],
+      "shortName": "FEM"
+    },
+    "MEE312": {
+      "name": "Design of Machine Elements - II",
+      "code": "23MEE312",
+      "faculty": ["Dr. Shashi Kumar M E"],
+      "shortName": "DME-II"
+    },
+    "MEE313": {
+      "name": "Industrial Automation",
+      "code": "23MEE313",
+      "faculty": ["Mr. Raghuvendra Ravi Kiran K"],
+      "shortName": "IA"
+    },
+    "MEE314": {
+      "name": "Metrology and Computer Aided Inspection",
+      "code": "23MEE314",
+      "faculty": ["Dr. Mrudula Prashanth"],
+      "shortName": "MCAI"
+    },
+    "MEE315": {
+      "name": "Industrial Engineering",
+      "code": "23MEE315",
+      "faculty": ["Dr. Y P Deepthi"],
+      "shortName": "IE"
+    },
+    "MEE384": {
+      "name": "Industrial Automation Laboratory",
+      "code": "23MEE384",
+      "faculty": ["Mr. Raghuvendra Ravi Kiran K"],
+      "shortName": "IA Lab"
+    },
+    "MEE385": {
+      "name": "Computer Aided Engineering Laboratory",
+      "code": "23MEE385",
+      "faculty": ["Dr. Mohan Kumar S", "Dr. Pramod R"],
+      "shortName": "CAE Lab"
+    },
+    "LSE311": {
+      "name": "Life skills for Engineers IV",
+      "code": "23LSE311",
+      "faculty": [],
+      "shortName": "LSE IV"
+    },
+    "MEE346": {
+      "name": "Product Design and Development",
+      "code": "23MEE346",
+      "faculty": ["Dr. Dileep B P"],
+      "shortName": "PDD"
+    },
+    "MEE463": {
+      "name": "Computational Fluid Dynamics",
+      "code": "23MEE463",
+      "faculty": ["Mr. Bhanuprakash S"],
+      "shortName": "CFD"
+    },
+    "MEE423": {
+      "name": "Smart Manufacturing",
+      "code": "23MEE423",
+      "faculty": ["Dr. Ulhas K Annigeri"],
+      "shortName": "Smart Mfg"
+    },
+    "MEE422": {
+      "name": "Digital twins",
+      "code": "23MEE422",
+      "faculty": ["Dr. Pramod R"],
+      "shortName": "Digital Twins"
+    },
+    "MEE441": {
+      "name": "Gas Dynamics and Jet Propulsion",
+      "code": "23MEE441",
+      "faculty": ["Mr. Vinod Kotebavi"],
+      "shortName": "GDJP"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    },
+    "pe1": {
+      "label": "Professional Elective I",
+      "values": [
+        { "label": "Product Design and Development", "id": "MEE346" },
+        { "label": "Computational Fluid Dynamics", "id": "MEE463" }
+      ]
+    },
+    "pe2": {
+      "label": "Professional Elective II",
+      "values": [
+        { "label": "Smart Manufacturing", "id": "MEE423" },
+        { "label": "Digital twins", "id": "MEE422" },
+        { "label": "Gas Dynamics and Jet Propulsion", "id": "MEE441" }
+      ]
+    }
+  },
+  "slots": {
+    "mondayPE": {
+      "match": "pe2",
+      "choices": {
+        "MEE423": "MEE423",
+        "MEE422": "MEE422",
+        "MEE441": "MEE441"
+      }
+    },
+    "mondayPE2": {
+      "match": "pe1",
+      "choices": {
+        "MEE346": "MEE346",
+        "MEE463": "MEE463"
+      }
+    },
+    "tuesdayPE": {
+      "match": "pe1",
+      "choices": {
+        "MEE346": "MEE346",
+        "MEE463": "MEE463"
+      }
+    },
+
+    "wednesdayLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "MEE384_LAB",
+        "a2": "MEE314"
+      }
+    },
+    "wednesdayPE2": {
+      "match": "pe2",
+      "choices": {
+        "MEE423": "MEE423",
+        "MEE422": "MEE422",
+        "MEE441": "MEE441"
+      }
+    },
+    "wednesdayPE": {
+      "match": "pe1",
+      "choices": {
+        "MEE346": "MEE346",
+        "MEE463": "MEE463"
+      }
+    },
+    "thursdayPE": {
+      "match": "pe2",
+      "choices": {
+        "MEE423": "MEE423",
+        "MEE441": "MEE441"
+      }
+    },
+    "fridayLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "MEE314_LAB",
+        "a2": "MEE384_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["mondayPE", "MEE314", "mondayPE2", "MEE313", "LSE311", "LSE311", "LSE311"],
+    "Tuesday": ["MEE311", "tuesdayPE", "MEE315", "FREE", "MEE313", "MEE385_LAB", "MEE385_LAB"],
+    "Wednesday": ["wednesdayLab", "wednesdayLab", "wednesdayLab", "MEE312", "wednesdayPE2", "MEE313", "wednesdayPE"],
+    "Thursday": ["MEE315", "MEE312", "thursdayPE", "MEE311", "LSE311", "MEE311", "FREE"],
+    "Friday": ["MEE463_LAB", "MEE463_LAB", "MEE463_LAB", "fridayLab", "fridayLab", "MEE312", "MEE315"]
+  }
+}

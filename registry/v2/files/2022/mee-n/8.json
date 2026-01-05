@@ -1,0 +1,26 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "MEE342": {
+      "name": "Lean Manufacturing",
+      "code": "19MEE342",
+      "faculty": ["Ms. Divya Sharma"],
+      "shortName": "Lean Mfg"
+    },
+    "MEE499": {
+      "name": "Project Phase II",
+      "code": "19MEE499",
+      "faculty": [],
+      "shortName": "Project II"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["MEE499", "MEE499", "MEE342", "MEE499", "MEE342", "MEE499", "MEE499"],
+    "Tuesday": ["MEE499", "MEE499", "MEE499", "MEE499", "MEE342", "MEE499", "MEE499"],
+    "Wednesday": ["MEE499", "MEE499", "MEE499", "MEE499", "MEE499", "MEE499", "MEE499"],
+    "Thursday": ["MEE499", "MEE499", "MEE499", "MEE499", "MEE499", "MEE499", "MEE499"],
+    "Friday": ["MEE499", "MEE499", "MEE499", "MEE499", "MEE499", "MEE499", "MEE499"]
+  }
+}

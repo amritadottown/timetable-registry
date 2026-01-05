@@ -1,0 +1,139 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "MAT": {
+      "name": "Mathematics for Intelligent Systems - 4",
+      "code": "23MAT226",
+      "faculty": ["Dr. Shali S", "Dr. Pradeep S Jakkareddy"],
+      "shortName": "MIS-4"
+    },
+    "CSE": {
+      "name": "Data Science",
+      "code": "23CSE215",
+      "faculty": ["Dr. Prakash K Marimuthu", "Dr. Y P Deepthi"],
+      "shortName": "DS"
+    },
+    "RAI": {
+      "name": "Kinematics of Robotic Systems",
+      "code": "23RAI211",
+      "faculty": ["Dr. Rajeevlochana Chittawadigi", "Dr. Mohan Kumar S"],
+      "shortName": "KRS"
+    },
+    "EEE": {
+      "name": "Control Systems",
+      "code": "23EEE216",
+      "faculty": ["Dr. Ravi Kumar V"],
+      "shortName": "CS"
+    },
+    "MEE": {
+      "name": "Manufacturing Processes",
+      "code": "23MEE216",
+      "faculty": ["Dr. Ulhas K Annigeri"],
+      "shortName": "MP"
+    },
+    "RAIL": {
+      "name": "Robot Kinematics and Control System Lab",
+      "code": "23RAI281",
+      "faculty": ["Dr. Rajeevlochana Chittawadigi", "Dr. Ravi Kumar V"],
+      "shortName": "RK&CS Lab"
+    },
+    "ADM": {
+      "name": "Leadership from Ramayana",
+      "code": "22ADM211",
+      "faculty": ["Dr. Tanashree Redji"],
+      "shortName": "Leadership"
+    },
+    "LSE": {
+      "name": "Life Skills for Engineers II",
+      "code": "23LSE211",
+      "faculty": ["Ms. Karishma Nair", "Ms. Shivani Raichura", "Mr. Rahul Anand", "Ms. Sweta Chavan"],
+      "shortName": "LSE II"
+    },
+    "ENG1": {
+      "name": "Science Fiction",
+      "code": "24ENG243",
+      "faculty": ["Dr. Deepakumari S"],
+      "shortName": "Sci-Fi"
+    },
+    "ENG2": {
+      "name": "Business Communication",
+      "code": "23ENG230",
+      "faculty": ["Dr. Smita Sail"],
+      "shortName": "Bus Comm"
+    },
+    "ENG3": {
+      "name": "Vistas of Science through films",
+      "code": "24ENG246",
+      "faculty": ["Mr. Sayant Vijay"],
+      "shortName": "Vistas"
+    },
+    "ENV": {
+      "name": "Environmental Science",
+      "code": "23ENV300",
+      "faculty": ["Dr. Mohan Kumar T M"],
+      "shortName": "Env Sci"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    },
+    "elective": {
+      "label": "Free Elective",
+      "values": [
+        { "label": "Leadership from Ramayana", "id": "ADM" },
+        { "label": "Science Fiction", "id": "ENG1" },
+        { "label": "Business Communication", "id": "ENG2" },
+        { "label": "Vistas of Science through films", "id": "ENG3" }
+      ]
+    }
+  },
+  "slots": {
+    "mondayLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "CSE_LAB"
+      }
+    },
+    "wednesdayMorningLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "MEE_LAB",
+        "a2": "RAIL_LAB"
+      }
+    },
+    "wednesdayAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "RAIL_LAB",
+        "a2": "MEE_LAB"
+      }
+    },
+    "thursdayLab": {
+      "match": "batch",
+      "choices": {
+        "a2": "CSE_LAB"
+      }
+    },
+    "freeElective": {
+      "match": "elective",
+      "choices": {
+        "ADM": "ADM",
+        "ENG1": "ENG1",
+        "ENG2": "ENG2",
+        "ENG3": "ENG3"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["mondayLab", "mondayLab", "mondayLab", "freeElective", "EEE", "MAT_LAB", "MAT_LAB"],
+    "Tuesday": ["MAT", "RAI", "RAI", "CSE", "CSE", "MEE", "ADM"],
+    "Wednesday": ["wednesdayMorningLab", "wednesdayMorningLab", "wednesdayMorningLab", "RAI", "EEE", "wednesdayAfternoonLab", "wednesdayAfternoonLab"],
+    "Thursday": ["MAT", "FREE", "CSE", "ENV", "freeElective", "thursdayLab", "thursdayLab"],
+    "Friday": ["LSE", "LSE", "LSE", "EEE", "MAT", "MEE", "freeElective"]
+  }
+}
