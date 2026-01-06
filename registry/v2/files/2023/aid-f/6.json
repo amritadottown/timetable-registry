@@ -66,33 +66,41 @@
     }
   },
   "slots": {
-    "electiveTheory": {
+    "numerical": {
       "match": "elective",
       "choices": {
         "E": "E",
-        "F": "F"
+        "F": "FREE"
       }
     },
-    "electiveLab": {
+    "blockchain": {
       "match": "elective",
       "choices": {
-        "E": "E_LAB"
+        "E": "E",
+        "F": "FREE"
+      }
+    },
+    "blockchainLab": {
+      "match": "elective",
+      "choices": {
+        "E": "E_LAB",
+        "F": "FREE"
       }
     }
   },
   "schedule": {
-    "Monday": [
-      "electiveTheory",
-      "H",
-      "electiveTheory",
-      "G",
-      "A",
-      "C_LAB",
-      "C_LAB"
-    ],
-    "Tuesday": ["D", "B", "electiveTheory", "C", "G", "D_LAB", "D_LAB"],
+    "Monday": ["blockchain", "H", "numerical", "G", "A", "C_LAB", "C_LAB"],
+    "Tuesday": ["D", "B", "numerical", "C", "G", "D_LAB", "D_LAB"],
     "Wednesday": ["A_LAB", "A_LAB", "A_LAB", "A", "B_LAB", "B_LAB", "C"],
-    "Thursday": ["B", "D", "A", "electiveLab", "electiveLab", "G_LAB", "G_LAB"],
+    "Thursday": [
+      "B",
+      "D",
+      "A",
+      "blockchainLab",
+      "blockchainLab",
+      "G_LAB",
+      "G_LAB"
+    ],
     "Friday": ["CIR", "CIR", "CIR", "C", "electiveTheory", "H_LAB", "H_LAB"]
   }
 }
