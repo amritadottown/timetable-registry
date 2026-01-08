@@ -5,7 +5,7 @@
       "name": "Mathematics for Intelligent Systems 6",
       "code": "23MAT313",
       "faculty": ["Dr. Nagesh Subanna", "Dr. Abhinav Ravindra"],
-      "shortName": "Math"
+      "shortName": "MIS6"
     },
     "B": {
       "name": "Full Stack Development",
@@ -17,7 +17,7 @@
       "name": "User Experience Design",
       "code": "22AIE459",
       "faculty": ["Ms. Arya R", "Dr. Nandu C Nair"],
-      "shortName": "Des"
+      "shortName": "UXD"
     },
     "D": {
       "name": "Mobile Application Development",
@@ -69,8 +69,8 @@
     "numerical": {
       "match": "elective",
       "choices": {
-        "E": "E",
-        "F": "FREE"
+        "E": "FREE",
+        "F": "F"
       }
     },
     "blockchain": {
@@ -91,7 +91,7 @@
   "schedule": {
     "Monday": ["blockchain", "H", "numerical", "G", "A", "C_LAB", "C_LAB"],
     "Tuesday": ["D", "B", "numerical", "C", "G", "D_LAB", "D_LAB"],
-    "Wednesday": ["A_LAB", "A_LAB", "A_LAB", "A", "B_LAB", "B_LAB", "C"],
+    "Wednesday": ["A_LAB", "A_LAB", "A_LAB", "B_LAB", "B_LAB", "E", "H"],
     "Thursday": [
       "B",
       "D",
