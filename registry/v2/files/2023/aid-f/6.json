@@ -73,6 +73,13 @@
         "F": "F"
       }
     },
+    "electiveTheory": {
+      "match": "elective",
+      "choices": {
+        "E": "E",
+        "F": "F"
+      }
+    },
     "blockchain": {
       "match": "elective",
       "choices": {
