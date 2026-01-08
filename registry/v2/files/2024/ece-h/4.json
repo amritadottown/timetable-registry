@@ -100,7 +100,7 @@
   "schedule": {
     "Monday": ["MC_LAB", "MC_LAB", "MC_LAB", "C", "LSE", "LSE", "LSE"],
     "Tuesday": ["D", "A", "C", "B", "E", "tuesdayAfternoon", "tuesdayAfternoon"],
-    "Wednesday": ["E", "B", "D", "wednesdayMid", "wednesdayMid", "IC", "AVP"],
+    "Wednesday": ["E", "B", "D", "wednesdayMid", "wednesdayMid", "AVP", "IC"],
     "Thursday": ["C", "E", "D", "A", "ENV", "B", "FREE"],
     "Friday": ["MLL_LAB", "MLL_LAB", "MLL_LAB", "D", "A", "C", "FREE"]
   }
