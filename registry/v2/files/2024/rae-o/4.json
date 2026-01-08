@@ -53,13 +53,13 @@
       "name": "Science Fiction",
       "code": "24ENG243",
       "faculty": ["Dr. Deepakumari S"],
-      "shortName": "Sci-Fi"
+      "shortName": "SF"
     },
     "ENG2": {
       "name": "Business Communication",
       "code": "23ENG230",
       "faculty": ["Dr. Smita Sail"],
-      "shortName": "Bus Comm"
+      "shortName": "BC"
     },
     "ENG3": {
       "name": "Vistas of Science through films",
