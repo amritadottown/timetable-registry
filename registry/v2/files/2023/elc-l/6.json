@@ -107,10 +107,10 @@
     }
   },
   "schedule": {
-    "Monday": ["pe3Slot", "LSE", "LSE", "LSE", "A", "C", "FREE"],
-    "Tuesday": ["C", "B", "FREE", "IOT_LAB", "IOT_LAB", "FREE", "FREE"],
-    "Wednesday": ["PED_LAB", "PED_LAB", "PED_LAB", "pe4Slot", "pe3Slot", "FREE", "FREE"],
-    "Thursday": ["C", "A", "B", "B", "pe4Slot", "OL_LAB", "OL_LAB"],
-    "Friday": ["LSE", "A", "pe3Slot", "pe4Slot", "C", "II", "II"]
+    "Monday": ["pe3Slot", "LSE", "LSE", "LSE", "pe4slot", "C", "FREE"],
+    "Tuesday": ["C", "B", "A", "IOT_LAB", "IOT_LAB", "II", "II"],
+    "Wednesday": ["PED_LAB", "PED_LAB", "PED_LAB", "FREE", "pe3Slot", "B", "FREE"],
+    "Thursday": ["pe4slot", "C", "A", "FREE", "B", "OL_LAB", "OL_LAB"],
+    "Friday": ["LSE", "A", "pe3Slot", "FREE", "C", "pe4slot", "FREE"]
   }
 }
