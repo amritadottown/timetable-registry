@@ -48,15 +48,16 @@
       "code": "23CSE363",
       "faculty": [
         "Dr. Beena B M",
-        "Dr. Dinesh K."
+        "Ms. Shobhna Devi"
       ],
       "shortName": "CC"
     },
     "PE3-3": {
       "name": "Numerical Methods and Optimization",
-      "code": "23MAT343",
+      "code": "23MAT242",
       "faculty": [
-        "Dr. Abhinav Ravindra Dehadrai"
+        "Dr. Abhinav R",
+        "Dr. Nagesh S"
       ],
       "shortName": "NMO"
     },
@@ -108,50 +109,10 @@
     }
   },
   "schedule": {
-    "Monday": [
-      "A_LAB",
-      "A_LAB",
-      "A_LAB",
-      "pe3Lab",
-      "pe3Lab",
-      "D",
-      "FREE"
-    ],
-    "Tuesday": [
-      "B",
-      "C",
-      "FREE",
-      "A",
-      "pe3Slot",
-      "D_LAB",
-      "D_LAB"
-    ],
-    "Wednesday": [
-      "C",
-      "D",
-      "FREE",
-      "A",
-      "CIR",
-      "pe3Slot",
-      "FREE"
-    ],
-    "Thursday": [
-      "A",
-      "CIR",
-      "CIR",
-      "CIR",
-      "B",
-      "PROJECT",
-      "PROJECT"
-    ],
-    "Friday": [
-      "C",
-      "D",
-      "pe3Slot",
-      "B_LAB",
-      "B_LAB",
-      "B",
-      "FREE"
-    ]
+    "Monday": ["A_LAB","A_LAB","A_LAB","B","D","FREE","FREE"],
+    "Tuesday": ["B","A","C","FREE","pe3Slot","D_LAB","D_LAB"],
+    "Wednesday": ["C","D","A","FREE","CIR","pe3Lab","pe3Lab"],
+    "Thursday": ["A","CIR","CIR","CIR","B","FREE","FREE"],
+    "Friday": ["C","D","pe3Slot","B_LAB","B_LAB","FREE","FREE"]
   }
 }
