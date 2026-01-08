@@ -41,7 +41,7 @@
       "name": "Leadership from Ramayana",
       "code": "22ADM211",
       "faculty": ["Dr. Tanashree Redji"],
-      "shortName": "Leadership"
+      "shortName": "ADM"
     },
     "LSE": {
       "name": "Life Skills for Engineers II",
@@ -71,7 +71,7 @@
       "name": "Environmental Science",
       "code": "23ENV300",
       "faculty": ["Dr. Mohan Kumar T M"],
-      "shortName": "Env Sci"
+      "shortName": "EVS"
     }
   },
   "config": {
