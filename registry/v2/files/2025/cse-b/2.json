@@ -63,7 +63,7 @@
     "friAfternoonLab": {
       "match": "batch",
       "choices": {
-        "b1": "FREE"
+        "b2": "F_LAB"
       }
     }
   },
