@@ -47,8 +47,8 @@
       "name": "Cloud Computing",
       "code": "23CSE363",
       "faculty": [
-        "Dr. Beena B M",
-        "Dr. Dinesh K."
+        "Dr. Dinesh K",
+        "Mr. Deheen"
       ],
       "shortName": "CC"
     },
@@ -56,7 +56,8 @@
       "name": "Numerical Methods and Optimization",
       "code": "23MAT343",
       "faculty": [
-        "Dr. Abhinav Ravindra Dehadrai"
+        "Dr. Abhinav R",
+        "Dr. Nagesh S"
       ],
       "shortName": "NMO"
     },
@@ -109,40 +110,40 @@
   },
   "schedule": {
     "Monday": [
-      "C",
       "A",
       "FREE",
-      "pe3Lab",
-      "pe3Lab",
-      "D",
+      "C",
+      "CIR",
+      "CIR",
+      "FREE",
       "FREE"
     ],
     "Tuesday": [
-      "PROJECT",
-      "PROJECT",
-      "PROJECT",
+      "D",
+      "FREE",
+      "B",
       "A",
       "pe3Slot",
-      "B",
+      "FREE",
       "FREE"
     ],
     "Wednesday": [
       "CIR",
       "D",
-      "A",
+      "FREE",
       "B_LAB",
       "B_LAB",
-      "pe3Slot",
-      "FREE"
+      "pe3Lab",
+      "pe3Lab"
     ],
     "Thursday": [
-      "FREE",
+      "A",
       "D",
       "B",
       "C",
       "CIR",
-      "CIR",
-      "CIR"
+      "FREE",
+      "FREE"
     ],
     "Friday": [
       "B",
