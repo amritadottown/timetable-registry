@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "arktype": "^2.1.29"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.5"
   }
 }
