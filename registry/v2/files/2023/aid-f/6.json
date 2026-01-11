@@ -52,7 +52,11 @@
     "CIR": {
       "name": "Life Skills for Engineers III",
       "code": "23LSE311",
-      "faculty": ["Ms. Karishma Nair N.", "Ms. Jisha R. Nair", "Ms. Nilakshee Kalita"],
+      "faculty": [
+        "Ms. Karishma Nair N.",
+        "Ms. Jisha R. Nair",
+        "Ms. Nilakshee Kalita"
+      ],
       "shortName": "CIR"
     }
   },
@@ -66,11 +70,11 @@
     }
   },
   "slots": {
-    "numerical": {
+    "electiveLab": {
       "match": "elective",
       "choices": {
-        "E": "FREE",
-        "F": "F"
+        "E": "E_LAB",
+        "F": "F_LAB"
       }
     },
     "electiveTheory": {
@@ -79,35 +83,21 @@
         "E": "E",
         "F": "F"
       }
-    },
-    "blockchain": {
-      "match": "elective",
-      "choices": {
-        "E": "E",
-        "F": "FREE"
-      }
-    },
-    "blockchainLab": {
-      "match": "elective",
-      "choices": {
-        "E": "E_LAB",
-        "F": "FREE"
-      }
     }
   },
   "schedule": {
-    "Monday": ["blockchain", "H", "numerical", "G", "A", "C_LAB", "C_LAB"],
-    "Tuesday": ["D", "B", "numerical", "C", "G", "D_LAB", "D_LAB"],
-    "Wednesday": ["A_LAB", "A_LAB", "A_LAB", "B_LAB", "B_LAB", "E", "H"],
-    "Thursday": [
-      "B",
-      "D",
-      "A",
-      "blockchainLab",
-      "blockchainLab",
-      "G_LAB",
-      "G_LAB"
+    "Monday": ["B_LAB", "B_LAB", "B_LAB", "G", "A", "C_LAB", "C_LAB"],
+    "Tuesday": ["B", "A", "CIR", "C", "electiveTheory", "D_LAB", "D_LAB"],
+    "Wednesday": [
+      "A_LAB",
+      "A_LAB",
+      "A_LAB",
+      "C",
+      "H",
+      "electiveLab",
+      "electiveLab"
     ],
-    "Friday": ["CIR", "CIR", "CIR", "C", "electiveTheory", "H_LAB", "H_LAB"]
+    "Thursday": ["D", "B", "FREE", "H_LAB", "H_LAB", "G_LAB", "G_LAB"],
+    "Friday": ["CIR", "CIR", "electiveTheory", "D", "G", "H", "FREE"]
   }
 }
