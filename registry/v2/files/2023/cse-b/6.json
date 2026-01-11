@@ -5,7 +5,7 @@
       "name": "Software Engineering",
       "code": "23CSE311",
       "faculty": [
-        "Dr. Nandu C Nair"
+        "Dr. Nandu C. Nair"
       ],
       "shortName": "SE"
     },
@@ -14,7 +14,7 @@
       "code": "23CSE312",
       "faculty": [
         "Dr. Meena Belwal",
-        "Dr. Shinu M. R"
+        "Dr. Shinu M. R."
       ],
       "shortName": "DS"
     },
@@ -22,7 +22,7 @@
       "name": "Foundations of Cyber Security",
       "code": "23CSE313",
       "faculty": [
-        "Dr. Sreeraag G"
+        "Dr. Sreeraag G."
       ],
       "shortName": "FCS"
     },
@@ -31,7 +31,7 @@
       "code": "23CSE314",
       "faculty": [
         "Ms. Neera Chaudhary",
-        "Ms. Kavitha C.R."
+        "Ms. Kavitha C. R."
       ],
       "shortName": "CD"
     },
@@ -47,8 +47,8 @@
       "name": "Cloud Computing",
       "code": "23CSE363",
       "faculty": [
-        "Dr. Beena B M",
-        "Dr. Dinesh K."
+        "Dr. Beena B. M.",
+        "Dr. K. Dinesh Kumar"
       ],
       "shortName": "CC"
     },
@@ -56,7 +56,7 @@
       "name": "Numerical Methods and Optimization",
       "code": "23MAT343",
       "faculty": [
-        "Dr. Abhinav Ravindra Dehadrai"
+        "Dr. Abhinav R. Dehadrai"
       ],
       "shortName": "NMO"
     },
@@ -64,9 +64,9 @@
       "name": "Life Skills for Engineers IV",
       "code": "23LSE311",
       "faculty": [
-        "Ms. Jisha",
-        "Ms. Nilakshee",
-        "Ms. Karishma"
+        "Ms. Jisha R. Nair",
+        "Ms. Nilakshee Kalita",
+        "Ms. Karishma Nair N."
       ],
       "shortName": "CIR"
     },

@@ -4,19 +4,19 @@
     "MEE311": {
       "name": "Finite Element Methods",
       "code": "23MEE311",
-      "faculty": ["Dr. Mohan Kumar S"],
+      "faculty": ["Dr. Mohan Kumar S."],
       "shortName": "FEM"
     },
     "MEE312": {
       "name": "Design of Machine Elements - II",
       "code": "23MEE312",
-      "faculty": ["Dr. Shashi Kumar M E"],
+      "faculty": ["Dr. Shashi Kumar M. E."],
       "shortName": "DME-II"
     },
     "MEE313": {
       "name": "Industrial Automation",
       "code": "23MEE313",
-      "faculty": ["Mr. Raghuvendra Ravi Kiran K"],
+      "faculty": ["Mr. Raghavendra Ravi Kiran K."],
       "shortName": "IA"
     },
     "MEE314": {
@@ -28,19 +28,19 @@
     "MEE315": {
       "name": "Industrial Engineering",
       "code": "23MEE315",
-      "faculty": ["Dr. Y P Deepthi"],
+      "faculty": ["Dr. Y. P. Deepthi"],
       "shortName": "IE"
     },
     "MEE384": {
       "name": "Industrial Automation Laboratory",
       "code": "23MEE384",
-      "faculty": ["Mr. Raghuvendra Ravi Kiran K"],
+      "faculty": ["Mr. Raghavendra Ravi Kiran K."],
       "shortName": "IA Lab"
     },
     "MEE385": {
       "name": "Computer Aided Engineering Laboratory",
       "code": "23MEE385",
-      "faculty": ["Dr. Mohan Kumar S", "Dr. Pramod R"],
+      "faculty": ["Dr. Mohan Kumar S.", "Dr. Pramod R."],
       "shortName": "CAE Lab"
     },
     "LSE311": {
@@ -52,31 +52,31 @@
     "MEE346": {
       "name": "Product Design and Development",
       "code": "23MEE346",
-      "faculty": ["Dr. Dileep B P"],
+      "faculty": ["Dr. Dileep B. P."],
       "shortName": "PDD"
     },
     "MEE463": {
       "name": "Computational Fluid Dynamics",
       "code": "23MEE463",
-      "faculty": ["Mr. Bhanuprakash S"],
+      "faculty": ["Mr. Bhanu Prakash Sayapogu"],
       "shortName": "CFD"
     },
     "MEE423": {
       "name": "Smart Manufacturing",
       "code": "23MEE423",
-      "faculty": ["Dr. Ulhas K Annigeri"],
+      "faculty": ["Dr. Ulhas K. Annigeri"],
       "shortName": "Smart Mfg"
     },
     "MEE422": {
       "name": "Digital twins",
       "code": "23MEE422",
-      "faculty": ["Dr. Pramod R"],
+      "faculty": ["Dr. Pramod R."],
       "shortName": "Digital Twins"
     },
     "MEE441": {
       "name": "Gas Dynamics and Jet Propulsion",
       "code": "23MEE441",
-      "faculty": ["Mr. Vinod Kotebavi"],
+      "faculty": ["Mr. Vinod M. Kotebavi"],
       "shortName": "GDJP"
     }
   },

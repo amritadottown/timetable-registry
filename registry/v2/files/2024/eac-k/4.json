@@ -4,7 +4,7 @@
     "A": {
       "name": "Microcontrollers & Interfacing",
       "code": "23ECE211",
-      "faculty": ["Ms. Kirti S Pande"],
+      "faculty": ["Ms. Kirti S. Pande"],
       "shortName": "MC&I"
     },
     "B": {
@@ -16,7 +16,7 @@
     "C": {
       "name": "Computer Systems and Architecture",
       "code": "23EAC213",
-      "faculty": ["Ms. Priya B.K"],
+      "faculty": ["Ms. Priya B. K."],
       "shortName": "CSA"
     },
     "D": {
@@ -28,19 +28,19 @@
     "E": {
       "name": "Machine Learning",
       "code": "23ECE216",
-      "faculty": ["Dr. Sushma B"],
+      "faculty": ["Dr. Sushma B."],
       "shortName": "ML"
     },
     "MC": {
       "name": "Microcontrollers & Interfacing Laboratory",
       "code": "23ECE284",
-      "faculty": ["Ms. Kirti S Pande", "Dr. Kaveri Hatti", "Dr. Jitendra Bahadur", "Mr. Kapileshwar Reddy"],
+      "faculty": ["Ms. Kirti S. Pande", "Dr. Kaveri Hatti", "Dr. Jitendra Bahadur", "Mr. Kapileshwar Reddy"],
       "shortName": "MC Lab"
     },
     "MLL": {
       "name": "Machine Learning Laboratory",
       "code": "23ECE285",
-      "faculty": ["Dr. Sushma B", "Dr. Patthi Aruna", "Ms. Anjana Menon", "Dr. Navin"],
+      "faculty": ["Dr. Sushma B.", "Dr. Patthi Aruna", "Ms. Anjana Menon", "Dr. Navin Kumar"],
       "shortName": "ML Lab"
     },
     "EC2": {
@@ -52,7 +52,7 @@
     "LSE": {
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
-      "faculty": ["Ms. Sweta Chavan", "Ms. Srinthi N", "Ms. Sujatha V", "Mr. Ankit Jain"],
+      "faculty": ["Ms. Sweta Chavan", "Ms. Srinithi N.", "Ms. Sujatha V.", "Mr. Ankit Jain"],
       "shortName": "CIR"
     },
     "AVP": {
@@ -64,7 +64,7 @@
     "ENV": {
       "name": "Environmental Science",
       "code": "23ENV300",
-      "faculty": ["Dr. Giridhar Reddy S"],
+      "faculty": ["Dr. S. Giridhar Reddy"],
       "shortName": "EVS"
     },
     "IC": {

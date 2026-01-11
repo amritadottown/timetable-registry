@@ -4,37 +4,37 @@
     "A": {
       "name": "Mathematics for Intelligent Systems - 2",
       "code": "23MAT131",
-      "faculty": ["Dr. Shali S", "Dr. Pradeep S Jakkareddy"],
+      "faculty": ["Dr. Shali S.", "Dr. Pradeep S. Jakkareddy"],
       "shortName": "MIS-2"
     },
     "B": {
       "name": "Object Oriented Programming",
       "code": "23CSE117",
-      "faculty": ["Dr. Ravi Kumar V", "Dr. Shashi Kumar M E", "Dr. Mohankumar S"],
+      "faculty": ["Dr. Ravi Kumar V.", "Dr. Shashi Kumar M. E.", "Dr. Mohan Kumar S."],
       "shortName": "OOP"
     },
     "C": {
       "name": "Elements of Mechanical Engineering",
       "code": "23MEE112",
-      "faculty": ["Dr. Mohan Kumar S"],
+      "faculty": ["Dr. Mohan Kumar S."],
       "shortName": "EME"
     },
     "D": {
       "name": "Computational Engineering Mechanics",
       "code": "23MEE113",
-      "faculty": ["Dr. Rajeevlochana C G", "Dr. Shankara", "Dr. Smita Singh"],
+      "faculty": ["Dr. Rajeevlochana G. Chittawadigi", "Dr. Shankara", "Dr. Smita Singh"],
       "shortName": "CEM"
     },
     "E": {
       "name": "Manufacturing Practice-B",
       "code": "23MEE182",
-      "faculty": ["Dr. Shankara", "Ms. Divya Sharma S G"],
+      "faculty": ["Dr. Shankara", "Ms. Divya Sharma S. G."],
       "shortName": "MP-B"
     },
     "F": {
       "name": "Sensors and Signal Processing",
       "code": "23ECE118",
-      "faculty": ["Dr. Pujasen Gupta", "Dr. Prashanth B N", "Dr. Smita Singh"],
+      "faculty": ["Dr. Puja Sengupta", "Dr. Prashanth B. N.", "Dr. Smita Singh"],
       "shortName": "SSP"
     },
     "G": {

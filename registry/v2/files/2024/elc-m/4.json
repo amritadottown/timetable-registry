@@ -4,43 +4,43 @@
     "A": {
       "name": "Operating Systems",
       "code": "23ELC211",
-      "faculty": ["Ms. Kruthika U."],
+      "faculty": ["Ms. U. Kruthika"],
       "shortName": "OS"
     },
     "B": {
       "name": "Machine Learning",
       "code": "23ELC212",
-      "faculty": ["Dr. Rashmi M.R."],
+      "faculty": ["Dr. Rashmi M. R."],
       "shortName": "ML"
     },
     "C": {
       "name": "Control Systems",
       "code": "23EEE215",
-      "faculty": ["Ms. S. Lekshmi", "Ms. Nithya M."],
+      "faculty": ["Ms. Lekshmi S.", "Ms. M. Nithya"],
       "shortName": "CS"
     },
     "D": {
       "name": "Microcontrollers and Applications",
       "code": "23EEE214",
-      "faculty": ["Dr. J. Ramprabhakar", "Ms. Nithya M."],
+      "faculty": ["Dr. J. Ramprabhakar", "Ms. M. Nithya"],
       "shortName": "MCA"
     },
     "E": {
       "name": "Data Structure and Algorithms",
       "code": "23ELC213",
-      "faculty": ["Dr. Surekha P."],
+      "faculty": ["Dr. Surekha Paneerselvam"],
       "shortName": "DSA"
     },
     "LSE": {
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
-      "faculty": ["Ms. Sujatha V", "Ms. Sweta Chavan", "Mr. Ankit Jain"],
+      "faculty": ["Ms. Sujatha V.", "Ms. Sweta Chavan", "Mr. Ankit Jain"],
       "shortName": "CIR"
     },
     "AVP": {
       "name": "Leadership From Ramayana",
       "code": "22ADM211",
-      "faculty": ["Dr. Tanashree"],
+      "faculty": ["Dr. Tanashree Redij"],
       "shortName": "ADM"
     }
   },

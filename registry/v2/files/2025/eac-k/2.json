@@ -10,13 +10,13 @@
     "B": {
       "name": "Computer Programming",
       "code": "23ECE105",
-      "faculty": ["Dr. Shashi Kumar M E"],
+      "faculty": ["Dr. Shashi Kumar M. E."],
       "shortName": "CP"
     },
     "C": {
       "name": "Digital Electronics",
       "code": "23EAC112",
-      "faculty": ["Dr. R.V. Sanjika Devi"],
+      "faculty": ["Dr. R. V. Sanjika Devi"],
       "shortName": "DE"
     },
     "D": {
@@ -28,31 +28,31 @@
     "E": {
       "name": "Computer Hardware and System Essentials",
       "code": "23EAC111",
-      "faculty": ["Ms. Priya B K"],
+      "faculty": ["Ms. Priya B. K."],
       "shortName": "CHSE"
     },
     "F": {
       "name": "Introduction to Internet of Things",
       "code": "23ECE184",
-      "faculty": ["Ms. Jayashree M Oli", "Dr. C Paramasivam", "Dr. Lalitha S"],
+      "faculty": ["Ms. Jayashree M. Oli", "Dr. C. Paramasivam", "Dr. Lalitha S."],
       "shortName": "IoT"
     },
     "G": {
       "name": "Computer Hardware and System Essentials Laboratory",
       "code": "23EAC181",
-      "faculty": ["Ms. Priya B K", "Dr. Patthi Aruna", "Dr. Shivalila A Hangaragi"],
+      "faculty": ["Ms. Priya B. K.", "Dr. Patthi Aruna", "Dr. Shivalila Hangaragi"],
       "shortName": "CHSE Lab"
     },
     "H": {
       "name": "Digital Electronics Laboratory",
       "code": "23EAC182",
-      "faculty": ["Dr. R.V. Sanjika Devi", "Dr. C. Paramasivam", "Mr. Vignesh V"],
+      "faculty": ["Dr. R. V. Sanjika Devi", "Dr. C. Paramasivam", "Mr. Vignesh V."],
       "shortName": "DE Lab"
     },
     "I": {
       "name": "Computer Programming Laboratory",
       "code": "23ECE182",
-      "faculty": ["Dr. Shashi Kumar M E", "Ms. Jayashree M Oli", "Dr. Shivalila A Hangaragi"],
+      "faculty": ["Dr. Shashi Kumar M. E.", "Ms. Jayashree M. Oli", "Dr. Shivalila Hangaragi"],
       "shortName": "CP Lab"
     },
     "J": {
@@ -64,7 +64,7 @@
     "K": {
       "name": "Engineering Chemistry",
       "code": "23CHY109",
-      "faculty": ["Dr. Anil Kumar S"],
+      "faculty": ["Dr. Anil Kumar S."],
       "shortName": "Chem"
     }
   },

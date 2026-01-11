@@ -4,19 +4,19 @@
     "A": {
       "name": "Microcontrollers & Interfacing",
       "code": "23ECE211",
-      "faculty": ["Mr. Giriraja C.V"],
+      "faculty": ["Mr. Giriraja C. V."],
       "shortName": "MC&I"
     },
     "B": {
       "name": "Analog Electronics II",
       "code": "23ECE212",
-      "faculty": ["Dr. Bhavana V"],
+      "faculty": ["Dr. Bhavana V."],
       "shortName": "AE-II"
     },
     "C": {
       "name": "Communication Theory",
       "code": "23ECE213",
-      "faculty": ["Dr. Asish Goswami"],
+      "faculty": ["Dr. Ashish Goswami"],
       "shortName": "CT"
     },
     "D": {
@@ -28,43 +28,43 @@
     "E": {
       "name": "Machine Learning",
       "code": "23ECE216",
-      "faculty": ["Dr. Kamatchi S"],
+      "faculty": ["Dr. Kamatchi S."],
       "shortName": "ML"
     },
     "MC": {
       "name": "Microcontrollers & Interfacing Laboratory",
       "code": "23ECE284",
-      "faculty": ["Mr. C.V Giriraja", "Dr. Patthi Aruna", "Ms. Gayathri R"],
+      "faculty": ["Mr. Giriraja C. V.", "Dr. Patthi Aruna", "Ms. Gayathri R."],
       "shortName": "MC Lab"
     },
     "MLL": {
       "name": "Machine Learning Laboratory",
       "code": "23ECE285",
-      "faculty": ["Dr. Kamatchi S", "Dr. Harshit Srivastava", "Dr. Sushma B"],
+      "faculty": ["Dr. Kamatchi S.", "Dr. Harshit Srivastava", "Dr. Sushma B."],
       "shortName": "ML Lab"
     },
     "CC": {
       "name": "Circuits and Communication Laboratory",
       "code": "23ECE286",
-      "faculty": ["Dr. Asish Goswami", "Dr. Sushant Shendre", "Ms. Gayathri R"],
+      "faculty": ["Dr. Ashish Goswami", "Dr. Sushant Shendre", "Ms. Gayathri R."],
       "shortName": "CC Lab"
     },
     "LSE": {
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
-      "faculty": ["Mr. Ankit Jain", "Ms. Srinthi N", "Ms. Sujatha V"],
+      "faculty": ["Mr. Ankit Jain", "Ms. Srinithi N.", "Ms. Sujatha V."],
       "shortName": "CIR"
     },
     "AVP": {
       "name": "Leadership From Ramayana",
       "code": "22ADM211",
-      "faculty": ["Mr. Vinay"],
+      "faculty": ["Mr. Vinay H. A."],
       "shortName": "ADM"
     },
     "ENV": {
       "name": "Environmental Science",
       "code": "23ENV300",
-      "faculty": ["Dr. Giridhar Reddy S"],
+      "faculty": ["Dr. S. Giridhar Reddy"],
       "shortName": "EVS"
     },
     "IC": {

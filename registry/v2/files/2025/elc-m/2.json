@@ -4,61 +4,61 @@
     "A": {
       "name": "Complex Analysis and Transforms",
       "code": "23MAT125",
-      "faculty": ["Ms. Nimmy P"],
+      "faculty": ["Ms. Nimmy P."],
       "shortName": "CAT"
     },
     "B": {
       "name": "Engineering Physics",
       "code": "23PHY105",
-      "faculty": ["Dr. G N Kumaraswamy"],
+      "faculty": ["Dr. Kumaraswamy G. N."],
       "shortName": "Phy"
     },
     "C": {
       "name": "Electrical Circuit Analysis",
       "code": "23ELC111",
-      "faculty": ["Dr S Syama"],
+      "faculty": ["Dr. S. Syama"],
       "shortName": "ECA"
     },
     "D": {
       "name": "Electronic Devices and Circuits",
       "code": "23ELC112",
-      "faculty": ["Dr. V. S. Kirthikadevi"],
+      "faculty": ["Dr. Kirthika Devi V. S."],
       "shortName": "EDC"
     },
     "E": {
       "name": "Digital Electronics",
       "code": "23ELC113",
-      "faculty": ["Ms K Sireesha"],
+      "faculty": ["Ms. K. Sireesha"],
       "shortName": "DE"
     },
     "F": {
       "name": "Computer Programming",
       "code": "23ELC114",
-      "faculty": ["Ms Kruthika U"],
+      "faculty": ["Ms. U. Kruthika"],
       "shortName": "CP"
     },
     "G": {
       "name": "Electrical Engineering Practice",
       "code": "23EEE183",
-      "faculty": ["Dr. V. S. Kirthikadevi", "Ms Kruthika U"],
+      "faculty": ["Dr. Kirthika Devi V. S.", "Ms. U. Kruthika"],
       "shortName": "EEP"
     },
     "H": {
       "name": "Electrical, Electronics and Digital Lab",
       "code": "23ELC181",
-      "faculty": ["Dr. V. S. Kirthikadevi", "Ms Sudha Yadav"],
+      "faculty": ["Dr. Kirthika Devi V. S.", "Ms. Sudha Yadav"],
       "shortName": "EED Lab"
     },
     "I": {
       "name": "Glimpses of Glorious India",
       "code": "22ADM111",
-      "faculty": ["Mr. Vinay"],
+      "faculty": ["Mr. Vinay H. A."],
       "shortName": "GGI"
     },
     "J": {
       "name": "Engineering Physics Lab",
       "code": "23PHY185",
-      "faculty": ["Mr. Manjunatha H", "Dr. K N Venkatachaliah"],
+      "faculty": ["Mr. Manjunatha H.", "Dr. K. N. Venkatachalaiah"],
       "shortName": "Phy Lab"
     }
   },

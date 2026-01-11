@@ -4,7 +4,7 @@
     "A": {
       "name": "Additive Manufacturing",
       "code": "23MEE316",
-      "faculty": ["Dr. Dileep B P", "Dr. Y P Deepthi", "Dr. Mohan Kumar S"],
+      "faculty": ["Dr. Dileep B. P.", "Dr. Y. P. Deepthi", "Dr. Mohan Kumar S."],
       "shortName": "AM"
     },
     "B": {
@@ -16,25 +16,25 @@
     "C": {
       "name": "Deep learning",
       "code": "23RAI312",
-      "faculty": ["Dr. Sreeja Kochuvala", "Dr. Prakash K Marimuthu"],
+      "faculty": ["Dr. Sreeja Kochuvila", "Dr. Prakash Marimuthu"],
       "shortName": "DL"
     },
     "D": {
       "name": "IoT and Automation",
       "code": "23RAI313",
-      "faculty": ["Dr. Prashanth B N"],
+      "faculty": ["Dr. Prashanth B. N."],
       "shortName": "IoT"
     },
     "E": {
       "name": "Mobile Robots lab",
       "code": "23RAI382",
-      "faculty": ["Dr. Bikram Singh Solanki", "Mr. Raghavendra Ravi Kiran K", "Dr. Dileep B P"],
+      "faculty": ["Dr. Bikram Singh Solanki", "Mr. Raghavendra Ravi Kiran K.", "Dr. Dileep B. P."],
       "shortName": "MR Lab"
     },
     "F": {
       "name": "Mini Project",
       "code": "23RAI398",
-      "faculty": ["Dr. Rajeevlochana C G", "Dr. Pujasen Gupta", "Dr. Bikram Singh Solanki"],
+      "faculty": ["Dr. Rajeevlochana G. Chittawadigi", "Dr. Puja Sengupta", "Dr. Bikram Singh Solanki"],
       "shortName": "Mini Project"
     },
     "G": {
@@ -46,25 +46,25 @@
     "H": {
       "name": "Computer Vision and Image Processing",
       "code": "23RAI343",
-      "faculty": ["Dr. Vivek V"],
+      "faculty": ["Dr. Vivek Venugopal"],
       "shortName": "CV"
     },
     "I": {
       "name": "Operations Research",
       "code": "23MNG336",
-      "faculty": ["Dr. Ulhas K Anngeri"],
+      "faculty": ["Dr. Ulhas K. Annigeri"],
       "shortName": "OR"
     },
     "J": {
       "name": "Smart Manufacturing",
       "code": "23MEE326",
-      "faculty": ["Dr. Ulhas K Anngeri"],
+      "faculty": ["Dr. Ulhas K. Annigeri"],
       "shortName": "Smart Mfg"
     },
     "K": {
       "name": "AI in Natural Language Processing",
       "code": "23RAI353",
-      "faculty": ["Dr. Shali S", "Dr. Sushmita Vekot"],
+      "faculty": ["Dr. Shali S.", "Dr. Susmitha Vekkot"],
       "shortName": "AI in NLP"
     }
   },

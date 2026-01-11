@@ -13,8 +13,8 @@
       "name": "Introduction to Communication & IoT",
       "code": "22AIE211",
       "faculty": [
-        "Ms. Priya R",
-        "Dr. Sirisha"
+        "Ms. Priya R.",
+        "Dr. Sirisha Tadepalli"
       ],
       "shortName": "IoT"
     },
@@ -22,8 +22,8 @@
       "name": "Design and Analysis of Algorithms",
       "code": "22AIE212",
       "faculty": [
-        "Dr. Rimjhim",
-        "Dr. Yasoomkari",
+        "Dr. Rimjhim Padam Singh",
+        "Dr. Daddala Yasoomkari",
         "Ms. Afnaan"
       ],
       "shortName": "DAA"
@@ -32,8 +32,8 @@
       "name": "Machine Learning",
       "code": "22AIE213",
       "faculty": [
-        "Dr. Debanjali",
-        "Dr. Peetabasa Pati"
+        "Dr. Debanjali Bhattacharya",
+        "Dr. Peeta Basa Pati"
       ],
       "shortName": "ML"
     },
@@ -41,8 +41,8 @@
       "name": "Introduction to AI Robotics",
       "code": "22AIE214",
       "faculty": [
-        "Dr. Kiran Pandri",
-        "Dr. Nidhin Prabhakar"
+        "Dr. D. N. Kiran Pandiri",
+        "Dr. Nidhin Prabhakar T. V."
       ],
       "shortName": "IAR"
     },
@@ -50,8 +50,8 @@
       "name": "Intelligence of Biological Systems 2",
       "code": "22BIO211",
       "faculty": [
-        "Dr. Nidhin Prabhakar",
-        "Dr. Amulyashree"
+        "Dr. Nidhin Prabhakar T. V.",
+        "Dr. Amulyashree S."
       ],
       "shortName": "IBS"
     },
@@ -59,7 +59,7 @@
       "name": "Leadership from Ramayana",
       "code": "22ADM211",
       "faculty": [
-        "Dr. Tanashree"
+        "Dr. Tanashree Redij"
       ],
       "shortName": "ADM"
     },
@@ -75,9 +75,9 @@
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
       "faculty": [
-        "Mr. Ankit",
-        "Ms. Srinithi",
-        "Mr. Sivakumar"
+        "Mr. Ankit Jain",
+        "Ms. Srinithi N.",
+        "Mr. Sivakumar K. M."
       ],
       "shortName": "CIR"
     }

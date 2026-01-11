@@ -4,49 +4,49 @@
     "A": {
       "name": "Complex Analysis and Transforms",
       "code": "23MAT125",
-      "faculty": ["Ms. Nimmy P"],
+      "faculty": ["Ms. Nimmy P."],
       "shortName": "CAT"
     },
     "B": {
       "name": "Algorithmic Thinking and Computer Programming",
       "code": "23CSE115",
-      "faculty": ["Dr Vidya H A", "Ms. Archana Mohan", "Ms. G B Bhavana"],
+      "faculty": ["Dr. Vidya H. A.", "Ms. Archana Mohan", "Ms. G. B. Bhavana"],
       "shortName": "ATCP"
     },
     "C": {
       "name": "Engineering Physics",
       "code": "23PHY105",
-      "faculty": ["Dr. G N Kumaraswamy"],
+      "faculty": ["Dr. Kumaraswamy G. N."],
       "shortName": "Phy"
     },
     "D": {
       "name": "Electric Circuits",
       "code": "23EEE111",
-      "faculty": ["Dr S Syama"],
+      "faculty": ["Dr. S. Syama"],
       "shortName": "EC"
     },
     "E": {
       "name": "Electronic Circuits",
       "code": "23EEE112",
-      "faculty": ["Dr Kaveri Hatti"],
+      "faculty": ["Dr. Kaveri Hatti"],
       "shortName": "ElC"
     },
     "F": {
       "name": "Materials for Electrical Engineering",
       "code": "23EEE113",
-      "faculty": ["Dr. G N Kumaraswamy"],
+      "faculty": ["Dr. Kumaraswamy G. N."],
       "shortName": "MEE"
     },
     "G": {
       "name": "Electric and Electronic Circuits Lab",
       "code": "23EEE181",
-      "faculty": ["Ms Sudha Yadav", "Ms. Archana Mohan"],
+      "faculty": ["Ms. Sudha Yadav", "Ms. Archana Mohan"],
       "shortName": "EEC Lab"
     },
     "H": {
       "name": "Electrical Engineering Practice",
       "code": "23EEE183",
-      "faculty": ["Dr Rashmi M R", "Ms Lekshmi"],
+      "faculty": ["Dr. Rashmi M. R.", "Ms. Lekshmi S."],
       "shortName": "EEP"
     },
     "I": {
@@ -58,7 +58,7 @@
     "J": {
       "name": "Engineering Physics Lab",
       "code": "23PHY185",
-      "faculty": ["Mr Manjunatha H", "Dr K N Venkatachaliah"],
+      "faculty": ["Mr. Manjunatha H.", "Dr. K. N. Venkatachalaiah"],
       "shortName": "Phy Lab"
     }
   },

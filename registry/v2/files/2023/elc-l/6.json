@@ -4,7 +4,7 @@
     "A": {
       "name": "Power Electronics and Drives",
       "code": "23EEE311",
-      "faculty": ["Ms. Sailaja V."],
+      "faculty": ["Ms. V. Sailaja"],
       "shortName": "PED"
     },
     "B": {
@@ -16,7 +16,7 @@
     "C": {
       "name": "Theory of Computation and Compiler Design",
       "code": "23ELC313",
-      "faculty": ["Mr. Vishnu Raj"],
+      "faculty": ["Mr. K. Vishnu Raj"],
       "shortName": "TOC & CD"
     },
     "D1": {
@@ -34,43 +34,43 @@
     "E1": {
       "name": "Robotics and Automation",
       "code": "23ELC341",
-      "faculty": ["Ms. Nithya M."],
+      "faculty": ["Ms. M. Nithya"],
       "shortName": "Robotics"
     },
     "E2": {
       "name": "Cyber Security",
       "code": "23ELC366",
-      "faculty": ["Dr. Vidya H.A."],
+      "faculty": ["Dr. Vidya H. A."],
       "shortName": "Cyber Sec"
     },
     "PED": {
       "name": "Power Electronics and Drives Lab",
       "code": "23ELC382",
-      "faculty": ["Ms. Sailaja V.", "Ms. K. Sireesha"],
+      "faculty": ["Ms. V. Sailaja", "Ms. K. Sireesha"],
       "shortName": "PED Lab"
     },
     "IOT": {
       "name": "Computer Networks and IoT Lab",
       "code": "23ELC383",
-      "faculty": ["Ms. Archana Mohan", "Mr. Vishnu Raj"],
+      "faculty": ["Ms. Archana Mohan", "Mr. K. Vishnu Raj"],
       "shortName": "CN & IoT Lab"
     },
     "OL": {
       "name": "Open Lab",
       "code": "23ELC384",
-      "faculty": ["Mr. Vishnu Raj", "Dr. Mini Sujith"],
+      "faculty": ["Mr. K. Vishnu Raj", "Dr. Mini Sujith"],
       "shortName": "Open Lab"
     },
     "LSE": {
       "name": "Life Skills for Engineers IV",
       "code": "23LSE311",
-      "faculty": ["Ms. Sweta Chavan", "Ms. Jisha Nair", "Ms. Nilakshee"],
+      "faculty": ["Ms. Sweta Chavan", "Ms. Jisha R. Nair", "Ms. Nilakshee Kalita"],
       "shortName": "CIR"
     },
     "II": {
       "name": "Industry Internship",
       "code": "23HU601",
-      "faculty": ["Dr. V. S. Kirthikadevi"],
+      "faculty": ["Dr. Kirthika Devi V. S."],
       "shortName": "II"
     }
   },

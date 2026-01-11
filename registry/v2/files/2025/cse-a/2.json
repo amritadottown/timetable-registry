@@ -4,43 +4,43 @@
     "A": {
       "name": "Discrete Mathematics",
       "code": "23MAT116",
-      "faculty": ["Dr. Smitha T V"],
+      "faculty": ["Dr. T. V. Smitha"],
       "shortName": "DM"
     },
     "B": {
       "name": "Linear Algebra",
       "code": "23MAT117",
-      "faculty": ["Dr. Naveen Kumar"],
+      "faculty": ["Dr. Naveen Kumar R."],
       "shortName": "LA"
     },
     "C": {
       "name": "Object Oriented Programming",
       "code": "23CSE111",
-      "faculty": ["Ms. B Saranya Devi", "Dr. Reena Panwar", "Dr. Priyanka Vivek"],
+      "faculty": ["Ms. Saranya Devi B.", "Dr. Reena Panwar", "Dr. Priyanka Vivek"],
       "shortName": "OOP"
     },
     "D": {
       "name": "Modern Physics",
       "code": "23PHY115",
-      "faculty": ["Mr. H Manjunatha"],
+      "faculty": ["Mr. Manjunatha H."],
       "shortName": "Phy"
     },
     "E": {
       "name": "User Interface Design",
       "code": "23CSE113",
-      "faculty": ["Dr. Shinu M. R", "Dr. Thushara"],
+      "faculty": ["Dr. Shinu M. R.", "Dr. Thushara G. A."],
       "shortName": "UID"
     },
     "F": {
       "name": "Technical Communication",
       "code": "23ENG101",
-      "faculty": ["Ms. Anjana Chandran"],
+      "faculty": ["Ms. Sanjana K. Chandran"],
       "shortName": "TC"
     },
     "G": {
       "name": "Glimpses of Glorious India",
       "code": "22ADM111",
-      "faculty": ["Dr. Tanashree"],
+      "faculty": ["Dr. Tanashree Redij"],
       "shortName": "GGI"
     }
   },

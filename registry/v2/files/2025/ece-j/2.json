@@ -10,43 +10,43 @@
     "B": {
       "name": "Electronic Devices and Circuits",
       "code": "23ECE111",
-      "faculty": ["Dr. Bhavana V"],
+      "faculty": ["Dr. Bhavana V."],
       "shortName": "EDC"
     },
     "C": {
       "name": "Signal Processing I",
       "code": "23ECE112",
-      "faculty": ["Dr. Siba Prasad"],
+      "faculty": ["Dr. Siba Prasad Mishra"],
       "shortName": "SP-I"
     },
     "D": {
       "name": "Network Analysis",
       "code": "23ECE114",
-      "faculty": ["Dr. R.V. Sanjika Devi"],
+      "faculty": ["Dr. R. V. Sanjika Devi"],
       "shortName": "NA"
     },
     "E": {
       "name": "Signal Processing I Laboratory",
       "code": "23ECE183",
-      "faculty": ["Dr. Siba Prasad", "Dr. Sreeja Kochuvila"],
+      "faculty": ["Dr. Siba Prasad Mishra", "Dr. Sreeja Kochuvila"],
       "shortName": "SP Lab"
     },
     "F": {
       "name": "Introduction to Internet of Things",
       "code": "23ECE184",
-      "faculty": ["Dr. Phaniraj Harivanam", "Ms. Anjana Menon", "Dr. Parul Mathur", "Ms. Priya B K"],
+      "faculty": ["Dr. Phani Raj Harivanam", "Ms. Anjana Menon", "Dr. Parul Mathur", "Ms. Priya B. K."],
       "shortName": "IoT"
     },
     "G": {
       "name": "Electronic Devices and Circuits Laboratory",
       "code": "23ECE185",
-      "faculty": ["Dr. Bhavana V", "Dr. K.N. Venkatachalaiah", "Dr. G.N. Kumaraswamy"],
+      "faculty": ["Dr. Bhavana V.", "Dr. K. N. Venkatachalaiah", "Dr. Kumaraswamy G. N."],
       "shortName": "EDC Lab"
     },
     "H": {
       "name": "Technical Communication",
       "code": "23ENG101",
-      "faculty": ["Dr. Deepakumari S"],
+      "faculty": ["Dr. Deepakumari S."],
       "shortName": "Tech Comm"
     },
     "I": {
@@ -58,7 +58,7 @@
     "J": {
       "name": "Engineering Chemistry",
       "code": "23CHY109",
-      "faculty": ["Dr. Bhaskar B L"],
+      "faculty": ["Dr. B. L. Bhaskar"],
       "shortName": "Chem"
     }
   },

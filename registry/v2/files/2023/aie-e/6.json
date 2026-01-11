@@ -5,7 +5,7 @@
       "name": "Software Engineering",
       "code": "22AIE311",
       "faculty": [
-        "Ms. Anjitha"
+        "Ms. Anjitha P."
       ],
       "shortName": "SE"
     },
@@ -23,7 +23,7 @@
       "code": "22AIE313",
       "faculty": [
         "Dr. Radha D.",
-        "Ms. Aparna"
+        "Ms. Aparna Srinath"
       ],
       "shortName": "CV"
     },
@@ -31,8 +31,8 @@
       "name": "Computer Security",
       "code": "22AIE314",
       "faculty": [
-        "Dr.Niharika Panda",
-        "Mr. Sreeraag"
+        "Dr. Niharika Panda",
+        "Dr. Sreeraag G."
       ],
       "shortName": "CS"
     },
@@ -41,7 +41,7 @@
       "code": "22AIE315",
       "faculty": [
         "Dr. Priyanka Vivek",
-        "Dr. Manju Venugopal"
+        "Dr. Manju Venugopalan"
       ],
       "shortName": "NLP"
     },
@@ -49,8 +49,8 @@
       "name": "Speech Processing",
       "code": "22AIE450",
       "faculty": [
-        "Dr. Debanjali",
-        "Dr. Yaddanapudi Kavya Sai"
+        "Dr. Debanjali Bhattacharya",
+        "Dr. Kavyasai Yaddanapudi"
       ],
       "shortName": "SP"
     },
@@ -58,7 +58,7 @@
       "name": "Mobile Application Development",
       "code": "22AIE458",
       "faculty": [
-        "Mr. Ullas S"
+        "Mr. Ullas S."
       ],
       "shortName": "MAD"
     },
@@ -66,7 +66,7 @@
       "name": "Numerical Methods and Optimisation",
       "code": "19MAT343",
       "faculty": [
-        "Dr. Abhinav R"
+        "Dr. Abhinav R. Dehadrai"
       ],
       "shortName": "NMO"
     },
@@ -74,9 +74,9 @@
       "name": "Soft Skills III",
       "code": "19SSK311",
       "faculty": [
-        "Mr. Sivakumar",
-        "Ms. Nilakshee",
-        "Ms. Karishma"
+        "Mr. Sivakumar K. M.",
+        "Ms. Nilakshee Kalita",
+        "Ms. Karishma Nair N."
       ],
       "shortName": "CIR"
     }

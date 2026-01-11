@@ -3,7 +3,7 @@
     "A": {
       "name": "Computer Systems and Architecture",
       "code": "23ECE301",
-      "faculty": ["Dr. Sushma"],
+      "faculty": ["Dr. Sushma B."],
       "shortName": "CSA"
     },
     "B": {
@@ -33,13 +33,13 @@
     "F": {
       "name": "Operating Systems",
       "code": "23ECE431",
-      "faculty": ["Ms. Priya B.K"],
+      "faculty": ["Ms. Priya B. K."],
       "shortName": "OS"
     },
     "OPEN": {
       "name": "Open Laboratory I",
       "code": "23ECE381",
-      "faculty": ["Dr. R.V. Sanjika Devi", "Dr. Kamatchi S"],
+      "faculty": ["Dr. R. V. Sanjika Devi", "Dr. Kamatchi S."],
       "shortName": "Open Lab"
     },
     "CSL": {
@@ -51,7 +51,7 @@
     "LSE": {
       "name": "Life Skills for Engineers III",
       "code": "23LSE301",
-      "faculty": ["Mr. Sivakumar K.M.", "Ms. Karishma Nair N"],
+      "faculty": ["Mr. Sivakumar K. M.", "Ms. Karishma Nair N."],
       "shortName": "CIR"
     }
   },

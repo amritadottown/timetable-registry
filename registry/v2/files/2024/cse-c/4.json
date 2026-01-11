@@ -14,8 +14,8 @@
       "code": "23CSE211",
       "faculty": [
         "Dr. Daddala Yasoomkari",
-        "Dr. Nalini",
-        "Dr. Niharika"
+        "Dr. Nalini Sampath",
+        "Dr. Niharika Panda"
       ],
       "shortName": "DAA"
     },
@@ -23,9 +23,9 @@
       "name": "Principles of Functional Languages",
       "code": "23CSE212",
       "faculty": [
-        "Dr. Amulyashree",
-        "Dr. Gurupriya",
-        "Ms. Swetha"
+        "Dr. Amulyashree S.",
+        "Dr. Gurupriya M.",
+        "Ms. Swetha Pai"
       ],
       "shortName": "PFL"
     },
@@ -33,7 +33,7 @@
       "name": "Computer Organization and Architecture",
       "code": "23CSE213",
       "faculty": [
-        "Dr. Gurupriya"
+        "Dr. Gurupriya M."
       ],
       "shortName": "COA"
     },
@@ -51,7 +51,7 @@
       "name": "Leadership from Ramayana",
       "code": "22ADM211",
       "faculty": [
-        "Mr. Vinay"
+        "Mr. Vinay H. A."
       ],
       "shortName": "ADM"
     },
@@ -59,9 +59,9 @@
       "name": "Business communication",
       "code": "23ENG220",
       "faculty": [
-        "Smita Sail",
-        "Deepthi Janardhan",
-        "Sanjana Chandran"
+        "Dr. Smita Sail",
+        "Dr. Deepthi Janardhan",
+        "Ms. Sanjana K. Chandran"
       ],
       "shortName": "BC"
     },
@@ -69,8 +69,8 @@
       "name": "Vistas of Science Through Films",
       "code": "24ENG246",
       "faculty": [
-        "Sayani Vijay",
-        "Revathy Hemachandran"
+        "Dr. Sayant Vijay",
+        "Dr. Revathy Hemachandran"
       ],
       "shortName": "Vistas"
     },
@@ -78,7 +78,7 @@
       "name": "Science Fiction",
       "code": "24ENG243",
       "faculty": [
-        "Deepakumari"
+        "Dr. Deepakumari S."
       ],
       "shortName": "SF"
     },
@@ -94,7 +94,7 @@
       "name": "Indian Classics for the 21st Century",
       "code": "23HUM235",
       "faculty": [
-        "Dr. Tanashree"
+        "Dr. Tanashree Redij"
       ],
       "shortName": "IC21"
     },
@@ -102,7 +102,7 @@
       "name": "The Message of Bhagavadgeetha",
       "code": "23HUM242",
       "faculty": [
-        "Mr. Vinay"
+        "Mr. Vinay H. A."
       ],
       "shortName": "MB"
     },
@@ -110,9 +110,9 @@
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
       "faculty": [
-        "Mr. Ankit",
-        "Ms. Srinithi",
-        "Mr. Sivakumar"
+        "Mr. Ankit Jain",
+        "Ms. Srinithi N.",
+        "Mr. Sivakumar K. M."
       ],
       "shortName": "CIR"
     }

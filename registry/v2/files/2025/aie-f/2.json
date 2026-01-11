@@ -5,7 +5,7 @@
       "name": "Mathematics for Computing 2",
       "code": "22MAT122",
       "faculty": [
-        "Ms. Mamatha T M"
+        "Ms. Mamatha T. M."
       ],
       "shortName": "Math"
     },
@@ -15,7 +15,7 @@
       "faculty": [
         "Dr. Reena Panwar",
         "Ms. Sangita Khare",
-        "Dr. Radha"
+        "Dr. Radha D."
       ],
       "shortName": "Prog"
     },
@@ -24,7 +24,7 @@
       "code": "22AIE112",
       "faculty": [
         "Dr. Anjali Patel",
-        "Dr. Thushara G A",
+        "Dr. Thushara G. A.",
         "Dr. Meena Belwal"
       ],
       "shortName": "DS"
@@ -34,7 +34,7 @@
       "code": "22AIE113",
       "faculty": [
         "Dr. Ritesh Raj",
-        "Mr. Lijin"
+        "Mr. Lijin P."
       ],
       "shortName": "ECS"
     },
@@ -42,7 +42,7 @@
       "name": "Introduction to Electrical and Electronics Engineering",
       "code": "22AIE114",
       "faculty": [
-        "Ms. Sailaja V"
+        "Ms. V. Sailaja"
       ],
       "shortName": "IEE"
     },
@@ -51,7 +51,7 @@
       "code": "22AIE115",
       "faculty": [
         "Dr. Manju Khanna",
-        "Ms. Arya R"
+        "Ms. Arya R."
       ],
       "shortName": "UI"
     },
@@ -59,7 +59,7 @@
       "name": "Glimpses of Glorious India",
       "code": "22ADM111",
       "faculty": [
-        "Ms. Bhavya"
+        "Ms. Bhavya Suresh"
       ],
       "shortName": "GGI"
     }

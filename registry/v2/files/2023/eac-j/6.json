@@ -34,7 +34,7 @@
     "D3": {
       "name": "Real Time Operating Systems",
       "code": "23ECE439",
-      "faculty": ["Ms. Jayashree M Oli"],
+      "faculty": ["Ms. Jayashree M. Oli"],
       "shortName": "RTOS"
     },
     "D4": {
@@ -52,13 +52,13 @@
     "E1": {
       "name": "Deep Learning",
       "code": "23ECE450",
-      "faculty": ["Dr. N. Neelima"],
+      "faculty": ["Dr. Nizampatnam Neelima"],
       "shortName": "DL"
     },
     "E2": {
       "name": "VLSI System Design",
       "code": "23ECE342",
-      "faculty": ["Mr. Swaminadhan Rajula", "Dr. C. Paramasivam", "Mr. Vignesh V"],
+      "faculty": ["Mr. Swaminadhan Rajula", "Dr. C. Paramasivam", "Mr. Vignesh V."],
       "shortName": "VSD"
     },
     "E3": {
@@ -70,13 +70,13 @@
     "OL2": {
       "name": "Open Laboratory II",
       "code": "23EAC383",
-      "faculty": ["Dr. R V. Sanjika Devi", "Dr. Bhavana V", "Dr. M. Vinodhini", "Ms. Kirti S Pande"],
+      "faculty": ["Dr. R. V. Sanjika Devi", "Dr. Bhavana V.", "Dr. M. Vinodhini", "Ms. Kirti S. Pande"],
       "shortName": "Open Lab II"
     },
     "CPS": {
       "name": "Cyber Physical Systems Laboratory",
       "code": "23EAC384",
-      "faculty": ["Dr. Harshit Srivastava", "Dr. Shivalila A Hangaragi", "Ms. Glace Varghese"],
+      "faculty": ["Dr. Harshit Srivastava", "Dr. Shivalila Hangaragi", "Ms. Glace Varghese"],
       "shortName": "CPS Lab"
     },
     "IOT": {
@@ -88,7 +88,7 @@
     "LSE": {
       "name": "Life Skills for Engineers IV",
       "code": "23LSE311",
-      "faculty": ["Ms. Nilakshee Kalita", "Ms. Sweta Chavan", "Mr. Sivakumar K.M"],
+      "faculty": ["Ms. Nilakshee Kalita", "Ms. Sweta Chavan", "Mr. Sivakumar K. M."],
       "shortName": "CIR"
     },
     "LIL": {

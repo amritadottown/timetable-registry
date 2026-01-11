@@ -4,7 +4,7 @@
     "A": {
       "name": "Engineering Mathematics II",
       "code": "23MAT130",
-      "faculty": ["Dr. Viharika J.U."],
+      "faculty": ["Dr. J. U. Viharika"],
       "shortName": "EM-II"
     },
     "B": {
@@ -16,7 +16,7 @@
     "C": {
       "name": "Signal Processing I",
       "code": "23ECE112",
-      "faculty": ["Dr. Lalitha S"],
+      "faculty": ["Dr. Lalitha S."],
       "shortName": "SP-I"
     },
     "D": {
@@ -28,19 +28,19 @@
     "E": {
       "name": "Signal Processing I Laboratory",
       "code": "23ECE183",
-      "faculty": ["Dr. Lalitha S", "Dr. Sarda Sharma"],
+      "faculty": ["Dr. Lalitha S.", "Dr. Sarda Sharma"],
       "shortName": "SP Lab"
     },
     "F": {
       "name": "Introduction to Internet of Things",
       "code": "23ECE184",
-      "faculty": ["Ms. Kirti S Pande", "Dr. Phaniraj Harivanam", "Dr. N. Neelima", "Ms. Belkies V M"],
+      "faculty": ["Ms. Kirti S. Pande", "Dr. Phani Raj Harivanam", "Dr. Nizampatnam Neelima", "Ms. Belkies V. M."],
       "shortName": "IoT"
     },
     "G": {
       "name": "Electronic Devices and Circuits Laboratory",
       "code": "23ECE185",
-      "faculty": ["Dr. Karnena Rohit Kumar", "Dr. K.N. Venkatachalaiah", "Dr. Sarda Sharma", "Dr. G N Kumaraswamy"],
+      "faculty": ["Dr. Karnena Rohit Kumar", "Dr. K. N. Venkatachalaiah", "Dr. Sarda Sharma", "Dr. Kumaraswamy G. N."],
       "shortName": "EDC Lab"
     },
     "H": {
@@ -52,13 +52,13 @@
     "I": {
       "name": "Glimpses of Glorious India",
       "code": "22ADM111",
-      "faculty": ["Mr. Vinay"],
+      "faculty": ["Mr. Vinay H. A."],
       "shortName": "GGI"
     },
     "J": {
       "name": "Engineering Chemistry",
       "code": "23CHY109",
-      "faculty": ["Dr. Mohankumar T M"],
+      "faculty": ["Dr. T. M. Mohan Kumar"],
       "shortName": "Chem"
     }
   },

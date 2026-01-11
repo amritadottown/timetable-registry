@@ -13,8 +13,8 @@
       "name": "Introduction to Communication & IoT",
       "code": "22AIE211",
       "faculty": [
-        "Ms. Priya R",
-        "Dr. Sirisha"
+        "Ms. Priya R.",
+        "Dr. Sirisha Tadepalli"
       ],
       "shortName": "IoT"
     },
@@ -22,8 +22,8 @@
       "name": "Design and Analysis of Algorithms",
       "code": "22AIE212",
       "faculty": [
-        "Dr. Anjali",
-        "Dr. Nalini",
+        "Dr. Anjali Patel",
+        "Dr. Nalini Sampath",
         "Ms. Afnaan"
       ],
       "shortName": "DAA"
@@ -32,8 +32,8 @@
       "name": "Machine Learning",
       "code": "22AIE213",
       "faculty": [
-        "Dr. Peetabasa Pati",
-        "Dr. Debanjali"
+        "Dr. Peeta Basa Pati",
+        "Dr. Debanjali Bhattacharya"
       ],
       "shortName": "ML"
     },
@@ -41,8 +41,8 @@
       "name": "Introduction to AI Robotics",
       "code": "22AIE214",
       "faculty": [
-        "Dr. Nidhin Prabhakar",
-        "Dr. Kiran Pandri"
+        "Dr. Nidhin Prabhakar T. V.",
+        "Dr. D. N. Kiran Pandiri"
       ],
       "shortName": "IAR"
     },
@@ -50,8 +50,8 @@
       "name": "Intelligence of Biological Systems 2",
       "code": "22BIO211",
       "faculty": [
-        "Dr. Amulyashree",
-        "Dr. Vasavi C S"
+        "Dr. Amulyashree S.",
+        "Dr. Vasavi C. S."
       ],
       "shortName": "IBS"
     },
@@ -67,7 +67,7 @@
       "name": "Environmental Science",
       "code": "19ENV300",
       "faculty": [
-        "Dr. Giridhar Reddy"
+        "Dr. S. Giridhar Reddy"
       ],
       "shortName": "EVS"
     },
@@ -75,9 +75,9 @@
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
       "faculty": [
-        "Ms. Nilakshee",
-        "Ms. Srinithi",
-        "Mr. Sivakumar"
+        "Ms. Nilakshee Kalita",
+        "Ms. Srinithi N.",
+        "Mr. Sivakumar K. M."
       ],
       "shortName": "CIR"
     }

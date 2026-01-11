@@ -14,8 +14,8 @@
       "code": "22AIE111",
       "faculty": [
         "Dr. Reena Panwar",
-        "Dr. Sajitha",
-        "Ms. Swetha"
+        "Dr. Sajitha Krishnan",
+        "Ms. Swetha Pai"
       ],
       "shortName": "Prog"
     },
@@ -23,9 +23,9 @@
       "name": "Data Structures & Algorithms 1",
       "code": "22AIE112",
       "faculty": [
-        "Dr. Thushara G A",
-        "Dr. Radha",
-        "Dr. Santhanalaksmi"
+        "Dr. Thushara G. A.",
+        "Dr. Radha D.",
+        "Dr. Santhanalakshmi S."
       ],
       "shortName": "DS"
     },
@@ -33,7 +33,7 @@
       "name": "Elements of Computing Systems 2",
       "code": "22AIE113",
       "faculty": [
-        "Mr. Lijin",
+        "Mr. Lijin P.",
         "Dr. Ritesh Raj"
       ],
       "shortName": "ECS"
@@ -42,7 +42,7 @@
       "name": "Introduction to Electrical and Electronics Engineering",
       "code": "22AIE114",
       "faculty": [
-        "Dr. Sujith Kumar"
+        "Dr. Sujit Kumar"
       ],
       "shortName": "IEE"
     },
@@ -51,7 +51,7 @@
       "code": "22AIE115",
       "faculty": [
         "Dr. Manju Khanna",
-        "Ms. Arya R"
+        "Ms. Arya R."
       ],
       "shortName": "UI"
     },

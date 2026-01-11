@@ -5,7 +5,7 @@
       "name": "Mathematics for Intelligent Systems 2",
       "code": "23MAT112",
       "faculty": [
-        "Dr. Geetha K N"
+        "Dr. Geetha K. N."
       ],
       "shortName": "Math"
     },
@@ -14,7 +14,7 @@
       "code": "23PHY114",
       "faculty": [
         "Dr. Vineet Nair",
-        "Dr. Abhinav R"
+        "Dr. Abhinav R. Dehadrai"
       ],
       "shortName": "CM2"
     },
@@ -32,7 +32,7 @@
       "name": "Data Structures & Algorithms",
       "code": "23AID112",
       "faculty": [
-        "Dr. Sangamitra",
+        "Dr. Sanghamitra Mishra",
         "Ms. Sreebha Bhaskaran",
         "Ms. Ramya Sivan"
       ],
@@ -51,8 +51,8 @@
       "name": "Introduction to Electronics",
       "code": "23ECE113",
       "faculty": [
-        "Dr. D N Kiran Pandiri",
-        "Mr. Lijin"
+        "Dr. D. N. Kiran Pandiri",
+        "Mr. Lijin P."
       ],
       "shortName": "IE"
     },
@@ -60,7 +60,7 @@
       "name": "Introduction to Materials Informatics",
       "code": "23CHY115",
       "faculty": [
-        "Dr. Vasavi C S",
+        "Dr. Vasavi C. S.",
         "Dr. Vineet Nair"
       ],
       "shortName": "IMI"

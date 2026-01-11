@@ -4,7 +4,7 @@
     "A": {
       "name": "Electrical Measurements",
       "code": "23EEE211",
-      "faculty": ["Ms. Sireesha K", "Ms. Kruthika U."],
+      "faculty": ["Ms. K. Sireesha", "Ms. U. Kruthika"],
       "shortName": "EM"
     },
     "B": {
@@ -16,37 +16,37 @@
     "C": {
       "name": "Introduction to Machine Learning",
       "code": "23EEE213",
-      "faculty": ["Dr. S Syama"],
+      "faculty": ["Dr. S. Syama"],
       "shortName": "ML"
     },
     "D": {
       "name": "Microcontrollers and Applications",
       "code": "23EEE214",
-      "faculty": ["Mr. Vishnu Raj"],
+      "faculty": ["Mr. K. Vishnu Raj"],
       "shortName": "MCA"
     },
     "E": {
       "name": "Control Systems",
       "code": "23EEE215",
-      "faculty": ["Ms. S. Lekshmi"],
+      "faculty": ["Ms. Lekshmi S."],
       "shortName": "CS"
     },
     "EM1": {
       "name": "Electrical Machines I Lab",
       "code": "23EEE282",
-      "faculty": ["Dr. Mini Sujith", "Dr. Manitha P.V"],
+      "faculty": ["Dr. Mini Sujith", "Dr. Manitha P. V."],
       "shortName": "EM I Lab"
     },
     "LSE": {
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
-      "faculty": ["Mr. Ankit Jain", "Mr. Sivakumar K M", "Ms. Sweta Chavan"],
+      "faculty": ["Mr. Ankit Jain", "Mr. Sivakumar K. M.", "Ms. Sweta Chavan"],
       "shortName": "CIR"
     },
     "AVP": {
       "name": "Leadership From Ramayana",
       "code": "22ADM211",
-      "faculty": ["Mr. Vinay"],
+      "faculty": ["Mr. Vinay H. A."],
       "shortName": "ADM"
     }
   },

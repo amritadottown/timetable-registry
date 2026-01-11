@@ -4,7 +4,7 @@
     "A": {
       "name": "Engineering Mathematics II",
       "code": "23MAT130",
-      "faculty": ["Dr. Viharika J.U."],
+      "faculty": ["Dr. J. U. Viharika"],
       "shortName": "EM-II"
     },
     "B": {
@@ -16,7 +16,7 @@
     "C": {
       "name": "Signal Processing I",
       "code": "23ECE112",
-      "faculty": ["Dr. Sushma B"],
+      "faculty": ["Dr. Sushma B."],
       "shortName": "SP-I"
     },
     "D": {
@@ -28,19 +28,19 @@
     "E": {
       "name": "Signal Processing I Laboratory",
       "code": "23ECE183",
-      "faculty": ["Dr. Sushma B", "Dr. Shivalila A Hangaragi"],
+      "faculty": ["Dr. Sushma B.", "Dr. Shivalila Hangaragi"],
       "shortName": "SP Lab"
     },
     "F": {
       "name": "Introduction to Internet of Things",
       "code": "23ECE184",
-      "faculty": ["Dr. Vivek Venugopal", "Dr. Patthi Aruna", "Ms. Kirti S Pande"],
+      "faculty": ["Dr. Vivek Venugopal", "Dr. Patthi Aruna", "Ms. Kirti S. Pande"],
       "shortName": "IoT"
     },
     "G": {
       "name": "Electronic Devices and Circuits Laboratory",
       "code": "23ECE185",
-      "faculty": ["Dr. Karnena Rohit Kumar", "Mr. Manjunatha H"],
+      "faculty": ["Dr. Karnena Rohit Kumar", "Mr. Manjunatha H."],
       "shortName": "EDC Lab"
     },
     "H": {
@@ -52,7 +52,7 @@
     "I": {
       "name": "Glimpses of Glorious India",
       "code": "22ADM111",
-      "faculty": ["Ms. Bhavya"],
+      "faculty": ["Ms. Bhavya Suresh"],
       "shortName": "GGI"
     },
     "J": {

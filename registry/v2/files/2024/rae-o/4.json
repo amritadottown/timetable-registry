@@ -4,55 +4,55 @@
     "MAT": {
       "name": "Mathematics for Intelligent Systems - 4",
       "code": "23MAT226",
-      "faculty": ["Dr. Shali S", "Dr. Pradeep S Jakkareddy"],
+      "faculty": ["Dr. Shali S.", "Dr. Pradeep S. Jakkareddy"],
       "shortName": "MIS-4"
     },
     "CSE": {
       "name": "Data Science",
       "code": "23CSE215",
-      "faculty": ["Dr. Prakash K Marimuthu", "Dr. Y P Deepthi"],
+      "faculty": ["Dr. Prakash Marimuthu", "Dr. Y. P. Deepthi"],
       "shortName": "DS"
     },
     "RAI": {
       "name": "Kinematics of Robotic Systems",
       "code": "23RAI211",
-      "faculty": ["Dr. Rajeevlochana Chittawadigi", "Dr. Mohan Kumar S"],
+      "faculty": ["Dr. Rajeevlochana G. Chittawadigi", "Dr. Mohan Kumar S."],
       "shortName": "KRS"
     },
     "EEE": {
       "name": "Control Systems",
       "code": "23EEE216",
-      "faculty": ["Dr. Ravi Kumar V"],
+      "faculty": ["Dr. Ravi Kumar V."],
       "shortName": "CS"
     },
     "MEE": {
       "name": "Manufacturing Processes",
       "code": "23MEE216",
-      "faculty": ["Dr. Ulhas K Annigeri"],
+      "faculty": ["Dr. Ulhas K. Annigeri"],
       "shortName": "MP"
     },
     "RAIL": {
       "name": "Robot Kinematics and Control System Lab",
       "code": "23RAI281",
-      "faculty": ["Dr. Rajeevlochana Chittawadigi", "Dr. Ravi Kumar V"],
+      "faculty": ["Dr. Rajeevlochana G. Chittawadigi", "Dr. Ravi Kumar V."],
       "shortName": "RK&CS Lab"
     },
     "ADM": {
       "name": "Leadership from Ramayana",
       "code": "22ADM211",
-      "faculty": ["Dr. Tanashree Redji"],
+      "faculty": ["Dr. Tanashree Redij"],
       "shortName": "ADM"
     },
     "LSE": {
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
-      "faculty": ["Ms. Karishma Nair", "Ms. Shivani Raichura", "Mr. Rahul Anand", "Ms. Sweta Chavan"],
+      "faculty": ["Ms. Karishma Nair N.", "Ms. Shivani H. Raichura", "Mr. Rahul Anand", "Ms. Sweta Chavan"],
       "shortName": "CIR"
     },
     "ENG1": {
       "name": "Science Fiction",
       "code": "24ENG243",
-      "faculty": ["Dr. Deepakumari S"],
+      "faculty": ["Dr. Deepakumari S."],
       "shortName": "SF"
     },
     "ENG2": {
@@ -64,13 +64,13 @@
     "ENG3": {
       "name": "Vistas of Science through films",
       "code": "24ENG246",
-      "faculty": ["Mr. Sayant Vijay"],
+      "faculty": ["Dr. Sayant Vijay"],
       "shortName": "Vistas"
     },
     "ENV": {
       "name": "Environmental Science",
       "code": "23ENV300",
-      "faculty": ["Dr. Mohan Kumar T M"],
+      "faculty": ["Dr. T. M. Mohan Kumar"],
       "shortName": "EVS"
     }
   },

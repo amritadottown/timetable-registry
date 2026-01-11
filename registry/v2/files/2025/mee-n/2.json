@@ -40,13 +40,13 @@
     "G": {
       "name": "Introduction to Python Programming",
       "code": "23MEE181",
-      "faculty": ["Dr. Shashi Kumar M E", "Mr. Jishnu Nair"],
+      "faculty": ["Dr. Shashi Kumar M. E.", "Mr. Jishnu Nair"],
       "shortName": "Python"
     },
     "H": {
       "name": "Manufacturing Practice B",
       "code": "23MEE182",
-      "faculty": ["Dr. Shankara", "Ms. Divya Sharma S G"],
+      "faculty": ["Dr. Shankara", "Ms. Divya Sharma S. G."],
       "shortName": "MP-B"
     },
     "I": {

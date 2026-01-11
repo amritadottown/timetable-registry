@@ -10,49 +10,49 @@
     "B": {
       "name": "Analog Electronics II",
       "code": "23ECE212",
-      "faculty": ["Ms. Gayathri R"],
+      "faculty": ["Ms. Gayathri R."],
       "shortName": "AE-II"
     },
     "C": {
       "name": "Communication Theory",
       "code": "23ECE213",
-      "faculty": ["Dr. Sunitha R"],
+      "faculty": ["Dr. Sunitha R."],
       "shortName": "CT"
     },
     "D": {
       "name": "Control Systems",
       "code": "23ECE215",
-      "faculty": ["Dr. Phaniraj Harivanam"],
+      "faculty": ["Dr. Phani Raj Harivanam"],
       "shortName": "CS"
     },
     "E": {
       "name": "Machine Learning",
       "code": "23ECE216",
-      "faculty": ["Dr. Lalitha S"],
+      "faculty": ["Dr. Lalitha S."],
       "shortName": "ML"
     },
     "MC": {
       "name": "Microcontrollers & Interfacing Laboratory",
       "code": "23ECE284",
-      "faculty": ["Dr. Patthi Aruna", "Mr. Kapileswar Reddy", "Ms. Glace Varghese"],
+      "faculty": ["Dr. Patthi Aruna", "Mr. Kapileshwar Reddy", "Ms. Glace Varghese"],
       "shortName": "MC Lab"
     },
     "MLL": {
       "name": "Machine Learning Laboratory",
       "code": "23ECE285",
-      "faculty": ["Dr. Lalitha S", "Ms. Gayathri R", "Dr. Navin"],
+      "faculty": ["Dr. Lalitha S.", "Ms. Gayathri R.", "Dr. Navin Kumar"],
       "shortName": "ML Lab"
     },
     "CC": {
       "name": "Circuits and Communication Laboratory",
       "code": "23ECE286",
-      "faculty": ["Dr. Sunitha R", "Ms. Gayathri R"],
+      "faculty": ["Dr. Sunitha R.", "Ms. Gayathri R."],
       "shortName": "CC Lab"
     },
     "LSE": {
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
-      "faculty": ["Mr. Ankit Jain", "Ms. Srinthi N", "Ms. Karishma Nair N"],
+      "faculty": ["Mr. Ankit Jain", "Ms. Srinithi N.", "Ms. Karishma Nair N."],
       "shortName": "CIR"
     },
     "AVP": {
@@ -64,7 +64,7 @@
     "ENV": {
       "name": "Environmental Science",
       "code": "23ENV300",
-      "faculty": ["Dr. Bhaskar B L"],
+      "faculty": ["Dr. B. L. Bhaskar"],
       "shortName": "EVS"
     },
     "IC": {

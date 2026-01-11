@@ -5,7 +5,7 @@
       "name": "Mathematics for Computing 4",
       "code": "22MAT230",
       "faculty": [
-        "Dr. V. Kesavulu Naidu",
+        "Dr. Kesavulu Naidu V.",
         "Dr. Sarada Jayan"
       ],
       "shortName": "MOC4"
@@ -14,8 +14,8 @@
       "name": "Introduction to Communication & IoT",
       "code": "22AIE211",
       "faculty": [
-        "Dr. Sirisha",
-        "Ms. Priya R"
+        "Dr. Sirisha Tadepalli",
+        "Ms. Priya R."
       ],
       "shortName": "IoT"
     },
@@ -23,9 +23,9 @@
       "name": "Design and Analysis of Algorithms",
       "code": "22AIE212",
       "faculty": [
-        "Dr. Nalini S",
+        "Dr. Nalini Sampath",
         "Dr. Anjali Patel",
-        "Ms. Swetha"
+        "Ms. Swetha Pai"
       ],
       "shortName": "DAA"
     },
@@ -33,8 +33,8 @@
       "name": "Machine Learning",
       "code": "22AIE213",
       "faculty": [
-        "Dr. Peetabasa Pati",
-        "Dr. Debanjali"
+        "Dr. Peeta Basa Pati",
+        "Dr. Debanjali Bhattacharya"
       ],
       "shortName": "ML"
     },
@@ -42,8 +42,8 @@
       "name": "Introduction to AI Robotics",
       "code": "22AIE214",
       "faculty": [
-        "Dr. Rajesh",
-        "Dr. D N Kiran Pandri"
+        "Dr. Rajesh M.",
+        "Dr. D. N. Kiran Pandiri"
       ],
       "shortName": "IAR"
     },
@@ -51,8 +51,8 @@
       "name": "Intelligence of Biological Systems 2",
       "code": "22BIO211",
       "faculty": [
-        "Dr. Vasavi C S",
-        "Dr. Amulyashree"
+        "Dr. Vasavi C. S.",
+        "Dr. Amulyashree S."
       ],
       "shortName": "IBS"
     },
@@ -60,7 +60,7 @@
       "name": "Leadership from Ramayana",
       "code": "22ADM211",
       "faculty": [
-        "Mr. Vinay"
+        "Mr. Vinay H. A."
       ],
       "shortName": "ADM"
     },
@@ -68,7 +68,7 @@
       "name": "Environmental Science",
       "code": "19ENV300",
       "faculty": [
-        "Dr. Giridhar Reddy"
+        "Dr. S. Giridhar Reddy"
       ],
       "shortName": "EVS"
     },
@@ -76,9 +76,9 @@
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
       "faculty": [
-        "Mr. Ankit",
-        "Ms. Srinithi",
-        "Mr. Sivakumar"
+        "Mr. Ankit Jain",
+        "Ms. Srinithi N.",
+        "Mr. Sivakumar K. M."
       ],
       "shortName": "CIR"
     }

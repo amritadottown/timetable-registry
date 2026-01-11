@@ -5,8 +5,8 @@
       "name": "Probability and Random Processes",
       "code": "23MAT216",
       "faculty": [
-        "Dr. K. Murali",
-        "Dr. Venkatesh B."
+        "Dr. Murali K.",
+        "Dr. B. Venkatesh"
       ],
       "shortName": "PRP"
     },
@@ -15,7 +15,7 @@
       "code": "23CSE211",
       "faculty": [
         "Dr. Daddala Yasoomkari",
-        "Ms. Kavitha C.R.",
+        "Ms. Kavitha C. R.",
         "Ms. Sreebha Bhaskaran"
       ],
       "shortName": "DAA"
@@ -24,7 +24,7 @@
       "name": "Principles of Functional Languages",
       "code": "23CSE212",
       "faculty": [
-        "Dr. Katika Dinesh Kumar",
+        "Dr. K. Dinesh Kumar",
         "Ms. Aiswariya Milan K.",
         "Ms. Gayathri Ramasamy"
       ],
@@ -42,9 +42,9 @@
       "name": "Operating Systems",
       "code": "23CSE214",
       "faculty": [
-        "Ms. Aiswariya Milan K",
+        "Ms. Aiswariya Milan K.",
         "Dr. Sajitha Krishnan",
-        "Dr. Sanghamitra"
+        "Dr. Sanghamitra Mishra"
       ],
       "shortName": "OS"
     },
@@ -52,7 +52,7 @@
       "name": "Leadership from Ramayana",
       "code": "22ADM211",
       "faculty": [
-        "Ms. Bhavya"
+        "Ms. Bhavya Suresh"
       ],
       "shortName": "ADM"
     },
@@ -60,9 +60,9 @@
       "name": "Business communication",
       "code": "23ENG220",
       "faculty": [
-        "Smita Sail",
-        "Deepthi Janardhan",
-        "Sanjana Chandran"
+        "Dr. Smita Sail",
+        "Dr. Deepthi Janardhan",
+        "Ms. Sanjana K. Chandran"
       ],
       "shortName": "BC"
     },
@@ -70,8 +70,8 @@
       "name": "Vistas of Science Through Films",
       "code": "24ENG246",
       "faculty": [
-        "Sayani Vijay",
-        "Revathy Hemachandran"
+        "Dr. Sayant Vijay",
+        "Dr. Revathy Hemachandran"
       ],
       "shortName": "Vistas"
     },
@@ -79,7 +79,7 @@
       "name": "Science Fiction",
       "code": "24ENG243",
       "faculty": [
-        "Deepakumari"
+        "Dr. Deepakumari S."
       ],
       "shortName": "SF"
     },
@@ -95,7 +95,7 @@
       "name": "Indian Classics for the 21st Century",
       "code": "23HUM235",
       "faculty": [
-        "Dr. Tamashree"
+        "Dr. Tanashree Redij"
       ],
       "shortName": "IC21"
     },
@@ -103,7 +103,7 @@
       "name": "The Message of Bhagavadgeetha",
       "code": "23HUM242",
       "faculty": [
-        "Mr. Vinay"
+        "Mr. Vinay H. A."
       ],
       "shortName": "MB"
     },
@@ -111,9 +111,9 @@
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
       "faculty": [
-        "Mr. Ankit",
-        "Ms. Srinithi",
-        "Mr. Sivakumar"
+        "Mr. Ankit Jain",
+        "Ms. Srinithi N.",
+        "Mr. Sivakumar K. M."
       ],
       "shortName": "CIR"
     }

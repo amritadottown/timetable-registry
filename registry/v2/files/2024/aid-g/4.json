@@ -13,8 +13,8 @@
       "name": "Deep Learning",
       "code": "23AID211",
       "faculty": [
-        "Dr. Manju Venugopal",
-        "Ms. Saranya Devi"
+        "Dr. Manju Venugopalan",
+        "Ms. Saranya Devi B."
       ],
       "shortName": "DL"
     },
@@ -22,7 +22,7 @@
       "name": "Speech Processing",
       "code": "23AID471",
       "faculty": [
-        "Dr. Kavya Sai",
+        "Dr. Kavyasai Yaddanapudi",
         "Dr. Manju Khanna"
       ],
       "shortName": "SP"
@@ -31,7 +31,7 @@
       "name": "Introduction to IoT",
       "code": "23AID212",
       "faculty": [
-        "Dr. Rajesh M"
+        "Dr. Rajesh M."
       ],
       "shortName": "IoT"
     },
@@ -39,9 +39,9 @@
       "name": "Operating Systems",
       "code": "23AID213",
       "faculty": [
-        "Dr. Vineetha K V",
+        "Dr. Vineetha K. V.",
         "Ms. Pooja Gowda",
-        "Ms. Anjitha P"
+        "Ms. Anjitha P."
       ],
       "shortName": "OS"
     },
@@ -49,8 +49,8 @@
       "name": "Database Management Systems",
       "code": "23AID214",
       "faculty": [
-        "Dr. Sreevidya B",
-        "Dr. Santhanalakshmi"
+        "Dr. Sreevidya B.",
+        "Dr. Santhanalakshmi S."
       ],
       "shortName": "DBMS"
     },
@@ -59,7 +59,7 @@
       "code": "23AID215",
       "faculty": [
         "Ms. Gayathri Ramasamy",
-        "Mr. Ullas S"
+        "Mr. Ullas S."
       ],
       "shortName": "UID"
     },
@@ -67,7 +67,7 @@
       "name": "Leadership from Ramayana",
       "code": "22ADM211",
       "faculty": [
-        "Mr. Vinay"
+        "Mr. Vinay H. A."
       ],
       "shortName": "ADM"
     },
@@ -75,9 +75,9 @@
       "name": "Life Skills for Engineers II",
       "code": "23LSE211",
       "faculty": [
-        "Ms. Srinithi",
-        "Mr. Sivakumar",
-        "Ms. Nilakshee"
+        "Ms. Srinithi N.",
+        "Mr. Sivakumar K. M.",
+        "Ms. Nilakshee Kalita"
       ],
       "shortName": "CIR"
     }

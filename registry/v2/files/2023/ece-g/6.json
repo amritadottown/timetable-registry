@@ -4,7 +4,7 @@
     "A": {
       "name": "Wireless Communication & Networks",
       "code": "23ECE311",
-      "faculty": ["Mr. Sagar B"],
+      "faculty": ["Mr. Sagar B."],
       "shortName": "WCN"
     },
     "B": {
@@ -16,7 +16,7 @@
     "C": {
       "name": "Embedded Systems",
       "code": "23ECE313",
-      "faculty": ["Mr. Giriraja C V"],
+      "faculty": ["Mr. Giriraja C. V."],
       "shortName": "ES"
     },
     "D1": {
@@ -34,7 +34,7 @@
     "D3": {
       "name": "Real Time Operating Systems",
       "code": "23ECE439",
-      "faculty": ["Ms. Jayashree M Oli"],
+      "faculty": ["Ms. Jayashree M. Oli"],
       "shortName": "RTOS"
     },
     "D4": {
@@ -52,19 +52,19 @@
     "D6": {
       "name": "Radar Systems",
       "code": "23ECE373",
-      "faculty": ["Dr. Dhanesh G Kurup"],
+      "faculty": ["Dr. Dhanesh G. Kurup"],
       "shortName": "RS"
     },
     "E1": {
       "name": "Deep Learning",
       "code": "23ECE450",
-      "faculty": ["Dr. N. Neelima"],
+      "faculty": ["Dr. Nizampatnam Neelima"],
       "shortName": "DL"
     },
     "E2": {
       "name": "VLSI System Design",
       "code": "23ECE342",
-      "faculty": ["Mr. Swaminadhan Rajula", "Dr. C. Paramasivam", "Mr. Vignesh V"],
+      "faculty": ["Mr. Swaminadhan Rajula", "Dr. C. Paramasivam", "Mr. Vignesh V."],
       "shortName": "VSD"
     },
     "E3": {
@@ -76,25 +76,25 @@
     "WCN": {
       "name": "Wireless Communication and Networks Laboratory",
       "code": "23ECE386",
-      "faculty": ["Mr. Sagar B", "Ms. Anusaya Swain"],
+      "faculty": ["Mr. Sagar B.", "Ms. Anusaya Swain"],
       "shortName": "WCN Lab"
     },
     "ES": {
       "name": "Embedded Systems Laboratory",
       "code": "23ECE387",
-      "faculty": ["Mr. Giriraja C.V", "Dr. Shivalila A Hangaragi", "Ms. Jayashree M Oli"],
+      "faculty": ["Mr. Giriraja C. V.", "Dr. Shivalila Hangaragi", "Ms. Jayashree M. Oli"],
       "shortName": "ES Lab"
     },
     "LSE": {
       "name": "Life Skills for Engineers IV",
       "code": "23LSE311",
-      "faculty": ["Ms. Nilakshee Kalita", "Ms. Karishma Nair N", "Mr. Sivakumar K M"],
+      "faculty": ["Ms. Nilakshee Kalita", "Ms. Karishma Nair N.", "Mr. Sivakumar K. M."],
       "shortName": "CIR"
     },
     "OL2": {
       "name": "Open Laboratory II",
       "code": "23ECE385",
-      "faculty": ["Dr. Sreeja Kochuvila", "Dr. Kamatchi S", "Dr. Parul Mathur", "Dr. Phaniraj Harivanam"],
+      "faculty": ["Dr. Sreeja Kochuvila", "Dr. Kamatchi S.", "Dr. Parul Mathur", "Dr. Phani Raj Harivanam"],
       "shortName": "Open Lab II"
     }
   },
