@@ -1,8 +1,3 @@
----
-layout: '@/layouts/BaseLayout.astro'
-title: ASEB Timetable - Transcription Tutorial
----
-
 # ASEB Timetable Transcription Tutorial
 
 This guide will help you create a JSON timetable file from the canonical timetable published by the department.
