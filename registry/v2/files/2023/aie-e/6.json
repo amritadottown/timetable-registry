@@ -143,8 +143,8 @@
       "D",
       "CIR",
       "E",
-      "FREE",
-      "FREE"
+      "C_LAB",
+      "C_LAB"
     ],
     "Friday": [
       "A",
@@ -152,8 +152,8 @@
       "pe2Slot",
       "D_LAB",
       "D_LAB",
-      "C_LAB",
-      "C_LAB"
+      "FREE",
+      "FREE"
     ]
   }
 }
