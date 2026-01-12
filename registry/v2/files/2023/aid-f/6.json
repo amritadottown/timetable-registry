@@ -86,7 +86,7 @@
     }
   },
   "schedule": {
-    "Monday": ["B_LAB", "B_LAB", "B_LAB", "G", "A", "C_LAB", "C_LAB"],
+    "Monday": ["B_LAB", "B_LAB", "B_LAB", "G", "D", "C_LAB", "C_LAB"],
     "Tuesday": ["B", "A", "CIR", "C", "electiveTheory", "D_LAB", "D_LAB"],
     "Wednesday": [
       "A_LAB",
@@ -97,7 +97,7 @@
       "electiveLab",
       "electiveLab"
     ],
-    "Thursday": ["D", "B", "FREE", "H_LAB", "H_LAB", "G_LAB", "G_LAB"],
-    "Friday": ["CIR", "CIR", "electiveTheory", "D", "G", "H", "FREE"]
+    "Thursday": ["D", "B", "A", "H_LAB", "H_LAB", "G_LAB", "G_LAB"],
+    "Friday": ["CIR", "CIR", "electiveTheory", "CIR", "G", "H", "FREE"]
   }
 }
