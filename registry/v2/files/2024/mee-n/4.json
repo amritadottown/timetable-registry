@@ -1,0 +1,109 @@
+{
+  "$schema" : "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A"  : {
+      "name"     : "Fluid Mechanics and Machinery",
+      "code"     : "23MEE211",
+      "faculty"  : [ "Dr. Shankara" ],
+      "shortName": "FMM"
+    },
+    "B"  : {
+      "name"     : "Manufacturing Process II",
+      "code"     : "23MEE212",
+      "faculty"  : [ "Dr. Mrudula Prashanth" ],
+      "shortName": "MP-II"
+    },
+    "C"  : {
+      "name"     : "Computational Methods in Engineering",
+      "code"     : "23MEE213",
+      "faculty"  : [ "Mr. Bhanu Prakash Sayapogu", "Mr. Vinod K" ],
+      "shortName": "CME"
+    },
+    "D"  : {
+      "name"     : "Thermal Engineering",
+      "code"     : "23MEE214",
+      "faculty"  : [ "Mr. Vinod M. Kotebavi" ],
+      "shortName": "TE"
+    },
+    "E"  : {
+      "name"     : "Data Science",
+      "code"     : "23MEE215",
+      "faculty"  : [ "Dr. Y. P. Deepthi", "Dr. Prakash Marimuthu" ],
+      "shortName": "DS"
+    },
+    "TEL": {
+      "name"     : "Thermal Engineering Laboratory",
+      "code"     : "23MEE283",
+      "faculty"  : [ "Mr. Vinod M. Kotebavi" ],
+      "shortName": "TE Lab"
+    },
+    "ADM": {
+      "name"     : "Leadership from Ramayana",
+      "code"     : "22ADM211",
+      "faculty"  : [ "Dr. Madhvi" ],
+      "shortName": "ADM"
+    },
+    "LSE": {
+      "name"     : "Life Skills for Engineers II",
+      "code"     : "23LSE211",
+      "faculty"  : [ "Ms. Karishma Nair N.", "Ms. Shivani H. Raichura", "Ms. Jisha R. Nair" ],
+      "shortName": "CIR"
+    },
+    "FE1": {
+      "name"     : "Science Fiction",
+      "code"     : "24ENG243",
+      "faculty"  : [ "Dr. Deepakumari S." ],
+      "shortName": "SF"
+    },
+    "FE2": {
+      "name"     : "Business Communication",
+      "code"     : "23ENG230",
+      "faculty"  : [ "Dr. Smita Sail" ],
+      "shortName": "BC"
+    },
+    "FE3": {
+      "name"     : "Vistas of Science through films",
+      "code"     : "24ENG246",
+      "faculty"  : [ "Dr. Sayant Vijay" ],
+      "shortName": "Vistas"
+    }
+  },
+  "config"  : {
+    "batch": {
+      "label" : "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    },
+    "fe"   : {
+      "label" : "Free Elective",
+      "values": [
+        { "label": "Science Fiction",                 "id": "FE1" },
+        { "label": "Business Communication",          "id": "FE2" },
+        { "label": "Vistas of Science through films", "id": "FE3" }
+      ]
+    }
+  },
+  "slots"   : {
+    "tueLab1" : {
+      "match"  : "batch",
+      "choices": { "a1": "TEL_LAB", "a2": "B_LAB" }
+    },
+    "tueLab3" : {
+      "match"  : "batch",
+      "choices": { "a1": "B_LAB", "a2": "TEL_LAB" }
+    },
+    "elective": {
+      "match"  : "fe",
+      "choices": { "FE1": "FE1", "FE2": "FE2", "FE3": "FE3" }
+    }
+  },
+  "schedule": {
+    "Monday"   : [ "C",       "FREE",    "D",       "elective", "D",        "C_LAB",   "C_LAB"   ],
+    "Tuesday"  : [ "tueLab1", "tueLab1", "tueLab1", "B",        "elective", "tueLab3", "tueLab3" ],
+    "Wednesday": [ "A",       "A",       "E",       "E_LAB",    "E_LAB",    "FREE",    "FREE"    ],
+    "Thursday" : [ "D",       "C",       "B",       "E",        "FREE",     "ADM",     "FREE"    ],
+    "Friday"   : [ "A",       "LSE",     "LSE",     "LSE",      "D",        "A",       "FREE"    ]
+  }
+}
