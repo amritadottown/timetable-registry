@@ -1,77 +1,73 @@
 {
-  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "$schema" : "https://timetable-registry.amrita.town/v2/schema.json",
   "subjects": {
     "A": {
-      "name": "Discrete Mathematics",
-      "code": "23MAT116",
-      "faculty": ["Dr. Sunita Kumawat"],
+      "name"     : "Discrete Mathematics",
+      "code"     : "23MAT116",
+      "faculty"  : [ "Dr. Sunita Kumawat" ],
       "shortName": "DM"
     },
     "B": {
-      "name": "Linear Algebra",
-      "code": "23MAT117",
-      "faculty": ["Ms. Prijimol V. B."],
+      "name"     : "Linear Algebra",
+      "code"     : "23MAT117",
+      "faculty"  : [ "Ms. Prijimol V. B." ],
       "shortName": "LA"
     },
     "C": {
-      "name": "Object Oriented Programming",
-      "code": "23CSE111",
-      "faculty": ["Dr. Chandan K.", "Ms. Saranya Devi B.", "Ms. Anjitha P."],
+      "name"     : "Object Oriented Programming",
+      "code"     : "23CSE111",
+      "faculty"  : [ "Dr. Chandan K.", "Ms. Saranya Devi B.", "Ms. Anjitha P." ],
       "shortName": "OOP"
     },
     "D": {
-      "name": "Modern Physics",
-      "code": "23PHY115",
-      "faculty": ["Dr. K. N. Venkatachalaiah"],
+      "name"     : "Modern Physics",
+      "code"     : "23PHY115",
+      "faculty"  : [ "Dr. K. N. Venkatachalaiah" ],
       "shortName": "Phy"
     },
     "E": {
-      "name": "User Interface Design",
-      "code": "23CSE113",
-      "faculty": ["Ms. Gayathri Ramasamy", "Ms. Anjitha P."],
+      "name"     : "User Interface Design",
+      "code"     : "23CSE113",
+      "faculty"  : [ "Ms. Gayathri Ramasamy", "Ms. Anjitha P." ],
       "shortName": "UID"
     },
     "F": {
-      "name": "Technical Communication",
-      "code": "23ENG101",
-      "faculty": ["Dr. Deepthi Janardhan"],
+      "name"     : "Technical Communication",
+      "code"     : "23ENG101",
+      "faculty"  : [ "Dr. Deepthi Janardhan" ],
       "shortName": "TC"
     },
     "G": {
-      "name": "Glimpses of Glorious India",
-      "code": "22ADM111",
-      "faculty": ["Ms. Bhavya Suresh"],
+      "name"     : "Glimpses of Glorious India",
+      "code"     : "22ADM111",
+      "faculty"  : [ "Ms. Bhavya Suresh" ],
       "shortName": "GGI"
     }
   },
-  "config": {
+  "config"  : {
     "batch": {
-      "label": "Batch",
+      "label" : "Batch",
       "values": [
         { "label": "C1", "id": "c1" },
         { "label": "C2", "id": "c2" }
       ]
     }
   },
-  "slots": {
-    "tueMorningLab": {
-      "match": "batch",
-      "choices": {
-        "c2": "F_LAB"
-      }
+  "slots"   : {
+    "tueMorningLab"  : {
+      "match"  : "batch",
+      "choices": { "c2": "F_LAB" }
     },
     "wedAfternoonLab": {
-      "match": "batch",
-      "choices": {
-        "c1": "F_LAB"
-      }
+      "match"  : "batch",
+      "choices": { "c1": "F_LAB" }
     }
   },
   "schedule": {
-    "Monday": ["B_LAB", "B_LAB", "B_LAB", "A", "E", "F", "FREE"],
-    "Tuesday": ["tueMorningLab", "tueMorningLab", "tueMorningLab", "C_LAB", "C_LAB", "A", "B"],
-    "Wednesday": ["C", "C", "B", "wedAfternoonLab", "wedAfternoonLab", "E", "D"],
-    "Thursday": ["A_LAB", "A_LAB", "A_LAB", "D", "G", "C", "FREE"],
-    "Friday": ["D", "G", "A", "F", "B", "E_LAB", "E_LAB"]
+    "Monday"   : [ "B_LAB", "B_LAB", "B_LAB", "A", "E", "F", "C" ],
+    "Tuesday"  : [ "tueMorningLab", "tueMorningLab", "tueMorningLab", "C_LAB", "C_LAB", "A", "B" ],
+    "Wednesday": [ "C", "C", "B", "wedAfternoonLab", "wedAfternoonLab", "E", "D" ],
+    "Thursday" : [ "A_LAB", "A_LAB", "A_LAB", "D", "G", "FREE", "FREE" ],
+    "Friday"   : [ "D", "G", "A", "F", "B", "E_LAB", "E_LAB" ]
   }
 }
