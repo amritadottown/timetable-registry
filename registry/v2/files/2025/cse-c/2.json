@@ -68,6 +68,6 @@
     "Tuesday"  : [ "tueMorningLab", "tueMorningLab", "tueMorningLab", "C_LAB", "C_LAB", "A", "B" ],
     "Wednesday": [ "C", "C", "B", "wedAfternoonLab", "wedAfternoonLab", "E", "D" ],
     "Thursday" : [ "A_LAB", "A_LAB", "A_LAB", "D", "G", "FREE", "FREE" ],
-    "Friday"   : [ "D", "G", "A", "F", "B", "E_LAB", "E_LAB" ]
+    "Friday"   : [ "F", "G", "A", "D", "B", "E_LAB", "E_LAB" ]
   }
 }
