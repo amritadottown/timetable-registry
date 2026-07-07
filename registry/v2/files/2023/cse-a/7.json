@@ -1,0 +1,78 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects":   {
+    "A": {
+      "name": "Software Project Management",
+      "code": "23CSE321",
+      "faculty": [
+        "Ms. Arya Suresh"
+      ],
+      "shortName": "SPM"
+    },
+    "B": {
+      "name": "Fundamentals of Artificial Intelligence",
+      "code": "23CSE401",
+      "faculty": [
+        "Ms. Pooja Gowda",
+        "Dr. Tripty Singh"
+      ],
+      "shortName": "FAI"
+    },
+    "D": {
+      "name": "Indian Constitution",
+      "code": "23LAW300",
+      "faculty": [],
+      "shortName": "IC"
+    },
+    "COUNSELLING": {
+      "name": "Counselling",
+      "code": "",
+      "faculty": [],
+      "shortName": "COUNS"
+    },
+    "Edg Comp / Sec Net / MMD": {
+      "name": "Edg Comp / Sec Net / MMD",
+      "code": "23CSE362 / 23CSE336 / 23CSE355",
+      "faculty": [
+        "Ms. Sreebha Bhaskaran",
+        "Dr. Kumaran U",
+        "Dr. Niharika Panda"
+      ],
+      "shortName": "Edg Comp / Sec Net / MMD"
+    },
+    "Blk Chain&A / Cyb F&M / Info Sec": {
+      "name": "Blk Chain&A / Cyb F&M / Info Sec",
+      "code": "23CSE335 / 23CSE334 / 23CSE332",
+      "faculty": [
+        "Ms. Shalini Tiwari",
+        "Ms. Lavanya Penki",
+        "Ms. Kavitha C R"
+      ],
+      "shortName": "Blk Chain&A / Cyb F&M / Info Sec"
+    },
+    "IOT / CV-A1": {
+      "name": "IOT / CV-A1",
+      "code": "23CSE365 / 23CSE373",
+      "faculty": [
+        "Dr. Thangam S",
+        "Dr. Tripty Singh"
+      ],
+      "shortName": "IOT / CV-A1"
+    },
+    "CV-A2": {
+      "name": "CV-A2",
+      "code": "23CSE373",
+      "faculty": [
+        "Dr. Tripty Singh"
+      ],
+      "shortName": "CV-A2"
+    }
+  },
+  "schedule": {
+    "Monday": ["Edg Comp / Sec Net / MMD", "B", "IOT / CV-A1", "A", "FREE", "COUNSELLING", "COUNSELLING"],
+    "Tuesday": ["IOT / CV-A1", "Edg Comp / Sec Net / MMD", "Blk Chain&A / Cyb F&M / Info Sec", "B_LAB", "B_LAB", "FREE", "FREE"],
+    "Wednesday": ["B", "Blk Chain&A / Cyb F&M / Info Sec", "Edg Comp / Sec Net / MMD", "CV-A2", "FREE", "FREE", "FREE"],
+    "Thursday": ["A", "CV-A2", "Blk Chain&A / Cyb F&M / Info Sec", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["FREE", "A", "IOT / CV-A1", "FREE", "CV-A2", "FREE", "FREE"]
+  }
+}
