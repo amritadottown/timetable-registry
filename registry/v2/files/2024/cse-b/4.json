@@ -1,192 +1,116 @@
 {
-  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "$schema" : "https://timetable-registry.amrita.town/v2/schema.json",
   "subjects": {
-    "A": {
-      "name": "Probability and Random Processes",
-      "code": "23MAT216",
-      "faculty": [
-        "Dr. B. Venkatesh"
-      ],
+    "A"  : {
+      "name"     : "Probability and Random Processes",
+      "code"     : "23MAT216",
+      "faculty"  : [ "Dr. B. Venkatesh" ],
       "shortName": "PRP"
     },
-    "B": {
-      "name": "Design & Analysis of Algorithms",
-      "code": "23CSE211",
-      "faculty": [
-        "Dr. Supriya M.",
-        "Dr. Daddala Yasoomkari",
-        "Dr. Niharika Panda"
-      ],
+    "B"  : {
+      "name"     : "Design & Analysis of Algorithms",
+      "code"     : "23CSE211",
+      "faculty"  : [ "Dr. Supriya M.", "Dr. Daddala Yasoomkari", "Dr. Niharika Panda" ],
       "shortName": "DAA"
     },
-    "C": {
-      "name": "Principles of Functional Languages",
-      "code": "23CSE212",
-      "faculty": [
-        "Dr. Gurupriya M.",
-        "Dr. K. Dinesh Kumar",
-        "Dr. Kavyasai Yaddanapudi"
-      ],
+    "C"  : {
+      "name"     : "Principles of Functional Languages",
+      "code"     : "23CSE212",
+      "faculty"  : [ "Dr. Gurupriya M.", "Dr. K. Dinesh Kumar", "Dr. Kavyasai Yaddanapudi" ],
       "shortName": "PFL"
     },
-    "D": {
-      "name": "Computer Organization and Architecture",
-      "code": "23CSE213",
-      "faculty": [
-        "Mr. Vishwas H. N."
-      ],
+    "D"  : {
+      "name"     : "Computer Organization and Architecture",
+      "code"     : "23CSE213",
+      "faculty"  : [ "Mr. Vishwas H. N." ],
       "shortName": "COA"
     },
-    "E": {
-      "name": "Operating Systems",
-      "code": "23CSE214",
-      "faculty": [
-        "Ms. Aiswariya Milan K.",
-        "Dr. Sanghamitra Mishra"
-      ],
+    "E"  : {
+      "name"     : "Operating Systems",
+      "code"     : "23CSE214",
+      "faculty"  : [ "Ms. Aiswariya Milan K.", "Dr. Sanghamitra Mishra" ],
       "shortName": "OS"
     },
-    "F": {
-      "name": "Leadership from Ramayana",
-      "code": "22ADM211",
-      "faculty": [
-        "New Faculty"
-      ],
+    "F"  : {
+      "name"     : "Leadership from Ramayana",
+      "code"     : "22ADM211",
+      "faculty"  : [ "New Faculty" ],
       "shortName": "ADM"
     },
     "FE1": {
-      "name": "Business communication",
-      "code": "23ENG220",
-      "faculty": [
-        "Dr. Smita Sail",
-        "Dr. Deepthi Janardhan",
-        "Ms. Sanjana K. Chandran"
-      ],
+      "name"     : "Business communication",
+      "code"     : "23ENG220",
+      "faculty"  : [ "Dr. Smita Sail", "Dr. Deepthi Janardhan", "Ms. Sanjana K. Chandran" ],
       "shortName": "BC"
     },
     "FE2": {
-      "name": "Vistas of Science Through Films",
-      "code": "24ENG246",
-      "faculty": [
-        "Dr. Sayant Vijay",
-        "Dr. Revathy Hemachandran"
-      ],
+      "name"     : "Vistas of Science Through Films",
+      "code"     : "24ENG246",
+      "faculty"  : [ "Dr. Sayant Vijay", "Dr. Revathy Hemachandran" ],
       "shortName": "Vistas"
     },
     "FE3": {
-      "name": "Science Fiction",
-      "code": "24ENG243",
-      "faculty": [
-        "Dr. Deepakumari S."
-      ],
+      "name"     : "Science Fiction",
+      "code"     : "24ENG243",
+      "faculty"  : [ "Dr. Deepakumari S." ],
       "shortName": "SF"
     },
     "FE4": {
-      "name": "Glimpses of Indian Economy & Polity",
-      "code": "23HUM233",
-      "faculty": [
-        "New Faculty"
-      ],
+      "name"     : "Glimpses of Indian Economy & Polity",
+      "code"     : "23HUM233",
+      "faculty"  : [ "New Faculty" ],
       "shortName": "GIEP"
     },
     "FE5": {
-      "name": "Indian Classics for the 21st Century",
-      "code": "23HUM235",
-      "faculty": [
-        "Dr. Tanashree Redij"
-      ],
+      "name"     : "Indian Classics for the 21st Century",
+      "code"     : "23HUM235",
+      "faculty"  : [ "Dr. Tanashree Redij" ],
       "shortName": "IC21"
     },
     "FE6": {
-      "name": "The Message of Bhagavadgeetha",
-      "code": "23HUM242",
-      "faculty": [
-        "Mr. Vinay H. A."
-      ],
+      "name"     : "The Message of Bhagavadgeetha",
+      "code"     : "23HUM242",
+      "faculty"  : [ "Mr. Vinay H. A." ],
       "shortName": "MB"
     },
     "CIR": {
-      "name": "Life Skills for Engineers II",
-      "code": "23LSE211",
-      "faculty": [
-        "Mr. Ankit Jain",
-        "Ms. Sujatha V.",
-        "Ms. Srinithi N."
-      ],
+      "name"     : "Life Skills for Engineers II",
+      "code"     : "23LSE211",
+      "faculty"  : [ "Mr. Ankit Jain", "Ms. Sujatha V.", "Ms. Srinithi N." ],
       "shortName": "CIR"
     }
   },
-  "config": {
+  "config"  : {
     "fe": {
-      "label": "Free Elective I",
+      "label" : "Free Elective I",
       "values": [
-        { "label": "Business communication", "id": "FE1" },
-        { "label": "Vistas of Science Through Films", "id": "FE2" },
-        { "label": "Science Fiction", "id": "FE3" },
-        { "label": "Glimpses of Indian Economy & Polity", "id": "FE4" },
+        { "label": "Business communication",               "id": "FE1" },
+        { "label": "Vistas of Science Through Films",      "id": "FE2" },
+        { "label": "Science Fiction",                      "id": "FE3" },
+        { "label": "Glimpses of Indian Economy & Polity",  "id": "FE4" },
         { "label": "Indian Classics for the 21st Century", "id": "FE5" },
-        { "label": "The Message of Bhagavadgeetha", "id": "FE6" }
+        { "label": "The Message of Bhagavadgeetha",        "id": "FE6" }
       ]
     }
   },
-  "slots": {
+  "slots"   : {
     "feSlot": {
-      "match": "fe",
-      "choices": {
-        "FE1": "FE1",
-        "FE2": "FE2",
-        "FE3": "FE3",
-        "FE4": "FE4",
-        "FE5": "FE5",
-        "FE6": "FE6"
+      "match"  : "fe",
+      "choices": { 
+        "FE1": "FE1", 
+        "FE2": "FE2", 
+        "FE3": "FE3", 
+        "FE4": "FE4", 
+        "FE5": "FE5", 
+        "FE6": "FE6" 
       }
     }
   },
   "schedule": {
-    "Monday": [
-      "E_LAB",
-      "E_LAB",
-      "E_LAB",
-      "feSlot",
-      "D",
-      "B",
-      "F"
-    ],
-    "Tuesday": [
-      "B",
-      "CIR",
-      "CIR",
-      "CIR",
-      "feSlot",
-      "A",
-      "FREE"
-    ],
-    "Wednesday": [
-      "E",
-      "D",
-      "C",
-      "A",
-      "FREE",
-      "B_LAB",
-      "B_LAB"
-    ],
-    "Thursday": [
-      "C_LAB",
-      "C_LAB",
-      "C_LAB",
-      "A_LAB",
-      "A_LAB",
-      "D",
-      "E"
-    ],
-    "Friday": [
-      "D",
-      "E",
-      "B",
-      "C",
-      "A",
-      "FREE",
-      "FREE"
-    ]
+    "Monday"   : [ "E_LAB", "E_LAB", "E_LAB", "feSlot", "A",      "D",     "F"     ],
+    "Tuesday"  : [ "B",     "CIR",   "CIR",   "CIR",    "feSlot", "A",     "FREE"  ],
+    "Wednesday": [ "E",     "D",     "C",     "B",      "FREE",   "A_LAB", "A_LAB" ],
+    "Thursday" : [ "C_LAB", "C_LAB", "C_LAB", "B_LAB",  "B_LAB",  "D",     "E"     ],
+    "Friday"   : [ "D",     "E",     "B",     "C",      "A",      "FREE",  "FREE"  ]
   }
 }
