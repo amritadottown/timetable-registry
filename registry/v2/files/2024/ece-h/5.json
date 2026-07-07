@@ -1,0 +1,113 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Information Theory and Coding",
+      "code": "23ECE467",
+      "faculty": ["Dr. Ashish Goswami"],
+      "shortName": "ITC"
+    },
+    "B": {
+      "name": "Operating Systems",
+      "code": "23ECE431",
+      "faculty": ["Ms. Jayasree M. Oli"],
+      "shortName": "OS"
+    },
+    "C": {
+      "name": "VLSI System Design",
+      "code": "23ECE342",
+      "faculty": ["Ms. Sonali Agrawal", "Dr. Kaveri Hatti"],
+      "shortName": "VLSI-SD"
+    },
+    "D": {
+      "name": "Image Processing",
+      "code": "23ECE446",
+      "faculty": ["Dr. Sunitha R."],
+      "shortName": "Img Proc"
+    },
+    "E": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": ["Ms. Srinithi N", "Ms. Sujatha V", "Ms. Shivani H Raichura"],
+      "shortName": "Life Skills"
+    },
+    "F": {
+      "name": "Digital Communication",
+      "code": "23ECE304",
+      "faculty": ["Dr. Chinthala Ramesh"],
+      "shortName": "Dig Comm"
+    },
+    "G": {
+      "name": "Computer Systems and Architecture",
+      "code": "23ECE301",
+      "faculty": ["Ms. Kirti S. Pande"],
+      "shortName": "CSA"
+    },
+    "H": {
+      "name": "VLSI Design",
+      "code": "23ECE302",
+      "faculty": ["Ms. Kirti S. Pande", "Dr. Patthi Aruna"],
+      "shortName": "VLSI"
+    },
+    "I": {
+      "name": "Radio Frequency and Microwave Engineering",
+      "code": "23ECE303",
+      "faculty": ["Ms. Priya B.K."],
+      "shortName": "RF-MW"
+    },
+    "RFL": {
+      "name": "RF and Microwave Laboratory",
+      "code": "23ECE382",
+      "faculty": ["Ms. Priya B. K.", "Dr. Anusaya Swain"],
+      "shortName": "RF-MW Lab"
+    },
+    "VDL": {
+      "name": "VLSI Design Laboratory",
+      "code": "23ECE383",
+      "faculty": ["Ms. Kirti S. Pande", "Dr. Patthi Aruna", "Ms. Sowmiya R"],
+      "shortName": "VLSI Lab"
+    },
+    "CSL": {
+      "name": "Communication Systems Laboratory",
+      "code": "23ECE384",
+      "faculty": ["Dr. Sunitha R.", "Dr. Navin Kumar", "Dr. Manoj Kumar Panda"],
+      "shortName": "CS Lab"
+    },
+    "OL": {
+      "name": "Open Laboratory I",
+      "code": "23ECE381",
+      "faculty": ["Ms. Priya B.K"],
+      "shortName": "Open Lab I"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    }
+  },
+  "slots": {
+    "mondayLab": {
+      "match": "batch",
+      "choices": { "a1": "RFL_LAB", "a2": "FREE" }
+    },
+    "thursdayLab": {
+      "match": "batch",
+      "choices": { "a1": "CSL_LAB", "a2": "VDL_LAB" }
+    },
+    "fridayAfternoonLab": {
+      "match": "batch",
+      "choices": { "a1": "FREE", "a2": "RFL_LAB" }
+    }
+  },
+  "schedule": {
+    "Monday": ["mondayLab", "mondayLab", "mondayLab", "E", "E", "FREE", "FREE"],
+    "Tuesday": ["H", "F", "G", "VDL_LAB", "VDL_LAB", "OL_LAB", "OL_LAB"],
+    "Wednesday": ["B", "H", "D", "F", "G", "B", "FREE"],
+    "Thursday": ["thursdayLab", "thursdayLab", "thursdayLab", "D", "H", "OL_LAB", "OL_LAB"],
+    "Friday": ["I", "G", "B", "H", "F", "fridayAfternoonLab", "fridayAfternoonLab"]
+  }
+}
