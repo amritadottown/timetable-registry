@@ -1,0 +1,98 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Computing 3",
+      "code": "22MAT220",
+      "faculty": ["Dr Neethu Sreevatsava"],
+      "shortName": "MFC"
+    },
+    "B": {
+      "name": "Fundamentals of AI",
+      "code": "22AIE201",
+      "faculty": ["Dr. Sajitha Krishnan", "Dr. Amulyashree S.", "Dr. Vasavi C.S."],
+      "shortName": "FAI"
+    },
+    "C": {
+      "name": "Operating Systems",
+      "code": "22AIE202",
+      "faculty": ["Dr. Sanghamitra", "Dr. Sajitha Krishnan"],
+      "shortName": "OS"
+    },
+    "D": {
+      "name": "Data Structures & Algorithms 2",
+      "code": "22AIE203",
+      "faculty": ["Dr. Radha D.", "Ms. Aiswariya Milan K", "Ms. B. Saranya Devi"],
+      "shortName": "DSA"
+    },
+    "E": {
+      "name": "Introduction to Computer Networks",
+      "code": "22AIE204",
+      "faculty": ["Dr. Daddala Yasoomkari", "Dr. Lekshmi R."],
+      "shortName": "CN"
+    },
+    "F": {
+      "name": "Introduction to Python",
+      "code": "22AIE205",
+      "faculty": ["Dr. Debanjali B.", "Dr. Vasavi C.S."],
+      "shortName": "Py"
+    },
+    "G": {
+      "name": "Intelligence of Biological Systems - 1",
+      "code": "22BIO201",
+      "faculty": ["Dr. Shivakumar S"],
+      "shortName": "IBS"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": [],
+      "shortName": "LSE"
+    },
+    "I": {
+      "name": "Strategic Lessons from Mahabharata",
+      "code": "22ADM201",
+      "faculty": ["Dr. Saurabh Sharma"],
+      "shortName": "SLM"
+    },
+    "FE1": {
+      "name": "Message of Bhagavadgita",
+      "code": "23HUM242",
+      "faculty": ["Mr. Vinay H A"],
+      "shortName": "BG"
+    },
+    "H": {
+      "name": "Indian Classics for 21st Century",
+      "code": "23HUM235",
+      "faculty": ["Dr Tanashreeredij"],
+      "shortName": "IC"
+    },
+    "J": {
+      "name": "Science Fiction",
+      "code": "24ENG243",
+      "faculty": ["Dr. Deepakumari"],
+      "shortName": "SF"
+    },
+    "K": {
+      "name": "Vistas of Science",
+      "code": "24ENG246",
+      "faculty": ["Dr. Sayant Vijay"],
+      "shortName": "VS"
+    },
+    "L": {
+      "name": "Business Communication",
+      "code": "23ENG230",
+      "faculty": ["Dr. Deepthi Janardhan"],
+      "shortName": "BC"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["G", "CIR", "CIR", "CIR", "A", "B_LAB", "B_LAB"],
+    "Tuesday": ["B", "G", "I", "A", "E", "C_LAB", "C_LAB"],
+    "Wednesday": ["A_LAB", "A_LAB", "A_LAB", "D_LAB", "D_LAB", "FE1", "COUNSELLING"],
+    "Thursday": ["C", "D", "FE1", "F", "A", "E_LAB", "E_LAB"],
+    "Friday": ["D", "E", "B", "C", "EVALUATION", "F_LAB", "F_LAB"]
+  }
+}
