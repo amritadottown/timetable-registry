@@ -4,37 +4,53 @@
     "A": {
       "name": "Optimization Techniques",
       "code": "23MAT206",
-      "faculty": ["Dr K N Meera"],
+      "faculty": [
+        "Dr K N Meera"
+      ],
       "shortName": "OT"
     },
     "B": {
       "name": "Digital Electronics",
       "code": "23ECE205",
-      "faculty": ["Dr. Kavya Sai"],
+      "faculty": [
+        "Dr. Kavya Sai"
+      ],
       "shortName": "DE"
     },
     "C": {
       "name": "Procedural Programming using C",
       "code": "23CSE201",
-      "faculty": ["Ms. Priya R.", "Ms. Arya R."],
+      "faculty": [
+        "Ms. Priya R.",
+        "Ms. Arya R."
+      ],
       "shortName": "PPC"
     },
     "D": {
       "name": "Database Management Systems",
       "code": "23CSE202",
-      "faculty": ["Ms. Gayathri Ramasamy", "Amrita Tripathi"],
+      "faculty": [
+        "Ms. Gayathri Ramasamy",
+        "Amrita Tripathi"
+      ],
       "shortName": "DBMS"
     },
     "E": {
       "name": "Data Structures and Algorithms",
       "code": "23CSE203",
-      "faculty": ["Dr. Anjali Patel", "Dr. Sanghamitra", "Ms. Kavitha C.R."],
+      "faculty": [
+        "Dr. Anjali Patel",
+        "Dr. Sanghamitra",
+        "Ms. Kavitha C.R."
+      ],
       "shortName": "DSA"
     },
     "F": {
       "name": "Digital Electronics Laboratory",
       "code": "23ECE285",
-      "faculty": ["Dr. Kavya Sai"],
+      "faculty": [
+        "Dr. Kavya Sai"
+      ],
       "shortName": "DEL"
     },
     "CIR": {
@@ -53,10 +69,50 @@
   "config": {},
   "slots": {},
   "schedule": {
-    "Monday": ["E", "D", "EVALUATION", "A_LAB", "A_LAB", "A_LAB", "A_LAB"],
-    "Tuesday": ["F_LAB", "F_LAB", "F_LAB", "C_LAB", "C_LAB", "D_LAB", "D_LAB"],
-    "Wednesday": ["A", "B", "E", "E", "CIR", "CIR", "CIR"],
-    "Thursday": ["C", "D", "B", "E_LAB", "E_LAB", "A", "C"],
-    "Friday": ["E", "H", "D", "A", "B", "C", "COUNSELLING"]
+    "Monday": [
+      "E",
+      "D",
+      "FREE",
+      "A_LAB",
+      "A_LAB",
+      "A_LAB",
+      "A_LAB"
+    ],
+    "Tuesday": [
+      "F_LAB",
+      "F_LAB",
+      "F_LAB",
+      "C_LAB",
+      "C_LAB",
+      "D_LAB",
+      "D_LAB"
+    ],
+    "Wednesday": [
+      "A",
+      "B",
+      "E",
+      "E",
+      "CIR",
+      "CIR",
+      "CIR"
+    ],
+    "Thursday": [
+      "C",
+      "D",
+      "B",
+      "E_LAB",
+      "E_LAB",
+      "A",
+      "C"
+    ],
+    "Friday": [
+      "E",
+      "H",
+      "D",
+      "A",
+      "B",
+      "C",
+      "FREE"
+    ]
   }
 }
