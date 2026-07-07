@@ -1,0 +1,80 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Statistics & Foundations of Data Science",
+      "code": "23MAT224",
+      "faculty": ["Dr. K. N. Meera"],
+      "shortName": "SFDS"
+    },
+    "B": {
+      "name": "Computer Architecture",
+      "code": "23ELC204",
+      "faculty": ["Ms. U. Kruthika"],
+      "shortName": "CA"
+    },
+    "C": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": ["Ms. Nilakshee Kalita", "Mr. Sivakumar K. M.", "Ms. Karishma Nair N."],
+      "shortName": "CIR"
+    },
+    "D": {
+      "name": "Signals & Systems",
+      "code": "23EEE201",
+      "faculty": ["Dr. Surekha Paneerselvam"],
+      "shortName": "S&S"
+    },
+    "E": {
+      "name": "Sensor Circuits & Actuators",
+      "code": "23ELC202",
+      "faculty": ["Dr. K. Deepa"],
+      "shortName": "SCA"
+    },
+    "F": {
+      "name": "Artificial Intelligence",
+      "code": "23ELC203",
+      "faculty": ["Ms. Sudha Yadav"],
+      "shortName": "AI"
+    },
+    "G": {
+      "name": "OOP using Python",
+      "code": "23ELC205",
+      "faculty": ["Mr. K. Vishnu Raj"],
+      "shortName": "OOP"
+    },
+    "H": {
+      "name": "Strategic Lessons From Mahabharata",
+      "code": "22ADM201",
+      "faculty": ["Dr. Saurabh Sharma"],
+      "shortName": "ADM"
+    },
+    "I": {
+      "name": "Electric Machines",
+      "code": "23ELC201",
+      "faculty": ["Ms. Lekshmi S."],
+      "shortName": "EM"
+    },
+    "EML": {
+      "name": "Electric Machines Lab",
+      "code": "23ELC281",
+      "faculty": ["Dr. S. Syama"],
+      "shortName": "EM Lab"
+    },
+    "SCAL": {
+      "name": "Sensor Circuits & Actuators Lab",
+      "code": "23ELC282",
+      "faculty": ["Ms. K. Sireesha", "Vishnu Darshini"],
+      "shortName": "SCA Lab"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["I", "C", "C", "C", "D", "G_LAB", "G_LAB"],
+    "Tuesday": ["B", "I", "E", "D", "F", "A", "G"],
+    "Wednesday": ["D", "E", "A", "F", "B", "EML_LAB", "EML_LAB"],
+    "Thursday": ["A", "F", "FREE", "G", "I", "D", "FREE"],
+    "Friday": ["E", "H", "FREE", "SCAL_LAB", "SCAL_LAB", "A", "FREE"]
+  }
+}

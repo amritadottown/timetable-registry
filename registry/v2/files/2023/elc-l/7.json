@@ -1,0 +1,74 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Renewable Energy Technologies",
+      "code": "23EEE335",
+      "faculty": ["Dr. J. Ramprabhakar"],
+      "shortName": "RET"
+    },
+    "B": {
+      "name": "Autonomous Vehicles",
+      "code": "23EEE366",
+      "faculty": ["Ms. K. Sireesha"],
+      "shortName": "AV"
+    },
+    "C": {
+      "name": "Evolutionary Optimization Techniques",
+      "code": "23ELC369",
+      "faculty": ["Dr. S. Syama"],
+      "shortName": "EOT"
+    },
+    "D": {
+      "name": "Project Phase I",
+      "code": "23ELC498",
+      "faculty": ["Ms. V. Sailaja"],
+      "shortName": "Project"
+    },
+    "E": {
+      "name": "Amrita Darshanam",
+      "code": "00HUM111",
+      "faculty": [],
+      "shortName": "HUM"
+    },
+    "F": {
+      "name": "Environmental Science",
+      "code": "23ENV300",
+      "faculty": ["Dr. T. M. Mohan Kumar"],
+      "shortName": "ENV"
+    },
+    "G": {
+      "name": "Indian Constitution",
+      "code": "23LAW300",
+      "faculty": [],
+      "shortName": "LAW"
+    }
+  },
+  "config": {
+    "pe": {
+      "label": "Professional Elective",
+      "values": [
+        { "label": "Renewable Energy Technologies", "id": "A" },
+        { "label": "Autonomous Vehicles", "id": "B" },
+        { "label": "Evolutionary Optimization Techniques", "id": "C" }
+      ]
+    }
+  },
+  "slots": {
+    "peSlot": {
+      "match": "pe",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["F", "G", "FREE", "FREE", "E", "peSlot", "FREE"],
+    "Tuesday": ["D", "D", "FREE", "E", "FREE", "FREE", "FREE"],
+    "Wednesday": ["D", "FREE", "FREE", "peSlot", "FREE", "D", "D"],
+    "Thursday": ["D", "FREE", "FREE", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["D", "D", "peSlot", "FREE", "FREE", "FREE", "FREE"]
+  }
+}

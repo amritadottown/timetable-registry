@@ -1,0 +1,111 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Python Programming",
+      "code": "23CSE207",
+      "faculty": ["Dr. Shashi Kumar M. E."],
+      "shortName": "Python"
+    },
+    "B": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": ["Mr. Sivakumar K. M.", "Ms. Karishma Nair N.", "Ms. Nilakshee Kalita"],
+      "shortName": "CIR"
+    },
+    "C": {
+      "name": "Design Thinking",
+      "code": "23MEE207",
+      "faculty": ["Dr. Dileep B. P."],
+      "shortName": "DT"
+    },
+    "D": {
+      "name": "Mathematics for Intelligent Systems 3",
+      "code": "23MAT221",
+      "faculty": ["Dr. Shali S.", "Dr. Pradeep S. Jakkareddy"],
+      "shortName": "MIS 3"
+    },
+    "E": {
+      "name": "Actuators and Drives",
+      "code": "23EEE206",
+      "faculty": ["Dr. Ulhas K. Annigeri"],
+      "shortName": "AD"
+    },
+    "F": {
+      "name": "Micro Controllers and Embedded Systems",
+      "code": "23ECE207",
+      "faculty": ["Dr. Puja Sengupta"],
+      "shortName": "MCES"
+    },
+    "G": {
+      "name": "Theory of Mechanisms and Machines",
+      "code": "23MEE209",
+      "faculty": ["Dr. Bikram Singh Solanki"],
+      "shortName": "TMM"
+    },
+    "H": {
+      "name": "Materials Science",
+      "code": "23MEE208",
+      "faculty": ["Dr. Shashi Kumar M. E."],
+      "shortName": "MS"
+    },
+    "I": {
+      "name": "Strategic Lessons From Mahabharata",
+      "code": "22ADM201",
+      "faculty": ["Mr. Vinay H. A."],
+      "shortName": "ADM"
+    },
+    "J": {
+      "name": "Indian Constitution",
+      "code": "23LAW300",
+      "faculty": ["Dr. Shankara"],
+      "shortName": "LAW"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    }
+  },
+  "slots": {
+    "mondayAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "C_LAB",
+        "a2": "G_LAB"
+      }
+    },
+    "tuesdayMiddayLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "G_LAB",
+        "a2": "C_LAB"
+      }
+    },
+    "thursdayMorningLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "F_LAB",
+        "a2": "H_LAB"
+      }
+    },
+    "fridayAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "H_LAB",
+        "a2": "F_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["G", "F", "I", "C", "H", "mondayAfternoonLab", "mondayAfternoonLab"],
+    "Tuesday": ["A", "G", "E", "tuesdayMiddayLab", "tuesdayMiddayLab", "FREE", "J"],
+    "Wednesday": ["D_LAB", "D_LAB", "D_LAB", "F", "B", "B", "B"],
+    "Thursday": ["thursdayMorningLab", "thursdayMorningLab", "thursdayMorningLab", "D", "E", "A_LAB", "A_LAB"],
+    "Friday": ["D", "F", "E", "G", "H", "fridayAfternoonLab", "fridayAfternoonLab"]
+  }
+}
