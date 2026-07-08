@@ -52,13 +52,13 @@
     "A": {
       "name": "Software Project Management",
       "code": "23CSE321",
-      "faculty": ["Ms. Arya Suresh"],
+      "faculty": ["Ms. Amrita Tripathi"],
       "shortName": "SPM"
     },
     "B": {
       "name": "Fundamentals of Artificial Intelligence",
       "code": "23CSE401",
-      "faculty": ["Ms. Pooja Gowda", "Dr. Tripty Singh"],
+      "faculty": ["Dr. Amulyashree S.", "Dr. Nandu C. Nair"],
       "shortName": "Fund AI"
     },
     "C": {
@@ -95,8 +95,7 @@
       "label": "Professional Elective VI",
       "values": [
         { "label": "Internet of Things", "id": "IOT" },
-        { "label": "Computer Vision (Batch A1)", "id": "CV_A1" },
-        { "label": "Computer Vision (Batch A2)", "id": "CV_A2" }
+        { "label": "Computer Vision", "id": "CV" }
       ]
     }
   },
@@ -109,24 +108,16 @@
       "match": "pe5",
       "choices": { "PE5_BC": "PE5_BC", "PE5_CFM": "PE5_CFM", "PE5_IS": "PE5_IS" }
     },
-    "pe6MonTue": {
+    "pe6Slot": {
       "match": "pe6",
-      "choices": { "IOT": "PE6_IOT", "CV_A1": "PE6_CV" }
-    },
-    "pe6Wed": {
-      "match": "pe6",
-      "choices": { "CV_A2": "PE6_CV" }
-    },
-    "pe6Fri": {
-      "match": "pe6",
-      "choices": { "IOT": "PE6_IOT", "CV_A1": "PE6_CV" }
+      "choices": { "IOT": "PE6_IOT", "CV": "PE6_CV" }
     }
   },
   "schedule": {
-    "Monday": ["pe4Slot", "B", "pe6MonTue", "A", "FREE", "FREE", "FREE"],
-    "Tuesday": ["pe6MonTue", "pe4Slot", "pe5Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
-    "Wednesday": ["B", "pe5Slot", "pe4Slot", "pe6Wed", "FREE", "FREE", "FREE"],
-    "Thursday": ["A", "pe6Wed", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
-    "Friday": ["FREE", "A", "pe6Fri", "FREE", "pe6Wed", "FREE", "FREE"]
+    "Monday": ["pe4Slot", "B", "pe6Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Tuesday": ["pe6Slot", "pe4Slot", "pe5Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
+    "Wednesday": ["A", "pe5Slot", "pe4Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Thursday": ["B", "A", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["A", "FREE", "pe6Slot", "FREE", "FREE", "FREE", "FREE"]
   }
 }
