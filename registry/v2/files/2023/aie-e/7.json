@@ -1,0 +1,160 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Reinforcement Learning",
+      "code": "22AIE401",
+      "faculty": [
+        "Dr. Nandu C Nair",
+        "Dr. Suja P (Co-faculty)"
+      ],
+      "shortName": "RL"
+    },
+    "B": {
+      "name": "Applied Cryptography",
+      "code": "22AIE431",
+      "faculty": [
+        "Ms. Lavanya Pelenki"
+      ],
+      "shortName": "AC"
+    },
+    "C": {
+      "name": "Indian Constitution",
+      "code": "19LAW300",
+      "faculty": [],
+      "shortName": "IC"
+    },
+    "D": {
+      "name": "Software Project Management",
+      "code": "19CSE358",
+      "faculty": [
+        "Dr. Reena Panwar"
+      ],
+      "shortName": "SPM"
+    },
+    "E": {
+      "name": "Project Phase I",
+      "code": "22AIE498",
+      "faculty": [
+        "Dr. Nidhin Prabhakar T.V."
+      ],
+      "shortName": "PPI"
+    },
+    "PE4-1": {
+      "name": "Blockchain and its Application",
+      "code": "23CSE335",
+      "faculty": [
+        "Dr. Beena B M"
+      ],
+      "shortName": "BCA"
+    },
+    "PE4-2": {
+      "name": "Computer Graphics and Animation",
+      "code": "23CSE372",
+      "faculty": [
+        "Dr. Suja P"
+      ],
+      "shortName": "CGA"
+    },
+    "COUNSELLING": {
+      "name": "Counselling",
+      "code": "",
+      "faculty": [],
+      "shortName": "CNS"
+    }
+  },
+  "config": {
+    "pe4": {
+      "label": "Professional Elective IV",
+      "values": [
+        { "label": "Blockchain and its Application", "id": "PE4-1" },
+        { "label": "Computer Graphics and Animation", "id": "PE4-2" }
+      ]
+    }
+  },
+  "slots": {
+    "pe4Slot": {
+      "match": "pe4",
+      "choices": {
+        "PE4-1": "PE4-1",
+        "PE4-2": "PE4-2"
+      }
+    },
+    "pe4Lab": {
+      "match": "pe4",
+      "choices": {
+        "PE4-1": "PE4-1_LAB",
+        "PE4-2": "PE4-2_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": [
+      "E",
+      "B",
+      "E",
+      "D",
+      "E",
+      "COUNSELLING",
+      "COUNSELLING",
+      "FREE"
+    ],
+    "Tuesday": [
+      "D",
+      "A",
+      "pe4Slot",
+      "B_LAB",
+      "B_LAB",
+      "E",
+      "E",
+      "FREE"
+    ],
+    "Wednesday": [
+      "A_LAB",
+      "A_LAB",
+      "A_LAB",
+      "D",
+      "FREE",
+      "E",
+      "E",
+      "FREE"
+    ],
+    "Thursday": [
+      "B",
+      "pe4Slot",
+      "A",
+      "E",
+      "E",
+      "E",
+      "E",
+      "FREE"
+    ],
+    "Friday": [
+      "pe4Lab",
+      "pe4Lab",
+      "pe4Lab",
+      "E",
+      "E",
+      "E",
+      "E",
+      "FREE"
+    ]
+  },
+  "meta": {
+    "timeSlots": [
+      "8:10-9:00",
+      "9:00-9:50",
+      "9:50-10:40",
+      "11:00-11:50",
+      "11:50-12:40",
+      "2:00-2:50",
+      "2:50-3:40",
+      "3:40-4:20"
+    ],
+    "section": "E",
+    "branch": "AIE",
+    "year": "IV year 2026-27 (Odd Semester)",
+    "effectiveFrom": "06-07-2026",
+    "note": "8:10-9:00 is Prayer time before regular start on non-lab days; lab blocks (A LAB, B LAB, PE IV LAB) span multiple consecutive periods."
+  }
+}
