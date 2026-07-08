@@ -1,13 +1,85 @@
 {
   "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
   "subjects":   {
+    "PE4-1": {
+      "name": "Edge Computing",
+      "code": "23CSE362",
+      "faculty": [
+        "Ms. Sreebha Bhaskaran"
+      ],
+      "shortName": "Edg Comp"
+    },
+    "PE4-2": {
+      "name": "Secure Networks",
+      "code": "23CSE336",
+      "faculty": [
+        "Dr. Kumaran U"
+      ],
+      "shortName": "Sec Net"
+    },
+    "PE4-3": {
+      "name": "Mining of Massive Datasets",
+      "code": "23CSE355",
+      "faculty": [
+        "Dr. Niharika Panda"
+      ],
+      "shortName": "MMD"
+    },
+    "PE5-1": {
+      "name": "Blockchain and its Applications",
+      "code": "23CSE335",
+      "faculty": [
+        "Ms. Shalini Tiwari"
+      ],
+      "shortName": "Blk Chain&A"
+    },
+    "PE5-2": {
+      "name": "Cyber Forensics and Malware",
+      "code": "23CSE334",
+      "faculty": [
+        "Ms. Lavanya Penki"
+      ],
+      "shortName": "Cyb F&M"
+    },
+    "PE5-3": {
+      "name": "Information Security",
+      "code": "23CSE332",
+      "faculty": [
+        "Ms. Kavitha C R"
+      ],
+      "shortName": "Info Sec"
+    },
+    "PE6-IOT": {
+      "name": "Internet of Things",
+      "code": "23CSE365",
+      "faculty": [
+        "Dr. Thangam S"
+      ],
+      "shortName": "IOT"
+    },
+    "PE6-CV-A1": {
+      "name": "Computer Vision",
+      "code": "23CSE373",
+      "faculty": [
+        "Dr. Tripty Singh"
+      ],
+      "shortName": "CV-A1"
+    },
+    "PE6-CV-A2": {
+      "name": "Computer Vision",
+      "code": "23CSE373",
+      "faculty": [
+        "Dr. Tripty Singh"
+      ],
+      "shortName": "CV-A2"
+    },
     "A": {
       "name": "Software Project Management",
       "code": "23CSE321",
       "faculty": [
         "Ms. Arya Suresh"
       ],
-      "shortName": "SPM"
+      "shortName": "Sfwr PM"
     },
     "B": {
       "name": "Fundamentals of Artificial Intelligence",
@@ -16,63 +88,113 @@
         "Ms. Pooja Gowda",
         "Dr. Tripty Singh"
       ],
-      "shortName": "FAI"
+      "shortName": "F-AI"
     },
     "D": {
       "name": "Indian Constitution",
       "code": "23LAW300",
       "faculty": [],
-      "shortName": "IC"
+      "shortName": "Ind const"
     },
     "COUNSELLING": {
-      "name": "Counselling",
+      "name": "FREE",
       "code": "",
       "faculty": [],
-      "shortName": "COUNS"
+      "shortName": "FREE"
+    }
+  },
+  "config":   {
+    "pe4": {
+      "label": "Professional Elective IV",
+      "values": [
+        {
+          "label": "Edge Computing",
+          "id": "PE4-1"
+        },
+        {
+          "label": "Secure Networks",
+          "id": "PE4-2"
+        },
+        {
+          "label": "Mining of Massive Datasets",
+          "id": "PE4-3"
+        }
+      ]
     },
-    "Edg Comp / Sec Net / MMD": {
-      "name": "Edg Comp / Sec Net / MMD",
-      "code": "23CSE362 / 23CSE336 / 23CSE355",
-      "faculty": [
-        "Ms. Sreebha Bhaskaran",
-        "Dr. Kumaran U",
-        "Dr. Niharika Panda"
-      ],
-      "shortName": "Edg Comp / Sec Net / MMD"
+    "pe5": {
+      "label": "Professional Elective V",
+      "values": [
+        {
+          "label": "Blockchain and its Applications",
+          "id": "PE5-1"
+        },
+        {
+          "label": "Cyber Forensics and Malware",
+          "id": "PE5-2"
+        },
+        {
+          "label": "Information Security",
+          "id": "PE5-3"
+        }
+      ]
     },
-    "Blk Chain&A / Cyb F&M / Info Sec": {
-      "name": "Blk Chain&A / Cyb F&M / Info Sec",
-      "code": "23CSE335 / 23CSE334 / 23CSE332",
-      "faculty": [
-        "Ms. Shalini Tiwari",
-        "Ms. Lavanya Penki",
-        "Ms. Kavitha C R"
-      ],
-      "shortName": "Blk Chain&A / Cyb F&M / Info Sec"
+    "pe6": {
+      "label": "Professional Elective VI",
+      "values": [
+        {
+          "label": "Internet of Things",
+          "id": "IOT"
+        },
+        {
+          "label": "Computer Vision (Batch A1)",
+          "id": "CV-A1"
+        },
+        {
+          "label": "Computer Vision (Batch A2)",
+          "id": "CV-A2"
+        }
+      ]
+    }
+  },
+  "slots":   {
+    "pe4Slot": {
+      "match": "pe4",
+      "choices": {
+        "PE4-1": "PE4-1",
+        "PE4-2": "PE4-2",
+        "PE4-3": "PE4-3"
+      }
     },
-    "IOT / CV-A1": {
-      "name": "IOT / CV-A1",
-      "code": "23CSE365 / 23CSE373",
-      "faculty": [
-        "Dr. Thangam S",
-        "Dr. Tripty Singh"
-      ],
-      "shortName": "IOT / CV-A1"
+    "pe5Slot": {
+      "match": "pe5",
+      "choices": {
+        "PE5-1": "PE5-1",
+        "PE5-2": "PE5-2",
+        "PE5-3": "PE5-3"
+      }
     },
-    "CV-A2": {
-      "name": "CV-A2",
-      "code": "23CSE373",
-      "faculty": [
-        "Dr. Tripty Singh"
-      ],
-      "shortName": "CV-A2"
+    "pe6SlotGroup1": {
+      "match": "pe6",
+      "choices": {
+        "IOT": "PE6-IOT",
+        "CV-A1": "PE6-CV-A1",
+        "CV-A2": "FREE"
+      }
+    },
+    "pe6SlotGroup2": {
+      "match": "pe6",
+      "choices": {
+        "IOT": "FREE",
+        "CV-A1": "FREE",
+        "CV-A2": "PE6-CV-A2"
+      }
     }
   },
   "schedule": {
-    "Monday": ["Edg Comp / Sec Net / MMD", "B", "IOT / CV-A1", "A", "FREE", "COUNSELLING", "COUNSELLING"],
-    "Tuesday": ["IOT / CV-A1", "Edg Comp / Sec Net / MMD", "Blk Chain&A / Cyb F&M / Info Sec", "B_LAB", "B_LAB", "FREE", "FREE"],
-    "Wednesday": ["B", "Blk Chain&A / Cyb F&M / Info Sec", "Edg Comp / Sec Net / MMD", "CV-A2", "FREE", "FREE", "FREE"],
-    "Thursday": ["A", "CV-A2", "Blk Chain&A / Cyb F&M / Info Sec", "FREE", "FREE", "FREE", "FREE"],
-    "Friday": ["FREE", "A", "IOT / CV-A1", "FREE", "CV-A2", "FREE", "FREE"]
+    "Monday": ["pe4Slot", "B", "pe6SlotGroup1", "A", "FREE", "COUNSELLING", "COUNSELLING"],
+    "Tuesday": ["pe6SlotGroup1", "pe4Slot", "pe5Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
+    "Wednesday": ["B", "pe5Slot", "pe4Slot", "pe6SlotGroup2", "FREE", "FREE", "FREE"],
+    "Thursday": ["A", "pe6SlotGroup2", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["FREE", "A", "pe6SlotGroup1", "FREE", "pe6SlotGroup2", "FREE", "FREE"]
   }
 }
