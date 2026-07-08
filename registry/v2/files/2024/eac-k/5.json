@@ -1,0 +1,50 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": { "name": "Information Theory and Coding", "code": "23ECE467", "faculty": ["Dr. Ashish Goswami"], "shortName": "ITC" },
+    "B": { "name": "Operating Systems", "code": "23ECE431", "faculty": ["Ms. Jayasree M. Oli"], "shortName": "OS" },
+    "C": { "name": "VLSI System Design", "code": "23ECE342", "faculty": ["Ms. Sonali Agrawal", "Dr. Kaveri Hatti"], "shortName": "VLSI-SD" },
+    "D": { "name": "Image Processing", "code": "23ECE446", "faculty": ["Dr. Sunitha R."], "shortName": "Img Proc" },
+    "E": { "name": "Life Skills for Engineers III", "code": "23LSE301", "faculty": ["Ms. Sujatha V", "Ms. Sweta Chavan", "Mr. Ankit Jain"], "shortName": "Life Skills" },
+    "F": { "name": "Data Communication and Networks", "code": "23EAC302", "faculty": ["Dr. Manoj Kumar Panda"], "shortName": "DCN" },
+    "G": { "name": "Embedded Systems", "code": "23ECE313", "faculty": ["Mr. Giriraja C. V"], "shortName": "Embed Sys" },
+    "H": { "name": "VLSI Design", "code": "23ECE302", "faculty": ["Dr. Kaveri Hatti"], "shortName": "VLSI" },
+    "I": { "name": "Database Management Systems", "code": "23EAC301", "faculty": ["Ms. Priya B. K."], "shortName": "DBMS" },
+    "DML": { "name": "Database Management Systems Lab", "code": "23EAC382", "faculty": ["Ms. Priya B. K.", "Dr. Ganapathy Hegde", "Ms. Jayasree M. Oli", "Ms. Glace Varghese"], "shortName": "DBMS Lab" },
+    "VDL": { "name": "VLSI Design Laboratory", "code": "23ECE383", "faculty": ["Dr. Kaveri Hatti", "Dr. C. Paramasivam", "Mr. P. Ramakrishna Reddy"], "shortName": "VLSI Lab" },
+    "ESL": { "name": "Embedded Systems Laboratory", "code": "23ECE387", "faculty": ["Mr. Giriraja C. V", "Ms. Glace Varghese", "Dr. Chinthala Ramesh"], "shortName": "Embed Lab" },
+    "OL": { "name": "Open Laboratory I", "code": "23EAC381", "faculty": [], "shortName": "Open Lab I" }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "E1", "id": "e1" },
+        { "label": "E2", "id": "e2" },
+        { "label": "E3", "id": "e3" }
+      ]
+    },
+    "pe1": {
+      "label": "Professional Elective I",
+      "values": [
+        { "label": "Information Theory and Coding", "id": "A" },
+        { "label": "Operating Systems", "id": "B" },
+        { "label": "VLSI System Design", "id": "C" },
+        { "label": "Image Processing", "id": "D" }
+      ]
+    }
+  },
+  "slots": {
+    "mondayLab": { "match": "batch", "choices": { "e1": "VDL_LAB", "e2": "ESL_LAB" } },
+    "tuesdayLab": { "match": "batch", "choices": { "e1": "ESL_LAB", "e2": "VDL_LAB" } },
+    "fridayLab": { "match": "batch", "choices": { "e3": "ESL_LAB" } },
+    "pe1Slot": { "match": "pe1", "choices": { "A": "A", "B": "B", "C": "C", "D": "D" } }
+  },
+  "schedule": {
+    "Monday": ["G", "H", "F", "mondayLab", "mondayLab", "I", "FREE"],
+    "Tuesday": ["tuesdayLab", "tuesdayLab", "tuesdayLab", "I", "H", "F", "FREE"],
+    "Wednesday": ["pe1Slot", "G", "F", "DML_LAB", "DML_LAB", "OL_LAB", "OL_LAB"],
+    "Thursday": ["I", "E", "E", "E", "FREE", "B", "E"],
+    "Friday": ["H", "G", "pe1Slot", "fridayLab", "fridayLab", "FREE", "FREE"]
+  }
+}

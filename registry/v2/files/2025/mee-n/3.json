@@ -1,0 +1,109 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mechanics of Solids",
+      "code": "23MEE201",
+      "faculty": ["Dr. Smita Singh"],
+      "shortName": "MOS"
+    },
+    "B": {
+      "name": "Probability and Complex Variables",
+      "code": "23MAT222",
+      "faculty": ["Dr. Mullai Venthan Selvam"],
+      "shortName": "PCV"
+    },
+    "C": {
+      "name": "Machine Drawing",
+      "code": "23MEE205",
+      "faculty": ["Dr. Shankara"],
+      "shortName": "MD"
+    },
+    "D": {
+      "name": "Manufacturing Process I",
+      "code": "23MEE204",
+      "faculty": ["Dr. Mrudula Prashanth"],
+      "shortName": "MP I"
+    },
+    "E": {
+      "name": "Design Thinking",
+      "code": "23MEE282",
+      "faculty": ["Dr. Dileep B. P."],
+      "shortName": "DT"
+    },
+    "F": {
+      "name": "Engineering Thermodynamics",
+      "code": "23MEE202",
+      "faculty": ["Mr. Vinod M. Kotebavi"],
+      "shortName": "ET"
+    },
+    "G": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": ["Mr. Sivakumar K. M.", "Ms. Karishma Nair N.", "Ms. Nilakshee Kalita"],
+      "shortName": "CIR"
+    },
+    "MTML": {
+      "name": "Material Testing and Metallurgy Laboratory",
+      "code": "23MEE281",
+      "faculty": ["Dr. Ulhas K. Annigeri"],
+      "shortName": "MTM Lab"
+    },
+    "I": {
+      "name": "Strategic Lessons From Mahabharata",
+      "code": "22ADM201",
+      "faculty": ["Ms. Bhavya Suresh"],
+      "shortName": "ADM"
+    },
+    "J": {
+      "name": "Metallurgy and Materials Science",
+      "code": "23MEE203",
+      "faculty": ["Dr. Ulhas K. Annigeri"],
+      "shortName": "MMS"
+    },
+    "K": {
+      "name": "Environmental Science",
+      "code": "23ENV300",
+      "faculty": ["Dr. T. M. Mohan Kumar"],
+      "shortName": "ENV"
+    },
+    "L": {
+      "name": "Indian Constitution",
+      "code": "23LAW300",
+      "faculty": ["Dr. Shankara"],
+      "shortName": "LAW"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    }
+  },
+  "slots": {
+    "wednesdayMorningLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "D_LAB",
+        "a2": "MTML_LAB"
+      }
+    },
+    "fridayMiddayLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "MTML_LAB",
+        "a2": "D_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["B", "F", "D", "E", "G", "G", "G"],
+    "Tuesday": ["J", "A", "A", "C_LAB", "C_LAB", "B", "F"],
+    "Wednesday": ["wednesdayMorningLab", "wednesdayMorningLab", "wednesdayMorningLab", "A", "J", "E_LAB", "E_LAB"],
+    "Thursday": ["I", "F", "J", "A", "D", "B", "FREE"],
+    "Friday": ["B", "F", "C", "fridayMiddayLab", "fridayMiddayLab", "K", "L"]
+  }
+}

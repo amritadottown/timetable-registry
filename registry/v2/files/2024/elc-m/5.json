@@ -1,0 +1,123 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Energy Systems",
+      "code": "23ELC301",
+      "faculty": ["Dr. Manitha P. V."],
+      "shortName": "ES"
+    },
+    "B": {
+      "name": "Embedded System Design using ARM",
+      "code": "23ELC302",
+      "faculty": ["Ms. M. Nithya"],
+      "shortName": "ESD"
+    },
+    "C": {
+      "name": "Database Systems and Programming",
+      "code": "23ELC303",
+      "faculty": ["Mr. K. Vishnu Raj"],
+      "shortName": "DBMS"
+    },
+    "D": {
+      "name": "Digital Signal Processing",
+      "code": "23EEE301",
+      "faculty": ["Dr. Vidya H. A."],
+      "shortName": "DSP"
+    },
+    "E": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": ["Mr. Ankit Jain", "Ms. Sujatha V.", "Ms. Sweta Chavan"],
+      "shortName": "LSE"
+    },
+    "ESL": {
+      "name": "Energy Systems Lab",
+      "code": "23ELC381",
+      "faculty": ["Dr. Manitha P. V.", "Ms. Archana Mohan", "Ms. V. Sailaja", "Darsana Nair"],
+      "shortName": "ES Lab"
+    },
+    "RET": {
+      "name": "Renewable Energy Technologies",
+      "code": "23EEE335",
+      "faculty": ["Dr. J. Ramprabhakar"],
+      "shortName": "RET"
+    },
+    "AM": {
+      "name": "Advanced Microcontrollers",
+      "code": "23EEE352",
+      "faculty": ["Ms. M. Nithya"],
+      "shortName": "AM"
+    },
+    "CS": {
+      "name": "Cyber Security",
+      "code": "23ELC366",
+      "faculty": ["Ms. Divya Kumari"],
+      "shortName": "CS"
+    },
+    "DL": {
+      "name": "Deep Learning",
+      "code": "23ELC364",
+      "faculty": ["Dr. Rashmi M. R."],
+      "shortName": "DL"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    },
+    "pe1": {
+      "label": "Professional Elective I",
+      "values": [
+        { "label": "Renewable Energy Technologies", "id": "RET" },
+        { "label": "Advanced Microcontrollers", "id": "AM" }
+      ]
+    },
+    "pe2": {
+      "label": "Professional Elective II",
+      "values": [
+        { "label": "Cyber Security", "id": "CS" },
+        { "label": "Deep Learning", "id": "DL" }
+      ]
+    }
+  },
+  "slots": {
+    "pe1Slot": {
+      "match": "pe1",
+      "choices": {
+        "RET": "RET",
+        "AM": "AM"
+      }
+    },
+    "pe2Slot": {
+      "match": "pe2",
+      "choices": {
+        "CS": "CS",
+        "DL": "DL"
+      }
+    },
+    "tuesdayLab": {
+      "match": "batch",
+      "choices": {
+        "a2": "ESL_LAB"
+      }
+    },
+    "fridayLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "ESL_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["A", "C", "B", "D", "pe1Slot", "FREE", "FREE"],
+    "Tuesday": ["C", "D", "A", "pe1Slot", "pe2Slot", "tuesdayLab", "tuesdayLab"],
+    "Wednesday": ["B", "E", "E", "E", "FREE", "C_LAB", "C_LAB"],
+    "Thursday": ["pe2Slot", "pe1Slot", "A", "B", "FREE", "D", "C"],
+    "Friday": ["fridayLab", "fridayLab", "fridayLab", "pe2Slot", "D", "B_LAB", "B_LAB"]
+  }
+}

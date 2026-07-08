@@ -1,0 +1,132 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "PE4_EC": {
+      "name": "Edge Computing",
+      "code": "23CSE362",
+      "faculty": ["Ms. Sreebha Bhaskaran"],
+      "shortName": "Edge Comp"
+    },
+    "PE4_SN": {
+      "name": "Secure Networks",
+      "code": "23CSE336",
+      "faculty": ["Dr. Kumaran U."],
+      "shortName": "Secure Net"
+    },
+    "PE4_MMD": {
+      "name": "Mining of Massive Datasets",
+      "code": "23CSE355",
+      "faculty": ["Dr. Niharika Panda"],
+      "shortName": "Mining Data"
+    },
+    "PE5_BC": {
+      "name": "Blockchain and its Applications",
+      "code": "23CSE335",
+      "faculty": ["Ms. Shalini Tiwari"],
+      "shortName": "Blockchain"
+    },
+    "PE5_CFM": {
+      "name": "Cyber Forensics and Malware",
+      "code": "23CSE334",
+      "faculty": ["Ms. Lavanya Pelenki"],
+      "shortName": "Cyber Forensics"
+    },
+    "PE5_IS": {
+      "name": "Information Security",
+      "code": "23CSE332",
+      "faculty": ["Ms. Kavitha C. R."],
+      "shortName": "Info Security"
+    },
+    "PE6_IOT": {
+      "name": "Internet of Things",
+      "code": "23CSE365",
+      "faculty": ["Dr. Thangam S."],
+      "shortName": "IoT"
+    },
+    "PE6_CV": {
+      "name": "Computer Vision",
+      "code": "23CSE373",
+      "faculty": ["Dr. Tripty Singh"],
+      "shortName": "Comp Vision"
+    },
+    "A": {
+      "name": "Software Project Management",
+      "code": "23CSE321",
+      "faculty": ["Ms. Arya Suresh"],
+      "shortName": "SPM"
+    },
+    "B": {
+      "name": "Fundamentals of Artificial Intelligence",
+      "code": "23CSE401",
+      "faculty": ["Ms. Pooja Gowda", "Dr. Tripty Singh"],
+      "shortName": "Fund AI"
+    },
+    "C": {
+      "name": "Project Phase II",
+      "code": "23CSE498",
+      "faculty": ["Dr. Sajitha Krishnan"],
+      "shortName": "Project II"
+    },
+    "D": {
+      "name": "Indian Constitution",
+      "code": "23LAW300",
+      "faculty": [],
+      "shortName": "Indian Const"
+    }
+  },
+  "config": {
+    "pe4": {
+      "label": "Professional Elective IV",
+      "values": [
+        { "label": "Edge Computing", "id": "PE4_EC" },
+        { "label": "Secure Networks", "id": "PE4_SN" },
+        { "label": "Mining of Massive Datasets", "id": "PE4_MMD" }
+      ]
+    },
+    "pe5": {
+      "label": "Professional Elective V",
+      "values": [
+        { "label": "Blockchain and its Applications", "id": "PE5_BC" },
+        { "label": "Cyber Forensics and Malware", "id": "PE5_CFM" },
+        { "label": "Information Security", "id": "PE5_IS" }
+      ]
+    },
+    "pe6": {
+      "label": "Professional Elective VI",
+      "values": [
+        { "label": "Internet of Things", "id": "IOT" },
+        { "label": "Computer Vision (Batch A1)", "id": "CV_A1" },
+        { "label": "Computer Vision (Batch A2)", "id": "CV_A2" }
+      ]
+    }
+  },
+  "slots": {
+    "pe4Slot": {
+      "match": "pe4",
+      "choices": { "PE4_EC": "PE4_EC", "PE4_SN": "PE4_SN", "PE4_MMD": "PE4_MMD" }
+    },
+    "pe5Slot": {
+      "match": "pe5",
+      "choices": { "PE5_BC": "PE5_BC", "PE5_CFM": "PE5_CFM", "PE5_IS": "PE5_IS" }
+    },
+    "pe6MonTue": {
+      "match": "pe6",
+      "choices": { "IOT": "PE6_IOT", "CV_A1": "PE6_CV" }
+    },
+    "pe6Wed": {
+      "match": "pe6",
+      "choices": { "CV_A2": "PE6_CV" }
+    },
+    "pe6Fri": {
+      "match": "pe6",
+      "choices": { "IOT": "PE6_IOT", "CV_A1": "PE6_CV" }
+    }
+  },
+  "schedule": {
+    "Monday": ["pe4Slot", "B", "pe6MonTue", "A", "FREE", "FREE", "FREE"],
+    "Tuesday": ["pe6MonTue", "pe4Slot", "pe5Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
+    "Wednesday": ["B", "pe5Slot", "pe4Slot", "pe6Wed", "FREE", "FREE", "FREE"],
+    "Thursday": ["A", "pe6Wed", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["FREE", "A", "pe6Fri", "FREE", "pe6Wed", "FREE", "FREE"]
+  }
+}

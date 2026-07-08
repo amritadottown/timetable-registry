@@ -1,0 +1,104 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Electromagnetic Theory and Waves",
+      "code": "23ECE204",
+      "faculty": ["Dr. Karnena Rohit Kumar"],
+      "shortName": "EM Theory"
+    },
+    "B": {
+      "name": "Analog Electronics I",
+      "code": "23ECE202",
+      "faculty": ["Mr. Vignesh V."],
+      "shortName": "Analog I"
+    },
+    "C": {
+      "name": "Signal Processing II",
+      "code": "23ECE203",
+      "faculty": ["Dr. Sumathi S"],
+      "shortName": "Sig Proc II"
+    },
+    "D": {
+      "name": "Digital Electronics",
+      "code": "23ECE201",
+      "faculty": ["Dr. Priti Mandal"],
+      "shortName": "Digital Elec"
+    },
+    "E": {
+      "name": "Foundations of Data Science",
+      "code": "23ECE205",
+      "faculty": ["Dr. Vivek Venugopal"],
+      "shortName": "Data Sci"
+    },
+    "F": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": ["Ms. Karishma Nair", "Mr. Sivakumar K.M", "Ms. Nilakshee Kalita"],
+      "shortName": "Life Skills"
+    },
+    "G": {
+      "name": "Strategic Lessons From Mahabharata",
+      "code": "22ADM201",
+      "faculty": ["Dr. Saurabh Sharma"],
+      "shortName": "Mahabharata"
+    },
+    "AEL": {
+      "name": "Analog Electronics Laboratory",
+      "code": "23ECE282",
+      "faculty": ["Mr. Vignesh V.", "Dr. Harshit Srivastava", "Dr. Bhavana V."],
+      "shortName": "Analog Lab"
+    },
+    "DEL": {
+      "name": "Digital Electronics Laboratory",
+      "code": "23ECE281",
+      "faculty": ["Dr. Priti Mandal", "Ms. Anjana Menon"],
+      "shortName": "Digital Lab"
+    },
+    "DSL": {
+      "name": "Digital Signal Processing Laboratory",
+      "code": "23ECE283",
+      "faculty": ["Dr. Sumathi S", "Dr. Sunitha R."],
+      "shortName": "DSP Lab"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "B1", "id": "b1" },
+        { "label": "B2", "id": "b2" }
+      ]
+    }
+  },
+  "slots": {
+    "mondayInstr": {
+      "match": "batch",
+      "choices": {
+        "b1": "DEL",
+        "b2": "AEL"
+      }
+    },
+    "thursdayLab": {
+      "match": "batch",
+      "choices": {
+        "b1": "DEL_LAB",
+        "b2": "AEL_LAB"
+      }
+    },
+    "fridayLab": {
+      "match": "batch",
+      "choices": {
+        "b1": "AEL_LAB",
+        "b2": "DEL_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["E", "B", "A", "mondayInstr", "D", "DSL_LAB", "DSL_LAB"],
+    "Tuesday": ["C", "E", "B", "A", "G", "FREE", "FREE"],
+    "Wednesday": ["D", "F", "F", "F", "E", "FREE", "FREE"],
+    "Thursday": ["A", "E", "B", "D", "C", "thursdayLab", "thursdayLab"],
+    "Friday": ["fridayLab", "fridayLab", "fridayLab", "A", "FREE", "C", "FREE"]
+  }
+}
