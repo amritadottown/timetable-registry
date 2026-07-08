@@ -1,0 +1,62 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": { "name": "Hardware Security and Trust", "code": "23ECE341", "faculty": ["Dr. Paramasivam C.", "Ms. Kirti S Pande"], "shortName": "HW Sec" },
+    "B": { "name": "Reinforcement Learning", "code": "23ECE451", "faculty": ["Dr. Sushma B"], "shortName": "RL" },
+    "C": { "name": "Embedded Systems for Robotics", "code": "23ECE436", "faculty": ["Dr. Sreeja Kochuvila"], "shortName": "ESR" },
+    "D": { "name": "Software Defined Networks", "code": "23ECE461", "faculty": ["Dr. Navin Kumar"], "shortName": "SDN" },
+    "E": { "name": "AI in Speech Signal Processing", "code": "23ECE445", "faculty": ["Dr. Bhavana V."], "shortName": "AI-SSP" },
+    "F": { "name": "VLSI Testing and Testability", "code": "23ECE336", "faculty": ["Dr. M. Vinodhini", "Dr. Sarda Sharma"], "shortName": "VLSI-TT" },
+    "G": { "name": "Multicore Architecture", "code": "23ECE437", "faculty": ["Dr. Chinthala Ramesh"], "shortName": "MCA" },
+    "H": { "name": "System on Chip", "code": "23ECE337", "faculty": ["Dr. Ganapathi Hegde", "Dr. Patthi Aruna", "Dr. Shivalila A Hangaragi"], "shortName": "SoC" },
+    "I": { "name": "Embedded Automotive Systems", "code": "23ECE438", "faculty": ["Dr. Sushant Shendre", "Dr. Harshit Srivastava"], "shortName": "EAS" },
+    "J": { "name": "The Message of Bhagwat Gita", "code": "23HUM242", "faculty": ["Mr. Vinay H.A"], "shortName": "Gita" },
+    "K": { "name": "Science Fiction", "code": "24ENG243", "faculty": ["Dr. Deepa Kumari"], "shortName": "Sci-Fi" },
+    "L": { "name": "Business Communication", "code": "23ENG230", "faculty": ["Dr. Smita Sail", "Dr. Deepthi Janardhan", "Ms. Sanjana K Chandran"], "shortName": "Bus Comm" },
+    "M": { "name": "Indian Classics for the Twenty-first Century", "code": "23HUM235", "faculty": ["Dr. Tanashree Redij"], "shortName": "IC21" },
+    "N": { "name": "Vistas of Science Through Films", "code": "24ENG246", "faculty": ["Dr. Sayant Vijay", "Dr. Revathy Hemachandran"], "shortName": "Vistas" },
+    "O": { "name": "Project Phase I", "code": "23ECE498", "faculty": ["Dr. Susmitha Vekkot", "Dr. Jitendra Bahadur"], "shortName": "Project" },
+    "P": { "name": "Technical Writing", "code": "23ECE497", "faculty": ["Dr. Deepa Kumari"], "shortName": "Tech Writing" }
+  },
+  "config": {
+    "pe1": {
+      "label": "Professional Elective I",
+      "values": [
+        { "label": "Hardware Security and Trust", "id": "A" },
+        { "label": "Reinforcement Learning", "id": "B" },
+        { "label": "Embedded Systems for Robotics", "id": "C" }
+      ]
+    },
+    "pe2": {
+      "label": "Professional Elective II",
+      "values": [
+        { "label": "Software Defined Networks", "id": "D" },
+        { "label": "AI in Speech Signal Processing", "id": "E" },
+        { "label": "VLSI Testing and Testability", "id": "F" },
+        { "label": "Multicore Architecture", "id": "G" }
+      ]
+    },
+    "hss": {
+      "label": "HSS Elective",
+      "values": [
+        { "label": "The Message of Bhagwat Gita", "id": "J" },
+        { "label": "Science Fiction", "id": "K" },
+        { "label": "Business Communication", "id": "L" },
+        { "label": "Indian Classics for the Twenty-first Century", "id": "M" },
+        { "label": "Vistas of Science Through Films", "id": "N" }
+      ]
+    }
+  },
+  "slots": {
+    "pe1Slot": { "match": "pe1", "choices": { "A": "A", "B": "B", "C": "C" } },
+    "pe2Slot": { "match": "pe2", "choices": { "D": "D", "E": "E", "F": "F", "G": "G" } },
+    "hssSlot": { "match": "hss", "choices": { "J": "J", "K": "K", "L": "L", "M": "M", "N": "N" } }
+  },
+  "schedule": {
+    "Monday": ["pe1Slot", "FREE", "pe2Slot", "H", "hssSlot", "FREE", "FREE"],
+    "Tuesday": ["pe2Slot", "FREE", "H", "hssSlot", "FREE", "O_LAB", "O_LAB"],
+    "Wednesday": ["O_LAB", "O_LAB", "O_LAB", "O_LAB", "O_LAB", "O_LAB", "O_LAB"],
+    "Thursday": ["H", "P", "FREE", "pe2Slot", "pe1Slot", "O_LAB", "O_LAB"],
+    "Friday": ["FREE", "pe1Slot", "FREE", "O_LAB", "O_LAB", "O_LAB", "O_LAB"]
+  }
+}
