@@ -86,7 +86,7 @@
     "Monday": ["pe1Slot", "C", "E", "A_LAB", "A_LAB", "B", "FREE"],
     "Tuesday": ["A", "CIR", "CIR", "CIR", "CIR", "pe1LabSlot", "pe1LabSlot"],
     "Wednesday": ["D", "pe1Slot", "B", "E", "A", "C_LAB", "C_LAB"],
-    "Thursday": ["pe1Slot", "D", "C", "pe1Slot", "B", "E_LAB", "E_LAB"],
+    "Thursday": ["C", "D", "B", "E_LAB", "E_LAB", "FREE", "FREE"],
     "Friday": ["D_LAB", "D_LAB", "D_LAB", "C", "FREE", "FREE", "FREE"]
   }
 }
