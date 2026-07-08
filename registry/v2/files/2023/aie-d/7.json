@@ -1,0 +1,79 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Reinforcement Learning",
+      "code": "22AIE401",
+      "faculty": ["Dr. Amudha J", "Dr. Debanjali"],
+      "shortName": "RL"
+    },
+    "B": {
+      "name": "Applied Cryptography",
+      "code": "22AIE431",
+      "faculty": ["Ms. Lavanya Pelenki"],
+      "shortName": "AC"
+    },
+    "C": {
+      "name": "Indian Constitution",
+      "code": "19LAW300",
+      "faculty": [],
+      "shortName": "INC"
+    },
+    "D": {
+      "name": "Software Project Management",
+      "code": "19CSE358",
+      "faculty": ["Mr. Rajeshwar"],
+      "shortName": "SPM"
+    },
+    "E": {
+      "name": "Project Phase 1",
+      "code": "22AIE498",
+      "faculty": ["Dr. Nidhin Prabhakar T.V."],
+      "shortName": "PROJ"
+    },
+    "PE4-1": {
+      "name": "Blockchain and its Application",
+      "code": "22CSE335",
+      "faculty": ["Dr. Beena B M"],
+      "shortName": "BCA"
+    },
+    "PE4-2": {
+      "name": "Computer Graphics and Animation",
+      "code": "22CSE372",
+      "faculty": ["Dr. Suja P"],
+      "shortName": "CGA"
+    }
+  },
+  "config": {
+    "pe4": {
+      "label": "Professional Elective IV",
+      "values": [
+        { "label": "Blockchain and its Application", "id": "PE4-1" },
+        { "label": "Computer Graphics and Animation", "id": "PE4-2" }
+      ]
+    }
+  },
+  "slots": {
+    "pe4Slot": {
+      "match": "pe4",
+      "choices": {
+        "PE4-1": "PE4-1",
+        "PE4-2": "PE4-2"
+      }
+    },
+    "pe4Lab": {
+      "match": "pe4",
+      "choices": {
+        "PE4-1": "PE4-1_LAB",
+        "PE4-2": "PE4-2_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["FREE", "D", "FREE", "B", "FREE", "A_LAB", "A_LAB"],
+    "Tuesday": ["B", "D", "pe4Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Wednesday": ["FREE", "FREE", "FREE", "B_LAB", "B_LAB", "FREE", "FREE"],
+    "Thursday": ["D", "pe4Slot", "A", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["pe4Lab", "pe4Lab", "pe4Lab", "A", "FREE", "FREE", "FREE"]
+  }
+}
