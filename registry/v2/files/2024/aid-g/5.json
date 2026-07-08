@@ -1,0 +1,62 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Intelligent Systems 5",
+      "code": "23MAT303",
+      "faculty": ["Dr. Sarada Mahapatra", "Dr. Nagesh Subbanna"],
+      "shortName": "Math IS 5"
+    },
+    "B": {
+      "name": "Computer Vision",
+      "code": "23AID301",
+      "faculty": ["Dr. Suja P.", "Ms. B. Saranya Devi"],
+      "shortName": "Comp Vision"
+    },
+    "C": {
+      "name": "Big Data Analytics",
+      "code": "23AID302",
+      "faculty": ["Dr. B. Uma Maheswari", "Dr. Amulyashree S."],
+      "shortName": "Big Data"
+    },
+    "D": {
+      "name": "Quantum Computing & Algorithms",
+      "code": "23AID303",
+      "faculty": ["Dr. Supriya M.", "Ms. Sreebha Bhaskaran"],
+      "shortName": "Quantum Comp"
+    },
+    "E": {
+      "name": "High Performance and Cloud Computing",
+      "code": "23AID304",
+      "faculty": ["Dr. Katika Dinesh Kumar", "Ms. Sangita Khare"],
+      "shortName": "HPC Cloud"
+    },
+    "F": {
+      "name": "Control System",
+      "code": "23AID305",
+      "faculty": ["Dr. Ritesh Raj", "Dr. D.N. Kiran Pandiri"],
+      "shortName": "Control Sys"
+    },
+    "G": {
+      "name": "Text Analytics",
+      "code": "23AID472",
+      "faculty": ["Dr. Priyanka Vivek", "Dr. Nandu C. Nair"],
+      "shortName": "Text Analytics"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": [],
+      "shortName": "Life Skills"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["C", "B", "E", "D_LAB", "D_LAB", "G", "FREE"],
+    "Tuesday": ["E_LAB", "E_LAB", "E_LAB", "F_LAB", "F_LAB", "B", "G"],
+    "Wednesday": ["D", "C", "F", "CIR", "CIR", "CIR", "CIR"],
+    "Thursday": ["F", "A", "D", "B_LAB", "B_LAB", "G_LAB", "G_LAB"],
+    "Friday": ["A_LAB", "A_LAB", "A_LAB", "C_LAB", "C_LAB", "E", "A"]
+  }
+}

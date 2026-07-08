@@ -1,0 +1,119 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Optimization Techniques",
+      "code": "23MAT206",
+      "faculty": [
+        "Dr. K. Murali"
+      ],
+      "shortName": "OT"
+    },
+    "B": {
+      "name": "Digital Electronics",
+      "code": "23ECE205",
+      "faculty": [
+        "Dr. Kavya Sai"
+      ],
+      "shortName": "DE"
+    },
+    "C": {
+      "name": "Procedural Programming using C",
+      "code": "23CSE201",
+      "faculty": [
+        "Dr. Rajesh M.",
+        "Ms. Shalini Tiwari",
+        "Divya Kumari"
+      ],
+      "shortName": "PPC"
+    },
+    "D": {
+      "name": "Database Management Systems",
+      "code": "23CSE202",
+      "faculty": [
+        "Dr. S. Santhanalakshmi",
+        "Amrita Tripathi"
+      ],
+      "shortName": "DBMS"
+    },
+    "E": {
+      "name": "Data Structures and Algorithms",
+      "code": "23CSE203",
+      "faculty": [
+        "Dr. Anjali Patel",
+        "Divya Kumari",
+        "Ms. Arya Suresh"
+      ],
+      "shortName": "DSA"
+    },
+    "F": {
+      "name": "Digital Electronics Laboratory",
+      "code": "23ECE285",
+      "faculty": [
+        "Dr. Kavya Sai"
+      ],
+      "shortName": "DEL"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": [],
+      "shortName": "LSE"
+    },
+    "H": {
+      "name": "Strategic Lessons from Mahabharata",
+      "code": "22ADM201",
+      "faculty": [],
+      "shortName": "SLM"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": [
+      "D",
+      "H",
+      "E",
+      "C",
+      "A",
+      "F_LAB",
+      "F_LAB"
+    ],
+    "Tuesday": [
+      "A_LAB",
+      "A_LAB",
+      "A_LAB",
+      "B",
+      "E",
+      "F_LAB",
+      "F_LAB"
+    ],
+    "Wednesday": [
+      "E",
+      "CIR",
+      "CIR",
+      "CIR",
+      "D",
+      "C_LAB",
+      "C_LAB"
+    ],
+    "Thursday": [
+      "B",
+      "D",
+      "A",
+      "C",
+      "FREE",
+      "E_LAB",
+      "E_LAB"
+    ],
+    "Friday": [
+      "C",
+      "B",
+      "E",
+      "D_LAB",
+      "D_LAB",
+      "A",
+      "FREE"
+    ]
+  }
+}

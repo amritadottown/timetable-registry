@@ -1,0 +1,207 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Computing 3",
+      "code": "22MAT220",
+      "faculty": [
+        "Dr. T M Mamatha"
+      ],
+      "shortName": "MFC"
+    },
+    "B": {
+      "name": "Fundamentals of AI",
+      "code": "22AIE201",
+      "faculty": [
+        "Dr. Manju Khanna",
+        "Dr. Radha D."
+      ],
+      "shortName": "FAI"
+    },
+    "C": {
+      "name": "Operating Systems",
+      "code": "22AIE202",
+      "faculty": [
+        "Dr. Sanghamitra",
+        "Ms. Pooja Gowda"
+      ],
+      "shortName": "OS"
+    },
+    "D": {
+      "name": "Data Structures & Algorithms 2",
+      "code": "22AIE203",
+      "faculty": [
+        "Dr. Daddala Yasoomkari",
+        "Dr. Nalini Sampath",
+        "Dr. Manju Khanna"
+      ],
+      "shortName": "DSA"
+    },
+    "E": {
+      "name": "Introduction to Computer Networks",
+      "code": "22AIE204",
+      "faculty": [
+        "Dr. Shinu M.R.",
+        "Dr. Niharika Panda"
+      ],
+      "shortName": "CN"
+    },
+    "F": {
+      "name": "Introduction to Python",
+      "code": "22AIE205",
+      "faculty": [
+        "Ms. Aiswariya Milan K.",
+        "Dr. Vasavi C.S."
+      ],
+      "shortName": "Py"
+    },
+    "G": {
+      "name": "Intelligence of Biological Systems - 1",
+      "code": "22BIO201",
+      "faculty": [
+        "Dr. Vasavi C.S."
+      ],
+      "shortName": "IBS"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": [],
+      "shortName": "LSE"
+    },
+    "I": {
+      "name": "Strategic Lessons from Mahabharata",
+      "code": "22ADM201",
+      "faculty": [
+        "Dr. Saurabh Sharma"
+      ],
+      "shortName": "SLM"
+    },
+    "FE1": {
+      "name": "Message of Bhagavadgita",
+      "code": "23HUM242",
+      "faculty": [
+        "Mr. Vinay H A"
+      ],
+      "shortName": "BG"
+    },
+    "H": {
+      "name": "Indian Classics for 21st Century",
+      "code": "23HUM235",
+      "faculty": [
+        "Dr Tanashreeredij"
+      ],
+      "shortName": "IC"
+    },
+    "J": {
+      "name": "Science Fiction",
+      "code": "24ENG243",
+      "faculty": [
+        "Dr. Deepakumari"
+      ],
+      "shortName": "SF"
+    },
+    "K": {
+      "name": "Vistas of Science",
+      "code": "24ENG246",
+      "faculty": [
+        "Dr. Sayant Vijay"
+      ],
+      "shortName": "VS"
+    },
+    "L": {
+      "name": "Business Communication",
+      "code": "23ENG230",
+      "faculty": [
+        "Dr. Deepthi Janardhan"
+      ],
+      "shortName": "BC"
+    }
+  },
+  "config": {
+    "fe1": {
+      "label": "Foundation Elective I",
+      "values": [
+        {
+          "label": "Message of Bhagavadgita",
+          "id": "FE1"
+        },
+        {
+          "label": "Indian Classics for 21st Century",
+          "id": "H"
+        },
+        {
+          "label": "Science Fiction",
+          "id": "J"
+        },
+        {
+          "label": "Vistas of Science",
+          "id": "K"
+        },
+        {
+          "label": "Business Communication",
+          "id": "L"
+        }
+      ]
+    }
+  },
+  "slots": {
+    "fe1": {
+      "match": "fe1",
+      "choices": {
+        "FE1": "FE1",
+        "H": "H",
+        "J": "J",
+        "K": "K",
+        "L": "L"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": [
+      "B",
+      "C",
+      "I",
+      "E_LAB",
+      "E_LAB",
+      "A",
+      "F"
+    ],
+    "Tuesday": [
+      "A_LAB",
+      "A_LAB",
+      "A_LAB",
+      "B_LAB",
+      "B_LAB",
+      "E",
+      "G"
+    ],
+    "Wednesday": [
+      "G",
+      "C",
+      "A",
+      "D_LAB",
+      "D_LAB",
+      "fe1",
+      "FREE"
+    ],
+    "Thursday": [
+      "D",
+      "FREE",
+      "fe1",
+      "B",
+      "A",
+      "F_LAB",
+      "F_LAB"
+    ],
+    "Friday": [
+      "E",
+      "CIR",
+      "CIR",
+      "CIR",
+      "D",
+      "C_LAB",
+      "C_LAB"
+    ]
+  }
+}

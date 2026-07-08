@@ -1,0 +1,74 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Fundamentals of Mechanical Engineering",
+      "code": "23MEE206",
+      "faculty": ["Mr. Vinod M. Kotebavi"],
+      "shortName": "FME"
+    },
+    "B": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": ["Ms. Nilakshee Kalita", "Mr. Sivakumar K. M.", "Ms. Karishma Nair N."],
+      "shortName": "CIR"
+    },
+    "C": {
+      "name": "Statistics & Foundations of Data Science",
+      "code": "23MAT224",
+      "faculty": ["Dr. B. Venkatesh"],
+      "shortName": "SFDS"
+    },
+    "D": {
+      "name": "Strategic Lessons From Mahabharata",
+      "code": "22ADM201",
+      "faculty": ["Ms. Bhavya Suresh"],
+      "shortName": "ADM"
+    },
+    "E": {
+      "name": "Introduction to Python Programming",
+      "code": "23EEE205",
+      "faculty": ["Mr. K. Vishnu Raj"],
+      "shortName": "Python"
+    },
+    "F": {
+      "name": "Analog Integrated Circuits",
+      "code": "23EEE202",
+      "faculty": ["Ms. V. Sailaja"],
+      "shortName": "AIC"
+    },
+    "G": {
+      "name": "Digital Electronics",
+      "code": "23EEE203",
+      "faculty": ["Ms. Sudha Yadav"],
+      "shortName": "DE"
+    },
+    "H": {
+      "name": "Signals & Systems",
+      "code": "23EEE201",
+      "faculty": ["Dr. Surekha Paneerselvam"],
+      "shortName": "S&S"
+    },
+    "I": {
+      "name": "Electromagnetic Theory",
+      "code": "23EEE204",
+      "faculty": ["Dr. S. Syama"],
+      "shortName": "EMT"
+    },
+    "ADEL": {
+      "name": "Analog & Digital Electronics Lab",
+      "code": "23EEE281",
+      "faculty": ["Ms. Sudha Yadav", "Dr. J. Ramprabhakar"],
+      "shortName": "ADE Lab"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["F", "I", "G", "A", "H", "FREE", "FREE"],
+    "Tuesday": ["I", "A", "E", "H", "C", "G", "FREE"],
+    "Wednesday": ["H", "D", "C", "A", "F", "ADEL_LAB", "ADEL_LAB"],
+    "Thursday": ["C", "B", "B", "B", "I", "H", "FREE"],
+    "Friday": ["E_LAB", "E_LAB", "E_LAB", "F", "G", "C", "FREE"]
+  }
+}
