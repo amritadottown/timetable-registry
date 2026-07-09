@@ -16,7 +16,7 @@
   },
   "config": {
     "pe4": {
-      "label": "Professional Elective IV",
+      "label": "Professional Elective 4",
       "values": [
         { "label": "Edge Computing", "id": "PE4_EC" },
         { "label": "Secure Networks", "id": "PE4_SN" },
@@ -24,7 +24,7 @@
       ]
     },
     "pe5": {
-      "label": "Professional Elective V",
+      "label": "Professional Elective 5",
       "values": [
         { "label": "Blockchain and its Applications", "id": "PE5_BC" },
         { "label": "Cyber Forensics and Malware", "id": "PE5_CFM" },
