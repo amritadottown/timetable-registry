@@ -1,0 +1,92 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Computer Integrated Manufacturing",
+      "code": "23RAI401",
+      "faculty": ["Mr. Raghavendra Ravikiran K."],
+      "shortName": "CIM"
+    },
+    "B": {
+      "name": "Reinforcement Learning",
+      "code": "23RAI402",
+      "faculty": ["Dr. Amudha J.", "Dr. Prakash K Marimuthu"],
+      "shortName": "RL"
+    },
+    "EL_AISP": {
+      "name": "AI in Speech Processing",
+      "code": "23RAI354",
+      "faculty": ["Dr. Peeta Basa Pati"],
+      "shortName": "AI Speech"
+    },
+    "EL_DAA": {
+      "name": "Design and Analysis of Algorithms",
+      "code": "23CSE211",
+      "faculty": ["Dr. Prakash K Marimuthu"],
+      "shortName": "DAA"
+    },
+    "EL_HPC": {
+      "name": "High Performance Computing for Scientists and Engineers",
+      "code": "23AID445",
+      "faculty": ["Dr. Ravi kumar V"],
+      "shortName": "HPC"
+    },
+    "EL_CS": {
+      "name": "Cyber Security",
+      "code": "23RAI360",
+      "faculty": ["Dr. Kumaran", "Dr. Y P Deepthi"],
+      "shortName": "Cyber Security"
+    },
+    "SI": {
+      "name": "Summer Internship",
+      "code": "23RAI497",
+      "faculty": ["Dr. Shali S"],
+      "shortName": "Summer Internship"
+    },
+    "PROJ": {
+      "name": "Project Phase I",
+      "code": "23RAI498",
+      "faculty": [],
+      "shortName": "Project I"
+    },
+    "CNCL": {
+      "name": "CNC and System Simulation Laboratory",
+      "code": "23RAI481",
+      "faculty": ["Mr. Raghavendra Ravikiran K", "Ms. Divya Sharma"],
+      "shortName": "CNC Sim Lab"
+    }
+  },
+  "config": {
+    "elective_am": {
+      "label": "Morning Elective (RAI354/DAA)",
+      "values": [
+        { "label": "AI in Speech Processing", "id": "EL_AISP" },
+        { "label": "Design and Analysis of Algorithms", "id": "EL_DAA" }
+      ]
+    },
+    "elective_hpcse": {
+      "label": "HPCSE/Cyber Security Elective",
+      "values": [
+        { "label": "High Performance Computing for Scientists and Engineers", "id": "EL_HPC" },
+        { "label": "Cyber Security", "id": "EL_CS" }
+      ]
+    }
+  },
+  "slots": {
+    "electiveAMSlot": {
+      "match": "elective_am",
+      "choices": { "EL_AISP": "EL_AISP", "EL_DAA": "EL_DAA" }
+    },
+    "electiveHPCSlot": {
+      "match": "elective_hpcse",
+      "choices": { "EL_HPC": "EL_HPC", "EL_CS": "EL_CS" }
+    }
+  },
+  "schedule": {
+    "Monday": ["A", "B", "electiveAMSlot", "CNCL_LAB", "CNCL_LAB", "electiveHPCSlot", "EL_CS"],
+    "Tuesday": ["electiveAMSlot", "FREE", "B", "electiveHPCSlot", "A", "FREE", "SI"],
+    "Wednesday": ["B_LAB", "B_LAB", "B_LAB", "electiveAMSlot", "electiveHPCSlot", "FREE", "FREE"],
+    "Thursday": ["A", "electiveAMSlot", "FREE", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["FREE", "FREE", "FREE", "FREE", "FREE", "FREE", "FREE"]
+  }
+}
