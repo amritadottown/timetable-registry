@@ -1,0 +1,110 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "23EEE335": {
+      "name": "Renewable Energy Technologies",
+      "code": "23EEE335",
+      "faculty": ["Dr. J. Ramprabhakar"],
+      "shortName": "RET"
+    },
+    "23EEE352": {
+      "name": "Advanced Microcontrollers",
+      "code": "23EEE352",
+      "faculty": ["Ms. M. Nithya"],
+      "shortName": "AM"
+    },
+    "23ELC366": {
+      "name": "Cyber Security",
+      "code": "23ELC366",
+      "faculty": ["Ms. Divya Kumari"],
+      "shortName": "CS"
+    },
+    "23ELC364": {
+      "name": "Deep Learning",
+      "code": "23ELC364",
+      "faculty": ["Dr. Rashmi M. R."],
+      "shortName": "DL"
+    },
+    "23EEE302": {
+      "name": "Power Electronics",
+      "code": "23EEE302",
+      "faculty": ["Dr. Mini Sujith"],
+      "shortName": "PE"
+    },
+    "23EEE382": {
+      "name": "Electrical Machines II Lab",
+      "code": "23EEE382",
+      "faculty": ["Ms. Lekshmi S.", "Dr. S. Syama"],
+      "shortName": "EM II Lab"
+    },
+    "23LSE301": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": ["Mr. Ankit Jain", "Ms. Jisha R. Nair", "Ms. Sweta Chavan"],
+      "shortName": "Life Skills"
+    },
+    "23EEE301": {
+      "name": "Digital Signal Processing",
+      "code": "23EEE301",
+      "faculty": ["Ms. U. Kruthika"],
+      "shortName": "DSP"
+    },
+    "23EEE304": {
+      "name": "Power Systems",
+      "code": "23EEE304",
+      "faculty": ["Dr. Manitha P. V."],
+      "shortName": "PS"
+    },
+    "23EEE303": {
+      "name": "Electrical Machines II",
+      "code": "23EEE303",
+      "faculty": ["Ms. Lekshmi S."],
+      "shortName": "EM II"
+    },
+    "23EEE381": {
+      "name": "Power Electronics Lab",
+      "code": "23EEE381",
+      "faculty": ["Dr. Surekha Paneerselvam", "Darsana Nair"],
+      "shortName": "PE Lab"
+    }
+  },
+  "config": {
+    "pe1": {
+      "label": "Professional Elective I",
+      "values": [
+        { "label": "Renewable Energy Technologies", "id": "23EEE335" },
+        { "label": "Advanced Microcontrollers", "id": "23EEE352" }
+      ]
+    },
+    "pe2": {
+      "label": "Professional Elective II",
+      "values": [
+        { "label": "Cyber Security", "id": "23ELC366" },
+        { "label": "Deep Learning", "id": "23ELC364" }
+      ]
+    }
+  },
+  "slots": {
+    "pe1Slot": {
+      "match": "pe1",
+      "choices": {
+        "23EEE335": "23EEE335",
+        "23EEE352": "23EEE352"
+      }
+    },
+    "pe2Slot": {
+      "match": "pe2",
+      "choices": {
+        "23ELC366": "23ELC366",
+        "23ELC364": "23ELC364"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["23EEE302", "23LSE301", "23LSE301", "23LSE301", "pe1Slot", "23EEE301", "FREE"],
+    "Tuesday": ["23EEE381_LAB", "23EEE381_LAB", "23EEE381_LAB", "pe1Slot", "pe2Slot", "23EEE382_LAB", "23EEE382_LAB"],
+    "Wednesday": ["23EEE304", "23EEE303", "23EEE301", "23EEE302", "23EEE304", "FREE", "23LSE301"],
+    "Thursday": ["pe2Slot", "pe1Slot", "23EEE302", "23EEE301", "23EEE304", "23EEE303", "FREE"],
+    "Friday": ["23EEE303", "pe2Slot", "23EEE304", "23EEE301", "FREE", "FREE", "FREE"]
+  }
+}

@@ -1,0 +1,2475 @@
+{
+  "version": 2,
+  "generated": "2026-01-09T05:28:31.893Z",
+  "freePeriods": {
+    "Monday": {
+      "2022": {
+        "eac-i": {
+          "8": [
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-f": {
+          "8": [
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-g": {
+          "8": [
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "8": [
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2023": {
+        "aid-f": {
+          "6": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "blockchain"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "numerical"
+            }
+          ]
+        },
+        "cse-a": {
+          "6": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "6": [
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eac-j": {
+          "6": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-g": {
+          "5": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "mondayLab"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "mondayLab"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "mondayLab"
+            }
+          ],
+          "6": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "mondayLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "mondayLab"
+            }
+          ]
+        },
+        "ece-h": {
+          "6": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "mondayLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "mondayLab"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-i": {
+          "6": [
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "mondayLab"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "mondayLab"
+            }
+          ]
+        },
+        "elc-l": {
+          "6": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "rae-n": {
+          "6": [
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2024": {
+        "aid-g": {
+          "4": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "monDLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "monDLab"
+            }
+          ]
+        },
+        "aie-f": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-a": {
+          "4": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "4": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "eac-k": {
+          "4": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "mondayMid"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "mondayMid"
+            }
+          ]
+        },
+        "ece-j": {
+          "4": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "mondayMorning"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "mondayMorning"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "mondayMorning"
+            }
+          ]
+        },
+        "eee-l": {
+          "4": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "elc-m": {
+          "4": [
+            {
+              "period": 2,
+              "type": "always"
+            }
+          ]
+        },
+        "rae-o": {
+          "4": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "mondayLab"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "mondayLab"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "mondayLab"
+            }
+          ]
+        }
+      },
+      "2025": {
+        "aid-g": {
+          "2": [
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-d": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-f": {
+          "2": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-a": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-b": {
+          "2": [
+            {
+              "period": 2,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eac-k": {
+          "2": [
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "mondayAfternoon"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "mondayAfternoon"
+            }
+          ]
+        },
+        "ece-h": {
+          "2": [
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "mondayAfternoon"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "mondayAfternoon"
+            }
+          ]
+        },
+        "ece-i": {
+          "2": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "mondayMorning"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "mondayMorning"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "mondayMorning"
+            }
+          ]
+        },
+        "eee-l": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "mee-n": {
+          "2": [
+            {
+              "period": 0,
+              "type": "always"
+            }
+          ]
+        },
+        "rae-o": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      }
+    },
+    "Tuesday": {
+      "2022": {
+        "eac-i": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-f": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-g": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2023": {
+        "aid-f": {
+          "6": [
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "numerical"
+            }
+          ]
+        },
+        "aie-d": {
+          "6": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-e": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-a": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-b": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "6": [
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eac-j": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-g": {
+          "5": [
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "tuesdayAfternoon"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "tuesdayAfternoon"
+            }
+          ],
+          "6": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "tuesdayLab"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "tuesdayLab"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "tuesdayLab"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "6": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "tuesdayLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "tuesdayLab"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-i": {
+          "6": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "tuesdayLab"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "tuesdayLab"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "tuesdayLab"
+            }
+          ]
+        },
+        "mee-m": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            }
+          ]
+        },
+        "rae-n": {
+          "6": [
+            {
+              "period": 0,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2024": {
+        "cse-a": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-b": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "4": [
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "tuesdayAfternoon"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "tuesdayAfternoon"
+            }
+          ]
+        },
+        "ece-j": {
+          "4": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "tuesdayMid"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "tuesdayMid"
+            }
+          ]
+        },
+        "eee-l": {
+          "4": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2025": {
+        "aie-d": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-e": {
+          "2": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-f": {
+          "2": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-b": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "2": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "tueMorningLab"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "tueMorningLab"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "tueMorningLab"
+            }
+          ]
+        },
+        "ece-h": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-i": {
+          "2": [
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "tuesdayAfternoon"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "tuesdayAfternoon"
+            }
+          ]
+        },
+        "ece-j": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eee-l": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "mee-n": {
+          "2": [
+            {
+              "period": 1,
+              "type": "always"
+            }
+          ]
+        },
+        "rae-o": {
+          "2": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      }
+    },
+    "Wednesday": {
+      "2022": {
+        "eac-i": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-f": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-g": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2023": {
+        "aie-d": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-e": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-a": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "6": [
+            {
+              "period": 2,
+              "type": "always"
+            }
+          ]
+        },
+        "eac-j": {
+          "6": [
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-g": {
+          "5": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ],
+          "6": [
+            {
+              "period": 2,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-i": {
+          "6": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "wednesdayLab"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "wednesdayLab"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "wednesdayLab"
+            }
+          ]
+        },
+        "elc-l": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "rae-n": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2024": {
+        "aie-d": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-a": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-b": {
+          "4": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "4": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eac-k": {
+          "4": [
+            {
+              "period": 5,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "4": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "wednesdayMid"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "wednesdayMid"
+            }
+          ]
+        },
+        "ece-i": {
+          "4": [
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "wednesdayAfternoon"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "wednesdayAfternoon"
+            }
+          ]
+        },
+        "eee-l": {
+          "4": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "elc-m": {
+          "4": [
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2025": {
+        "aie-d": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-f": {
+          "2": [
+            {
+              "period": 0,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-a": {
+          "2": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "wedMorningLab"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "wedMorningLab"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "wedMorningLab"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "2": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "wedAfternoonLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "wedAfternoonLab"
+            }
+          ]
+        },
+        "eac-k": {
+          "2": [
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "wednesdayAfternoon"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "wednesdayAfternoon"
+            }
+          ]
+        },
+        "ece-h": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-j": {
+          "2": [
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "wednesdayAfternoon"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "wednesdayAfternoon"
+            }
+          ]
+        },
+        "eee-l": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "elc-m": {
+          "2": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "wednesdayLab"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "wednesdayLab"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "wednesdayLab"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "rae-o": {
+          "2": [
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      }
+    },
+    "Thursday": {
+      "2022": {
+        "eac-i": {
+          "8": [
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-f": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-g": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2023": {
+        "aid-f": {
+          "6": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "blockchainLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "blockchainLab"
+            }
+          ]
+        },
+        "aie-d": {
+          "6": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-e": {
+          "6": [
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-a": {
+          "6": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-b": {
+          "6": [
+            {
+              "period": 5,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "6": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eac-j": {
+          "6": [
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "pe1ExceptD4"
+            },
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "thursdayLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "thursdayLab"
+            }
+          ]
+        },
+        "ece-g": {
+          "6": [
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "pe1ExceptD4"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "thursdayLab"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "thursdayLab"
+            }
+          ]
+        },
+        "ece-h": {
+          "6": [
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "pe1ExceptD4"
+            },
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "thursdayLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "thursdayLab"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-i": {
+          "6": [
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "pe1ExceptD4"
+            },
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "thursdayLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "thursdayLab"
+            }
+          ]
+        },
+        "elc-l": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            }
+          ]
+        },
+        "mee-m": {
+          "6": [
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "thursdayPE"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "rae-n": {
+          "6": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2024": {
+        "aie-d": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-f": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eac-k": {
+          "4": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "thursdayMid"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "thursdayMid"
+            }
+          ]
+        },
+        "ece-h": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-i": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-j": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eee-l": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "elc-m": {
+          "4": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "rae-o": {
+          "4": [
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "thursdayLab"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "thursdayLab"
+            }
+          ]
+        }
+      },
+      "2025": {
+        "aie-f": {
+          "2": [
+            {
+              "period": 1,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-a": {
+          "2": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "thurAfternoonLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "thurAfternoonLab"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-b": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "2": [
+            {
+              "period": 0,
+              "type": "conditional",
+              "slot": "thursdayMorning"
+            },
+            {
+              "period": 1,
+              "type": "conditional",
+              "slot": "thursdayMorning"
+            },
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "thursdayMorning"
+            }
+          ]
+        },
+        "ece-i": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-j": {
+          "2": [
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "thursdayAfternoon"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "thursdayAfternoon"
+            }
+          ]
+        },
+        "elc-m": {
+          "2": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "mee-n": {
+          "2": [
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "rae-o": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      }
+    },
+    "Friday": {
+      "2022": {
+        "eac-i": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-f": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-g": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "8": [
+            {
+              "period": 0,
+              "type": "always"
+            },
+            {
+              "period": 1,
+              "type": "always"
+            },
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2023": {
+        "cse-a": {
+          "6": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-b": {
+          "6": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eac-j": {
+          "6": [
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "pe1OnlyD4"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "fridayLab"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "fridayLab"
+            }
+          ]
+        },
+        "ece-g": {
+          "5": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ],
+          "6": [
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "pe1OnlyD4"
+            },
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "fridayLab"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "fridayLab"
+            }
+          ]
+        },
+        "ece-h": {
+          "6": [
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "pe1OnlyD4"
+            },
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "fridayLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "fridayLab"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-i": {
+          "6": [
+            {
+              "period": 2,
+              "type": "conditional",
+              "slot": "pe1OnlyD4"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "elc-l": {
+          "6": [
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2024": {
+        "aid-g": {
+          "4": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "friDLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "friDLab"
+            }
+          ]
+        },
+        "aie-d": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-e": {
+          "4": [
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-a": {
+          "4": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-b": {
+          "4": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-c": {
+          "4": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "eac-k": {
+          "4": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "fridayMid"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "fridayMid"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-i": {
+          "4": [
+            {
+              "period": 2,
+              "type": "always"
+            },
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "fridayMid"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "fridayMid"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-j": {
+          "4": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eee-l": {
+          "4": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "elc-m": {
+          "4": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      },
+      "2025": {
+        "aid-g": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-d": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-e": {
+          "2": [
+            {
+              "period": 4,
+              "type": "always"
+            }
+          ]
+        },
+        "aie-f": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "cse-b": {
+          "2": [
+            {
+              "period": 3,
+              "type": "conditional",
+              "slot": "friMidLab"
+            },
+            {
+              "period": 4,
+              "type": "conditional",
+              "slot": "friMidLab"
+            },
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "friAfternoonLab"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "friAfternoonLab"
+            }
+          ]
+        },
+        "eac-k": {
+          "2": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-h": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-i": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "ece-j": {
+          "2": [
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "eee-l": {
+          "2": [
+            {
+              "period": 3,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        },
+        "elc-m": {
+          "2": [
+            {
+              "period": 4,
+              "type": "always"
+            },
+            {
+              "period": 5,
+              "type": "conditional",
+              "slot": "fridayLab"
+            },
+            {
+              "period": 6,
+              "type": "conditional",
+              "slot": "fridayLab"
+            }
+          ]
+        },
+        "mee-n": {
+          "2": [
+            {
+              "period": 5,
+              "type": "always"
+            },
+            {
+              "period": 6,
+              "type": "always"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
