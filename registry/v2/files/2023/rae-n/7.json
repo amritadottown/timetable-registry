@@ -58,14 +58,14 @@
   },
   "config": {
     "elective_am": {
-      "label": "Morning Elective (RAI354/DAA)",
+      "label": "Professional Elective 4",
       "values": [
         { "label": "AI in Speech Processing", "id": "EL_AISP" },
         { "label": "Design and Analysis of Algorithms", "id": "EL_DAA" }
       ]
     },
     "elective_hpcse": {
-      "label": "HPCSE/Cyber Security Elective",
+      "label": "Professional Elective 5",
       "values": [
         { "label": "High Performance Computing for Scientists and Engineers", "id": "EL_HPC" },
         { "label": "Cyber Security", "id": "EL_CS" }
