@@ -103,7 +103,7 @@
   },
   "schedule": {
     "Monday": ["G", "F", "I", "C", "H", "mondayAfternoonLab", "mondayAfternoonLab"],
-    "Tuesday": ["A", "G", "E", "tuesdayMiddayLab", "tuesdayMiddayLab", "FREE", "J"],
+    "Tuesday": ["A", "G", "E", "tuesdayMiddayLab", "tuesdayMiddayLab", "D", "J"],
     "Wednesday": ["D_LAB", "D_LAB", "D_LAB", "F", "B", "B", "B"],
     "Thursday": ["thursdayMorningLab", "thursdayMorningLab", "thursdayMorningLab", "D", "E", "A_LAB", "A_LAB"],
     "Friday": ["D", "F", "E", "G", "H", "fridayAfternoonLab", "fridayAfternoonLab"]
