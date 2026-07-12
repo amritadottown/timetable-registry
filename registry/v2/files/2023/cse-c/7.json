@@ -1,18 +1,101 @@
 {
   "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
   "subjects": {
-    "PE4_EC": { "name": "Edge Computing", "code": "23CSE362", "faculty": ["Ms. Sreebha Bhaskaran"], "shortName": "Edge Comp" },
-    "PE4_SN": { "name": "Secure Networks", "code": "23CSE336", "faculty": ["Dr. Kumaran U"], "shortName": "Secure Net" },
-    "PE4_MMD": { "name": "Mining of Massive Datasets", "code": "23CSE355", "faculty": ["Dr. Niharika Panda"], "shortName": "Mining Data" },
-    "PE5_BC": { "name": "Blockchain and its Applications", "code": "23CSE335", "faculty": ["Ms. Shalini Tiwari"], "shortName": "Blockchain" },
-    "PE5_CFM": { "name": "Cyber Forensics and Malware", "code": "23CSE334", "faculty": ["Ms. Lavanya Penki"], "shortName": "Cyber Forensics" },
-    "PE5_IS": { "name": "Information Security", "code": "23CSE332", "faculty": ["Ms. Kavitha C R"], "shortName": "Info Security" },
-    "PE6_IOT": { "name": "Internet of Things", "code": "23CSE365", "faculty": ["Dr. Thangam S"], "shortName": "IoT" },
-    "PE6_CV": { "name": "Computer Vision", "code": "23CSE373", "faculty": ["Dr. Tripty Singh"], "shortName": "Comp Vision" },
-    "A": { "name": "Software Project Management", "code": "23CSE321", "faculty": ["Ms. Arya Suresh"], "shortName": "SPM" },
-    "B": { "name": "Fundamentals of Artificial Intelligence", "code": "23CSE401", "faculty": ["Dr. Amulyashree S", "Dr. Nandu C Nair"], "shortName": "Fund AI" },
-    "C": { "name": "Project Phase II", "code": "23CSE498", "faculty": ["Dr. Sajitha Krishnan"], "shortName": "Project II" },
-    "D": { "name": "Indian Constitution", "code": "23LAW300", "faculty": [], "shortName": "Indian Const" }
+    "PE4_EC": {
+      "name": "Edge Computing",
+      "code": "23CSE362",
+      "faculty": [
+        "Ms. Sreebha Bhaskaran"
+      ],
+      "shortName": "Edge Comp"
+    },
+    "PE4_SN": {
+      "name": "Secure Networks",
+      "code": "23CSE336",
+      "faculty": [
+        "Dr. Kumaran U."
+      ],
+      "shortName": "Secure Net"
+    },
+    "PE4_MMD": {
+      "name": "Mining of Massive Datasets",
+      "code": "23CSE355",
+      "faculty": [
+        "Dr. Niharika Panda"
+      ],
+      "shortName": "Mining Data"
+    },
+    "PE5_BC": {
+      "name": "Blockchain and its Applications",
+      "code": "23CSE335",
+      "faculty": [
+        "Ms. Shalini Tiwari"
+      ],
+      "shortName": "Blockchain"
+    },
+    "PE5_CFM": {
+      "name": "Cyber Forensics and Malware",
+      "code": "23CSE334",
+      "faculty": [
+        "Ms. Lavanya Pelenki"
+      ],
+      "shortName": "Cyber Forensics"
+    },
+    "PE5_IS": {
+      "name": "Information Security",
+      "code": "23CSE332",
+      "faculty": [
+        "Ms. Kavitha C. R."
+      ],
+      "shortName": "Info Security"
+    },
+    "PE6_IOT": {
+      "name": "Internet of Things",
+      "code": "23CSE365",
+      "faculty": [
+        "Dr. Thangam S."
+      ],
+      "shortName": "IoT"
+    },
+    "PE6_CV": {
+      "name": "Computer Vision",
+      "code": "23CSE373",
+      "faculty": [
+        "Dr. Tripty Singh"
+      ],
+      "shortName": "Comp Vision"
+    },
+    "A": {
+      "name": "Software Project Management",
+      "code": "23CSE321",
+      "faculty": [
+        "Ms. Arya Suresh"
+      ],
+      "shortName": "SPM"
+    },
+    "B": {
+      "name": "Fundamentals of Artificial Intelligence",
+      "code": "23CSE401",
+      "faculty": [
+        "Dr. Amulyashree S.",
+        "Dr. Nandu C. Nair"
+      ],
+      "shortName": "Fund AI"
+    },
+    "C": {
+      "name": "Project Phase II",
+      "code": "23CSE498",
+      "faculty": [
+        "Dr. Sajitha Krishnan"
+      ],
+      "shortName": "Project II"
+    },
+    "D": {
+      "name": "Indian Constitution",
+      "code": "23LAW300",
+      "faculty": [],
+      "shortName": "Indian Const"
+    }
   },
   "config": {
     "pe4": {

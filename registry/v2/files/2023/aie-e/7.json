@@ -4,13 +4,18 @@
     "A": {
       "name": "Reinforcement Learning",
       "code": "22AIE401",
-      "faculty": ["Dr. Nandu C Nair", "Dr. Suja P"],
+      "faculty": [
+        "Dr. Nandu C. Nair",
+        "Dr. Suja P"
+      ],
       "shortName": "RL"
     },
     "B": {
       "name": "Applied Cryptography",
       "code": "22AIE431",
-      "faculty": ["Ms. Lavanya Pelenki"],
+      "faculty": [
+        "Ms. Lavanya Pelenki"
+      ],
       "shortName": "AC"
     },
     "C": {
@@ -22,25 +27,33 @@
     "D": {
       "name": "Software Project Management",
       "code": "19CSE358",
-      "faculty": ["Dr. Reena Panwar"],
+      "faculty": [
+        "Dr. Reena Panwar"
+      ],
       "shortName": "SPM"
     },
     "E": {
       "name": "Project Phase 1",
       "code": "22AIE498",
-      "faculty": ["Dr. Nidhin Prabhakar T.V."],
+      "faculty": [
+        "Dr. Nidhin Prabhakar T. V."
+      ],
       "shortName": "PROJ"
     },
     "PE4-1": {
       "name": "Blockchain and its Application",
       "code": "22CSE335",
-      "faculty": ["Dr. Beena B M"],
+      "faculty": [
+        "Dr. Beena B. M."
+      ],
       "shortName": "BCA"
     },
     "PE4-2": {
       "name": "Computer Graphics and Animation",
       "code": "22CSE372",
-      "faculty": ["Dr. Suja P"],
+      "faculty": [
+        "Dr. Suja P"
+      ],
       "shortName": "CGA"
     }
   },

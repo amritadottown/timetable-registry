@@ -5,7 +5,7 @@
       "name": "Optimization Techniques",
       "code": "23MAT206",
       "faculty": [
-        "Dr K N Meera"
+        "Dr. K. N. Meera"
       ],
       "shortName": "OT"
     },
@@ -13,7 +13,7 @@
       "name": "Digital Electronics",
       "code": "23ECE205",
       "faculty": [
-        "Dr. Kavya Sai"
+        "Dr. Kavyasai Yaddanapudi"
       ],
       "shortName": "DE"
     },
@@ -40,8 +40,8 @@
       "code": "23CSE203",
       "faculty": [
         "Dr. Anjali Patel",
-        "Dr. Sanghamitra",
-        "Ms. Kavitha C.R."
+        "Dr. Sanghamitra Mishra",
+        "Ms. Kavitha C. R."
       ],
       "shortName": "DSA"
     },
@@ -49,7 +49,7 @@
       "name": "Digital Electronics Laboratory",
       "code": "23ECE285",
       "faculty": [
-        "Dr. Kavya Sai"
+        "Dr. Kavyasai Yaddanapudi"
       ],
       "shortName": "DEL"
     },

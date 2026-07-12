@@ -4,43 +4,64 @@
     "A": {
       "name": "Mathematics for Intelligent Systems 5",
       "code": "23MAT303",
-      "faculty": ["Dr. Sarada Mahapatra", "Dr. Nagesh Subbanna"],
+      "faculty": [
+        "Dr. Sarada Mahapatra",
+        "Dr. Nagesh K. Subbanna"
+      ],
       "shortName": "Math IS 5"
     },
     "B": {
       "name": "Computer Vision",
       "code": "23AID301",
-      "faculty": ["Dr. Suja P.", "Ms. B. Saranya Devi"],
+      "faculty": [
+        "Dr. Suja P.",
+        "Ms. Saranya Devi B."
+      ],
       "shortName": "Comp Vision"
     },
     "C": {
       "name": "Big Data Analytics",
       "code": "23AID302",
-      "faculty": ["Dr. B. Uma Maheswari", "Dr. Amulyashree S."],
+      "faculty": [
+        "Dr. B. Uma Maheswari",
+        "Dr. Amulyashree S."
+      ],
       "shortName": "Big Data"
     },
     "D": {
       "name": "Quantum Computing & Algorithms",
       "code": "23AID303",
-      "faculty": ["Dr. Supriya M.", "Ms. Sreebha Bhaskaran"],
+      "faculty": [
+        "Dr. Supriya M.",
+        "Ms. Sreebha Bhaskaran"
+      ],
       "shortName": "Quantum Comp"
     },
     "E": {
       "name": "High Performance and Cloud Computing",
       "code": "23AID304",
-      "faculty": ["Dr. Katika Dinesh Kumar", "Ms. Sangita Khare"],
+      "faculty": [
+        "Dr. K. Dinesh Kumar",
+        "Ms. Sangita Khare"
+      ],
       "shortName": "HPC Cloud"
     },
     "F": {
       "name": "Control System",
       "code": "23AID305",
-      "faculty": ["Dr. Ritesh Raj", "Dr. D.N. Kiran Pandiri"],
+      "faculty": [
+        "Dr. Ritesh Raj",
+        "Dr. D. N. Kiran Pandiri"
+      ],
       "shortName": "Control Sys"
     },
     "G": {
       "name": "Text Analytics",
       "code": "23AID472",
-      "faculty": ["Dr. Priyanka Vivek", "Dr. Nandu C. Nair"],
+      "faculty": [
+        "Dr. Priyanka Vivek",
+        "Dr. Nandu C. Nair"
+      ],
       "shortName": "Text Analytics"
     },
     "CIR": {

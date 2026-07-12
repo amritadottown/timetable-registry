@@ -14,7 +14,7 @@
       "code": "22AIE201",
       "faculty": [
         "Dr. Manju Khanna",
-        "Dr. Manju Venugopal"
+        "Dr. Manju Venugopalan"
       ],
       "shortName": "FAI"
     },
@@ -22,8 +22,8 @@
       "name": "Operating Systems",
       "code": "22AIE202",
       "faculty": [
-        "Mr. Vishwas H.N.",
-        "Dr. Sanghamitra"
+        "Mr. Vishwas H. N.",
+        "Dr. Sanghamitra Mishra"
       ],
       "shortName": "OS"
     },
@@ -33,7 +33,7 @@
       "faculty": [
         "Dr. Nalini Sampath",
         "Dr. Niharika Panda",
-        "Dr. Manju Venugopal"
+        "Dr. Manju Venugopalan"
       ],
       "shortName": "DSA"
     },
@@ -73,7 +73,7 @@
       "name": "Strategic Lessons from Mahabharata",
       "code": "22ADM201",
       "faculty": [
-        "Mr. Vinay H A"
+        "Mr. Vinay H. A."
       ],
       "shortName": "SLM"
     },
@@ -81,7 +81,7 @@
       "name": "Message of Bhagavadgita",
       "code": "23HUM242",
       "faculty": [
-        "Mr. Vinay H A"
+        "Mr. Vinay H. A."
       ],
       "shortName": "BG"
     },
@@ -89,7 +89,7 @@
       "name": "Indian Classics for 21st Century",
       "code": "23HUM235",
       "faculty": [
-        "Dr Tanashreeredij"
+        "Dr. Tanashree Redij"
       ],
       "shortName": "IC"
     },
@@ -97,7 +97,7 @@
       "name": "Science Fiction",
       "code": "24ENG243",
       "faculty": [
-        "Dr. Deepakumari"
+        "Dr. Deepakumari S."
       ],
       "shortName": "SF"
     },

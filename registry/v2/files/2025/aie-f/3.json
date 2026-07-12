@@ -22,7 +22,7 @@
       "name": "Operating Systems",
       "code": "22AIE202",
       "faculty": [
-        "Dr. Sanghamitra",
+        "Dr. Sanghamitra Mishra",
         "Ms. Pooja Gowda"
       ],
       "shortName": "OS"
@@ -41,7 +41,7 @@
       "name": "Introduction to Computer Networks",
       "code": "22AIE204",
       "faculty": [
-        "Dr. Shinu M.R.",
+        "Dr. Shinu M. R.",
         "Dr. Niharika Panda"
       ],
       "shortName": "CN"
@@ -51,7 +51,7 @@
       "code": "22AIE205",
       "faculty": [
         "Ms. Aiswariya Milan K.",
-        "Dr. Vasavi C.S."
+        "Dr. Vasavi C. S."
       ],
       "shortName": "Py"
     },
@@ -59,7 +59,7 @@
       "name": "Intelligence of Biological Systems - 1",
       "code": "22BIO201",
       "faculty": [
-        "Dr. Vasavi C.S."
+        "Dr. Vasavi C. S."
       ],
       "shortName": "IBS"
     },
@@ -81,7 +81,7 @@
       "name": "Message of Bhagavadgita",
       "code": "23HUM242",
       "faculty": [
-        "Mr. Vinay H A"
+        "Mr. Vinay H. A."
       ],
       "shortName": "BG"
     },
@@ -89,7 +89,7 @@
       "name": "Indian Classics for 21st Century",
       "code": "23HUM235",
       "faculty": [
-        "Dr Tanashreeredij"
+        "Dr. Tanashree Redij"
       ],
       "shortName": "IC"
     },
@@ -97,7 +97,7 @@
       "name": "Science Fiction",
       "code": "24ENG243",
       "faculty": [
-        "Dr. Deepakumari"
+        "Dr. Deepakumari S."
       ],
       "shortName": "SF"
     },

@@ -1,49 +1,198 @@
 {
   "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
   "subjects": {
-    "A": { "name": "Information Theory and Coding", "code": "23ECE467", "faculty": ["Dr. Ashish Goswami"], "shortName": "ITC" },
-    "B": { "name": "Operating Systems", "code": "23ECE431", "faculty": ["Ms. Jayasree M. Oli"], "shortName": "OS" },
-    "C": { "name": "VLSI System Design", "code": "23ECE342", "faculty": ["Ms. Sonali Agrawal", "Dr. Kaveri Hatti"], "shortName": "VLSI-SD" },
-    "D": { "name": "Image Processing", "code": "23ECE446", "faculty": ["Dr. Sunitha R"], "shortName": "Img Proc" },
-    "E": { "name": "Digital Communication", "code": "23ECE304", "faculty": ["Dr. Manoj Kumar Panda"], "shortName": "Dig Comm" },
-    "F": { "name": "Radio Frequency and Microwave Engineering", "code": "23ECE303", "faculty": ["Dr. Parul Mathur"], "shortName": "RF-MW" },
-    "G": { "name": "Life Skills for Engineers III", "code": "23LSE301", "faculty": ["Ms. Srinithi N", "Ms. Sujatha V", "Mr. Ankit Jain"], "shortName": "Life Skills" },
-    "H": { "name": "Computer Systems and Architecture", "code": "23ECE301", "faculty": ["Dr. Harshit Srivastava"], "shortName": "CSA" },
-    "I": { "name": "VLSI Design", "code": "23ECE302", "faculty": ["Mr. Swaminadhan Rajula"], "shortName": "VLSI" },
-    "CSL": { "name": "Communication Systems Laboratory", "code": "23ECE384", "faculty": ["Dr. Manoj Kumar Panda", "Dr. Navin Kumar", "Mr. Giriraja C. V"], "shortName": "CS Lab" },
-    "VDL": { "name": "VLSI Design Laboratory", "code": "23ECE383", "faculty": ["Mr. Swaminadhan Rajula", "Dr. Ganapathy Hegde", "Ms. Kirti S. Pande", "Ms. Sonali Agrawal"], "shortName": "VLSI Lab" },
-    "RFL": { "name": "RF and Microwave Laboratory", "code": "23ECE382", "faculty": ["Dr. Parul Mathur", "Dr. Ashish Goswami"], "shortName": "RF-MW Lab" },
-    "OL": { "name": "Open Laboratory I", "code": "23ECE381", "faculty": [], "shortName": "Open Lab I" }
+    "23ECE467": {
+      "name": "Information Theory and Coding",
+      "code": "23ECE467",
+      "faculty": [
+        "Dr. Ashish Goswami"
+      ],
+      "shortName": "ITC"
+    },
+    "23ECE431": {
+      "name": "Operating Systems",
+      "code": "23ECE431",
+      "faculty": [
+        "Ms. Jayashree M. Oli"
+      ],
+      "shortName": "OS"
+    },
+    "23ECE342": {
+      "name": "VLSI System Design",
+      "code": "23ECE342",
+      "faculty": [
+        "Ms. Sonali Agrawal",
+        "Dr. Kaveri Hatti"
+      ],
+      "shortName": "VLSI-SD"
+    },
+    "23ECE446": {
+      "name": "Image Processing",
+      "code": "23ECE446",
+      "faculty": [
+        "Dr. Sunitha R."
+      ],
+      "shortName": "Img Proc"
+    },
+    "23LSE301": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": [
+        "Ms. Srinithi N.",
+        "Ms. Sujatha V.",
+        "Mr. Ankit Jain"
+      ],
+      "shortName": "Life Skills"
+    },
+    "23ECE304": {
+      "name": "Digital Communication",
+      "code": "23ECE304",
+      "faculty": [
+        "Dr. Manoj Kumar Panda"
+      ],
+      "shortName": "Dig Comm"
+    },
+    "23ECE301": {
+      "name": "Computer Systems and Architecture",
+      "code": "23ECE301",
+      "faculty": [
+        "Dr. Harshit Srivastava"
+      ],
+      "shortName": "CSA"
+    },
+    "23ECE302": {
+      "name": "VLSI Design",
+      "code": "23ECE302",
+      "faculty": [
+        "Mr. Swaminadhan Rajula"
+      ],
+      "shortName": "VLSI"
+    },
+    "23ECE303": {
+      "name": "Radio Frequency and Microwave Engineering",
+      "code": "23ECE303",
+      "faculty": [
+        "Dr. Parul Mathur"
+      ],
+      "shortName": "RF-MW"
+    },
+    "23ECE382": {
+      "name": "RF and Microwave Laboratory",
+      "code": "23ECE382",
+      "faculty": [
+        "Dr. Parul Mathur",
+        "Dr. Ashish Goswami"
+      ],
+      "shortName": "RF-MW Lab"
+    },
+    "23ECE383": {
+      "name": "VLSI Design Laboratory",
+      "code": "23ECE383",
+      "faculty": [
+        "Mr. Swaminadhan Rajula",
+        "Dr. Ganapathi Hegde",
+        "Ms. Kirti S. Pande",
+        "Ms. Sonali Agrawal"
+      ],
+      "shortName": "VLSI Lab"
+    },
+    "23ECE384": {
+      "name": "Communication Systems Laboratory",
+      "code": "23ECE384",
+      "faculty": [
+        "Dr. Manoj Kumar Panda",
+        "Dr. Navin Kumar",
+        "Mr. Giriraja C. V."
+      ],
+      "shortName": "CS Lab"
+    },
+    "23ECE381": {
+      "name": "Open Laboratory I",
+      "code": "23ECE381",
+      "faculty": [],
+      "shortName": "Open Lab I"
+    }
   },
   "config": {
     "batch": {
       "label": "Batch",
       "values": [
-        { "label": "B1", "id": "b1" },
-        { "label": "B2", "id": "b2" }
+        {
+          "label": "B1",
+          "id": "b1"
+        },
+        {
+          "label": "B2",
+          "id": "b2"
+        }
       ]
     },
-    "pe1": {
+    "pe": {
       "label": "Professional Elective I",
       "values": [
-        { "label": "Information Theory and Coding", "id": "A" },
-        { "label": "Operating Systems", "id": "B" },
-        { "label": "VLSI System Design", "id": "C" },
-        { "label": "Image Processing", "id": "D" }
+        {
+          "label": "Information Theory and Coding",
+          "id": "23ECE467"
+        },
+        {
+          "label": "Operating Systems",
+          "id": "23ECE431"
+        },
+        {
+          "label": "VLSI System Design",
+          "id": "23ECE342"
+        },
+        {
+          "label": "Image Processing",
+          "id": "23ECE446"
+        }
       ]
     }
   },
   "slots": {
-    "mondayLab": { "match": "batch", "choices": { "b1": "CSL_LAB", "b2": "VDL_LAB" } },
-    "thursdayLab": { "match": "batch", "choices": { "b1": "VDL_LAB", "b2": "CSL_LAB" } },
-    "fridayLab": { "match": "batch", "choices": { "b2": "RFL_LAB" } },
-    "pe1Slot": { "match": "pe1", "choices": { "A": "A", "B": "B", "C": "C", "D": "D" } }
+    "peSlot": {
+      "match": "pe",
+      "choices": {
+        "23ECE467": "23ECE467",
+        "23ECE431": "23ECE431",
+        "23ECE342": "23ECE342",
+        "23ECE446": "23ECE446"
+      }
+    },
+    "mondayLab": {
+      "match": "batch",
+      "choices": {
+        "b1": "23ECE384_LAB",
+        "b2": "23ECE383_LAB"
+      }
+    },
+    "tuesdayLab": {
+      "match": "batch",
+      "choices": {
+        "b1": "23ECE382_LAB",
+        "b2": "FREE"
+      }
+    },
+    "thursdayLab": {
+      "match": "batch",
+      "choices": {
+        "b1": "23ECE383_LAB",
+        "b2": "23ECE384_LAB"
+      }
+    },
+    "fridayMiddayLab": {
+      "match": "batch",
+      "choices": {
+        "b1": "FREE",
+        "b2": "23ECE382_LAB"
+      }
+    }
   },
   "schedule": {
-    "Monday": ["E", "H", "FREE", "I", "F", "mondayLab", "mondayLab"],
-    "Tuesday": ["RFL_LAB", "RFL_LAB", "RFL_LAB", "G", "G", "G", "G"],
-    "Wednesday": ["pe1Slot", "H", "F", "I", "E", "OL_LAB", "OL_LAB"],
-    "Thursday": ["F", "E", "H", "thursdayLab", "thursdayLab", "pe1Slot", "FREE"],
-    "Friday": ["I", "E", "pe1Slot", "fridayLab", "fridayLab", "FREE", "FREE"]
+    "Monday": ["23ECE304", "23ECE301", "FREE", "23ECE302", "23ECE303", "mondayLab", "mondayLab"],
+    "Tuesday": ["tuesdayLab", "tuesdayLab", "tuesdayLab", "23LSE301", "23LSE301", "23LSE301", "23LSE301"],
+    "Wednesday": ["peSlot", "23ECE301", "23ECE303", "23ECE302", "23ECE304", "23ECE381_LAB", "23ECE381_LAB"],
+    "Thursday": ["23ECE303", "23ECE304", "23ECE301", "thursdayLab", "thursdayLab", "peSlot", "FREE"],
+    "Friday": ["23ECE302", "23ECE304", "peSlot", "fridayMiddayLab", "fridayMiddayLab", "FREE", "FREE"]
   }
 }

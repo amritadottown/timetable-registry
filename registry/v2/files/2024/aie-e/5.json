@@ -4,49 +4,67 @@
     "A": {
       "name": "Probabilistic Reasoning",
       "code": "22AIE301",
-      "faculty": ["Dr. Nagesh Subbanna"],
+      "faculty": [
+        "Dr. Nagesh K. Subbanna"
+      ],
       "shortName": "Prob Reasoning"
     },
     "B": {
       "name": "Formal Language and Automata",
       "code": "22AIE302",
-      "faculty": ["Dr. Nidhin Prabhakar"],
+      "faculty": [
+        "Dr. Nidhin Prabhakar T. V."
+      ],
       "shortName": "FLA"
     },
     "C": {
       "name": "Database Management Systems",
       "code": "22AIE303",
-      "faculty": ["Ms. Divya K.V.", "Ms. Neera Chaudhary"],
+      "faculty": [
+        "Ms. Divya K.V.",
+        "Ms. Neera Chaudhary"
+      ],
       "shortName": "DBMS"
     },
     "D": {
       "name": "Deep Learning",
       "code": "22AIE304",
-      "faculty": ["Dr. Rimjim Padam Singh"],
+      "faculty": [
+        "Dr. Rimjhim Padam Singh"
+      ],
       "shortName": "Deep Learning"
     },
     "E": {
       "name": "Introduction to Cloud Computing",
       "code": "22AIE305",
-      "faculty": ["Dr. B. Uma Maheswari", "Ms. Sreebha Bhaskaran"],
+      "faculty": [
+        "Dr. B. Uma Maheswari",
+        "Ms. Sreebha Bhaskaran"
+      ],
       "shortName": "Cloud Comp"
     },
     "PE1_FSD": {
       "name": "Full Stack Development",
       "code": "22AIE457",
-      "faculty": ["Dr. Gurupriya M."],
+      "faculty": [
+        "Dr. Gurupriya M."
+      ],
       "shortName": "Full Stack"
     },
     "PE1_MAD": {
       "name": "Mobile Application Development",
       "code": "22AIE458",
-      "faculty": ["Mr. Ullas S."],
+      "faculty": [
+        "Mr. Ullas S."
+      ],
       "shortName": "Mobile App Dev"
     },
     "PE1_UX": {
       "name": "User Experience Design",
       "code": "22AIE459",
-      "faculty": ["Ms. Arya R."],
+      "faculty": [
+        "Ms. Arya R."
+      ],
       "shortName": "UX Design"
     },
     "CIR": {
@@ -66,20 +84,37 @@
     "pe1": {
       "label": "Professional Elective I",
       "values": [
-        { "label": "Full Stack Development", "id": "PE1_FSD" },
-        { "label": "Mobile Application Development", "id": "PE1_MAD" },
-        { "label": "User Experience Design", "id": "PE1_UX" }
+        {
+          "label": "Full Stack Development",
+          "id": "PE1_FSD"
+        },
+        {
+          "label": "Mobile Application Development",
+          "id": "PE1_MAD"
+        },
+        {
+          "label": "User Experience Design",
+          "id": "PE1_UX"
+        }
       ]
     }
   },
   "slots": {
     "pe1Slot": {
       "match": "pe1",
-      "choices": { "PE1_FSD": "PE1_FSD", "PE1_MAD": "PE1_MAD", "PE1_UX": "PE1_UX" }
+      "choices": {
+        "PE1_FSD": "PE1_FSD",
+        "PE1_MAD": "PE1_MAD",
+        "PE1_UX": "PE1_UX"
+      }
     },
     "pe1LabSlot": {
       "match": "pe1",
-      "choices": { "PE1_FSD": "PE1_FSD_LAB", "PE1_MAD": "PE1_MAD_LAB", "PE1_UX": "PE1_UX_LAB" }
+      "choices": {
+        "PE1_FSD": "PE1_FSD_LAB",
+        "PE1_MAD": "PE1_MAD_LAB",
+        "PE1_UX": "PE1_UX_LAB"
+      }
     }
   },
   "schedule": {

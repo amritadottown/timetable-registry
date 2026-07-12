@@ -4,67 +4,97 @@
     "A": {
       "name": "Sensors and Instrumentation",
       "code": "23EAC204",
-      "faculty": ["Dr. Navin Kumar"],
+      "faculty": [
+        "Dr. Navin Kumar"
+      ],
       "shortName": "Sensors"
     },
     "B": {
       "name": "Signal Processing",
       "code": "23EAC202",
-      "faculty": ["Dr. Sreeja Kochuvila"],
+      "faculty": [
+        "Dr. Sreeja Kochuvila"
+      ],
       "shortName": "Sig Proc"
     },
     "C": {
       "name": "Foundations of Data Science",
       "code": "23ECE205",
-      "faculty": ["Dr. Vivek Venugopal"],
+      "faculty": [
+        "Dr. Vivek Venugopal"
+      ],
       "shortName": "Data Sci"
     },
     "D": {
       "name": "Electronics Circuits I",
       "code": "23EAC201",
-      "faculty": ["Sagar B."],
+      "faculty": [
+        "Mr. Sagar B."
+      ],
       "shortName": "EC I"
     },
     "E": {
       "name": "Strategic Lessons From Mahabharata",
       "code": "22ADM201",
-      "faculty": ["Dr. Tanashree Redij"],
+      "faculty": [
+        "Dr. Tanashree Redij"
+      ],
       "shortName": "Mahabharata"
     },
     "F": {
       "name": "Data Structures and Algorithms",
       "code": "23EAC203",
-      "faculty": ["Jayasree M. Oli"],
+      "faculty": [
+        "Ms. Jayashree M. Oli"
+      ],
       "shortName": "DSA"
     },
     "G": {
       "name": "Life Skills for Engineers I",
       "code": "23LSE201",
-      "faculty": ["Ms. Karishma Nair", "Mr. Sivakumar K.M", "Ms. Nilakshee Kalita"],
+      "faculty": [
+        "Ms. Karishma Nair N.",
+        "Mr. Sivakumar K. M.",
+        "Ms. Nilakshee Kalita"
+      ],
       "shortName": "Life Skills"
     },
     "ECL": {
       "name": "Electronics Circuits I Laboratory",
       "code": "23EAC281",
-      "faculty": ["Mr. Sagar B.", "Ms. Jayasree M. Oli", "Mr. P. Ramakrishna Reddy"],
+      "faculty": [
+        "Mr. Sagar B.",
+        "Ms. Jayashree M. Oli",
+        "Mr. P. Ramakrishna Reddy"
+      ],
       "shortName": "EC I Lab"
     },
     "DSL": {
       "name": "Data Structures and Algorithms Laboratory",
       "code": "23EAC283",
-      "faculty": ["Ms. Jayasree M. Oli", "Dr. Ashish Goswami", "Dr. Ganapathy Hegde"],
+      "faculty": [
+        "Ms. Jayashree M. Oli",
+        "Dr. Ashish Goswami",
+        "Dr. Ganapathi Hegde"
+      ],
       "shortName": "DSA Lab"
     },
     "SPL": {
       "name": "Signal Processing Laboratory",
       "code": "23EAC282",
-      "faculty": ["Dr. Sreeja Kochuvila", "Dr. S. Lalitha", "Dr. Paramasivam C."],
+      "faculty": [
+        "Dr. Sreeja Kochuvila",
+        "Dr. Lalitha S.",
+        "Dr. C. Paramasivam"
+      ],
       "shortName": "Sig Proc Lab"
     },
     "INSTR": {
       "name": "EC I Lab Instruction Slot",
       "code": "23EAC280",
-      "faculty": ["Sagar B."],
+      "faculty": [
+        "Mr. Sagar B."
+      ],
       "shortName": "Lab Instr"
     }
   },
@@ -72,19 +102,29 @@
     "batch": {
       "label": "Batch",
       "values": [
-        { "label": "E1", "id": "e1" },
-        { "label": "E2", "id": "e2" }
+        {
+          "label": "E1",
+          "id": "e1"
+        },
+        {
+          "label": "E2",
+          "id": "e2"
+        }
       ]
     }
   },
   "slots": {
     "tuesdayLab": {
       "match": "batch",
-      "choices": { "e1": "ECL_LAB" }
+      "choices": {
+        "e1": "ECL_LAB"
+      }
     },
     "thursdayLab": {
       "match": "batch",
-      "choices": { "e2": "ECL_LAB" }
+      "choices": {
+        "e2": "ECL_LAB"
+      }
     }
   },
   "schedule": {
