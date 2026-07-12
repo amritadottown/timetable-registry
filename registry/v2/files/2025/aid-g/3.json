@@ -1,0 +1,68 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Intelligent Systems 3",
+      "code": "23MAT204",
+      "faculty": ["Dr. Geetha K. N."],
+      "shortName": "MIS 3"
+    },
+    "B": {
+      "name": "Modelling Simulation and Analysis",
+      "code": "23AID201",
+      "faculty": ["Dr. D. N. Kiran Pandiri", "Dr. Sirisha Tadepalli"],
+      "shortName": "MSA"
+    },
+    "C": {
+      "name": "Introduction to Robotics",
+      "code": "23AID202",
+      "faculty": ["Dr. D. N. Kiran Pandiri", "Dr. Nidhin Prabhakar T. V."],
+      "shortName": "Robotics"
+    },
+    "D": {
+      "name": "Software Defined Communication Systems",
+      "code": "23AID203",
+      "faculty": ["Dr. Sirisha Tadepalli", "Dr. Lekshmi R."],
+      "shortName": "SDCS"
+    },
+    "E": {
+      "name": "Advanced Data Structures and Algorithm Analysis",
+      "code": "23AID204",
+      "faculty": ["Dr. Niharika Panda", "Ms. Divya Kumari"],
+      "shortName": "ADSAA"
+    },
+    "F": {
+      "name": "Introduction to AI and Machine Learning",
+      "code": "23AID205",
+      "faculty": ["Dr. Sajitha Krishnan", "Ms. Amrita Tripathi"],
+      "shortName": "AI-ML"
+    },
+    "G": {
+      "name": "Introduction to Computer Networks",
+      "code": "23AID206",
+      "faculty": ["Dr. Rajesh M.", "Mr. Vishwas H. N."],
+      "shortName": "ICN"
+    },
+    "H": {
+      "name": "Strategic Lessons from Mahabharata",
+      "code": "22ADM201",
+      "faculty": [],
+      "shortName": "ADM"
+    },
+    "CIR": {
+      "name": "Life Skills for Engineers I",
+      "code": "23LSE201",
+      "faculty": [],
+      "shortName": "LSE"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["A_LAB", "A_LAB", "A_LAB", "C_LAB", "C_LAB", "B", "FREE"],
+    "Tuesday": ["H", "A", "F", "D_LAB", "D_LAB", "G_LAB", "G_LAB"],
+    "Wednesday": ["G", "C", "D", "B_LAB", "B_LAB", "E", "A"],
+    "Thursday": ["B", "G", "E", "C", "A", "F_LAB", "F_LAB"],
+    "Friday": ["F", "CIR", "CIR", "CIR", "D", "E_LAB", "E_LAB"]
+  }
+}
