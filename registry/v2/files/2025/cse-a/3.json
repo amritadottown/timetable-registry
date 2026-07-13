@@ -4,60 +4,43 @@
     "A": {
       "name": "Optimization Techniques",
       "code": "23MAT206",
-      "faculty": [
-        "Dr. B. Venkatesh"
-      ],
+      "faculty": ["Dr. B. Venkatesh"],
       "shortName": "OT"
     },
     "B": {
       "name": "Digital Electronics",
       "code": "23ECE205",
-      "faculty": [
-        "Ms. Sangita Khare"
-      ],
+      "faculty": ["Ms. Sangita Khare"],
       "shortName": "DE"
     },
     "C": {
       "name": "Procedural Programming using C",
       "code": "23CSE201",
-      "faculty": [
-        "Dr. Sreevidya B.",
-        "Ms. Gayathri Ramasamy",
-        "Mr. Niranjan D.K."
-      ],
+      "faculty": ["Dr. Sreevidya B.", "Ms. Gayathri Ramasamy", "Mr. Niranjan D.K."],
       "shortName": "PPC"
     },
     "D": {
       "name": "Database Management Systems",
       "code": "23CSE202",
-      "faculty": [
-        "Ms. Gayathri Ramasamy",
-        "Dr. Santhanalakshmi S."
-      ],
+      "faculty": ["Ms. Gayathri Ramasamy", "Dr. Santhanalakshmi S."],
       "shortName": "DBMS"
     },
     "E": {
       "name": "Data Structures and Algorithms",
       "code": "23CSE203",
-      "faculty": [
-        "Dr. Radha D.",
-        "Ms. Divya K.V.",
-        "Ms. Aiswariya Milan K."
-      ],
+      "faculty": ["Dr. Radha D.", "Ms. Divya K.V.", "Ms. Aiswariya Milan K."],
       "shortName": "DSA"
     },
     "F": {
       "name": "Digital Electronics Laboratory",
       "code": "23ECE285",
-      "faculty": [
-        "Ms. Sangita Khare"
-      ],
+      "faculty": ["Ms. Sangita Khare"],
       "shortName": "DEL"
     },
     "CIR": {
       "name": "Life Skills for Engineers I",
       "code": "23LSE201",
-      "faculty": [],
+      "faculty": ["Ms. Karishma Nair N.", "Mr. Sivakumar K. M.", "Ms. Nilakshee Kalita"],
       "shortName": "LSE"
     },
     "H": {
@@ -67,53 +50,30 @@
       "shortName": "SLM"
     }
   },
-  "config": {},
-  "slots": {},
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    }
+  },
+  "slots": {
+    "tuesdayLab": {
+      "match": "batch",
+      "choices": { "a1": "F_LAB", "a2": "FREE" }
+    },
+    "fridayLab": {
+      "match": "batch",
+      "choices": { "a1": "FREE", "a2": "F_LAB" }
+    }
+  },
   "schedule": {
-    "Monday": [
-      "A_LAB",
-      "A_LAB",
-      "A_LAB",
-      "C_LAB",
-      "C_LAB",
-      "H",
-      "E"
-    ],
-    "Tuesday": [
-      "C",
-      "E",
-      "A",
-      "F_LAB",
-      "F_LAB",
-      "B",
-      "FREE"
-    ],
-    "Wednesday": [
-      "E",
-      "D",
-      "FREE",
-      "B",
-      "C",
-      "D_LAB",
-      "D_LAB"
-    ],
-    "Thursday": [
-      "C",
-      "CIR",
-      "CIR",
-      "CIR",
-      "D",
-      "E",
-      "A"
-    ],
-    "Friday": [
-      "D",
-      "A",
-      "B",
-      "F_LAB",
-      "F_LAB",
-      "E_LAB",
-      "E_LAB"
-    ]
+    "Monday": ["A_LAB", "A_LAB", "A_LAB", "C_LAB", "C_LAB", "H", "D"],
+    "Tuesday": ["C", "E", "A", "tuesdayLab", "tuesdayLab", "B", "FREE"],
+    "Wednesday": ["C", "E", "E", "B", "A", "D_LAB", "D_LAB"],
+    "Thursday": ["C", "CIR", "CIR", "CIR", "D", "E", "FREE"],
+    "Friday": ["D", "A", "B", "fridayLab", "fridayLab", "E_LAB", "E_LAB"]
   }
 }
