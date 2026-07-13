@@ -71,10 +71,10 @@
   "slots": {},
   "schedule": {
     "Monday": [
-      "D",
-      "H",
-      "E",
       "C",
+      "H",
+      "D",
+      "E",
       "A",
       "F_LAB",
       "F_LAB"
@@ -98,10 +98,10 @@
       "C_LAB"
     ],
     "Thursday": [
-      "B",
+      "C",
       "D",
       "A",
-      "C",
+      "B",
       "FREE",
       "E_LAB",
       "E_LAB"
