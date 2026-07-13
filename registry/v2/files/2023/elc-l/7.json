@@ -13,16 +13,11 @@
       "faculty": ["Ms. K. Sireesha"],
       "shortName": "AV"
     },
-    "C": {
-      "name": "Evolutionary Optimization Techniques",
-      "code": "23ELC369",
-      "faculty": ["Dr. S. Syama"],
-      "shortName": "EOT"
-    },
+    
     "D": {
       "name": "Project Phase I",
       "code": "23ELC498",
-      "faculty": ["Ms. V. Sailaja"],
+      "faculty": ["Dr. Kirthika Devi V. S."],
       "shortName": "Project"
     },
     "E": {
@@ -65,9 +60,9 @@
     }
   },
   "schedule": {
-    "Monday": ["F", "G", "FREE", "FREE", "E", "peSlot", "FREE"],
-    "Tuesday": ["D", "D", "FREE", "E", "FREE", "FREE", "FREE"],
-    "Wednesday": ["D", "FREE", "FREE", "peSlot", "FREE", "D", "D"],
+    "Monday": ["F", "G", "FREE", "peSlot", "E", "D", "FREE"],
+    "Tuesday": ["D", "peSlot", "FREE", "E", "FREE", "FREE", "FREE"],
+    "Wednesday": ["D", "FREE", "FREE", "D", "FREE", "D", "D"],
     "Thursday": ["D", "FREE", "FREE", "FREE", "FREE", "FREE", "FREE"],
     "Friday": ["D", "D", "peSlot", "FREE", "FREE", "FREE", "FREE"]
   }
