@@ -5,7 +5,7 @@
       "name": "Mathematics for Computing 3",
       "code": "22MAT220",
       "faculty": [
-        "Dr. Mamamtha T M"
+        "Ms. Mamatha T. M."
       ],
       "shortName": "MFC"
     },
@@ -23,7 +23,8 @@
       "code": "22AIE202",
       "faculty": [
         "Mr. Vishwas H. N.",
-        "Dr. Sanghamitra Mishra"
+        "Dr. Sanghamitra Mishra",
+        "Mr. Deheen"
       ],
       "shortName": "OS"
     },
@@ -42,7 +43,8 @@
       "code": "22AIE204",
       "faculty": [
         "Dr. Thangam S.",
-        "Dr. Meena Belwal"
+        "Ms. K. Sireesha",
+        "Ms. Alekya"
       ],
       "shortName": "CN"
     },
@@ -51,7 +53,7 @@
       "code": "22AIE205",
       "faculty": [
         "Ms. Aiswariya Milan K.",
-        "Dr. Debanjali B."
+        "Mr. Rajeshwar"
       ],
       "shortName": "Py"
     },
@@ -66,7 +68,11 @@
     "CIR": {
       "name": "Life Skills for Engineers I",
       "code": "23LSE201",
-      "faculty": [],
+      "faculty": [
+        "Ms. Karishma Nair N.",
+        "Mr. Sivakumar K. M.",
+        "Ms. Nilakshee Kalita"
+      ],
       "shortName": "LSE"
     },
     "I": {
@@ -168,7 +174,7 @@
       "E"
     ],
     "Tuesday": [
-      "G",
+      "F",
       "CIR",
       "CIR",
       "CIR",
@@ -187,18 +193,18 @@
     ],
     "Thursday": [
       "B",
-      "FREE",
+      "E",
       "fe1",
       "D",
-      "E",
+      "G",
       "C_LAB",
       "C_LAB"
     ],
     "Friday": [
       "C",
-      "D",
       "A",
-      "F",
+      "D",
+      "FREE",
       "B",
       "E_LAB",
       "E_LAB"

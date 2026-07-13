@@ -24,7 +24,8 @@
       "code": "22AIE202",
       "faculty": [
         "Dr. Sanghamitra Mishra",
-        "Dr. Sajitha Krishnan"
+        "Dr. Sajitha Krishnan",
+        "Mr. Deheen"
       ],
       "shortName": "OS"
     },
@@ -34,7 +35,7 @@
       "faculty": [
         "Dr. Radha D.",
         "Ms. Aiswariya Milan K.",
-        "Ms. Saranya Devi B."
+        "Mr. Ullas S."
       ],
       "shortName": "DSA"
     },
@@ -43,7 +44,8 @@
       "code": "22AIE204",
       "faculty": [
         "Dr. Daddala Yasoomkari",
-        "Dr. Lekshmi R."
+        "Dr. Lekshmi R.",
+        "Mr. Sravankumar"
       ],
       "shortName": "CN"
     },
@@ -51,7 +53,7 @@
       "name": "Introduction to Python",
       "code": "22AIE205",
       "faculty": [
-        "Dr. Debanjali B.",
+        "Dr. Debanjali Bhattacharya",
         "Dr. Vasavi C. S."
       ],
       "shortName": "Py"
@@ -67,7 +69,11 @@
     "CIR": {
       "name": "Life Skills for Engineers I",
       "code": "23LSE201",
-      "faculty": [],
+      "faculty": [
+        "Ms. Srinithi N.",
+        "Ms. Sujatha V.",
+        "Ms. Nilakshee Kalita"
+      ],
       "shortName": "LSE"
     },
     "I": {
@@ -184,13 +190,13 @@
       "D_LAB",
       "D_LAB",
       "fe1",
-      "FREE"
+      "F"
     ],
     "Thursday": [
       "C",
       "D",
       "fe1",
-      "F",
+      "FREE",
       "A",
       "E_LAB",
       "E_LAB"
