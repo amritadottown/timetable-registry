@@ -44,8 +44,7 @@
       "label": "Professional Elective",
       "values": [
         { "label": "Renewable Energy Technologies", "id": "A" },
-        { "label": "Autonomous Vehicles", "id": "B" },
-        { "label": "Evolutionary Optimization Techniques", "id": "C" }
+        { "label": "Autonomous Vehicles", "id": "B" }
       ]
     }
   },
@@ -54,8 +53,7 @@
       "match": "pe",
       "choices": {
         "A": "A",
-        "B": "B",
-        "C": "C"
+        "B": "B"
       }
     }
   },
