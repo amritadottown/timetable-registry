@@ -74,7 +74,6 @@
       "code": "23EAC283",
       "faculty": [
         "Ms. Jayashree M. Oli",
-        "Dr. Ashish Goswami",
         "Dr. Ganapathi Hegde"
       ],
       "shortName": "DSA Lab"
@@ -84,8 +83,7 @@
       "code": "23EAC282",
       "faculty": [
         "Dr. Sreeja Kochuvila",
-        "Dr. Lalitha S.",
-        "Dr. C. Paramasivam"
+        "Dr. Lalitha S."
       ],
       "shortName": "Sig Proc Lab"
     },
@@ -128,10 +126,10 @@
     }
   },
   "schedule": {
-    "Monday": ["DSL_LAB", "DSL_LAB", "DSL_LAB", "A", "C", "B", "F"],
+    "Monday": ["DSL_LAB", "DSL_LAB", "DSL_LAB", "A", "C", "B", "D"],
     "Tuesday": ["F", "D", "B", "tuesdayLab", "tuesdayLab", "C", "E"],
-    "Wednesday": ["C", "B", "A", "SPL_LAB", "SPL_LAB", "D", "INSTR"],
+    "Wednesday": ["C", "B", "A", "SPL_LAB", "SPL_LAB", "F", "FREE"],
     "Thursday": ["thursdayLab", "thursdayLab", "thursdayLab", "F", "G", "G", "G"],
-    "Friday": ["A", "C", "D", "B", "F", "FREE", "FREE"]
+    "Friday": ["A", "C", "D", "B", "F", "INSTR", "FREE"]
   }
 }
