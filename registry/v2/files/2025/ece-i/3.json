@@ -131,6 +131,6 @@
     "Tuesday": ["C", "E", "B", "A", "G", "FREE", "FREE"],
     "Wednesday": ["D", "F", "F", "F", "E", "FREE", "FREE"],
     "Thursday": ["A", "E", "B", "D", "C", "thursdayLab", "thursdayLab"],
-    "Friday": ["fridayLab", "fridayLab", "fridayLab", "A", "FREE", "D", "FREE"]
+    "Friday": ["fridayLab", "fridayLab", "fridayLab", "A", "D", "FREE", "FREE"]
   }
 }
