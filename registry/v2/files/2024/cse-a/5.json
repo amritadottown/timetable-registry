@@ -161,7 +161,7 @@
     "Monday": ["A", "pe1Slot", "B", "pe2Slot", "D", "C", "FREE"],
     "Tuesday": ["C", "B", "EVS", "A", "FREE", "D_LAB", "D_LAB"],
     "Wednesday": ["B", "D", "pe2Slot", "pe1Slot", "C", "A_LAB", "A_LAB"],
-    "Thursday": ["pe1Slot", "CIR", "CIR", "CIR", "B", "CIR", "FREE"],
-    "Friday": ["pe2Slot", "A", "D", "B_LAB", "B_LAB", "C", "FREE"]
+    "Thursday": ["pe1Slot", "CIR", "CIR", "CIR", "B", "FREE", "FREE"],
+    "Friday": ["pe2Slot", "C", "D", "B_LAB", "B_LAB", "A", "FREE"]
   }
 }
