@@ -127,7 +127,7 @@
   },
   "schedule": {
     "Monday": ["DSL_LAB", "DSL_LAB", "DSL_LAB", "A", "C", "B", "D"],
-    "Tuesday": ["F", "D", "B", "tuesdayLab", "tuesdayLab", "C", "E"],
+    "Tuesday": ["B", "D", "F", "tuesdayLab", "tuesdayLab", "C", "E"],
     "Wednesday": ["C", "B", "A", "SPL_LAB", "SPL_LAB", "F", "FREE"],
     "Thursday": ["thursdayLab", "thursdayLab", "thursdayLab", "F", "G", "G", "G"],
     "Friday": ["A", "C", "D", "B", "F", "INSTR", "FREE"]
