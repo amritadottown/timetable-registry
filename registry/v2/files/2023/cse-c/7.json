@@ -138,9 +138,9 @@
   },
   "schedule": {
     "Monday": ["pe4Slot", "A", "pe6Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
-    "Tuesday": ["pe6Slot", "pe4Slot", "pe5Slot", "C", "C", "C", "C"],
-    "Wednesday": ["B", "pe5Slot", "pe4Slot", "pe6Slot", "C", "C", "C"],
-    "Thursday": ["A", "pe6Slot", "pe5Slot", "C", "C", "C", "C"],
-    "Friday": ["A", "B", "pe6Slot", "C", "pe6Slot", "C", "C"]
+    "Tuesday": ["pe6Slot", "pe4Slot", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Wednesday": ["B", "pe5Slot", "pe4Slot", "pe6Slot", "FREE", "FREE", "FREE"],
+    "Thursday": ["A", "pe6Slot", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["A", "B", "pe6Slot", "FREE", "pe6Slot", "FREE", "FREE"]
   }
 }
