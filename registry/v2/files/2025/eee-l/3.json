@@ -28,7 +28,7 @@
     "E": {
       "name": "Introduction to Python Programming",
       "code": "23EEE205",
-      "faculty": ["Mr. K. Vishnu Raj"],
+      "faculty": ["Mr. K. Vishnu Raj", "Ms. Roshima T. V."],
       "shortName": "Python"
     },
     "F": {
@@ -58,7 +58,7 @@
     "ADEL": {
       "name": "Analog & Digital Electronics Lab",
       "code": "23EEE281",
-      "faculty": ["Ms. Sudha Yadav", "Dr. J. Ramprabhakar"],
+      "faculty": ["Ms. Sudha Yadav", "Ms. Roshima T. V."],
       "shortName": "ADE Lab"
     }
   },

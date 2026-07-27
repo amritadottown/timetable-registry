@@ -58,7 +58,7 @@
     "B": {
       "name": "Fundamentals of Artificial Intelligence",
       "code": "23CSE401",
-      "faculty": ["Dr. Amulyashree S.", "Dr. Nandu C. Nair"],
+      "faculty": ["Dr. Amulyashree S.", "Ms. Pooja Gowda"],
       "shortName": "Fund AI"
     },
     "C": {
@@ -70,7 +70,7 @@
     "D": {
       "name": "Indian Constitution",
       "code": "23LAW300",
-      "faculty": [],
+      "faculty": ["Ms. Arya R."],
       "shortName": "Indian Const"
     }
   },
@@ -115,9 +115,9 @@
   },
   "schedule": {
     "Monday": ["pe4Slot", "B", "pe6Slot", "FREE", "FREE", "FREE", "FREE"],
-    "Tuesday": ["pe6Slot", "pe4Slot", "pe5Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
-    "Wednesday": ["A", "pe5Slot", "pe4Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Tuesday": ["pe6Slot", "pe4Slot", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Wednesday": ["A", "FREE", "pe4Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
     "Thursday": ["B", "A", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
-    "Friday": ["A", "FREE", "pe6Slot", "FREE", "FREE", "FREE", "FREE"]
+    "Friday": ["A", "FREE", "pe6Slot", "FREE", "FREE", "pe5Slot", "FREE"]
   }
 }

@@ -4,61 +4,84 @@
     "A": {
       "name": "Machine Learning",
       "code": "23CSE301",
-      "faculty": ["Bharath", "Dr. Abhinav Ravindra Dehadrai"],
+      "faculty": [
+        "Bharath",
+        "Dr. Abhinav R. Dehadrai"
+      ],
       "shortName": "ML"
     },
     "B": {
       "name": "Computer Networks",
       "code": "23CSE302",
-      "faculty": ["Dr. Reena Panwar", "Dr. Daddala Yasoomkari"],
+      "faculty": [
+        "Dr. Reena Panwar",
+        "Dr. Daddala Yasoomkari"
+      ],
       "shortName": "CN"
     },
     "C": {
       "name": "Theory of Computation",
       "code": "23CSE303",
-      "faculty": ["Ms. Neera Chaudhary"],
+      "faculty": [
+        "Ms. Neera Chaudhary"
+      ],
       "shortName": "ToC"
     },
     "D": {
       "name": "Embedded Systems",
       "code": "23CSE304",
-      "faculty": ["Dr. Meena Belwal", "Ms. Arya Suresh"],
+      "faculty": [
+        "Dr. Meena Belwal",
+        "Ms. Arya Suresh"
+      ],
       "shortName": "Embed Sys"
     },
     "PE1_NLP": {
       "name": "Natural Language Processing",
       "code": "23CSE471",
-      "faculty": ["Dr. Nandu C. Nair"],
+      "faculty": [
+        "Dr. Nandu C. Nair"
+      ],
       "shortName": "NLP"
     },
     "PE1_AIR": {
       "name": "Artificial Intelligence and Robotics",
       "code": "23CSE472",
-      "faculty": ["Dr. Nidhin Prabhakar T.V."],
+      "faculty": [
+        "Dr. Nidhin Prabhakar T. V."
+      ],
       "shortName": "AI-Robotics"
     },
     "PE1_NNDL": {
       "name": "Neural Networks & Deep Learning",
       "code": "23CSE473",
-      "faculty": ["Dr. Manju Venugopal"],
+      "faculty": [
+        "Dr. Manju Venugopalan"
+      ],
       "shortName": "NN-DL"
     },
     "PE2_BDA": {
       "name": "Big Data Analytics",
       "code": "23CSE352",
-      "faculty": ["Ms. Sangita Khare"],
+      "faculty": [
+        "Ms. Sangita Khare"
+      ],
       "shortName": "Big Data"
     },
     "PE2_FDS": {
       "name": "Foundations of Data Science",
       "code": "23CSE351",
-      "faculty": ["Dr. Lekshmi R."],
+      "faculty": [
+        "Dr. Lekshmi R."
+      ],
       "shortName": "Data Sci"
     },
     "PE2_DV": {
       "name": "Data Visualization",
       "code": "23CSE353",
-      "faculty": ["Ms. Pooja Gowda"],
+      "faculty": [
+        "Ms. Pooja Gowda"
+      ],
       "shortName": "Data Viz"
     },
     "CIR": {
@@ -84,28 +107,54 @@
     "pe1": {
       "label": "Professional Elective I",
       "values": [
-        { "label": "Natural Language Processing", "id": "PE1_NLP" },
-        { "label": "Artificial Intelligence and Robotics", "id": "PE1_AIR" },
-        { "label": "Neural Networks & Deep Learning", "id": "PE1_NNDL" }
+        {
+          "label": "Natural Language Processing",
+          "id": "PE1_NLP"
+        },
+        {
+          "label": "Artificial Intelligence and Robotics",
+          "id": "PE1_AIR"
+        },
+        {
+          "label": "Neural Networks & Deep Learning",
+          "id": "PE1_NNDL"
+        }
       ]
     },
     "pe2": {
       "label": "Professional Elective II",
       "values": [
-        { "label": "Big Data Analytics", "id": "PE2_BDA" },
-        { "label": "Foundations of Data Science", "id": "PE2_FDS" },
-        { "label": "Data Visualization", "id": "PE2_DV" }
+        {
+          "label": "Big Data Analytics",
+          "id": "PE2_BDA"
+        },
+        {
+          "label": "Foundations of Data Science",
+          "id": "PE2_FDS"
+        },
+        {
+          "label": "Data Visualization",
+          "id": "PE2_DV"
+        }
       ]
     }
   },
   "slots": {
     "pe1Slot": {
       "match": "pe1",
-      "choices": { "PE1_NLP": "PE1_NLP", "PE1_AIR": "PE1_AIR", "PE1_NNDL": "PE1_NNDL" }
+      "choices": {
+        "PE1_NLP": "PE1_NLP",
+        "PE1_AIR": "PE1_AIR",
+        "PE1_NNDL": "PE1_NNDL"
+      }
     },
     "pe2Slot": {
       "match": "pe2",
-      "choices": { "PE2_BDA": "PE2_BDA", "PE2_FDS": "PE2_FDS", "PE2_DV": "PE2_DV" }
+      "choices": {
+        "PE2_BDA": "PE2_BDA",
+        "PE2_FDS": "PE2_FDS",
+        "PE2_DV": "PE2_DV"
+      }
     }
   },
   "schedule": {

@@ -5,7 +5,7 @@
       "name": "Mathematics for Computing 3",
       "code": "22MAT220",
       "faculty": [
-        "Dr. T M Mamatha"
+        "Ms. Mamatha T. M."
       ],
       "shortName": "MFC"
     },
@@ -14,7 +14,8 @@
       "code": "22AIE201",
       "faculty": [
         "Dr. Manju Khanna",
-        "Dr. Radha D."
+        "Dr. Radha D.",
+        "Dr. Nidhin Prabhakar T. V."
       ],
       "shortName": "FAI"
     },
@@ -22,8 +23,9 @@
       "name": "Operating Systems",
       "code": "22AIE202",
       "faculty": [
-        "Dr. Sanghamitra",
-        "Ms. Pooja Gowda"
+        "Dr. Sanghamitra Mishra",
+        "Ms. Pooja Gowda",
+        "Ms. Kuruva Divyasree"
       ],
       "shortName": "OS"
     },
@@ -41,8 +43,9 @@
       "name": "Introduction to Computer Networks",
       "code": "22AIE204",
       "faculty": [
-        "Dr. Shinu M.R.",
-        "Dr. Niharika Panda"
+        "Dr. Shinu M. R.",
+        "Dr. Niharika Panda",
+        "Ms. Malavika V. S."
       ],
       "shortName": "CN"
     },
@@ -51,7 +54,7 @@
       "code": "22AIE205",
       "faculty": [
         "Ms. Aiswariya Milan K.",
-        "Dr. Vasavi C.S."
+        "Dr. Vasavi C. S."
       ],
       "shortName": "Py"
     },
@@ -59,14 +62,18 @@
       "name": "Intelligence of Biological Systems - 1",
       "code": "22BIO201",
       "faculty": [
-        "Dr. Vasavi C.S."
+        "Dr. Vasavi C. S."
       ],
       "shortName": "IBS"
     },
     "CIR": {
       "name": "Life Skills for Engineers I",
       "code": "23LSE201",
-      "faculty": [],
+      "faculty": [
+        "Ms. Karishma Nair N.",
+        "Ms. Nilakshee Kalita",
+        "Ms. Sujatha V."
+      ],
       "shortName": "LSE"
     },
     "I": {
@@ -81,7 +88,7 @@
       "name": "Message of Bhagavadgita",
       "code": "23HUM242",
       "faculty": [
-        "Mr. Vinay H A"
+        "Mr. Vinay H. A."
       ],
       "shortName": "BG"
     },
@@ -89,7 +96,7 @@
       "name": "Indian Classics for 21st Century",
       "code": "23HUM235",
       "faculty": [
-        "Dr Tanashreeredij"
+        "Dr. Tanashree Redij"
       ],
       "shortName": "IC"
     },
@@ -97,7 +104,7 @@
       "name": "Science Fiction",
       "code": "24ENG243",
       "faculty": [
-        "Dr. Deepakumari"
+        "Dr. Deepakumari S."
       ],
       "shortName": "SF"
     },
@@ -168,9 +175,9 @@
       "F"
     ],
     "Tuesday": [
-      "A_LAB",
-      "A_LAB",
-      "A_LAB",
+      "C_LAB",
+      "C_LAB",
+      "C_LAB",
       "B_LAB",
       "B_LAB",
       "E",
@@ -178,8 +185,8 @@
     ],
     "Wednesday": [
       "G",
-      "C",
       "A",
+      "C",
       "D_LAB",
       "D_LAB",
       "fe1",
@@ -200,8 +207,8 @@
       "CIR",
       "CIR",
       "D",
-      "C_LAB",
-      "C_LAB"
+      "A_LAB",
+      "A_LAB"
     ]
   }
 }
