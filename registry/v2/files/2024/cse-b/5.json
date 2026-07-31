@@ -5,8 +5,8 @@
       "name": "Machine Learning",
       "code": "23CSE301",
       "faculty": [
-        "Bharath",
-        "Dr. Abhinav R. Dehadrai"
+        "Dr. Bharath K. P.",
+        "Dr. Debanjali Bhattacharya"
       ],
       "shortName": "ML"
     },
@@ -87,13 +87,19 @@
     "CIR": {
       "name": "Life Skills for Engineers III",
       "code": "23LSE301",
-      "faculty": [],
+      "faculty": [
+        "Ms. Sweta Chavan",
+        "Ms. Sujatha V.",
+        "Mr. Ankit Jain"
+      ],
       "shortName": "Life Skills"
     },
     "EVS": {
       "name": "Environmental Science",
       "code": "23ENV300",
-      "faculty": [],
+      "faculty": [
+        "Dr. T. M. Mohan Kumar"
+      ],
       "shortName": "Env Sci"
     },
     "F": {
@@ -158,10 +164,10 @@
     }
   },
   "schedule": {
-    "Monday": ["D", "pe1Slot", "C", "pe2Slot", "A", "B_LAB", "B_LAB"],
-    "Tuesday": ["A", "CIR", "CIR", "CIR", "B", "CIR", "FREE"],
+    "Monday": ["D", "pe1Slot", "A", "pe2Slot", "C", "B_LAB", "B_LAB"],
+    "Tuesday": ["A", "CIR", "CIR", "CIR", "FREE", "CIR", "B"],
     "Wednesday": ["B", "A", "pe2Slot", "pe1Slot", "C", "D_LAB", "D_LAB"],
-    "Thursday": ["pe1Slot", "B", "C", "A_LAB", "A_LAB", "D", "FREE"],
-    "Friday": ["pe2Slot", "B", "EVS", "C", "D", "FREE", "FREE"]
+    "Thursday": ["pe1Slot", "B", "C", "D", "FREE", "A_LAB", "A_LAB"],
+    "Friday": ["pe2Slot", "B", "EVS", "FREE", "FREE", "D", "C"]
   }
 }
