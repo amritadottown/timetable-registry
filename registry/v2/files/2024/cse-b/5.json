@@ -5,8 +5,8 @@
       "name": "Machine Learning",
       "code": "23CSE301",
       "faculty": [
-        "Dr. Bharath",
-        "Dr. Debanjali"
+        "Dr. Bharath K. P.",
+        "Dr. Debanjali Bhattacharya"
       ],
       "shortName": "ML"
     },
@@ -89,7 +89,7 @@
       "code": "23LSE301",
       "faculty": [
         "Ms. Sweta Chavan",
-        "Ms. Sujatha",
+        "Ms. Sujatha V.",
         "Mr. Ankit Jain"
       ],
       "shortName": "Life Skills"
@@ -98,7 +98,7 @@
       "name": "Environmental Science",
       "code": "23ENV300",
       "faculty": [
-        "Dr. Mohan Kumar"
+        "Dr. T. M. Mohan Kumar"
       ],
       "shortName": "Env Sci"
     },
