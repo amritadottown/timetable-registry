@@ -1,0 +1,68 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Calculus, Matrix Algebra and Ordinary Differential Equations",
+      "code": "23MAT122",
+      "faculty": ["Dr. J. U. Viharika"],
+      "shortName": "MATH"
+    },
+    "B": {
+      "name": "Fundamentals of Electrical Engineering",
+      "code": "23EEE101",
+      "faculty": ["Dr. Kirthika Devi V. S."],
+      "shortName": "FEE"
+    },
+    "C": {
+      "name": "Engineering Graphics and 3D Modeling",
+      "code": "23MEE102",
+      "faculty": ["Dr. Shankara", "Dr. Smita Singh"],
+      "shortName": "EG3D"
+    },
+    "D": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": ["Ms. Sanjana K. Chandran"],
+      "shortName": "TC"
+    },
+    "E": {
+      "name": "Engineering Chemistry-B",
+      "code": "23CHY109",
+      "faculty": ["Dr. Anil Kumar S."],
+      "shortName": "Chem"
+    },
+    "F": {
+      "name": "Engineering Chemistry Laboratory-B",
+      "code": "23CHY188",
+      "faculty": ["Dr. B. L. Bhaskar", "Dr. T. M. Mohan Kumar"],
+      "shortName": "Chem Lab-B"
+    },
+    "G": {
+      "name": "Manufacturing Practice-B",
+      "code": "23MEE182",
+      "faculty": ["Ms. Divya Sharma S. G."],
+      "shortName": "MP-B"
+    },
+    "H": {
+      "name": "Foundations of Indian Heritage",
+      "code": "22ADM101",
+      "faculty": ["Mr. Vinay H. A."],
+      "shortName": "FIH"
+    },
+    "I": {
+      "name": "Mastery Over Mind",
+      "code": "22AVP103",
+      "faculty": ["Dr. Mini Sujith"],
+      "shortName": "MOM"
+    }
+  },
+  "config": {},
+  "slots": {},
+  "schedule": {
+    "Monday": ["G_LAB", "G_LAB", "G_LAB", "C", "C", "D", "FREE"],
+    "Tuesday": ["H", "FREE", "B", "A", "I", "C_LAB", "C_LAB"],
+    "Wednesday": ["E", "A", "D", "FREE", "FREE", "FREE", "FREE"],
+    "Thursday": ["F_LAB", "F_LAB", "F_LAB", "A", "E", "D_LAB", "D_LAB"],
+    "Friday": ["B", "A", "I", "E", "H", "FREE", "FREE"]
+  }
+}
