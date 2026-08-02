@@ -64,7 +64,7 @@
     "23EEE381": {
       "name": "Power Electronics Lab",
       "code": "23EEE381",
-      "faculty": ["Dr. Surekha Paneerselvam", "Darsana Nair"],
+      "faculty": ["Dr. J. Ramprabhakar", "Darsana Nair"],
       "shortName": "PE Lab"
     }
   },
@@ -101,10 +101,10 @@
     }
   },
   "schedule": {
-    "Monday": ["23EEE302", "23LSE301", "23LSE301", "23LSE301", "pe1Slot", "23EEE301", "FREE"],
-    "Tuesday": ["23EEE381_LAB", "23EEE381_LAB", "23EEE381_LAB", "pe1Slot", "pe2Slot", "23EEE382_LAB", "23EEE382_LAB"],
-    "Wednesday": ["23EEE304", "23EEE303", "23EEE301", "23EEE302", "23EEE304", "FREE", "23LSE301"],
-    "Thursday": ["pe2Slot", "pe1Slot", "23EEE302", "23EEE301", "23EEE304", "23EEE303", "FREE"],
-    "Friday": ["23EEE303", "pe2Slot", "23EEE304", "23EEE301", "FREE", "FREE", "FREE"]
+    "Monday": ["23EEE301", "23LSE301", "23LSE301", "23LSE301", "23EEE303", "23EEE381_LAB", "23EEE381_LAB"],
+    "Tuesday": ["23EEE304", "23EEE302", "pe2Slot", "pe1Slot", "FREE", "23EEE382_LAB", "23EEE382_LAB"],
+    "Wednesday": ["23EEE302", "23EEE303", "23EEE301", "23EEE304", "pe1Slot", "FREE", "23LSE301"],
+    "Thursday": ["pe2Slot", "pe1Slot", "23EEE302", "23EEE301", "23EEE304", "FREE", "FREE"],
+    "Friday": ["23EEE303", "23EEE301", "23EEE304", "pe2Slot", "FREE", "FREE", "FREE"]
   }
 }
