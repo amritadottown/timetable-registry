@@ -1,0 +1,83 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Computing 1",
+      "code": "22MAT110",
+      "faculty": ["Dr. Sarada Jayan"],
+      "shortName": "Math"
+    },
+    "B": {
+      "name": "Computational Physics",
+      "code": "22PHY106",
+      "faculty": ["Dr. Abhinav R. Dehadrai", "Dr. Sarada Mohapatra"],
+      "shortName": "CP"
+    },
+    "C": {
+      "name": "Problem Solving & C Programming",
+      "code": "22AIE101",
+      "faculty": ["Dr. Vineetha K. V.", "Ms. Shobhna Devi", "Ms. Alekya"],
+      "shortName": "C Prog"
+    },
+    "D": {
+      "name": "Elements of Computing Systems 1",
+      "code": "22AIE102",
+      "faculty": ["Dr. Lijin P.", "Mr. Rajeshwar", "Mr. Vinayak"],
+      "shortName": "ECS1"
+    },
+    "E": {
+      "name": "Discrete Mathematics",
+      "code": "22MAT121",
+      "faculty": ["Dr. Sunita Kumawat"],
+      "shortName": "DM"
+    },
+    "F": {
+      "name": "Foundations of Indian Heritage",
+      "code": "22ADM101",
+      "faculty": ["Dr. Tanashree Redij"],
+      "shortName": "FIH"
+    },
+    "G": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": ["Dr. Deepthi Janardhan"],
+      "shortName": "TC"
+    },
+    "H": {
+      "name": "Mastery Over Mind",
+      "code": "22AVP103",
+      "faculty": ["Dr. S. Giridhar Reddy"],
+      "shortName": "MOM"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "E1", "id": "e1" },
+        { "label": "E2", "id": "e2" }
+      ]
+    }
+  },
+  "slots": {
+    "tueEnglishLab": {
+      "match": "batch",
+      "choices": {
+        "e1": "G_LAB"
+      }
+    },
+    "friEnglishLab": {
+      "match": "batch",
+      "choices": {
+        "e2": "G_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["D", "B", "C", "H", "E", "A_LAB", "A_LAB"],
+    "Tuesday": ["D_LAB", "D_LAB", "D_LAB", "C_LAB", "C_LAB", "tueEnglishLab", "tueEnglishLab"],
+    "Wednesday": ["A", "G", "E", "D", "C", "B_LAB", "B_LAB"],
+    "Thursday": ["B", "E", "A", "H", "G", "C", "F"],
+    "Friday": ["E_LAB", "E_LAB", "E_LAB", "F", "A", "friEnglishLab", "friEnglishLab"]
+  }
+}
