@@ -10,7 +10,7 @@
     "B": {
       "name": "Embedded System Design using ARM",
       "code": "23ELC302",
-      "faculty": ["Ms. M. Nithya"],
+      "faculty": ["Dr. M. Nithya"],
       "shortName": "ESD"
     },
     "C": {
@@ -34,7 +34,7 @@
     "ESL": {
       "name": "Energy Systems Lab",
       "code": "23ELC381",
-      "faculty": ["Dr. Manitha P. V.", "Ms. Archana Mohan", "Ms. V. Sailaja", "Darsana Nair"],
+      "faculty": ["Dr. Manitha P. V.", "Ms. Archana Mohan", "Ms. V. Sailaja"],
       "shortName": "ES Lab"
     },
     "RET": {
@@ -46,7 +46,7 @@
     "AM": {
       "name": "Advanced Microcontrollers",
       "code": "23EEE352",
-      "faculty": ["Ms. M. Nithya"],
+      "faculty": ["Dr. M. Nithya"],
       "shortName": "AM"
     },
     "CS": {
@@ -100,24 +100,24 @@
         "DL": "DL"
       }
     },
-    "tuesdayLab": {
-      "match": "batch",
-      "choices": {
-        "a2": "ESL_LAB"
-      }
-    },
-    "fridayLab": {
+    "mondayLab": {
       "match": "batch",
       "choices": {
         "a1": "ESL_LAB"
       }
+    },
+    "thursdayLab": {
+      "match": "batch",
+      "choices": {
+        "a2": "ESL_LAB"
+      }
     }
   },
   "schedule": {
-    "Monday": ["A", "C", "B", "D", "pe1Slot", "FREE", "FREE"],
-    "Tuesday": ["C", "D", "A", "pe1Slot", "pe2Slot", "tuesdayLab", "tuesdayLab"],
-    "Wednesday": ["B", "E", "E", "E", "FREE", "C_LAB", "C_LAB"],
-    "Thursday": ["pe2Slot", "pe1Slot", "A", "B", "FREE", "D", "C"],
-    "Friday": ["fridayLab", "fridayLab", "fridayLab", "pe2Slot", "D", "B_LAB", "B_LAB"]
+    "Monday": ["C", "A", "B", "D", "FREE", "mondayLab", "mondayLab"],
+    "Tuesday": ["C", "D", "pe2Slot", "pe1Slot", "A", "FREE", "FREE"],
+    "Wednesday": ["B", "E", "E", "E", "pe1Slot", "C_LAB", "C_LAB"],
+    "Thursday": ["pe2Slot", "pe1Slot", "D", "B", "E", "thursdayLab", "thursdayLab"],
+    "Friday": ["A", "FREE", "D", "pe2Slot", "C", "B_LAB", "B_LAB"]
   }
 }
