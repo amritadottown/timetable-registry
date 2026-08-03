@@ -4,7 +4,7 @@
     "A": {
       "name": "Manufacturing Practice",
       "code": "23MEE115",
-      "faculty": ["Dr. Y. P. Deepthi", "Dr. Shankara"],
+      "faculty": ["Dr. Pradeep S. Jakkareddy", "Dr. Shankara"],
       "shortName": "MP"
     },
     "B": {
@@ -28,7 +28,7 @@
     "E": {
       "name": "Basic Electrical and Electronics Engineering Practice",
       "code": "23EEE184",
-      "faculty": ["Dr. Sujit Kumar", "Ms. V. Sailaja"],
+      "faculty": ["Dr. Sujit Kumar", "Dr. Surekha Paneerselvam", "Ms. V. Sailaja", "Dr. S. Syama"],
       "shortName": "BEEEP"
     },
     "F": {
@@ -90,7 +90,7 @@
   "schedule": {
     "Monday": ["B", "H", "D", "monLabOne", "monLabOne", "monLabTwo", "monLabTwo"],
     "Tuesday": ["B_LAB", "B_LAB", "B_LAB", "C", "FREE", "tueLab", "tueLab"],
-    "Wednesday": ["C_LAB", "C_LAB", "C_LAB", "D", "G", "FREE", "FREE"],
+    "Wednesday": ["C_LAB", "C_LAB", "C_LAB", "G", "D", "FREE", "FREE"],
     "Thursday": ["F", "C", "G", "thurLab", "thurLab", "B", "FREE"],
     "Friday": ["C", "H", "FREE", "B", "D", "FREE", "FREE"]
   }
