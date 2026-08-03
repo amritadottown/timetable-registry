@@ -115,8 +115,21 @@
     }
   },
   "config": {
-    "batch": {
-      "label": "Batch",
+    "vlsiBatch": {
+      "label": "VLSI Design Lab Batch",
+      "values": [
+        {
+          "label": "E1",
+          "id": "e1"
+        },
+        {
+          "label": "E2",
+          "id": "e2"
+        }
+      ]
+    },
+    "embeddedBatch": {
+      "label": "Embedded Systems Lab Batch",
       "values": [
         {
           "label": "E1",
@@ -156,23 +169,25 @@
   },
   "slots": {
     "mondayLab": {
-      "match": "batch",
-      "choices": {
-        "e1": "VDL_LAB",
-        "e2": "ESL_LAB"
-      }
+      "match": ["vlsiBatch", "embeddedBatch"],
+      "choices": [
+        { "pattern": ["e1", "e1"], "value": "VDL_LAB" },
+        { "pattern": ["e1", "e2"], "value": "VDL_LAB" },
+        { "pattern": ["e2", "e3"], "value": "ESL_LAB" }
+      ]
     },
     "tuesdayLab": {
-      "match": "batch",
-      "choices": {
-        "e1": "ESL_LAB",
-        "e2": "VDL_LAB"
-      }
+      "match": ["vlsiBatch", "embeddedBatch"],
+      "choices": [
+        { "pattern": ["e1", "e1"], "value": "ESL_LAB" },
+        { "pattern": ["e2", "e2"], "value": "VDL_LAB" },
+        { "pattern": ["e2", "e3"], "value": "VDL_LAB" }
+      ]
     },
     "fridayLab": {
-      "match": "batch",
+      "match": "embeddedBatch",
       "choices": {
-        "e3": "ESL_LAB"
+        "e2": "ESL_LAB"
       }
     },
     "pe1Slot": {
@@ -189,7 +204,7 @@
     "Monday": ["G", "H", "F", "mondayLab", "mondayLab", "I", "FREE"],
     "Tuesday": ["tuesdayLab", "tuesdayLab", "tuesdayLab", "I", "H", "F", "FREE"],
     "Wednesday": ["pe1Slot", "G", "F", "DML_LAB", "DML_LAB", "OL_LAB", "OL_LAB"],
-    "Thursday": ["I", "E", "E", "E", "FREE", "B", "E"],
+    "Thursday": ["I", "E", "E", "E", "FREE", "pe1Slot", "E"],
     "Friday": ["H", "G", "pe1Slot", "fridayLab", "fridayLab", "FREE", "FREE"]
   }
 }

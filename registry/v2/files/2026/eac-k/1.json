@@ -1,0 +1,91 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Nature Inspired Engineering",
+      "code": "23ECE101",
+      "faculty": ["Dr. Amrita Thakur"],
+      "shortName": "NIE"
+    },
+    "B": {
+      "name": "Engineering Mathematics I",
+      "code": "23MAT124",
+      "faculty": ["Dr. Mullai Venthan Selvam"],
+      "shortName": "EM-I"
+    },
+    "C": {
+      "name": "Problem Solving and Algorithmic Thinking",
+      "code": "23ECE102",
+      "faculty": ["Dr. Karnena Rohit Kumar", "Mr. Pavan Sai"],
+      "shortName": "PSAT"
+    },
+    "D": {
+      "name": "Fundamentals of Electrical Engineering",
+      "code": "23ECE103",
+      "faculty": ["Dr. Phani Raj Harivanam"],
+      "shortName": "FEE"
+    },
+    "E": {
+      "name": "Physics of Semiconductor",
+      "code": "23ECE104",
+      "faculty": ["Dr. Kumaraswamy G. N."],
+      "shortName": "PS"
+    },
+    "F": {
+      "name": "Electrical Engineering Laboratory",
+      "code": "23ECE181",
+      "faculty": ["Dr. Phani Raj Harivanam", "Dr. Patthi Aruna", "Mr. Giriraja C. V."],
+      "shortName": "EE Lab"
+    },
+    "G": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": ["Ms. Sanjana K. Chandran"],
+      "shortName": "TC"
+    },
+    "H": {
+      "name": "Foundations of Indian Heritage",
+      "code": "22ADM101",
+      "faculty": ["Dr. Tanashree Redij"],
+      "shortName": "FIH"
+    },
+    "I": {
+      "name": "Mastery Over Mind",
+      "code": "22AVP103",
+      "faculty": ["Mr. Pavan Kumar S. N."],
+      "shortName": "MOM"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "K1", "id": "k1" },
+        { "label": "K2", "id": "k2" }
+      ]
+    }
+  },
+  "slots": {
+    "monAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "k1": "F_LAB",
+        "k2": "G_LAB"
+      }
+    },
+    "wedMidLab": {
+      "match": "batch",
+      "choices": {
+        "k1": "G_LAB",
+        "k2": "F_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["C", "D", "E", "B", "A", "monAfternoonLab", "monAfternoonLab"],
+    "Tuesday": ["C_LAB", "C_LAB", "C_LAB", "B", "D", "G", "FREE"],
+    "Wednesday": ["B", "A", "I", "wedMidLab", "wedMidLab", "FREE", "FREE"],
+    "Thursday": ["A", "FREE", "I", "E", "FREE", "FREE", "FREE"],
+    "Friday": ["E", "H", "B", "G", "D", "FREE", "FREE"]
+  }
+}
