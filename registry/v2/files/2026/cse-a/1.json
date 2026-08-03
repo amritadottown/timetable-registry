@@ -4,7 +4,7 @@
     "A": {
       "name": "Manufacturing Practice",
       "code": "23MEE115",
-      "faculty": ["Dr. Pradeep", "Dr. Shankara"],
+      "faculty": ["Dr. Pradeep S. Jakkareddy", "Dr. Shankara"],
       "shortName": "MP"
     },
     "B": {
@@ -28,7 +28,7 @@
     "E": {
       "name": "Basic Electrical and Electronics Engineering Practice",
       "code": "23EEE184",
-      "faculty": ["Dr. Sujit Kumar","Dr. Surekha P.", "Ms. V. Sailaja", "Dr. S. Syama"],
+      "faculty": ["Dr. Sujit Kumar", "Dr. Surekha Paneerselvam", "Ms. V. Sailaja", "Dr. S. Syama"],
       "shortName": "BEEEP"
     },
     "F": {
