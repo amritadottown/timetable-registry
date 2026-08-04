@@ -4,164 +4,123 @@
     "A": {
       "name": "Machine Learning",
       "code": "23CSE301",
-      "faculty": [
-        "Dr. Peeta Basa Pati",
-        "Dr. Vineet Nair"
-      ],
+      "faculty": ["Dr. Peeta Basa Pati", "Mr. Rajeshwar Reddy"],
       "shortName": "ML"
     },
     "B": {
       "name": "Computer Networks",
       "code": "23CSE302",
-      "faculty": [
-        "Dr. Lekshmi R.",
-        "Dr. Reena Panwar"
-      ],
+      "faculty": ["Dr. Lekshmi R.", "Dr. Reena Panwar"],
       "shortName": "CN"
     },
     "C": {
       "name": "Theory of Computation",
       "code": "23CSE303",
-      "faculty": [
-        "Ms. Kavitha C. R."
-      ],
-      "shortName": "ToC"
+      "faculty": ["Ms. Kavitha C.R."],
+      "shortName": "TOC"
     },
     "D": {
       "name": "Embedded Systems",
       "code": "23CSE304",
-      "faculty": [
-        "Dr. Meena Belwal",
-        "Dr. D. N. Kiran Pandiri"
-      ],
-      "shortName": "Embed Sys"
-    },
-    "PE1_NLP": {
-      "name": "Natural Language Processing",
-      "code": "23CSE471",
-      "faculty": [
-        "Dr. Nandu C. Nair"
-      ],
-      "shortName": "NLP"
-    },
-    "PE1_AIR": {
-      "name": "Artificial Intelligence and Robotics",
-      "code": "23CSE472",
-      "faculty": [
-        "Dr. Nidhin Prabhakar T. V."
-      ],
-      "shortName": "AI-Robotics"
-    },
-    "PE1_NNDL": {
-      "name": "Neural Networks & Deep Learning",
-      "code": "23CSE473",
-      "faculty": [
-        "Dr. Manju Venugopalan"
-      ],
-      "shortName": "NN-DL"
-    },
-    "PE2_BDA": {
-      "name": "Big Data Analytics",
-      "code": "23CSE352",
-      "faculty": [
-        "Ms. Sangita Khare"
-      ],
-      "shortName": "Big Data"
-    },
-    "PE2_FDS": {
-      "name": "Foundations of Data Science",
-      "code": "23CSE351",
-      "faculty": [
-        "Dr. Lekshmi R."
-      ],
-      "shortName": "Data Sci"
-    },
-    "PE2_DV": {
-      "name": "Data Visualization",
-      "code": "23CSE353",
-      "faculty": [
-        "Ms. Pooja Gowda"
-      ],
-      "shortName": "Data Viz"
-    },
-    "CIR": {
-      "name": "Life Skills for Engineers III",
-      "code": "23LSE301",
-      "faculty": [],
-      "shortName": "Life Skills"
+      "faculty": ["Dr. Meena Belwal", "Dr. D.N. Kiran Pandiri"],
+      "shortName": "ES"
     },
     "EVS": {
       "name": "Environmental Science",
       "code": "23ENV300",
-      "faculty": [],
-      "shortName": "Env Sci"
+      "faculty": ["Dr. Anilkumar"],
+      "shortName": "EVS"
     },
-    "F": {
-      "name": "Live-in Labs I",
+    "CIR": {
+      "name": "Life Skills for Engineers III",
+      "code": "23LSE301",
+      "faculty": ["Ms. Srinithi", "Ms. Jisha Nair", "Ms. Shivani Raichura"],
+      "shortName": "LSE"
+    },
+    "NLP": {
+      "name": "Natural Language Processing",
+      "code": "23CSE471",
+      "faculty": ["Dr. Nandu C. Nair"],
+      "shortName": "NLP"
+    },
+    "AIR": {
+      "name": "Artificial Intelligence and Robotics",
+      "code": "23CSE472",
+      "faculty": ["Dr. Nidhin Prabhakar T.V."],
+      "shortName": "AI&Robo"
+    },
+    "NNDL": {
+      "name": "Neural Networks & Deep Learning",
+      "code": "23CSE473",
+      "faculty": ["Dr. Manju Venugopal"],
+      "shortName": "NN&DL"
+    },
+    "BDA": {
+      "name": "Big Data Analytics",
+      "code": "23CSE352",
+      "faculty": ["Ms. Sangita Khare"],
+      "shortName": "BDA"
+    },
+    "FDS": {
+      "name": "Foundations of Data Science",
+      "code": "23CSE351",
+      "faculty": ["Dr. Lekshmi R."],
+      "shortName": "FDS"
+    },
+    "DV": {
+      "name": "Data Visualization",
+      "code": "23CSE353",
+      "faculty": ["Ms. Pooja Gowda"],
+      "shortName": "DataViz"
+    },
+    "LIL": {
+      "name": "Live-in-Labs I",
       "code": "23LIV390",
       "faculty": [],
-      "shortName": "Live-in Labs"
+      "shortName": "LIL"
     }
   },
   "config": {
     "pe1": {
       "label": "Professional Elective I",
       "values": [
-        {
-          "label": "Natural Language Processing",
-          "id": "PE1_NLP"
-        },
-        {
-          "label": "Artificial Intelligence and Robotics",
-          "id": "PE1_AIR"
-        },
-        {
-          "label": "Neural Networks & Deep Learning",
-          "id": "PE1_NNDL"
-        }
+        { "label": "Natural Language Processing", "id": "NLP" },
+        { "label": "Artificial Intelligence and Robotics", "id": "AIR" },
+        { "label": "Neural Networks & Deep Learning", "id": "NNDL" }
       ]
     },
     "pe2": {
       "label": "Professional Elective II",
       "values": [
-        {
-          "label": "Big Data Analytics",
-          "id": "PE2_BDA"
-        },
-        {
-          "label": "Foundations of Data Science",
-          "id": "PE2_FDS"
-        },
-        {
-          "label": "Data Visualization",
-          "id": "PE2_DV"
-        }
+        { "label": "Big Data Analytics", "id": "BDA" },
+        { "label": "Foundations of Data Science", "id": "FDS" },
+        { "label": "Data Visualization", "id": "DV" }
       ]
     }
   },
   "slots": {
-    "pe1Slot": {
+    "peI": {
       "match": "pe1",
       "choices": {
-        "PE1_NLP": "PE1_NLP",
-        "PE1_AIR": "PE1_AIR",
-        "PE1_NNDL": "PE1_NNDL"
+        "NLP": "NLP",
+        "AIR": "AIR",
+        "NNDL": "NNDL"
       }
     },
-    "pe2Slot": {
+    "peII": {
       "match": "pe2",
       "choices": {
-        "PE2_BDA": "PE2_BDA",
-        "PE2_FDS": "PE2_FDS",
-        "PE2_DV": "PE2_DV"
+        "BDA": "BDA",
+        "FDS": "FDS",
+        "DV": "DV"
       }
     }
   },
   "schedule": {
-    "Monday": ["A", "pe1Slot", "B", "pe2Slot", "D", "C", "FREE"],
+    "Monday": ["A", "peI", "FREE", "peII", "D", "C", "B"],
     "Tuesday": ["C", "B", "EVS", "A", "FREE", "D_LAB", "D_LAB"],
-    "Wednesday": ["B", "D", "pe2Slot", "pe1Slot", "C", "A_LAB", "A_LAB"],
-    "Thursday": ["pe1Slot", "CIR", "CIR", "CIR", "B", "FREE", "FREE"],
-    "Friday": ["pe2Slot", "C", "D", "B_LAB", "B_LAB", "A", "FREE"]
+    "Wednesday": ["B", "D", "peII", "peI", "C", "A_LAB", "A_LAB"],
+    "Thursday": ["peI", "CIR", "CIR", "CIR", "B", "CIR", "A"],
+    "Friday": ["peII", "C", "D", "FREE", "FREE", "B_LAB", "B_LAB"]
   }
 }
