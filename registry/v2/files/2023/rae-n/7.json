@@ -57,39 +57,38 @@
     }
   },
   "config": {
-    "elective_am": {
-      "label": "Professional Elective 4",
+    "elective": {
+      "label": "Professional Elective",
       "values": [
         { "label": "AI in Speech Processing", "id": "EL_AISP" },
-        { "label": "Design and Analysis of Algorithms", "id": "EL_DAA" }
-      ]
-    },
-    "elective_hpcse": {
-      "label": "Professional Elective 5",
-      "values": [
+        { "label": "Design and Analysis of Algorithms", "id": "EL_DAA" },
         { "label": "High Performance Computing for Scientists and Engineers", "id": "EL_HPC" },
         { "label": "Cyber Security", "id": "EL_CS" }
       ]
     }
   },
   "slots": {
-    "electiveAMSlot": {
-      "match": "elective_am",
-      "choices": { "EL_AISP": "EL_AISP", "EL_DAA": "EL_DAA" }
+    "sharedElectiveSlot": {
+      "match": "elective",
+      "choices": {
+        "EL_AISP": "EL_AISP",
+        "EL_DAA": "EL_DAA",
+        "EL_HPC": "EL_HPC"
+      }
     },
     "cyberTheorySlot": {
-      "match": "elective_hpcse",
+      "match": "elective",
       "choices": { "EL_CS": "EL_CS" }
     },
     "cyberLabSlot": {
-      "match": "elective_hpcse",
+      "match": "elective",
       "choices": { "EL_CS": "EL_CS_LAB" }
     }
   },
   "schedule": {
-    "Monday": ["A", "B", "electiveAMSlot", "CNCL_LAB", "CNCL_LAB", "cyberTheorySlot", "cyberTheorySlot"],
-    "Tuesday": ["A", "electiveAMSlot", "B", "cyberLabSlot", "cyberLabSlot", "SI", "SI"],
-    "Wednesday": ["B_LAB", "B_LAB", "B_LAB", "electiveAMSlot", "A", "PROJ", "PROJ"],
+    "Monday": ["A", "B", "sharedElectiveSlot", "CNCL_LAB", "CNCL_LAB", "cyberTheorySlot", "cyberTheorySlot"],
+    "Tuesday": ["A", "sharedElectiveSlot", "B", "cyberLabSlot", "cyberLabSlot", "SI", "SI"],
+    "Wednesday": ["B_LAB", "B_LAB", "B_LAB", "sharedElectiveSlot", "A", "PROJ", "PROJ"],
     "Thursday": ["FREE", "FREE", "FREE", "FREE", "FREE", "PROJ", "PROJ"],
     "Friday": ["PROJ", "PROJ", "PROJ", "PROJ", "PROJ", "PROJ", "PROJ"]
   }
