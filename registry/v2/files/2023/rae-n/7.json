@@ -76,8 +76,7 @@
     "elective1Slot": {
       "match": "elective1",
       "choices": {
-        "EL_AISP": "EL_AISP",
-        "EL_DAA": "EL_DAA"
+        "EL_AISP": "EL_AISP"
       }
     },
     "cyberTheorySlot": {
