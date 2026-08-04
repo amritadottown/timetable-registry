@@ -4,13 +4,13 @@
     "A": {
       "name": "Computer Integrated Manufacturing",
       "code": "23RAI401",
-      "faculty": ["Mr. Raghavendra Ravikiran K."],
+      "faculty": ["Mr. Raghavendra Ravi Kiran K."],
       "shortName": "CIM"
     },
     "B": {
       "name": "Reinforcement Learning",
       "code": "23RAI402",
-      "faculty": ["Dr. Amudha J.", "Dr. Prakash K Marimuthu"],
+      "faculty": ["Dr. Amudha J.", "Dr. Prakash Marimuthu"],
       "shortName": "RL"
     },
     "EL_AISP": {
@@ -22,25 +22,25 @@
     "EL_DAA": {
       "name": "Design and Analysis of Algorithms",
       "code": "23CSE211",
-      "faculty": ["Dr. Prakash K Marimuthu"],
+      "faculty": ["Dr. Prakash Marimuthu"],
       "shortName": "DAA"
     },
     "EL_HPC": {
       "name": "High Performance Computing for Scientists and Engineers",
       "code": "23AID445",
-      "faculty": ["Dr. Ravi kumar V"],
+      "faculty": ["Dr. Ravi Kumar V."],
       "shortName": "HPC"
     },
     "EL_CS": {
       "name": "Cyber Security",
       "code": "23RAI360",
-      "faculty": ["Dr. Kumaran", "Dr. Y P Deepthi"],
+      "faculty": ["Dr. Kumaran U.", "Dr. Y. P. Deepthi"],
       "shortName": "Cyber Security"
     },
     "SI": {
       "name": "Summer Internship",
       "code": "23RAI497",
-      "faculty": ["Dr. Shali S"],
+      "faculty": ["Dr. Shali S.", "Dr. Puja Sengupta"],
       "shortName": "Summer Internship"
     },
     "PROJ": {
@@ -52,7 +52,7 @@
     "CNCL": {
       "name": "CNC and System Simulation Laboratory",
       "code": "23RAI481",
-      "faculty": ["Mr. Raghavendra Ravikiran K", "Ms. Divya Sharma"],
+      "faculty": ["Mr. Raghavendra Ravi Kiran K.", "Ms. Divya Sharma S. G."],
       "shortName": "CNC Sim Lab"
     }
   },
@@ -77,16 +77,20 @@
       "match": "elective_am",
       "choices": { "EL_AISP": "EL_AISP", "EL_DAA": "EL_DAA" }
     },
-    "electiveHPCSlot": {
+    "cyberTheorySlot": {
       "match": "elective_hpcse",
-      "choices": { "EL_HPC": "EL_HPC", "EL_CS": "EL_CS" }
+      "choices": { "EL_CS": "EL_CS" }
+    },
+    "cyberLabSlot": {
+      "match": "elective_hpcse",
+      "choices": { "EL_CS": "EL_CS_LAB" }
     }
   },
   "schedule": {
-    "Monday": ["A", "B", "electiveAMSlot", "CNCL_LAB", "CNCL_LAB", "electiveHPCSlot", "EL_CS"],
-    "Tuesday": ["electiveAMSlot", "FREE", "B", "electiveHPCSlot", "A", "FREE", "SI"],
-    "Wednesday": ["B_LAB", "B_LAB", "B_LAB", "electiveAMSlot", "electiveHPCSlot", "FREE", "FREE"],
-    "Thursday": ["A", "electiveAMSlot", "FREE", "FREE", "FREE", "FREE", "FREE"],
-    "Friday": ["FREE", "FREE", "FREE", "FREE", "FREE", "FREE", "FREE"]
+    "Monday": ["A", "B", "electiveAMSlot", "CNCL_LAB", "CNCL_LAB", "cyberTheorySlot", "cyberTheorySlot"],
+    "Tuesday": ["A", "electiveAMSlot", "B", "cyberLabSlot", "cyberLabSlot", "SI", "SI"],
+    "Wednesday": ["B_LAB", "B_LAB", "B_LAB", "electiveAMSlot", "A", "PROJ", "PROJ"],
+    "Thursday": ["FREE", "FREE", "FREE", "FREE", "FREE", "PROJ", "PROJ"],
+    "Friday": ["PROJ", "PROJ", "PROJ", "PROJ", "PROJ", "PROJ", "PROJ"]
   }
 }
