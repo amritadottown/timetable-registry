@@ -1,0 +1,91 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Mathematics for Intelligent Systems 1",
+      "code": "23MAT106",
+      "faculty": ["Dr. Kesavulu Naidu V."],
+      "shortName": "MATH"
+    },
+    "B": {
+      "name": "Computational Mechanics 1",
+      "code": "23PHY104",
+      "faculty": ["Dr. Vineet Nair", "Dr. Nagesh K. Subbanna"],
+      "shortName": "CPMECH"
+    },
+    "C": {
+      "name": "Computational Thinking",
+      "code": "23AID101",
+      "faculty": ["Dr. Sreevidya B.", "Ms. Shalini Tiwari"],
+      "shortName": "CTHINK"
+    },
+    "D": {
+      "name": "Elements of Computing 1",
+      "code": "23AID102",
+      "faculty": ["Ms. Arya R.", "Dr. Ritesh Raj"],
+      "shortName": "ECS1"
+    },
+    "E": {
+      "name": "Introduction to Electrical Engineering",
+      "code": "23EEE103",
+      "faculty": ["Ms. Lekshmi S."],
+      "shortName": "EEE"
+    },
+    "F": {
+      "name": "Introduction to Biological Data",
+      "code": "23BIO112",
+      "faculty": ["Dr. Vasavi C. S."],
+      "shortName": "BIO"
+    },
+    "G": {
+      "name": "Foundations of Indian Heritage",
+      "code": "22ADM101",
+      "faculty": ["Dr. Saurabh Sharma"],
+      "shortName": "FIH"
+    },
+    "H": {
+      "name": "Mastery Over Mind",
+      "code": "22AVP103",
+      "faculty": ["Dr. Manju Khanna"],
+      "shortName": "MOM"
+    },
+    "I": {
+      "name": "Technical Communication",
+      "code": "23ENG101",
+      "faculty": ["Dr. Revathy Hemachandran"],
+      "shortName": "TC"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "G1", "id": "g1" },
+        { "label": "G2", "id": "g2" }
+      ]
+    }
+  },
+  "slots": {
+    "monMorningLab": {
+      "match": "batch",
+      "choices": {
+        "g1": "D_LAB",
+        "g2": "I_LAB"
+      }
+    },
+    "friMorningLab": {
+      "match": "batch",
+      "choices": {
+        "g1": "I_LAB",
+        "g2": "D_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["monMorningLab", "monMorningLab", "monMorningLab", "B", "F", "C_LAB", "C_LAB"],
+    "Tuesday": ["D", "A", "B", "F_LAB", "F_LAB", "I", "G"],
+    "Wednesday": ["A", "G", "H", "I", "E", "B_LAB", "B_LAB"],
+    "Thursday": ["F", "C", "E", "A_LAB", "A_LAB", "D", "H"],
+    "Friday": ["friMorningLab", "friMorningLab", "friMorningLab", "E_LAB", "E_LAB", "C", "A"]
+  }
+}

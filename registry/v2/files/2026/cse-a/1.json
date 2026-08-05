@@ -1,0 +1,97 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Manufacturing Practice",
+      "code": "23MEE115",
+      "faculty": ["Dr. Pradeep S. Jakkareddy", "Dr. Shankara"],
+      "shortName": "MP"
+    },
+    "B": {
+      "name": "Calculus",
+      "code": "23MAT107",
+      "faculty": ["Ms. Nimmy P."],
+      "shortName": "CALC"
+    },
+    "C": {
+      "name": "Computational Problem Solving",
+      "code": "23CSE101",
+      "faculty": ["Dr. Priyanka Vivek", "Ms. Kavitha C. R.", "Ms. Anusree"],
+      "shortName": "CPS"
+    },
+    "D": {
+      "name": "Introduction to Electrical and Electronics Engineering",
+      "code": "23EEE104",
+      "faculty": ["Dr. Sujit Kumar"],
+      "shortName": "IEEE"
+    },
+    "E": {
+      "name": "Basic Electrical and Electronics Engineering Practice",
+      "code": "23EEE184",
+      "faculty": ["Dr. Sujit Kumar", "Dr. Surekha Paneerselvam", "Ms. V. Sailaja", "Dr. S. Syama"],
+      "shortName": "BEEEP"
+    },
+    "F": {
+      "name": "Computer Hardware Essentials",
+      "code": "23CSE102",
+      "faculty": ["Dr. Lijin P."],
+      "shortName": "CHE"
+    },
+    "G": {
+      "name": "Foundations of Indian Heritage",
+      "code": "22ADM101",
+      "faculty": ["Dr. Saurabh Sharma"],
+      "shortName": "FIH"
+    },
+    "H": {
+      "name": "Mastery Over Mind",
+      "code": "22AVP103",
+      "faculty": ["Ms. Bhavya Suresh"],
+      "shortName": "MOM"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "A1", "id": "a1" },
+        { "label": "A2", "id": "a2" }
+      ]
+    }
+  },
+  "slots": {
+    "monLabOne": {
+      "match": "batch",
+      "choices": {
+        "a1": "A_LAB",
+        "a2": "E_LAB"
+      }
+    },
+    "monLabTwo": {
+      "match": "batch",
+      "choices": {
+        "a1": "F_LAB"
+      }
+    },
+    "tueLab": {
+      "match": "batch",
+      "choices": {
+        "a2": "F_LAB"
+      }
+    },
+    "thurLab": {
+      "match": "batch",
+      "choices": {
+        "a1": "E_LAB",
+        "a2": "A_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["B", "H", "D", "monLabOne", "monLabOne", "monLabTwo", "monLabTwo"],
+    "Tuesday": ["B_LAB", "B_LAB", "B_LAB", "C", "FREE", "tueLab", "tueLab"],
+    "Wednesday": ["C_LAB", "C_LAB", "C_LAB", "G", "D", "FREE", "FREE"],
+    "Thursday": ["F", "C", "G", "thurLab", "thurLab", "B", "FREE"],
+    "Friday": ["C", "H", "FREE", "B", "D", "FREE", "FREE"]
+  }
+}

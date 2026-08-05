@@ -1,0 +1,95 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Nature Inspired Engineering",
+      "code": "23ECE101",
+      "faculty": ["Dr. S. Giridhar Reddy"],
+      "shortName": "NIE"
+    },
+    "B": {
+      "name": "Engineering Mathematics I",
+      "code": "23MAT124",
+      "faculty": ["Ms. Prijimol V. B."],
+      "shortName": "EM-I"
+    },
+    "C": {
+      "name": "Problem Solving and Algorithmic Thinking",
+      "code": "23ECE102",
+      "faculty": ["Mr. Sagar B.", "Dr. Shivalila Hangaragi"],
+      "shortName": "PSAT"
+    },
+    "D": {
+      "name": "Fundamentals of Electrical Engineering",
+      "code": "23ECE103",
+      "faculty": ["Dr. Sarda Sharma"],
+      "shortName": "FEE"
+    },
+    "E": {
+      "name": "Physics of Semiconductor",
+      "code": "23ECE104",
+      "faculty": ["Mr. Manjunatha H."],
+      "shortName": "PS"
+    },
+    "F": {
+      "name": "Computer Programming",
+      "code": "23ECE105",
+      "faculty": ["Dr. Sushma B."],
+      "shortName": "CP"
+    },
+    "G": {
+      "name": "Electrical Engineering Laboratory",
+      "code": "23ECE181",
+      "faculty": ["Dr. Sarda Sharma", "Dr. Harshit Srivastava", "Dr. Karnena Rohit Kumar"],
+      "shortName": "EE Lab"
+    },
+    "H": {
+      "name": "Computer Programming Laboratory",
+      "code": "23ECE182",
+      "faculty": ["Dr. Sushma B.", "Dr. C. Paramasivam"],
+      "shortName": "CP Lab"
+    },
+    "I": {
+      "name": "Foundations of Indian Heritage",
+      "code": "22ADM101",
+      "faculty": ["Dr. Saurabh Sharma"],
+      "shortName": "FIH"
+    },
+    "J": {
+      "name": "Mastery Over Mind",
+      "code": "22AVP103",
+      "faculty": ["Dr. Shivakumar S"],
+      "shortName": "MOM"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "J1", "id": "j1" },
+        { "label": "J2", "id": "j2" }
+      ]
+    }
+  },
+  "slots": {
+    "thuAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "j2": "G_LAB"
+      }
+    },
+    "friAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "j1": "G_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["D", "E", "A", "H_LAB", "H_LAB", "B", "FREE"],
+    "Tuesday": ["F", "A", "I", "E", "D", "FREE", "FREE"],
+    "Wednesday": ["C_LAB", "C_LAB", "C_LAB", "B", "D", "F", "FREE"],
+    "Thursday": ["B", "J", "F", "E", "I", "thuAfternoonLab", "thuAfternoonLab"],
+    "Friday": ["A", "FREE", "B", "J", "C", "friAfternoonLab", "friAfternoonLab"]
+  }
+}

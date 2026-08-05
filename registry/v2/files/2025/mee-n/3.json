@@ -5,12 +5,12 @@
       "name": "Mechanics of Solids",
       "code": "23MEE201",
       "faculty": ["Dr. Smita Singh"],
-      "shortName": "MOS"
+      "shortName": "MoS"
     },
     "B": {
       "name": "Probability and Complex Variables",
       "code": "23MAT222",
-      "faculty": ["Dr. Mullai Venthan Selvam"],
+      "faculty": ["Dr. Mullai Venthan S"],
       "shortName": "PCV"
     },
     "C": {
@@ -23,7 +23,7 @@
       "name": "Manufacturing Process I",
       "code": "23MEE204",
       "faculty": ["Dr. Mrudula Prashanth"],
-      "shortName": "MP I"
+      "shortName": "MP1"
     },
     "E": {
       "name": "Design Thinking",
@@ -34,44 +34,38 @@
     "F": {
       "name": "Engineering Thermodynamics",
       "code": "23MEE202",
-      "faculty": ["Mr. Vinod M. Kotebavi"],
-      "shortName": "ET"
+      "faculty": ["Dr. Vinod Kotebavi"],
+      "shortName": "ETD"
     },
     "G": {
       "name": "Life Skills for Engineers I",
       "code": "23LSE201",
-      "faculty": ["Mr. Sivakumar K. M.", "Ms. Karishma Nair N.", "Ms. Nilakshee Kalita"],
-      "shortName": "CIR"
+      "faculty": ["Mr. Siva Kumar", "Ms. Karishma", "Ms. Neelakshi"],
+      "shortName": "LSE"
     },
-    "MTML": {
+    "H": {
       "name": "Material Testing and Metallurgy Laboratory",
       "code": "23MEE281",
-      "faculty": ["Dr. Ulhas K. Annigeri"],
-      "shortName": "MTM Lab"
+      "faculty": ["Ms. Bhavya S"],
+      "shortName": "MTML"
     },
     "I": {
       "name": "Strategic Lessons From Mahabharata",
       "code": "22ADM201",
-      "faculty": ["Ms. Bhavya Suresh"],
-      "shortName": "ADM"
+      "faculty": ["Dr. Ulhas K. Annigeri"],
+      "shortName": "SLM"
     },
     "J": {
       "name": "Metallurgy and Materials Science",
       "code": "23MEE203",
-      "faculty": ["Dr. Ulhas K. Annigeri"],
+      "faculty": ["Dr. Mohan Kumar T M"],
       "shortName": "MMS"
     },
     "K": {
       "name": "Environmental Science",
       "code": "23ENV300",
-      "faculty": ["Dr. T. M. Mohan Kumar"],
-      "shortName": "ENV"
-    },
-    "L": {
-      "name": "Indian Constitution",
-      "code": "23LAW300",
-      "faculty": ["Dr. Shankara"],
-      "shortName": "LAW"
+      "faculty": ["Dr. Mohan Kumar T M"],
+      "shortName": "EVS"
     }
   },
   "config": {
@@ -84,26 +78,26 @@
     }
   },
   "slots": {
-    "wednesdayMorningLab": {
+    "wedMorningLab": {
       "match": "batch",
       "choices": {
         "a1": "D_LAB",
-        "a2": "MTML_LAB"
+        "a2": "H_LAB"
       }
     },
-    "fridayMiddayLab": {
+    "friPreLunchLab": {
       "match": "batch",
       "choices": {
-        "a1": "MTML_LAB",
+        "a1": "H_LAB",
         "a2": "D_LAB"
       }
     }
   },
   "schedule": {
-    "Monday": ["B", "J", "D", "MTML", "G", "G", "G"],
+    "Monday": ["B", "J", "D", "E", "G", "G", "G"],
     "Tuesday": ["J", "A", "A", "C_LAB", "C_LAB", "B", "F"],
-    "Wednesday": ["wednesdayMorningLab", "wednesdayMorningLab", "wednesdayMorningLab", "A", "J", "E_LAB", "E_LAB"],
+    "Wednesday": ["wedMorningLab", "wedMorningLab", "wedMorningLab", "A", "J", "FREE", "FREE"],
     "Thursday": ["I", "F", "F", "A", "D", "B", "K"],
-    "Friday": ["B", "F", "C", "fridayMiddayLab", "fridayMiddayLab", "FREE", "FREE"]
+    "Friday": ["B", "F", "C", "friPreLunchLab", "friPreLunchLab", "E_LAB", "E_LAB"]
   }
 }
