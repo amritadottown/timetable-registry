@@ -84,8 +84,8 @@
   },
   "schedule": {
     "Monday": ["FREE", "D", "FREE", "B", "FREE", "A_LAB", "A_LAB"],
-    "Tuesday": ["B", "D", "pe4Slot", "FREE", "FREE", "FREE", "FREE"],
-    "Wednesday": ["FREE", "FREE", "FREE", "B_LAB", "B_LAB", "FREE", "FREE"],
+    "Tuesday": ["B", "FREE", "pe4Slot", "D", "FREE", "FREE", "FREE"],
+    "Wednesday": ["FREE", "FREE", "FREE", "FREE", "FREE", "B_LAB", "B_LAB"],
     "Thursday": ["D", "pe4Slot", "A", "FREE", "FREE", "FREE", "FREE"],
     "Friday": ["pe4Lab", "pe4Lab", "pe4Lab", "A", "FREE", "FREE", "FREE"]
   }
