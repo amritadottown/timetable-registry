@@ -10,7 +10,11 @@
     "B": {
       "name": "Modelling Simulation and Analysis",
       "code": "23AID201",
-      "faculty": ["Dr. D. N. Kiran Pandiri", "Dr. Sirisha Tadepalli"],
+      "faculty": [
+        "Dr. D. N. Kiran Pandiri",
+        "Dr. Sirisha Tadepalli",
+        "Ms. Malavika V. S."
+      ],
       "shortName": "MSA"
     },
     "C": {
@@ -40,19 +44,23 @@
     "G": {
       "name": "Introduction to Computer Networks",
       "code": "23AID206",
-      "faculty": ["Dr. Rajesh M.", "Mr. Vishwas H. N."],
+      "faculty": ["Dr. Rajesh M.", "Mr. Vishwas H. N.", "Mr. Sravankumar"],
       "shortName": "ICN"
     },
     "H": {
       "name": "Strategic Lessons from Mahabharata",
       "code": "22ADM201",
-      "faculty": [],
+      "faculty": ["Ms. Bhavya Suresh"],
       "shortName": "ADM"
     },
     "CIR": {
       "name": "Life Skills for Engineers I",
       "code": "23LSE201",
-      "faculty": [],
+      "faculty": [
+        "Ms. Karishma Nair N.",
+        "Mr. Sivakumar K. M.",
+        "Ms. Nilakshee Kalita"
+      ],
       "shortName": "LSE"
     }
   },
@@ -62,7 +70,7 @@
     "Monday": ["A_LAB", "A_LAB", "A_LAB", "C_LAB", "C_LAB", "B", "FREE"],
     "Tuesday": ["H", "A", "F", "D_LAB", "D_LAB", "G_LAB", "G_LAB"],
     "Wednesday": ["G", "C", "D", "B_LAB", "B_LAB", "E", "A"],
-    "Thursday": ["B", "G", "E", "C", "A", "F_LAB", "F_LAB"],
-    "Friday": ["F", "CIR", "CIR", "CIR", "D", "E_LAB", "E_LAB"]
+    "Thursday": ["B", "G", "E", "C", "D", "F_LAB", "F_LAB"],
+    "Friday": ["F", "CIR", "CIR", "CIR", "A", "E_LAB", "E_LAB"]
   }
 }
