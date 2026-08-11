@@ -91,8 +91,8 @@
   "schedule": {
     "Monday": ["A", "B", "elective1Slot", "CNCL_LAB", "CNCL_LAB", "cyberTheorySlot", "cyberTheorySlot"],
     "Tuesday": ["A", "elective1Slot", "B", "cyberLabSlot", "cyberLabSlot", "SI", "SI"],
-    "Wednesday": ["B_LAB", "B_LAB", "B_LAB", "elective1Slot", "A", "PROJ", "PROJ"],
-    "Thursday": ["FREE", "FREE", "FREE", "FREE", "FREE", "PROJ", "PROJ"],
-    "Friday": ["PROJ", "PROJ", "PROJ", "PROJ", "PROJ", "PROJ", "PROJ"]
+    "Wednesday": ["B_LAB", "B_LAB", "B_LAB", "elective1Slot", "A", "FREE", "FREE"],
+    "Thursday": ["FREE", "FREE", "FREE", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["FREE", "FREE", "FREE", "FREE", "FREE", "FREE", "FREE"]
   }
 }
