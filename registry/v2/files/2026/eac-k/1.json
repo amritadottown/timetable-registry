@@ -16,7 +16,12 @@
     "C": {
       "name": "Problem Solving and Algorithmic Thinking",
       "code": "23ECE102",
-      "faculty": ["Dr. Karnena Rohit Kumar", "Mr. Pavan Sai"],
+      "faculty": [
+        "Dr. Priya Gupta",
+        "Mr. Pavan Sai",
+        "Mr. Aniket Kumbhar",
+        "Mr. Rayee Jaswanth"
+      ],
       "shortName": "PSAT"
     },
     "D": {
@@ -34,7 +39,13 @@
     "F": {
       "name": "Electrical Engineering Laboratory",
       "code": "23ECE181",
-      "faculty": ["Dr. Phani Raj Harivanam", "Dr. Patthi Aruna", "Mr. Giriraja C. V."],
+      "faculty": [
+        "Dr. Phani Raj Harivanam",
+        "Dr. Patthi Aruna",
+        "Dr. Priya Gupta",
+        "Mr. Giriraja C. V.",
+        "Mr. Aniket Kumbhar"
+      ],
       "shortName": "EE Lab"
     },
     "G": {
@@ -85,7 +96,7 @@
     "Monday": ["C", "D", "E", "B", "A", "monAfternoonLab", "monAfternoonLab"],
     "Tuesday": ["C_LAB", "C_LAB", "C_LAB", "B", "D", "G", "FREE"],
     "Wednesday": ["B", "A", "I", "wedMidLab", "wedMidLab", "FREE", "FREE"],
-    "Thursday": ["A", "FREE", "I", "E", "H", "FREE", "FREE"],
+    "Thursday": ["FREE", "A", "I", "E", "H", "FREE", "FREE"],
     "Friday": ["E", "H", "B", "G", "D", "FREE", "FREE"]
   }
 }
