@@ -46,7 +46,7 @@
     "H": {
       "name": "Strategic Lessons from Mahabharata",
       "code": "22ADM201",
-      "faculty": [],
+      "faculty": ["Dr. Saurabh Sharma"],
       "shortName": "SLM"
     }
   },
@@ -71,9 +71,9 @@
   },
   "schedule": {
     "Monday": ["A_LAB", "A_LAB", "A_LAB", "C_LAB", "C_LAB", "H", "D"],
-    "Tuesday": ["C", "E", "A", "tuesdayLab", "tuesdayLab", "B", "FREE"],
+    "Tuesday": ["C", "E", "A", "tuesdayLab", "tuesdayLab", "FREE", "B"],
     "Wednesday": ["C", "E", "E", "B", "A", "D_LAB", "D_LAB"],
-    "Thursday": ["C", "CIR", "CIR", "CIR", "D", "E", "FREE"],
+    "Thursday": ["C", "CIR", "CIR", "CIR", "FREE", "E", "D"],
     "Friday": ["D", "A", "B", "fridayLab", "fridayLab", "E_LAB", "E_LAB"]
   }
 }
