@@ -4,7 +4,7 @@
     "A": {
       "name": "Manufacturing Practice",
       "code": "23MEE115",
-      "faculty": ["Ms. Divya Sharma S. G.", "Dr. Shankara"],
+      "faculty": ["Dr. Vinod Kotebavi", "Dr. Shankara"],
       "shortName": "MP"
     },
     "B": {
@@ -28,7 +28,7 @@
     "E": {
       "name": "Basic Electrical and Electronics Engineering Practice",
       "code": "23EEE184",
-      "faculty": ["Dr. S. Syama", "Dr. Sujit Kumar", "Ms. Archana Mohan"],
+      "faculty": ["Dr. S. Syama", "New Faculty", "Dr. Sujit Kumar", "Ms. U. Kruthika"],
       "shortName": "BEEEP"
     },
     "F": {
@@ -70,6 +70,7 @@
     "wedMorningLab": {
       "match": "batch",
       "choices": {
+        "b1": "E_LAB",
         "b2": "A_LAB"
       }
     },
@@ -84,19 +85,13 @@
       "choices": {
         "b2": "F_LAB"
       }
-    },
-    "thuAfternoonLab": {
-      "match": "batch",
-      "choices": {
-        "b1": "E_LAB"
-      }
     }
   },
   "schedule": {
     "Monday": ["C_LAB", "C_LAB", "C_LAB", "FREE", "FREE", "D", "B"],
     "Tuesday": ["F", "D", "C", "tueMidLab", "tueMidLab", "B", "FREE"],
     "Wednesday": ["wedMorningLab", "wedMorningLab", "wedMorningLab", "C", "FREE", "wedAfternoonLab", "wedAfternoonLab"],
-    "Thursday": ["G", "H", "B", "thuMidLab", "thuMidLab", "thuAfternoonLab", "thuAfternoonLab"],
+    "Thursday": ["G", "H", "B", "thuMidLab", "thuMidLab", "FREE", "FREE"],
     "Friday": ["D", "C", "H", "B_LAB", "B_LAB", "FREE", "G"]
   }
 }
