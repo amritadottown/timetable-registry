@@ -1,0 +1,96 @@
+{
+  "$schema": "https://timetable-registry.amrita.town/v2/schema.json",
+  "subjects": {
+    "A": {
+      "name": "Calculus, Matrix Algebra and Ordinary Differential Equations",
+      "code": "23MAT122",
+      "faculty": ["Dr. J. U. Viharika"],
+      "shortName": "MATH"
+    },
+    "B": {
+      "name": "Problem Solving and Algorithmic Thinking",
+      "code": "23ELC101",
+      "faculty": ["Ms. U. Kruthika"],
+      "shortName": "PSAT"
+    },
+    "C": {
+      "name": "Engineering Graphics and 3D Modelling",
+      "code": "23MEE102",
+      "faculty": ["Dr. Smita Singh", "Dr. Vinod Kotebavi"],
+      "shortName": "EG3D"
+    },
+    "D": {
+      "name": "Technical Communication",
+      "code": "24ENG101",
+      "faculty": ["Dr. Sayant Vijay"],
+      "shortName": "TC"
+    },
+    "E": {
+      "name": "Engineering Chemistry-B",
+      "code": "23CHY108",
+      "faculty": ["Dr. B. L. Bhaskar"],
+      "shortName": "Chem-B"
+    },
+    "F": {
+      "name": "Engineering Chemistry Laboratory-B",
+      "code": "23CHY188",
+      "faculty": ["Dr. B. L. Bhaskar", "Dr. Mahankumar"],
+      "shortName": "Chem Lab-B"
+    },
+    "G": {
+      "name": "Manufacturing Practice-B",
+      "code": "23MEE182",
+      "faculty": ["Dr. Vinod Kotebavi"],
+      "shortName": "MP-B"
+    },
+    "H": {
+      "name": "Foundations of Indian Heritage",
+      "code": "22ADM101",
+      "faculty": ["Dr. Suresh Sharma"],
+      "shortName": "FIH"
+    },
+    "I": {
+      "name": "Mastery Over Mind",
+      "code": "22AVP103",
+      "faculty": ["Dr. S. Giridhar Reddy"],
+      "shortName": "MOM"
+    }
+  },
+  "config": {
+    "batch": {
+      "label": "Batch",
+      "values": [
+        { "label": "M1", "id": "m1" },
+        { "label": "M2", "id": "m2" }
+      ]
+    }
+  },
+  "slots": {
+    "monAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "m1": "G_LAB"
+      }
+    },
+    "friMidLab": {
+      "match": "batch",
+      "choices": {
+        "m1": "F_LAB",
+        "m2": "G_LAB"
+      }
+    },
+    "friAfternoonLab": {
+      "match": "batch",
+      "choices": {
+        "m2": "F_LAB"
+      }
+    }
+  },
+  "schedule": {
+    "Monday": ["C", "C", "D", "FREE", "A", "monAfternoonLab", "monAfternoonLab"],
+    "Tuesday": ["H", "A", "FREE", "E", "I", "B_LAB", "B_LAB"],
+    "Wednesday": ["C_LAB", "C_LAB", "C_LAB", "A", "D", "B", "FREE"],
+    "Thursday": ["D_LAB", "D_LAB", "D_LAB", "FREE", "E", "A", "FREE"],
+    "Friday": ["H", "E", "I", "friMidLab", "friMidLab", "friAfternoonLab", "friAfternoonLab"]
+  }
+}
