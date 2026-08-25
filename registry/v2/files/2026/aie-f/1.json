@@ -16,13 +16,13 @@
     "C": {
       "name": "Problem Solving & C Programming",
       "code": "22AIE101",
-      "faculty": ["Dr. Ullas S.", "Dr. Nandu C. Nair"],
+      "faculty": ["Mr. Ullas S.", "Dr. Nandu C. Nair"],
       "shortName": "C Prog"
     },
     "D": {
       "name": "Elements of Computing Systems 1",
       "code": "22AIE102",
-      "faculty": ["Dr. Sirisha Tadepalli", "Dr. Lijin P.", "Ms. Saranya Devi B."],
+      "faculty": ["Dr. Sirisha Tadepalli", "Mr. Lijin P.", "Ms. Saranya Devi B."],
       "shortName": "ECS1"
     },
     "E": {

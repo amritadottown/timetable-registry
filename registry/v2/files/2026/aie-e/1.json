@@ -16,13 +16,13 @@
     "C": {
       "name": "Problem Solving & C Programming",
       "code": "22AIE101",
-      "faculty": ["Dr. Vineetha K. V.", "Ms. Shobhna Devi", "Ms. Alekya"],
+      "faculty": ["Dr. Vineetha K. V.", "Ms. Divya K.V.", "Mr. Shivashankar"],
       "shortName": "C Prog"
     },
     "D": {
       "name": "Elements of Computing Systems 1",
       "code": "22AIE102",
-      "faculty": ["Dr. Lijin P.", "Mr. Rajeshwar", "Mr. Vinayak"],
+      "faculty": ["Mr. Lijin P.", "Mr. Rajeshwar", "Mr. Vinayak"],
       "shortName": "ECS1"
     },
     "E": {
@@ -46,7 +46,7 @@
     "H": {
       "name": "Mastery Over Mind",
       "code": "22AVP103",
-      "faculty": ["Dr. S. Giridhar Reddy"],
+      "faculty": ["Dr. Vineetha K. V."],
       "shortName": "MOM"
     }
   },
@@ -75,9 +75,9 @@
   },
   "schedule": {
     "Monday": ["D", "B", "C", "H", "E", "A_LAB", "A_LAB"],
-    "Tuesday": ["D_LAB", "D_LAB", "D_LAB", "C_LAB", "C_LAB", "tueEnglishLab", "tueEnglishLab"],
+    "Tuesday": ["D_LAB", "D_LAB", "D_LAB", "C", "E", "tueEnglishLab", "tueEnglishLab"],
     "Wednesday": ["A", "G", "E", "D", "C", "B_LAB", "B_LAB"],
-    "Thursday": ["B", "E", "A", "H", "G", "C", "F"],
+    "Thursday": ["B", "H", "A", "C_LAB", "C_LAB", "G", "F"],
     "Friday": ["E_LAB", "E_LAB", "E_LAB", "F", "A", "friEnglishLab", "friEnglishLab"]
   }
 }

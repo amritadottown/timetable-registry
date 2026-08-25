@@ -16,7 +16,7 @@
     "C": {
       "name": "Problem Solving & C Programming",
       "code": "22AIE101",
-      "faculty": ["Dr. Vineetha K. V.", "Ms. Kavitha C. R.", "Ms. Shobhna Devi"],
+      "faculty": ["Ms. Nayana", "Ms. Kavitha C. R.", "Ms. Shobhna Devi"],
       "shortName": "C Prog"
     },
     "D": {
@@ -46,7 +46,7 @@
     "H": {
       "name": "Mastery Over Mind",
       "code": "22AVP103",
-      "faculty": ["Dr. Vineetha K. V."],
+      "faculty": [],
       "shortName": "MOM"
     }
   },
@@ -75,9 +75,9 @@
   },
   "schedule": {
     "Monday": ["E_LAB", "E_LAB", "E_LAB", "C_LAB", "C_LAB", "A", "G"],
-    "Tuesday": ["tueEnglishLab", "tueEnglishLab", "tueEnglishLab", "E", "B", "B_LAB", "B_LAB"],
+    "Tuesday": ["tueEnglishLab", "tueEnglishLab", "tueEnglishLab", "E", "C", "B_LAB", "B_LAB"],
     "Wednesday": ["D", "B", "C", "A_LAB", "A_LAB", "H", "F"],
-    "Thursday": ["F", "C", "D", "thuEnglishLab", "thuEnglishLab", "E", "A"],
+    "Thursday": ["F", "E", "D", "thuEnglishLab", "thuEnglishLab", "B", "A"],
     "Friday": ["A", "C", "G", "D_LAB", "D_LAB", "E", "H"]
   }
 }
