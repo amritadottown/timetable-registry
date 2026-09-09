@@ -5,7 +5,7 @@
       "name": "Electromagnetic Theory and Waves",
       "code": "23ECE204",
       "faculty": [
-        "Dr. Karnena Rohit Kumar"
+        "Dr. Parul Mathur"
       ],
       "shortName": "EM Theory"
     },
@@ -37,7 +37,7 @@
       "name": "Foundations of Data Science",
       "code": "23ECE205",
       "faculty": [
-        "Dr. Vivek Venugopal"
+        "Dr. Lalitha S."
       ],
       "shortName": "Data Sci"
     },
@@ -64,7 +64,6 @@
       "code": "23ECE282",
       "faculty": [
         "Mr. Vignesh V.",
-        "Dr. Harshit Srivastava",
         "Dr. Bhavana V."
       ],
       "shortName": "Analog Lab"
@@ -74,7 +73,8 @@
       "code": "23ECE281",
       "faculty": [
         "Dr. Priti Mandal",
-        "Ms. Anjana Menon"
+        "Dr. Patthi Aruna",
+        "Mr. Kapileshwar Reddy"
       ],
       "shortName": "Digital Lab"
     },
@@ -82,8 +82,9 @@
       "name": "Digital Signal Processing Laboratory",
       "code": "23ECE283",
       "faculty": [
-        "Dr. Sunitha R.",
-        "Mr. Mara Harsha Vardhan"
+        "Dr. Lalitha S.",
+        "Dr. Vivek Venugopal",
+        "Ms. Anjana Menon"
       ],
       "shortName": "DSP Lab"
     }
@@ -130,7 +131,7 @@
     "Monday": ["E", "B", "A", "mondayInstr", "C", "DSL_LAB", "DSL_LAB"],
     "Tuesday": ["C", "E", "B", "A", "G", "FREE", "FREE"],
     "Wednesday": ["D", "F", "F", "F", "E", "FREE", "FREE"],
-    "Thursday": ["A", "E", "B", "D", "C", "thursdayLab", "thursdayLab"],
-    "Friday": ["fridayLab", "fridayLab", "fridayLab", "A", "D", "FREE", "FREE"]
+    "Thursday": ["B", "E", "A", "D", "C", "thursdayLab", "thursdayLab"],
+    "Friday": ["fridayLab", "fridayLab", "fridayLab", "FREE", "D", "FREE", "FREE"]
   }
 }
