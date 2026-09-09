@@ -64,8 +64,8 @@
       "code": "23ECE282",
       "faculty": [
         "Mr. Swaminadhan Rajula",
-        "Mr. Sagar B.",
-        "Dr. Chinthala Ramesh"
+        "Mr. Kapileshwar Reddy",
+        "Dr. Bhavana V."
       ],
       "shortName": "Analog Lab"
     },
@@ -73,8 +73,9 @@
       "name": "Digital Electronics Laboratory",
       "code": "23ECE281",
       "faculty": [
-        "Dr. T. K. Ramesh",
-        "Ms. Belkies V. M."
+        "Ms. Belkies V. M.",
+        "Dr. Patthi Aruna",
+        "Ms. Sandhya Rani Behera"
       ],
       "shortName": "Digital Lab"
     },
@@ -83,7 +84,8 @@
       "code": "23ECE283",
       "faculty": [
         "Dr. Lalitha S.",
-        "Dr. Shivalila Hangaragi"
+        "Dr. Susmitha Vekkot",
+        "Dr. Karnena Rohit Kumar"
       ],
       "shortName": "DSP Lab"
     }
@@ -128,7 +130,7 @@
   },
   "schedule": {
     "Monday": ["mondayLab", "mondayLab", "mondayLab", "mondayInstr", "F", "F", "F"],
-    "Tuesday": ["B", "D", "E", "C", "A", "FREE", "FREE"],
+    "Tuesday": ["D", "B", "E", "C", "A", "FREE", "FREE"],
     "Wednesday": ["wednesdayLab", "wednesdayLab", "wednesdayLab", "E", "A", "B", "FREE"],
     "Thursday": ["E", "B", "D", "A", "C", "G", "FREE"],
     "Friday": ["A", "D", "C", "DSL_LAB", "DSL_LAB", "E", "FREE"]
