@@ -21,13 +21,13 @@
     },
     "D": {
       "name": "Technical Communication",
-      "code": "24ENG101",
+      "code": "23ENG101",
       "faculty": ["Dr. Sayant Vijay"],
       "shortName": "TC"
     },
     "E": {
       "name": "Engineering Chemistry-B",
-      "code": "23CHY108",
+      "code": "23CHY109",
       "faculty": ["Dr. B. L. Bhaskar"],
       "shortName": "Chem-B"
     },
@@ -69,7 +69,8 @@
     "monAfternoonLab": {
       "match": "batch",
       "choices": {
-        "m1": "G_LAB"
+        "m1": "G_LAB",
+        "m2": "F_LAB"
       }
     },
     "friMidLab": {
@@ -78,19 +79,13 @@
         "m1": "F_LAB",
         "m2": "G_LAB"
       }
-    },
-    "friAfternoonLab": {
-      "match": "batch",
-      "choices": {
-        "m2": "F_LAB"
-      }
     }
   },
   "schedule": {
-    "Monday": ["C", "C", "D", "FREE", "A", "monAfternoonLab", "monAfternoonLab"],
-    "Tuesday": ["H", "A", "FREE", "E", "I", "B_LAB", "B_LAB"],
+    "Monday": ["C", "C", "A", "D_LAB", "D_LAB", "monAfternoonLab", "monAfternoonLab"],
+    "Tuesday": ["H", "A", "D", "E", "I", "B_LAB", "B_LAB"],
     "Wednesday": ["C_LAB", "C_LAB", "C_LAB", "A", "D", "B", "FREE"],
     "Thursday": ["D_LAB", "D_LAB", "D_LAB", "FREE", "E", "A", "FREE"],
-    "Friday": ["H", "E", "I", "friMidLab", "friMidLab", "friAfternoonLab", "friAfternoonLab"]
+    "Friday": ["H", "E", "I", "friMidLab", "friMidLab", "FREE", "FREE"]
   }
 }
