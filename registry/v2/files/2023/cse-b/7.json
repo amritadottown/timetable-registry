@@ -4,37 +4,37 @@
     "PE4_EC": {
       "name": "Edge Computing",
       "code": "23CSE362",
-      "faculty": ["Ms. Sreebha Bhaskaran"],
+      "faculty": ["Ms. Sreebha Bhaskaran", "Ms. Sowmiya R"],
       "shortName": "Edge Comp"
     },
     "PE4_SN": {
       "name": "Secure Networks",
       "code": "23CSE336",
-      "faculty": ["Dr. Kumaran U."],
+      "faculty": ["Dr. Kumaran U.", "Ms. Saritha G"],
       "shortName": "Secure Net"
     },
     "PE4_MMD": {
       "name": "Mining of Massive Datasets",
       "code": "23CSE355",
-      "faculty": ["Dr. Niharika Panda"],
+      "faculty": ["Dr. Niharika Panda", "Ms. Anjana Menon"],
       "shortName": "Mining Data"
     },
     "PE5_BC": {
       "name": "Blockchain and its Applications",
       "code": "23CSE335",
-      "faculty": ["Ms. Shalini Tiwari"],
+      "faculty": ["Ms. Shalini Tiwari", "Ms. Sowmiya R"],
       "shortName": "Blockchain"
     },
     "PE5_CFM": {
       "name": "Cyber Forensics and Malware",
       "code": "23CSE334",
-      "faculty": ["Ms. Lavanya Penki"],
+      "faculty": ["Ms. Lavanya Penki", "Mr. Venkat"],
       "shortName": "Cyber Forensics"
     },
     "PE5_IS": {
       "name": "Information Security",
       "code": "23CSE332",
-      "faculty": ["Ms. Kavitha C. R."],
+      "faculty": ["Ms. Kavitha C. R.", "Mr. Aniket Kumbhar"],
       "shortName": "Info Security"
     },
     "PE6_IOT": {
@@ -115,9 +115,9 @@
   },
   "schedule": {
     "Monday": ["pe4Slot", "B", "pe6Slot", "FREE", "FREE", "FREE", "FREE"],
-    "Tuesday": ["pe6Slot", "pe4Slot", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
-    "Wednesday": ["A", "FREE", "pe4Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
+    "Tuesday": ["pe6Slot", "pe4Slot", "pe5Slot", "FREE", "FREE", "pe6Slot", "pe6Slot"],
+    "Wednesday": ["A", "pe4Slot", "pe4Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
     "Thursday": ["B", "A", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
-    "Friday": ["A", "FREE", "pe6Slot", "FREE", "FREE", "pe5Slot", "FREE"]
+    "Friday": ["A", "FREE", "FREE", "FREE", "FREE", "pe5Slot", "pe5Slot"]
   }
 }
