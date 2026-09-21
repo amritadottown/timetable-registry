@@ -4,37 +4,37 @@
     "PE4_EC": {
       "name": "Edge Computing",
       "code": "23CSE362",
-      "faculty": ["Ms. Sreebha Bhaskaran"],
+      "faculty": ["Ms. Sreebha Bhaskaran", "Ms. Sowmiya R"],
       "shortName": "Edge Comp"
     },
     "PE4_SN": {
       "name": "Secure Networks",
       "code": "23CSE336",
-      "faculty": ["Dr. Kumaran U."],
+      "faculty": ["Dr. Kumaran U.", "Ms. Saritha G"],
       "shortName": "Secure Net"
     },
     "PE4_MMD": {
       "name": "Mining of Massive Datasets",
       "code": "23CSE355",
-      "faculty": ["Dr. Niharika Panda"],
+      "faculty": ["Dr. Niharika Panda", "Ms. Anjana Menon"],
       "shortName": "Mining Data"
     },
     "PE5_BC": {
       "name": "Blockchain and its Applications",
       "code": "23CSE335",
-      "faculty": ["Ms. Shalini Tiwari"],
+      "faculty": ["Ms. Shalini Tiwari", "Ms. Sowmiya R"],
       "shortName": "Blockchain"
     },
     "PE5_CFM": {
       "name": "Cyber Forensics and Malware",
       "code": "23CSE334",
-      "faculty": ["Ms. Lavanya Penki"],
+      "faculty": ["Ms. Lavanya Penki", "Mr. Venkat"],
       "shortName": "Cyber Forensics"
     },
     "PE5_IS": {
       "name": "Information Security",
       "code": "23CSE332",
-      "faculty": ["Ms. Kavitha C. R."],
+      "faculty": ["Ms. Kavitha C. R.", "Mr. Aniket Kumbhar"],
       "shortName": "Info Security"
     },
     "PE6_IOT": {
@@ -116,17 +116,13 @@
     "pe6Wed": {
       "match": "pe6",
       "choices": { "CV_A2": "PE6_CV" }
-    },
-    "pe6Fri": {
-      "match": "pe6",
-      "choices": { "IOT": "PE6_IOT", "CV_A1": "PE6_CV" }
     }
   },
   "schedule": {
     "Monday": ["pe4Slot", "B", "pe6MonTue", "A", "FREE", "FREE", "FREE"],
-    "Tuesday": ["pe6MonTue", "pe4Slot", "pe5Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
-    "Wednesday": ["B", "FREE", "pe4Slot", "pe6Wed", "FREE", "FREE", "FREE"],
+    "Tuesday": ["pe6MonTue", "pe4Slot", "pe5Slot", "B_LAB", "B_LAB", "pe6MonTue", "pe6MonTue"],
+    "Wednesday": ["B", "pe4Slot", "pe4Slot", "pe6Wed", "pe6Wed", "FREE", "FREE"],
     "Thursday": ["A", "pe6Wed", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
-    "Friday": ["FREE", "A", "pe6Fri", "FREE", "pe6Wed", "pe5Slot", "FREE"]
+    "Friday": ["FREE", "A", "FREE", "FREE", "pe6Wed", "pe5Slot", "pe5Slot"]
   }
 }
