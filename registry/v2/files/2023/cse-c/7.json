@@ -5,7 +5,8 @@
       "name": "Edge Computing",
       "code": "23CSE362",
       "faculty": [
-        "Ms. Sreebha Bhaskaran"
+        "Ms. Sreebha Bhaskaran",
+        "Ms. Sowmiya R"
       ],
       "shortName": "Edge Comp"
     },
@@ -13,7 +14,8 @@
       "name": "Secure Networks",
       "code": "23CSE336",
       "faculty": [
-        "Dr. Kumaran U."
+        "Dr. Kumaran U.",
+        "Ms. Saritha G"
       ],
       "shortName": "Secure Net"
     },
@@ -21,7 +23,8 @@
       "name": "Mining of Massive Datasets",
       "code": "23CSE355",
       "faculty": [
-        "Dr. Niharika Panda"
+        "Dr. Niharika Panda",
+        "Ms. Anjana Menon"
       ],
       "shortName": "Mining Data"
     },
@@ -29,7 +32,8 @@
       "name": "Blockchain and its Applications",
       "code": "23CSE335",
       "faculty": [
-        "Ms. Shalini Tiwari"
+        "Ms. Shalini Tiwari",
+        "Ms. Sowmiya R"
       ],
       "shortName": "Blockchain"
     },
@@ -37,7 +41,8 @@
       "name": "Cyber Forensics and Malware",
       "code": "23CSE334",
       "faculty": [
-        "Ms. Lavanya Penki"
+        "Ms. Lavanya Penki",
+        "Mr. Venkat"
       ],
       "shortName": "Cyber Forensics"
     },
@@ -45,7 +50,8 @@
       "name": "Information Security",
       "code": "23CSE332",
       "faculty": [
-        "Ms. Kavitha C. R."
+        "Ms. Kavitha C. R.",
+        "Mr. Aniket Kumbhar"
       ],
       "shortName": "Info Security"
     },
@@ -69,7 +75,7 @@
       "name": "Software Project Management",
       "code": "23CSE321",
       "faculty": [
-        "Ms. Arya Suresh"
+        "Ms. Neera Chaudhary"
       ],
       "shortName": "SPM"
     },
@@ -93,7 +99,7 @@
     "D": {
       "name": "Indian Constitution",
       "code": "23LAW300",
-      "faculty": [],
+      "faculty": ["Ms. Arya R."],
       "shortName": "Indian Const"
     }
   },
@@ -131,16 +137,20 @@
       "match": "pe5",
       "choices": { "PE5_BC": "PE5_BC", "PE5_CFM": "PE5_CFM", "PE5_IS": "PE5_IS" }
     },
-    "pe6Slot": {
+    "pe6Iot": {
       "match": "pe6",
-      "choices": { "IOT": "PE6_IOT", "CV": "PE6_CV" }
+      "choices": { "IOT": "PE6_IOT" }
+    },
+    "pe6Cv": {
+      "match": "pe6",
+      "choices": { "CV": "PE6_CV" }
     }
   },
   "schedule": {
-    "Monday": ["pe4Slot", "A", "pe6Slot", "B_LAB", "B_LAB", "FREE", "FREE"],
-    "Tuesday": ["pe6Slot", "pe4Slot", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
-    "Wednesday": ["B", "pe5Slot", "pe4Slot", "pe6Slot", "FREE", "FREE", "FREE"],
-    "Thursday": ["A", "pe6Slot", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
-    "Friday": ["A", "B", "pe6Slot", "FREE", "pe6Slot", "FREE", "FREE"]
+    "Monday": ["pe4Slot", "A", "pe6Iot", "B_LAB", "B_LAB", "FREE", "FREE"],
+    "Tuesday": ["pe6Iot", "pe4Slot", "pe5Slot", "A", "FREE", "pe6Iot", "pe6Iot"],
+    "Wednesday": ["B", "pe4Slot", "pe4Slot", "pe6Cv", "pe6Cv", "FREE", "FREE"],
+    "Thursday": ["A", "pe6Cv", "pe5Slot", "FREE", "FREE", "FREE", "FREE"],
+    "Friday": ["FREE", "B", "FREE", "FREE", "pe6Cv", "pe5Slot", "pe5Slot"]
   }
 }
