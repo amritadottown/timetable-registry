@@ -17,7 +17,7 @@
       "name": "Theory of Computation",
       "code": "23CSE303",
       "faculty": ["Ms. Kavitha C.R."],
-      "shortName": "TOC"
+      "shortName": "ToC"
     },
     "D": {
       "name": "Embedded Systems",
@@ -25,11 +25,41 @@
       "faculty": ["Dr. Meena Belwal", "Dr. D.N. Kiran Pandiri"],
       "shortName": "ES"
     },
-    "EVS": {
-      "name": "Environmental Science",
-      "code": "23ENV300",
-      "faculty": ["Dr. Anilkumar"],
-      "shortName": "EVS"
+    "NLP": {
+      "name": "Natural Language Processing",
+      "code": "23CSE471",
+      "faculty": ["Dr. Nandu C. Nair", "Mr. Jasmeet"],
+      "shortName": "NLP"
+    },
+    "AIR": {
+      "name": "Artificial Intelligence and Robotics",
+      "code": "23CSE472",
+      "faculty": ["Dr. Nidhin Prabhakar T.V."],
+      "shortName": "AIR"
+    },
+    "NNDL": {
+      "name": "Neural Networks & Deep Learning",
+      "code": "23CSE473",
+      "faculty": ["Dr. Manju Venugopal", "Ms. Rushaswi"],
+      "shortName": "NNDL"
+    },
+    "BDA": {
+      "name": "Big Data Analytics",
+      "code": "23CSE352",
+      "faculty": ["Ms. Sangita Khare", "Ms. Rushaswi"],
+      "shortName": "BDA"
+    },
+    "FDS": {
+      "name": "Foundations of Data Science",
+      "code": "23CSE351",
+      "faculty": ["Dr. Lekshmi R.", "Mr. Jasmeet"],
+      "shortName": "FDS"
+    },
+    "DV": {
+      "name": "Data Visualization",
+      "code": "23CSE353",
+      "faculty": ["Ms. Pooja Gowda", "Ms. Anjana"],
+      "shortName": "DV"
     },
     "CIR": {
       "name": "Life Skills for Engineers III",
@@ -37,69 +67,45 @@
       "faculty": ["Ms. Srinithi", "Ms. Jisha Nair", "Ms. Shivani Raichura"],
       "shortName": "LSE"
     },
-    "NLP": {
-      "name": "Natural Language Processing",
-      "code": "23CSE471",
-      "faculty": ["Dr. Nandu C. Nair"],
-      "shortName": "NLP"
+    "EVS": {
+      "name": "Environmental Science",
+      "code": "23ENV300",
+      "faculty": ["Dr. Anilkumar"],
+      "shortName": "EVS"
     },
-    "AIR": {
-      "name": "Artificial Intelligence and Robotics",
-      "code": "23CSE472",
-      "faculty": ["Dr. Nidhin Prabhakar T.V."],
-      "shortName": "AI&Robo"
-    },
-    "NNDL": {
-      "name": "Neural Networks & Deep Learning",
-      "code": "23CSE473",
-      "faculty": ["Dr. Manju Venugopal"],
-      "shortName": "NN&DL"
-    },
-    "BDA": {
-      "name": "Big Data Analytics",
-      "code": "23CSE352",
-      "faculty": ["Ms. Sangita Khare"],
-      "shortName": "BDA"
-    },
-    "FDS": {
-      "name": "Foundations of Data Science",
-      "code": "23CSE351",
-      "faculty": ["Dr. Lekshmi R."],
-      "shortName": "FDS"
-    },
-    "DV": {
-      "name": "Data Visualization",
-      "code": "23CSE353",
-      "faculty": ["Ms. Pooja Gowda"],
-      "shortName": "DataViz"
-    },
-    "LIL": {
-      "name": "Live-in-Labs I",
-      "code": "23LIV390",
+    "EVAL": {
+      "name": "Evaluation",
+      "code": "99EVL999",
       "faculty": [],
-      "shortName": "LIL"
+      "shortName": "Eval"
+    },
+    "COUNSELLING": {
+      "name": "Counselling",
+      "code": "99CNS999",
+      "faculty": [],
+      "shortName": "Couns"
     }
   },
   "config": {
     "pe1": {
       "label": "Professional Elective I",
       "values": [
-        { "label": "Natural Language Processing", "id": "NLP" },
-        { "label": "Artificial Intelligence and Robotics", "id": "AIR" },
-        { "label": "Neural Networks & Deep Learning", "id": "NNDL" }
+        { "label": "Natural Language Processing (A 108)", "id": "NLP" },
+        { "label": "Artificial Intelligence and Robotics (A406)", "id": "AIR" },
+        { "label": "Neural Networks & Deep Learning (C404)", "id": "NNDL" }
       ]
     },
     "pe2": {
       "label": "Professional Elective II",
       "values": [
-        { "label": "Big Data Analytics", "id": "BDA" },
-        { "label": "Foundations of Data Science", "id": "FDS" },
-        { "label": "Data Visualization", "id": "DV" }
+        { "label": "Big Data Analytics (A108)", "id": "BDA" },
+        { "label": "Foundations of Data Science (A406)", "id": "FDS" },
+        { "label": "Data Visualization (C404)", "id": "DV" }
       ]
     }
   },
   "slots": {
-    "peI": {
+    "pe1Slot": {
       "match": "pe1",
       "choices": {
         "NLP": "NLP",
@@ -107,7 +113,7 @@
         "NNDL": "NNDL"
       }
     },
-    "peII": {
+    "pe2Slot": {
       "match": "pe2",
       "choices": {
         "BDA": "BDA",
@@ -117,10 +123,10 @@
     }
   },
   "schedule": {
-    "Monday": ["A", "peI", "FREE", "peII", "D", "C", "B"],
-    "Tuesday": ["C", "B", "EVS", "A", "FREE", "D_LAB", "D_LAB"],
-    "Wednesday": ["B", "D", "peII", "peI", "C", "A_LAB", "A_LAB"],
-    "Thursday": ["peI", "CIR", "CIR", "CIR", "B", "CIR", "A"],
-    "Friday": ["peII", "C", "D", "FREE", "FREE", "B_LAB", "B_LAB"]
+    "Monday": ["A", "pe1Slot", "pe1Slot", "pe2Slot", "D", "C", "B"],
+    "Tuesday": ["C", "B", "EVS", "A", "COUNSELLING", "D_LAB", "D_LAB"],
+    "Wednesday": ["B", "D", "pe2Slot", "pe1Slot", "C", "A_LAB", "A_LAB"],
+    "Thursday": ["pe1Slot", "CIR", "CIR", "CIR", "B", "CIR", "A"],
+    "Friday": ["pe2Slot", "pe2Slot", "D", "C", "EVAL", "B_LAB", "B_LAB"]
   }
 }
