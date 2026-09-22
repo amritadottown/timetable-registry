@@ -78,12 +78,6 @@
       "code": "99EVL999",
       "faculty": [],
       "shortName": "Eval"
-    },
-    "COUNSELLING": {
-      "name": "Counselling",
-      "code": "99CNS999",
-      "faculty": [],
-      "shortName": "Couns"
     }
   },
   "config": {
@@ -124,7 +118,7 @@
   },
   "schedule": {
     "Monday": ["A", "pe1Slot", "pe1Slot", "pe2Slot", "D", "C", "B"],
-    "Tuesday": ["C", "B", "EVS", "A", "COUNSELLING", "D_LAB", "D_LAB"],
+    "Tuesday": ["C", "B", "EVS", "A", "FREE", "D_LAB", "D_LAB"],
     "Wednesday": ["B", "D", "pe2Slot", "pe1Slot", "C", "A_LAB", "A_LAB"],
     "Thursday": ["pe1Slot", "CIR", "CIR", "CIR", "B", "CIR", "A"],
     "Friday": ["pe2Slot", "pe2Slot", "D", "C", "EVAL", "B_LAB", "B_LAB"]
