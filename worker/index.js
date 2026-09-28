@@ -172,8 +172,8 @@ function generateICS(timetable, config, timetablePath, weeksAhead = 16) {
       lines.push('BEGIN:VEVENT');
       lines.push(foldLine(`UID:${uid}`));
       lines.push(`DTSTAMP:${dtstamp}`);
-      lines.push(`DTSTART:${dateStr}T${startTime}`);
-      lines.push(`DTEND:${dateStr}T${endTime}`);
+      lines.push(`DTSTART;TZID=Asia/Kolkata:${dateStr}T${startTime}`);
+      lines.push(`DTEND;TZID=Asia/Kolkata:${dateStr}T${endTime}`);
       lines.push(`RRULE:FREQ=WEEKLY;BYDAY=${DAYS_ICS[dayOfWeek]};UNTIL=${untilDate}`);
       lines.push(foldLine(`SUMMARY:${escapeICS(entry.name)}`));
       lines.push(foldLine(`DESCRIPTION:${description}`));
