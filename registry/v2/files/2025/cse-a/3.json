@@ -28,7 +28,7 @@
     "E": {
       "name": "Data Structures and Algorithms",
       "code": "23CSE203",
-      "faculty": ["Dr. Radha D.", "Ms. Divya K.V.", "Ms. Aiswariya Milan K."],
+      "faculty": ["Dr. Radha D.", "Ms. Shobhna Devi", "Ms. Aiswariya Milan K."],
       "shortName": "DSA"
     },
     "F": {
@@ -73,7 +73,7 @@
     "Monday": ["A_LAB", "A_LAB", "A_LAB", "C_LAB", "C_LAB", "H", "D"],
     "Tuesday": ["C", "E", "A", "tuesdayLab", "tuesdayLab", "FREE", "B"],
     "Wednesday": ["C", "E", "E", "B", "A", "D_LAB", "D_LAB"],
-    "Thursday": ["C", "CIR", "CIR", "CIR", "FREE", "E", "D"],
-    "Friday": ["D", "A", "B", "fridayLab", "fridayLab", "E_LAB", "E_LAB"]
+    "Thursday": ["C", "CIR", "CIR", "CIR", "B", "E", "D"],
+    "Friday": ["D", "A", "FREE", "fridayLab", "fridayLab", "E_LAB", "E_LAB"]
   }
 }
